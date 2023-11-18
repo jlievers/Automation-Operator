@@ -1,0 +1,170 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+07/01/2019 16:45:53.6 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+07/01/2019 16:46:01.3 [ZL] Instruction Error Status: None
+07/01/2019 16:46:01.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:01.3 [ZL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:01.4 [ZL]   Inputs: False False False False False 
+07/01/2019 16:46:01.4 [ZL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:01.4 [ZL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:01.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/01/2019 16:46:01.5 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/01/2019 16:46:01.5 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/01/2019 16:46:01.7 [ZL] Start Hall-based phase initialization.
+07/01/2019 16:46:01.7 [ZL] Phases initialized.
+07/01/2019 16:46:01.7 [BarCodeZAxis] Instruction Error Status: None
+07/01/2019 16:46:01.8 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:01.8 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:01.8 [BarCodeZAxis]   Inputs: False True False False False 
+07/01/2019 16:46:01.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/01/2019 16:46:01.8 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:01.9 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/01/2019 16:46:02.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/01/2019 16:46:02.0 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/01/2019 16:46:02.1 [BarCodeZAxis] Start Hall-based phase initialization.
+07/01/2019 16:46:02.1 [BarCodeZAxis] Phases initialized.
+07/01/2019 16:46:02.2 [YL] Instruction Error Status: None
+07/01/2019 16:46:02.2 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:02.2 [YL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:02.2 [YL]   Inputs: False False False False False 
+07/01/2019 16:46:02.2 [YL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:02.2 [YL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:02.3 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/01/2019 16:46:02.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/01/2019 16:46:02.4 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/01/2019 16:46:02.5 [YL] Start Hall-based phase initialization.
+07/01/2019 16:46:02.5 [YL] Phases initialized.
+07/01/2019 16:46:02.6 [XL] Instruction Error Status: None
+07/01/2019 16:46:02.6 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:02.6 [XL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:02.6 [XL]   Inputs: False False False False False 
+07/01/2019 16:46:02.7 [XL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:02.7 [XL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:02.8 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/01/2019 16:46:02.8 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/01/2019 16:46:02.8 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/01/2019 16:46:03.0 [XL] Start Hall-based phase initialization.
+07/01/2019 16:46:03.0 [XL] Phases initialized.
+07/01/2019 16:46:04.9 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/01/2019 16:46:05.1 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+07/01/2019 16:46:05.5 [ZL] Reached limit successfully.
+07/01/2019 16:46:05.5 [ZL] Attempting to back off Positive limit.
+07/01/2019 16:46:06.0 [ZL] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:06.0 [ZL] Move to limit finished.
+07/01/2019 16:46:06.0 [ZL] Establishing new 0 position for the old position 0.00 mm.
+07/01/2019 16:46:06.1 [ZL] Timestamp of last successful home: 7/1/2019 4:46:06 PM
+07/01/2019 16:46:06.3 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+07/01/2019 16:46:06.7 [BarCodeZAxis] Reached limit successfully.
+07/01/2019 16:46:06.7 [BarCodeZAxis] Attempting to back off Negative limit.
+07/01/2019 16:46:07.2 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:07.2 [BarCodeZAxis] Move to limit finished.
+07/01/2019 16:46:07.2 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+07/01/2019 16:46:07.3 [BarCodeZAxis] Timestamp of last successful home: 7/1/2019 4:46:07 PM
+07/01/2019 16:46:09.1 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/01/2019 16:46:09.7 [YL] Reached limit successfully.
+07/01/2019 16:46:09.8 [YL] Attempting to back off Positive limit.
+07/01/2019 16:46:10.2 [YL] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:10.3 [YL] Move to limit finished.
+07/01/2019 16:46:10.3 [YL] Establishing new 0 position for the old position 0.04 mm.
+07/01/2019 16:46:10.3 [YL] Timestamp of last successful home: 7/1/2019 4:46:10 PM
+07/01/2019 16:46:10.5 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/01/2019 16:46:11.2 [XL] Reached limit successfully.
+07/01/2019 16:46:11.2 [XL] Attempting to back off Positive limit.
+07/01/2019 16:46:11.6 [XL] Move off limit completion: Failed (OKReady).
+07/01/2019 16:46:11.7 [XL] Failed to find Positive limit: OKReady.
+07/01/2019 16:46:11.7 [XL] Failed to home axis 'XL'.
+07/01/2019 16:46:19.4 [ZL] Closing component connections for Warp 'ZL'.
+07/01/2019 16:46:19.9 [ZL] Instruction Error Status: None
+07/01/2019 16:46:19.9 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:19.9 [ZL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:20.0 [ZL]   Inputs: False False False False False 
+07/01/2019 16:46:20.0 [ZL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:20.0 [ZL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:20.1 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/01/2019 16:46:20.1 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/01/2019 16:46:20.1 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/01/2019 16:46:20.3 [ZL] Start Hall-based phase initialization.
+07/01/2019 16:46:20.3 [ZL] Phases initialized.
+07/01/2019 16:46:20.3 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/01/2019 16:46:20.9 [BarCodeZAxis] Instruction Error Status: None
+07/01/2019 16:46:20.9 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:20.9 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:20.9 [BarCodeZAxis]   Inputs: False True False False False 
+07/01/2019 16:46:20.9 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/01/2019 16:46:20.9 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:21.0 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/01/2019 16:46:21.1 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/01/2019 16:46:21.1 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/01/2019 16:46:21.2 [BarCodeZAxis] Start Hall-based phase initialization.
+07/01/2019 16:46:21.3 [BarCodeZAxis] Phases initialized.
+07/01/2019 16:46:21.3 [YL] Closing component connections for Warp 'YL'.
+07/01/2019 16:46:21.8 [YL] Instruction Error Status: None
+07/01/2019 16:46:21.8 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:21.9 [YL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:21.9 [YL]   Inputs: False False False False False 
+07/01/2019 16:46:21.9 [YL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:21.9 [YL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:22.0 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/01/2019 16:46:22.1 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/01/2019 16:46:22.1 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/01/2019 16:46:22.2 [YL] Start Hall-based phase initialization.
+07/01/2019 16:46:22.2 [YL] Phases initialized.
+07/01/2019 16:46:22.3 [XL] Closing component connections for Warp 'XL'.
+07/01/2019 16:46:22.8 [XL] Instruction Error Status: None
+07/01/2019 16:46:22.8 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/01/2019 16:46:22.8 [XL] Configured as an enhanced Warp3 with I/O.
+07/01/2019 16:46:22.9 [XL]   Inputs: False False False False False 
+07/01/2019 16:46:22.9 [XL] Current IP communications rate is 10 mb.
+07/01/2019 16:46:22.9 [XL] IP communications speed is currently set to 10 Mbps.
+07/01/2019 16:46:23.0 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/01/2019 16:46:23.0 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/01/2019 16:46:23.1 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/01/2019 16:46:23.2 [XL] Start Hall-based phase initialization.
+07/01/2019 16:46:23.2 [XL] Phases initialized.
+07/01/2019 16:46:25.6 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/01/2019 16:46:25.8 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+07/01/2019 16:46:26.2 [ZL] Reached limit successfully.
+07/01/2019 16:46:26.3 [ZL] Attempting to back off Positive limit.
+07/01/2019 16:46:26.7 [ZL] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:26.8 [ZL] Move to limit finished.
+07/01/2019 16:46:26.8 [ZL] Establishing new 0 position for the old position 0.00 mm.
+07/01/2019 16:46:26.8 [ZL] Timestamp of last successful home: 7/1/2019 4:46:26 PM
+07/01/2019 16:46:27.0 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+07/01/2019 16:46:27.5 [BarCodeZAxis] Reached limit successfully.
+07/01/2019 16:46:27.5 [BarCodeZAxis] Attempting to back off Negative limit.
+07/01/2019 16:46:27.9 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:28.0 [BarCodeZAxis] Move to limit finished.
+07/01/2019 16:46:28.0 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+07/01/2019 16:46:28.1 [BarCodeZAxis] Timestamp of last successful home: 7/1/2019 4:46:28 PM
+07/01/2019 16:46:31.4 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/01/2019 16:46:32.0 [YL] Reached limit successfully.
+07/01/2019 16:46:32.1 [YL] Attempting to back off Positive limit.
+07/01/2019 16:46:32.5 [YL] Move off limit completion: Successful (OKReady).
+07/01/2019 16:46:32.5 [YL] Move to limit finished.
+07/01/2019 16:46:32.6 [YL] Establishing new 0 position for the old position 0.00 mm.
+07/01/2019 16:46:32.6 [YL] Timestamp of last successful home: 7/1/2019 4:46:32 PM
+07/01/2019 16:46:32.8 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/01/2019 16:46:33.5 [XL] Reached limit successfully.
+07/01/2019 16:46:33.5 [XL] Attempting to back off Positive limit.
+07/01/2019 16:46:33.9 [XL] Move off limit completion: Failed (OKReady).
+07/01/2019 16:46:34.0 [XL] Failed to find Positive limit: OKReady.
+07/01/2019 16:46:34.0 [XL] Failed to home axis 'XL'.
+07/01/2019 16:46:42.2 [XL] Closing component connections for Warp 'XL'.
+07/01/2019 16:46:42.2 [YL] Closing component connections for Warp 'YL'.
+07/01/2019 16:46:42.3 [ZL] Closing component connections for Warp 'ZL'.
+07/01/2019 16:46:42.3 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/01/2019 16:46:42.8 [Lynx] 

@@ -1,0 +1,6 @@
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\bin\Debug\HttpWrapper.dll
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\bin\Debug\HttpWrapper.pdb
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\obj\Debug\HttpWrapper.csprojAssemblyReference.cache
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\obj\Debug\HttpWrapper.csproj.CoreCompileInputs.cache
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\obj\Debug\HttpWrapper.dll
+C:\Users\jlievers\source\repos\lab-automation-httpwrapper\HttpWrapper\obj\Debug\HttpWrapper.pdb

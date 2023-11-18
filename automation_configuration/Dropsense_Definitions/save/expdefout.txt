@@ -1,0 +1,28 @@
+[Experiment definition]
+experiment_name="remote test"
+experiment_description="trinean dropsense driver test"
+sample_Type="Nucleic Acids"
+material=dsDNA
+labeled=FALSE
+label1=""
+label2=""
+solvent=0
+high_viscosity=FALSE
+dropplate_type="DropPlate-S"
+path_length="single"
+measurement_directory="C:\DropSense_Measurement"
+background_correction="default"
+background_wavelength=405
+
+[Import samples]
+column_source_plate=-1
+column_source_position=-1
+column_dropplate_ID=0
+column_dropplate_position=1
+column_sample_name=2
+column_blank_dropplate_ID=3
+column_blank_dropplate_position=4
+column_protocol=5
+blanking_information=3
+blank_dropplate_ID=""
+blank_dropplate_position=""

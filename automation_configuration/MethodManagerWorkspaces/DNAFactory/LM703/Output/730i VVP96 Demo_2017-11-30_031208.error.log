@@ -1,0 +1,12 @@
+11/30/2017 15:17:50.972 Application error in method Variable vol with 200ul tip.met[19], 'Eject Tips(VVP96)':  encountered an error: The plate named 'LXB-96-1250NF_02' can not be located on the worktable 'Left'.
+Application stack trace:
+   at MMHardware.Core.Commands.MMGenericDeviceCommandBase`1.GetValidLabwareStack(IMMWorktableResourceMap worktableResourceMap, String plateLabel, Boolean throwException)
+   at MMHardware.Core.Commands.LiquidHandler.MMEjectTips.Command(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)
+   at MethodManager.Core.Process.MMProcess.ExecuteCommand()
+   at MethodManager.Core.Process.MMProcess.RunProcess(Object obj)
+Method stack trace:
+   Variable vol with 200ul tip.met[19] 'Eject Tips(VVP96)'
+
+

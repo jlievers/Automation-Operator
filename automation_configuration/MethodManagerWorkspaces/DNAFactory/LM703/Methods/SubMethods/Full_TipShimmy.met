@@ -1,0 +1,552 @@
+﻿<Complex name="Root" type="MethodManager.Data.Dto.MethodDto, MethodManager.Data">
+  <Properties>
+    <Simple name="Name" value="" />
+    <Collection name="Steps">
+      <Properties>
+        <Simple name="Capacity" value="8" />
+      </Properties>
+      <Items>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="ZL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="20" />
+                </Item>
+                <Item>
+                  <Simple value="ZL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Fast Z" />
+                </Item>
+                <Item>
+                  <Simple value="ZL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="ZL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="ZL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="XL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="1.5" />
+                </Item>
+                <Item>
+                  <Simple value="XL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="XL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="XL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="XL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="XL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="-3" />
+                </Item>
+                <Item>
+                  <Simple value="XL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="XL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="XL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="XL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="XL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="1.5" />
+                </Item>
+                <Item>
+                  <Simple value="XL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="XL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="XL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="XL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="YL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="1.5" />
+                </Item>
+                <Item>
+                  <Simple value="YL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="YL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="YL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="YL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="YL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="-3" />
+                </Item>
+                <Item>
+                  <Simple value="YL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="YL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="YL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="YL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+            <Simple name="CommandName" value="Move Axis Relative" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="YL.positionOrOffset" />
+                  <Simple type="System.Double, mscorlib" value="1.5" />
+                </Item>
+                <Item>
+                  <Simple value="YL.axisSpeed" />
+                  <Simple type="System.String, mscorlib" value="Mid XY" />
+                </Item>
+                <Item>
+                  <Simple value="YL.waitForCompletion" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="YL.motionProfile" />
+                  <Simple type="System.String, mscorlib" value="SCurve" />
+                </Item>
+                <Item>
+                  <Simple value="YL.enable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="f3f6c3e6-146c-4163-b4b9-573d8694b30e" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Collection name="WorktableResourceMaps">
+      <Properties>
+        <Simple name="Capacity" value="1" />
+      </Properties>
+      <Items>
+        <Complex type="MethodManager.Core.Domain.MMWorktableResourceMap, MethodManager.Core">
+          <Properties>
+            <Collection name="ResourceStacks" type="System.Collections.Generic.List`1[[MethodManager.Core.Domain.MMLabwareStack, MethodManager.Core]], mscorlib">
+              <Properties>
+                <Simple name="Capacity" value="32" />
+              </Properties>
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="Fluidx_1mL_Tube_rack_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="Fluidx_1mL_Tube_rack" />
+                            <Simple name="LabwareId" value="a962dbcb-62be-4dff-aba5-8725dcb07190" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_01" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-300F_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-300F" />
+                            <Simple name="LabwareId" value="905a8798-a9b9-4048-8901-42236ec01ff9" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_02" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_03" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_04" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_05" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_06" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_07" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="Fluidx_1mL_Tube_rack_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="Fluidx_1mL_Tube_rack" />
+                            <Simple name="LabwareId" value="a962dbcb-62be-4dff-aba5-8725dcb07190" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_08" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-300F_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-300F" />
+                            <Simple name="LabwareId" value="905a8798-a9b9-4048-8901-42236ec01ff9" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_09" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_10" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_11" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_12" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-950F_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-950F" />
+                            <Simple name="LabwareId" value="3fde9f70-3019-47a0-b958-72a20d990530" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_13" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_14" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="Axygen 500uL_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="Axygen 500uL" />
+                            <Simple name="LabwareId" value="0ecaf4d7-0914-4503-a734-f57d75212c36" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_15" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="AutoFillTrough Copy_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="AutoFillTrough Copy" />
+                            <Simple name="LabwareId" value="92a63fc9-83d8-43aa-ac55-b21e9b7e0f9f" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_16" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_17" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_18" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </Collection>
+            <Simple name="WorktableName" value="Left" />
+            <Simple name="DeviceName" value="Lynx" />
+            <Simple name="IsRuntime" value="False" />
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Simple name="UserPermission" value="True" />
+    <Simple name="SubMethodOnly" value="False" />
+    <Simple name="Description" value="" />
+  </Properties>
+</Complex>

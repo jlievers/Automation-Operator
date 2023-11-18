@@ -1,0 +1,60 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+12/01/2019 08:52:57.8 Tcp notification encountered an error: SocketException: System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 172.18.3.52:0
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at MethodManager.DX.Interop.MMTcpServer.<>c__DisplayClass5.<SendNotification>b__4()
+12/01/2019 08:55:13.0 Process 'InitializeLynx.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 08:55:10.7 and finished at 12/01/2019 08:55:13.0
+
+12/01/2019 08:59:12.9 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 08:58:10.4 and finished at 12/01/2019 08:59:12.9
+
+12/01/2019 09:08:01.4 [VVP96] VVP reported an initial error for the GetCommand Pressure Status: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+12/01/2019 09:09:54.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:06:43.0 and finished at 12/01/2019 09:09:54.6
+
+12/01/2019 09:10:51.0 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:09:57.8 and finished at 12/01/2019 09:10:51.0
+
+12/01/2019 09:19:24.6 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:18:21.5 and finished at 12/01/2019 09:19:24.6
+
+12/01/2019 09:29:35.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:26:30.6 and finished at 12/01/2019 09:29:35.6
+
+12/01/2019 09:30:31.8 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:29:38.5 and finished at 12/01/2019 09:30:31.8
+
+12/01/2019 09:38:46.5 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:37:45.0 and finished at 12/01/2019 09:38:46.5
+
+12/01/2019 09:48:32.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:45:29.0 and finished at 12/01/2019 09:48:32.6
+
+12/01/2019 09:49:30.3 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/01/2019 09:48:37.2 and finished at 12/01/2019 09:49:30.3
+

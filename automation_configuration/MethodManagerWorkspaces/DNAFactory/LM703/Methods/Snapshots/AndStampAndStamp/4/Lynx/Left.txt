@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMMSerializableLabwareStack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MMSerializableLabwareStack>
+    <LabwareStackElems>
+      <MMLabwareVec>
+        <Name>Nunc 1ml_01</Name>
+        <BarcodeId />
+        <LabwareName>Nunc 1ml</LabwareName>
+        <LabwareId>517f35e2-64b8-407d-a5a5-b135fc356368</LabwareId>
+        <Category>Plate</Category>
+      </MMLabwareVec>
+    </LabwareStackElems>
+    <LocationName>Loc_01</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems>
+      <MMLabwareVec>
+        <Name>Eppendorf PCR_01</Name>
+        <BarcodeId />
+        <LabwareName>Eppendorf PCR</LabwareName>
+        <LabwareId>a4919fbd-0e1b-40b7-bd16-8d5756c5d1f6</LabwareId>
+        <Category>Plate</Category>
+      </MMLabwareVec>
+    </LabwareStackElems>
+    <LocationName>Loc_02</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems>
+      <MMLabwareVec>
+        <Name>LXB-96-300F_01</Name>
+        <BarcodeId />
+        <LabwareName>LXB-96-300F</LabwareName>
+        <LabwareId>905a8798-a9b9-4048-8901-42236ec01ff9</LabwareId>
+        <Category>Tipbox</Category>
+      </MMLabwareVec>
+    </LabwareStackElems>
+    <LocationName>Loc_03</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_04</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_05</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_06</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_07</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems>
+      <MMLabwareVec>
+        <Name>Fluidx_1mL_Tube_rack_01</Name>
+        <BarcodeId />
+        <LabwareName>Fluidx_1mL_Tube_rack</LabwareName>
+        <LabwareId>a962dbcb-62be-4dff-aba5-8725dcb07190</LabwareId>
+        <Category>Plate</Category>
+      </MMLabwareVec>
+    </LabwareStackElems>
+    <LocationName>Loc_08</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_09</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_10</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_11</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_12</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_13</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_14</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_15</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_16</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_17</LocationName>
+  </MMSerializableLabwareStack>
+  <MMSerializableLabwareStack>
+    <LabwareStackElems />
+    <LocationName>Loc_18</LocationName>
+  </MMSerializableLabwareStack>
+</ArrayOfMMSerializableLabwareStack>

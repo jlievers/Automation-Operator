@@ -1,0 +1,259 @@
+Logfile Name: C:\MethodManager4\Workspaces\LM703\Output\LM703_2018-11-02_012701.log
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6850.18371
+  MMCoreDevice   1.4.6836.11963
+  MMLiquidHandler   1.4.6850.18147
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6850.18147
+  MMIOLightTower   1.4.6850.18147
+  MMHeadGripper   1.3.6667.26832
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+11/02/2018 13:27:01.5 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+11/02/2018 13:27:03.0 [ZL] Instruction Error Status: None
+11/02/2018 13:27:03.0 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:03.0 [ZL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:03.0 [ZL]   Inputs: False False False False False 
+11/02/2018 13:27:03.1 [ZL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:03.1 [ZL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:03.2 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:03.2 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/02/2018 13:27:03.2 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/02/2018 13:27:03.4 [ZL] Start Hall-based phase initialization.
+11/02/2018 13:27:03.4 [ZL] Phases initialized.
+11/02/2018 13:27:03.4 [BarCodeZAxis] Instruction Error Status: None
+11/02/2018 13:27:03.5 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:03.5 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:03.5 [BarCodeZAxis]   Inputs: False True False False False 
+11/02/2018 13:27:03.5 [BarCodeZAxis] Current IP communications rate is 10 mb.
+11/02/2018 13:27:03.5 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:03.6 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:03.7 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+11/02/2018 13:27:03.7 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+11/02/2018 13:27:03.8 [BarCodeZAxis] Start Hall-based phase initialization.
+11/02/2018 13:27:03.8 [BarCodeZAxis] Phases initialized.
+11/02/2018 13:27:03.9 [YL] Instruction Error Status: None
+11/02/2018 13:27:03.9 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:03.9 [YL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:04.0 [YL]   Inputs: False False False False False 
+11/02/2018 13:27:04.0 [YL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:04.0 [YL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:04.1 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:04.1 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:04.1 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:04.3 [YL] Start Hall-based phase initialization.
+11/02/2018 13:27:04.3 [YL] Phases initialized.
+11/02/2018 13:27:04.3 [XL] Instruction Error Status: None
+11/02/2018 13:27:04.4 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:04.4 [XL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:04.4 [XL]   Inputs: False False False False False 
+11/02/2018 13:27:04.4 [XL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:04.4 [XL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:04.5 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:04.6 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:04.6 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:04.7 [XL] Start Hall-based phase initialization.
+11/02/2018 13:27:04.7 [XL] Phases initialized.
+11/02/2018 13:27:13.3 [ZL] Closing component connections for Warp 'ZL'.
+11/02/2018 13:27:13.4 [ZL] Instruction Error Status: None
+11/02/2018 13:27:13.4 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:13.4 [ZL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:13.4 [ZL]   Inputs: False False False False False 
+11/02/2018 13:27:13.5 [ZL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:13.5 [ZL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:13.6 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:13.6 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/02/2018 13:27:13.6 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/02/2018 13:27:13.8 [ZL] Start Hall-based phase initialization.
+11/02/2018 13:27:13.8 [ZL] Phases initialized.
+11/02/2018 13:27:13.8 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+11/02/2018 13:27:14.4 [BarCodeZAxis] Instruction Error Status: None
+11/02/2018 13:27:14.4 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:14.4 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:14.4 [BarCodeZAxis]   Inputs: False True False False False 
+11/02/2018 13:27:14.4 [BarCodeZAxis] Current IP communications rate is 10 mb.
+11/02/2018 13:27:14.4 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:14.5 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:14.6 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+11/02/2018 13:27:14.6 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+11/02/2018 13:27:14.7 [BarCodeZAxis] Start Hall-based phase initialization.
+11/02/2018 13:27:14.8 [BarCodeZAxis] Phases initialized.
+11/02/2018 13:27:14.8 [YL] Closing component connections for Warp 'YL'.
+11/02/2018 13:27:15.3 [YL] Instruction Error Status: None
+11/02/2018 13:27:15.3 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:15.4 [YL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:15.4 [YL]   Inputs: False False False False False 
+11/02/2018 13:27:15.4 [YL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:15.4 [YL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:15.5 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:15.6 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:15.6 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:15.7 [YL] Start Hall-based phase initialization.
+11/02/2018 13:27:15.8 [YL] Phases initialized.
+11/02/2018 13:27:15.8 [XL] Closing component connections for Warp 'XL'.
+11/02/2018 13:27:15.8 [XL] Instruction Error Status: None
+11/02/2018 13:27:15.8 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:15.9 [XL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:15.9 [XL]   Inputs: False False False False False 
+11/02/2018 13:27:15.9 [XL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:15.9 [XL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:16.0 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:16.1 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:16.1 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:16.2 [XL] Start Hall-based phase initialization.
+11/02/2018 13:27:16.2 [XL] Phases initialized.
+11/02/2018 13:27:21.1 [ZL] Closing component connections for Warp 'ZL'.
+11/02/2018 13:27:21.7 [ZL] Instruction Error Status: None
+11/02/2018 13:27:21.7 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:21.7 [ZL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:21.8 [ZL]   Inputs: False False False False False 
+11/02/2018 13:27:21.8 [ZL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:21.9 [ZL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:22.0 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:22.0 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/02/2018 13:27:22.0 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/02/2018 13:27:22.2 [ZL] Start Hall-based phase initialization.
+11/02/2018 13:27:22.3 [ZL] Phases initialized.
+11/02/2018 13:27:22.3 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+11/02/2018 13:27:22.8 [BarCodeZAxis] Instruction Error Status: None
+11/02/2018 13:27:22.9 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:22.9 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:22.9 [BarCodeZAxis]   Inputs: False True False False False 
+11/02/2018 13:27:23.0 [BarCodeZAxis] Current IP communications rate is 10 mb.
+11/02/2018 13:27:23.0 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:23.1 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:23.1 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+11/02/2018 13:27:23.1 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+11/02/2018 13:27:23.3 [BarCodeZAxis] Start Hall-based phase initialization.
+11/02/2018 13:27:23.3 [BarCodeZAxis] Phases initialized.
+11/02/2018 13:27:23.4 [YL] Closing component connections for Warp 'YL'.
+11/02/2018 13:27:23.9 [YL] Instruction Error Status: None
+11/02/2018 13:27:23.9 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:23.9 [YL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:23.9 [YL]   Inputs: False False False False False 
+11/02/2018 13:27:24.0 [YL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:24.0 [YL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:24.1 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:24.1 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:24.1 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:24.3 [YL] Start Hall-based phase initialization.
+11/02/2018 13:27:24.3 [YL] Phases initialized.
+11/02/2018 13:27:24.3 [XL] Closing component connections for Warp 'XL'.
+11/02/2018 13:27:24.4 [XL] Instruction Error Status: None
+11/02/2018 13:27:24.4 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:24.4 [XL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:24.4 [XL]   Inputs: False False False False False 
+11/02/2018 13:27:24.5 [XL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:24.5 [XL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:24.6 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:24.6 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:24.6 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:24.8 [XL] Start Hall-based phase initialization.
+11/02/2018 13:27:24.8 [XL] Phases initialized.
+11/02/2018 13:27:36.1 [ZL] Closing component connections for Warp 'ZL'.
+11/02/2018 13:27:36.7 [ZL] Instruction Error Status: None
+11/02/2018 13:27:36.7 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:36.7 [ZL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:36.7 [ZL]   Inputs: False False False False False 
+11/02/2018 13:27:36.8 [ZL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:36.8 [ZL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:36.9 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:36.9 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/02/2018 13:27:37.0 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/02/2018 13:27:37.1 [ZL] Start Hall-based phase initialization.
+11/02/2018 13:27:37.1 [ZL] Phases initialized.
+11/02/2018 13:27:37.2 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+11/02/2018 13:27:37.7 [BarCodeZAxis] Instruction Error Status: None
+11/02/2018 13:27:37.7 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:37.7 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:37.8 [BarCodeZAxis]   Inputs: False True False False False 
+11/02/2018 13:27:37.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+11/02/2018 13:27:37.8 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:37.9 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:27:38.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+11/02/2018 13:27:38.0 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+11/02/2018 13:27:38.1 [BarCodeZAxis] Start Hall-based phase initialization.
+11/02/2018 13:27:38.2 [BarCodeZAxis] Phases initialized.
+11/02/2018 13:27:38.2 [YL] Closing component connections for Warp 'YL'.
+11/02/2018 13:27:38.7 [YL] Instruction Error Status: None
+11/02/2018 13:27:38.8 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:38.8 [YL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:38.8 [YL]   Inputs: False False False False False 
+11/02/2018 13:27:38.8 [YL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:38.8 [YL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:39.0 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:39.0 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:39.0 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:39.2 [YL] Start Hall-based phase initialization.
+11/02/2018 13:27:39.2 [YL] Phases initialized.
+11/02/2018 13:27:39.3 [XL] Closing component connections for Warp 'XL'.
+11/02/2018 13:27:39.8 [XL] Instruction Error Status: None
+11/02/2018 13:27:39.8 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:27:39.8 [XL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:27:39.9 [XL]   Inputs: False False False False False 
+11/02/2018 13:27:39.9 [XL] Current IP communications rate is 10 mb.
+11/02/2018 13:27:39.9 [XL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:27:40.0 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:27:40.1 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:27:40.1 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:27:40.2 [XL] Start Hall-based phase initialization.
+11/02/2018 13:27:40.3 [XL] Phases initialized.
+11/02/2018 13:28:01.2 [ZL] Closing component connections for Warp 'ZL'.
+11/02/2018 13:28:01.8 [ZL] Instruction Error Status: None
+11/02/2018 13:28:01.8 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:28:01.8 [ZL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:28:01.9 [ZL]   Inputs: False False False False False 
+11/02/2018 13:28:01.9 [ZL] Current IP communications rate is 10 mb.
+11/02/2018 13:28:01.9 [ZL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:28:02.0 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:28:02.1 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/02/2018 13:28:02.1 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/02/2018 13:28:02.3 [ZL] Start Hall-based phase initialization.
+11/02/2018 13:28:02.3 [ZL] Phases initialized.
+11/02/2018 13:28:02.3 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+11/02/2018 13:28:02.9 [BarCodeZAxis] Instruction Error Status: None
+11/02/2018 13:28:02.9 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:28:02.9 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:28:02.9 [BarCodeZAxis]   Inputs: False True False False False 
+11/02/2018 13:28:03.0 [BarCodeZAxis] Current IP communications rate is 10 mb.
+11/02/2018 13:28:03.0 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:28:03.1 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/02/2018 13:28:03.2 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+11/02/2018 13:28:03.2 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+11/02/2018 13:28:03.4 [BarCodeZAxis] Start Hall-based phase initialization.
+11/02/2018 13:28:03.4 [BarCodeZAxis] Phases initialized.
+11/02/2018 13:28:03.4 [YL] Closing component connections for Warp 'YL'.
+11/02/2018 13:28:03.9 [YL] Instruction Error Status: None
+11/02/2018 13:28:04.0 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:28:04.0 [YL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:28:04.0 [YL]   Inputs: False False False False False 
+11/02/2018 13:28:04.1 [YL] Current IP communications rate is 10 mb.
+11/02/2018 13:28:04.1 [YL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:28:04.2 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:28:04.2 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:28:04.3 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:28:04.4 [YL] Start Hall-based phase initialization.
+11/02/2018 13:28:04.5 [YL] Phases initialized.
+11/02/2018 13:28:04.5 [XL] Closing component connections for Warp 'XL'.
+11/02/2018 13:28:05.0 [XL] Instruction Error Status: None
+11/02/2018 13:28:05.0 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/02/2018 13:28:05.1 [XL] Configured as an enhanced Warp3 with I/O.
+11/02/2018 13:28:05.1 [XL]   Inputs: False False False False False 
+11/02/2018 13:28:05.2 [XL] Current IP communications rate is 10 mb.
+11/02/2018 13:28:05.2 [XL] IP communications speed is currently set to 10 Mbps.
+11/02/2018 13:28:05.3 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/02/2018 13:28:05.3 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+11/02/2018 13:28:05.3 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+11/02/2018 13:28:05.5 [XL] Start Hall-based phase initialization.
+11/02/2018 13:28:05.5 [XL] Phases initialized.
+11/02/2018 13:28:32.2 [XL] Closing component connections for Warp 'XL'.
+11/02/2018 13:28:32.2 [YL] Closing component connections for Warp 'YL'.
+11/02/2018 13:28:32.3 [ZL] Closing component connections for Warp 'ZL'.
+11/02/2018 13:28:32.3 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+11/02/2018 13:28:32.3 [Lynx] 

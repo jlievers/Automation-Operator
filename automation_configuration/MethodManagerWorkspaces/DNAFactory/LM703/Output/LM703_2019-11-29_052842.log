@@ -1,0 +1,285 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+[User] Start.
+11/29/2019 17:30:58.5 Process 'ChipLoad_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 17:29:54.8 and finished at 11/29/2019 17:30:58.5
+
+11/29/2019 17:43:36.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 17:40:29.9 and finished at 11/29/2019 17:43:36.2
+
+11/29/2019 17:44:33.3 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 17:43:39.6 and finished at 11/29/2019 17:44:33.3
+
+11/29/2019 17:52:19.2 Process 'ChipLoad_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 17:51:17.4 and finished at 11/29/2019 17:52:19.2
+
+11/29/2019 18:02:05.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 17:59:00.7 and finished at 11/29/2019 18:02:05.3
+
+11/29/2019 18:03:01.0 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:02:08.0 and finished at 11/29/2019 18:03:01.0
+
+11/29/2019 18:10:55.3 Process 'ChipLoad_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:09:54.3 and finished at 11/29/2019 18:10:55.3
+
+11/29/2019 18:18:53.2 [VVP96] VVP reports 1 errors in last aspirate: D12
+11/29/2019 18:19:09.5 [VVP96] VVP reports errors in last operation: Ch:A01 16.2uL/3.1uL Err: 0, Ch:B01 16.0uL/3.0uL Err: 0, Ch:C01 16.1uL/3.0uL Err: 0, Ch:D01 16.1uL/3.1uL Err: 0, Ch:E01 16.2uL/3.1uL Err: 0, Ch:F01 16.2uL/3.1uL Err: 0, Ch:G01 16.2uL/3.1uL Err: 0, Ch:H01 16.2uL/3.1uL Err: 0, Ch:A02 16.1uL/3.0uL Err: 0, Ch:B02 16.2uL/3.1uL Err: 0, Ch:C02 16.2uL/3.1uL Err: 0, Ch:D02 16.2uL/3.1uL Err: 0, Ch:E02 16.0uL/3.0uL Err: 0, Ch:F02 16.2uL/3.1uL Err: 0, Ch:G02 16.1uL/3.0uL Err: 0, Ch:H02 16.1uL/3.0uL Err: 0, Ch:A03 16.2uL/3.1uL Err: 0, Ch:B03 16.1uL/3.0uL Err: 0, Ch:C03 16.0uL/2.9uL Err: 0, Ch:D03 16.1uL/3.0uL Err: 0, Ch:E03 16.1uL/3.0uL Err: 0, Ch:F03 16.2uL/3.1uL Err: 0, Ch:G03 16.2uL/3.1uL Err: 0, Ch:H03 16.1uL/3.1uL Err: 0, Ch:A04 16.2uL/3.1uL Err: 0, Ch:B04 16.2uL/3.1uL Err: 0, Ch:C04 16.5uL/3.4uL Err: 0, Ch:D04 16.1uL/3.0uL Err: 0, Ch:E04 16.1uL/3.0uL Err: 0, Ch:F04 16.0uL/3.0uL Err: 0, Ch:G04 16.1uL/3.0uL Err: 0, Ch:H04 16.2uL/3.1uL Err: 0, Ch:A05 16.1uL/3.0uL Err: 0, Ch:B05 16.0uL/2.9uL Err: 0, Ch:C05 15.9uL/2.9uL Err: 0, Ch:D05 16.0uL/2.9uL Err: 0, Ch:E05 16.0uL/2.9uL Err: 0, Ch:F05 16.2uL/3.1uL Err: 0, Ch:G05 16.3uL/3.2uL Err: 0, Ch:H05 16.0uL/2.9uL Err: 0, Ch:A06 16.0uL/2.9uL Err: 0, Ch:B06 16.0uL/3.0uL Err: 0, Ch:C06 16.2uL/3.1uL Err: 0, Ch:D06 16.3uL/3.2uL Err: 0, Ch:E06 16.2uL/3.1uL Err: 0, Ch:F06 16.0uL/3.0uL Err: 0, Ch:G06 16.1uL/3.0uL Err: 0, Ch:H06 16.1uL/3.0uL Err: 0, Ch:A07 16.1uL/3.1uL Err: 0, Ch:B07 16.1uL/3.0uL Err: 0, Ch:C07 16.1uL/3.0uL Err: 0, Ch:D07 16.1uL/3.0uL Err: 0, Ch:E07 16.1uL/3.1uL Err: 0, Ch:F07 16.2uL/3.1uL Err: 0, Ch:G07 16.1uL/3.0uL Err: 0, Ch:H07 16.2uL/3.1uL Err: 0, Ch:A08 16.1uL/3.0uL Err: 0, Ch:B08 16.1uL/3.0uL Err: 0, Ch:C08 16.1uL/3.0uL Err: 0, Ch:D08 16.2uL/3.1uL Err: 0, Ch:E08 16.1uL/3.0uL Err: 0, Ch:F08 16.2uL/3.1uL Err: 0, Ch:G08 16.1uL/3.0uL Err: 0, Ch:H08 16.1uL/3.0uL Err: 0, Ch:A09 16.1uL/3.1uL Err: 0, Ch:B09 16.1uL/3.0uL Err: 0, Ch:C09 16.1uL/3.0uL Err: 0, Ch:D09 16.1uL/3.0uL Err: 0, Ch:E09 16.1uL/3.0uL Err: 0, Ch:F09 16.2uL/3.1uL Err: 0, Ch:G09 16.2uL/3.1uL Err: 0, Ch:H09 16.1uL/3.0uL Err: 0, Ch:A10 16.1uL/3.0uL Err: 0, Ch:B10 16.6uL/3.5uL Err: 0, Ch:C10 16.1uL/3.0uL Err: 0, Ch:D10 16.4uL/3.3uL Err: 0, Ch:E10 16.2uL/3.1uL Err: 0, Ch:F10 15.9uL/2.9uL Err: 0, Ch:G10 16.2uL/3.2uL Err: 0, Ch:H10 16.1uL/3.0uL Err: 0, Ch:A11 16.0uL/3.0uL Err: 0, Ch:B11 16.0uL/2.9uL Err: 0, Ch:C11 16.1uL/3.0uL Err: 0, Ch:D11 16.1uL/3.0uL Err: 0, Ch:E11 16.1uL/3.0uL Err: 0, Ch:F11 16.1uL/3.0uL Err: 0, Ch:G11 16.2uL/3.1uL Err: 0, Ch:H11 16.1uL/3.1uL Err: 0, Ch:A12 16.2uL/3.1uL Err: 0, Ch:B12 16.1uL/3.0uL Err: 0, Ch:C12 16.2uL/3.1uL Err: 0, Ch:D12 175.5uL/1.0uL Err: -25, Ch:E12 16.1uL/3.0uL Err: 0, Ch:F12 16.2uL/3.1uL Err: 0, Ch:G12 16.1uL/3.0uL Err: 0, Ch:H12 16.2uL/3.1uL Err: 0
+11/29/2019 18:19:38.2 [VVP96] VVP reports 1 errors in last aspirate: D12
+11/29/2019 18:20:01.9 [VVP96] VVP reports 1 errors in last aspirate: D12
+11/29/2019 18:20:28.0 [VVP96] VVP reports errors in last operation: Ch:B01 22.4uL/3.1uL Err: 0, Ch:C01 22.6uL/3.2uL Err: 0, Ch:D01 22.5uL/3.2uL Err: 0, Ch:E01 22.5uL/3.2uL Err: 0, Ch:F01 22.7uL/3.3uL Err: 0, Ch:G01 22.6uL/3.2uL Err: 0, Ch:H01 22.6uL/3.2uL Err: 0, Ch:A02 22.5uL/3.2uL Err: 0, Ch:B02 22.7uL/3.3uL Err: 0, Ch:C02 22.7uL/3.3uL Err: 0, Ch:D02 22.7uL/3.3uL Err: 0, Ch:E02 22.5uL/3.2uL Err: 0, Ch:F02 22.7uL/3.3uL Err: 0, Ch:G02 22.6uL/3.2uL Err: 0, Ch:H02 22.6uL/3.2uL Err: 0, Ch:A03 22.7uL/3.3uL Err: 0, Ch:B03 22.6uL/3.2uL Err: 0, Ch:C03 22.5uL/3.1uL Err: 0, Ch:D03 22.5uL/3.1uL Err: 0, Ch:E03 22.6uL/3.2uL Err: 0, Ch:F03 22.6uL/3.2uL Err: 0, Ch:G03 22.6uL/3.2uL Err: 0, Ch:H03 22.7uL/3.3uL Err: 0, Ch:A04 22.5uL/3.2uL Err: 0, Ch:B04 22.7uL/3.3uL Err: 0, Ch:C04 23.0uL/3.6uL Err: 0, Ch:D04 22.5uL/3.1uL Err: 0, Ch:E04 22.6uL/3.2uL Err: 0, Ch:F04 22.4uL/3.1uL Err: 0, Ch:G04 22.6uL/3.2uL Err: 0, Ch:H04 22.7uL/3.3uL Err: 0, Ch:A05 22.5uL/3.1uL Err: 0, Ch:B05 22.6uL/3.2uL Err: 0, Ch:C05 22.5uL/3.1uL Err: 0, Ch:D05 22.4uL/3.0uL Err: 0, Ch:E05 22.4uL/3.0uL Err: 0, Ch:F05 22.6uL/3.2uL Err: 0, Ch:G05 22.8uL/3.4uL Err: 0, Ch:H05 22.5uL/3.1uL Err: 0, Ch:A06 22.4uL/3.1uL Err: 0, Ch:B06 22.5uL/3.1uL Err: 0, Ch:C06 22.6uL/3.2uL Err: 0, Ch:D06 22.7uL/3.3uL Err: 0, Ch:E06 22.7uL/3.3uL Err: 0, Ch:F06 22.6uL/3.2uL Err: 0, Ch:G06 22.4uL/3.1uL Err: 0, Ch:H06 22.5uL/3.1uL Err: 0, Ch:A07 22.6uL/3.3uL Err: 0, Ch:B07 22.6uL/3.2uL Err: 0, Ch:C07 22.4uL/3.0uL Err: 0, Ch:D07 22.5uL/3.2uL Err: 0, Ch:E07 22.6uL/3.2uL Err: 0, Ch:F07 22.7uL/3.3uL Err: 0, Ch:G07 22.6uL/3.2uL Err: 0, Ch:H07 22.6uL/3.2uL Err: 0, Ch:A08 22.5uL/3.1uL Err: 0, Ch:B08 22.6uL/3.2uL Err: 0, Ch:C08 22.4uL/3.1uL Err: 0, Ch:D08 22.6uL/3.2uL Err: 0, Ch:E08 22.6uL/3.2uL Err: 0, Ch:F08 22.6uL/3.2uL Err: 0, Ch:G08 22.5uL/3.2uL Err: 0, Ch:H08 22.6uL/3.2uL Err: 0, Ch:A09 22.6uL/3.2uL Err: 0, Ch:B09 22.7uL/3.3uL Err: 0, Ch:C09 22.5uL/3.1uL Err: 0, Ch:D09 22.4uL/3.1uL Err: 0, Ch:E09 22.6uL/3.2uL Err: 0, Ch:F09 22.6uL/3.2uL Err: 0, Ch:G09 22.5uL/3.2uL Err: 0, Ch:H09 22.6uL/3.2uL Err: 0, Ch:A10 22.6uL/3.2uL Err: 0, Ch:B10 23.1uL/3.7uL Err: 0, Ch:C10 22.7uL/3.3uL Err: 0, Ch:D10 22.8uL/3.4uL Err: 0, Ch:E10 22.6uL/3.2uL Err: 0, Ch:F10 22.5uL/3.1uL Err: 0, Ch:G10 22.7uL/3.3uL Err: 0, Ch:H10 22.6uL/3.2uL Err: 0, Ch:A11 22.5uL/3.1uL Err: 0, Ch:B11 22.5uL/3.1uL Err: 0, Ch:C11 22.5uL/3.1uL Err: 0, Ch:D11 22.5uL/3.1uL Err: 0, Ch:E11 22.6uL/3.2uL Err: 0, Ch:F11 22.6uL/3.2uL Err: 0, Ch:G11 22.7uL/3.3uL Err: 0, Ch:H11 22.7uL/3.3uL Err: 0, Ch:A12 22.7uL/3.3uL Err: 0, Ch:B12 22.6uL/3.2uL Err: 0, Ch:C12 22.6uL/3.2uL Err: 0, Ch:D12 175.5uL/1.0uL Err: -25, Ch:E12 22.6uL/3.2uL Err: 0, Ch:F12 22.7uL/3.3uL Err: 0, Ch:G12 22.6uL/3.2uL Err: 0, Ch:H12 22.6uL/3.2uL Err: 0
+11/29/2019 18:20:33.5 [VVP96] VVP reports errors in last operation: Ch:A01 27.6uL/3.2uL Err: 0, Ch:B01 27.6uL/3.2uL Err: 0, Ch:C01 27.6uL/3.2uL Err: 0, Ch:D01 27.6uL/3.2uL Err: 0, Ch:E01 27.6uL/3.2uL Err: 0, Ch:F01 27.6uL/3.2uL Err: 0, Ch:G01 27.4uL/3.1uL Err: 0, Ch:H01 27.6uL/3.2uL Err: 0, Ch:A02 27.6uL/3.2uL Err: 0, Ch:B02 27.6uL/3.2uL Err: 0, Ch:C02 27.6uL/3.2uL Err: 0, Ch:D02 27.7uL/3.3uL Err: 0, Ch:E02 27.5uL/3.2uL Err: 0, Ch:F02 27.6uL/3.2uL Err: 0, Ch:G02 27.6uL/3.2uL Err: 0, Ch:H02 27.6uL/3.2uL Err: 0, Ch:A03 27.6uL/3.2uL Err: 0, Ch:B03 27.6uL/3.2uL Err: 0, Ch:C03 27.5uL/3.1uL Err: 0, Ch:D03 27.6uL/3.2uL Err: 0, Ch:E03 27.5uL/3.1uL Err: 0, Ch:F03 27.7uL/3.3uL Err: 0, Ch:G03 27.5uL/3.2uL Err: 0, Ch:H03 27.7uL/3.3uL Err: 0, Ch:A04 27.7uL/3.3uL Err: 0, Ch:B04 27.6uL/3.2uL Err: 0, Ch:C04 27.8uL/3.5uL Err: 0, Ch:D04 27.5uL/3.1uL Err: 0, Ch:E04 27.7uL/3.3uL Err: 0, Ch:F04 27.5uL/3.1uL Err: 0, Ch:G04 27.6uL/3.2uL Err: 0, Ch:H04 27.7uL/3.3uL Err: 0, Ch:A05 27.6uL/3.2uL Err: 0, Ch:B05 27.5uL/3.1uL Err: 0, Ch:C05 27.4uL/3.0uL Err: 0, Ch:D05 27.5uL/3.1uL Err: 0, Ch:E05 27.5uL/3.1uL Err: 0, Ch:F05 27.5uL/3.2uL Err: 0, Ch:G05 27.7uL/3.3uL Err: 0, Ch:H05 27.5uL/3.1uL Err: 0, Ch:A06 27.4uL/3.1uL Err: 0, Ch:B06 27.6uL/3.2uL Err: 0, Ch:C06 27.7uL/3.3uL Err: 0, Ch:D06 27.7uL/3.3uL Err: 0, Ch:E06 27.5uL/3.2uL Err: 0, Ch:F06 27.6uL/3.2uL Err: 0, Ch:G06 27.6uL/3.2uL Err: 0, Ch:H06 27.5uL/3.2uL Err: 0, Ch:A07 27.6uL/3.2uL Err: 0, Ch:B07 27.6uL/3.2uL Err: 0, Ch:C07 27.4uL/3.1uL Err: 0, Ch:D07 27.6uL/3.2uL Err: 0, Ch:E07 27.6uL/3.2uL Err: 0, Ch:F07 27.7uL/3.3uL Err: 0, Ch:G07 27.6uL/3.2uL Err: 0, Ch:H07 27.5uL/3.2uL Err: 0, Ch:A08 27.6uL/3.2uL Err: 0, Ch:B08 27.6uL/3.2uL Err: 0, Ch:C08 27.6uL/3.2uL Err: 0, Ch:D08 27.6uL/3.2uL Err: 0, Ch:E08 27.6uL/3.2uL Err: 0, Ch:F08 27.6uL/3.2uL Err: 0, Ch:G08 27.6uL/3.2uL Err: 0, Ch:H08 27.6uL/3.2uL Err: 0, Ch:A09 27.6uL/3.2uL Err: 0, Ch:B09 27.7uL/3.3uL Err: 0, Ch:C09 27.6uL/3.2uL Err: 0, Ch:D09 27.6uL/3.2uL Err: 0, Ch:E09 27.5uL/3.2uL Err: 0, Ch:F09 27.7uL/3.3uL Err: 0, Ch:G09 27.6uL/3.2uL Err: 0, Ch:H09 27.6uL/3.2uL Err: 0, Ch:A10 27.6uL/3.2uL Err: 0, Ch:B10 28.0uL/3.6uL Err: 0, Ch:C10 27.7uL/3.3uL Err: 0, Ch:D10 27.8uL/3.4uL Err: 0, Ch:E10 27.7uL/3.3uL Err: 0, Ch:F10 27.5uL/3.1uL Err: 0, Ch:G10 27.7uL/3.3uL Err: 0, Ch:H10 27.5uL/3.1uL Err: 0, Ch:A11 27.6uL/3.2uL Err: 0, Ch:B11 27.4uL/3.1uL Err: 0, Ch:C11 27.6uL/3.2uL Err: 0, Ch:D11 27.6uL/3.2uL Err: 0, Ch:E11 27.6uL/3.2uL Err: 0, Ch:F11 27.6uL/3.2uL Err: 0, Ch:G11 27.7uL/3.3uL Err: 0, Ch:H11 27.7uL/3.3uL Err: 0, Ch:A12 27.6uL/3.2uL Err: 0, Ch:B12 27.7uL/3.3uL Err: 0, Ch:C12 27.7uL/3.3uL Err: 0, Ch:D12 175.5uL/1.0uL Err: -25, Ch:E12 27.6uL/3.2uL Err: 0, Ch:F12 27.7uL/3.3uL Err: 0, Ch:G12 27.5uL/3.1uL Err: 0, Ch:H12 27.6uL/3.2uL Err: 0
+11/29/2019 18:20:44.9 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:17:37.7 and finished at 11/29/2019 18:20:44.9
+
+11/29/2019 18:33:14.3 SubProcess 'SubMethods\TipOn_Check_300uL.met' MethodCompleted, A 'Move Axis' command was stopped due to a motion error
+11/29/2019 18:33:14.3 Process 'AndStamp.met' MethodCompleted
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:20:48.0 and terminated at 11/29/2019 18:33:14.3
+    Terminate reason:CommandError
+    Command 'Move Axis', line 2, was interrupted due to A motion error, Move axes failed:ZL had MotionError
+
+[User] Clear errors.
+All device errors were resolved.
+[User] Clear errors.
+No Device Errors to resolve.
+[User] Step.
+11/29/2019 18:37:29.0 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:37:27.8 and finished at 11/29/2019 18:37:29.0
+
+[User] Step.
+11/29/2019 18:44:43.9 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:44:36.6 and finished at 11/29/2019 18:44:43.9
+
+[User] Start.
+[UserStop] Stop.
+11/29/2019 18:50:38.9 [VVP96] VVP reports 3 errors in last aspirate: B12, G12, H12
+11/29/2019 18:50:42.1 Process 'AndStamp.met' MethodCompleted, A 'Aspirate(VVP96)' command responded to a stop signal
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:50:11.4 and terminated at 11/29/2019 18:50:42.0
+    Terminate reason:QuitSignal
+    Command 'Aspirate(VVP96)', line 2, was interrupted due to Command 'Aspirate(VVP96)' required to exit on Stop
+
+11/29/2019 18:57:25.3 [XL] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:57:25 PM 
+11/29/2019 18:57:30.8 [XL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:57:30 PM 
+11/29/2019 18:57:36.3 [YL] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:57:36 PM 
+11/29/2019 18:57:41.9 [YL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:57:41 PM 
+11/29/2019 18:57:47.4 [ZL] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:57:47 PM 
+11/29/2019 18:57:52.9 [ZL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:57:52 PM 
+11/29/2019 18:57:58.4 [BarCodeZAxis] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:57:58 PM 
+11/29/2019 18:58:03.9 [BarCodeZAxis] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:03 PM 
+[User] Clear errors.
+11/29/2019 18:58:06.7 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:06.7 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:06.7 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:06.7 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:06.7 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:06.7 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:06 PM 
+11/29/2019 18:58:11.8 [BarCodeZAxis] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:11.8 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:11 PM 
+11/29/2019 18:58:16.9 [VVP96] VVP reported an initial error for the GetCommand Pressure Status: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+11/29/2019 18:58:18.9 [BarCodeZAxis] Warp3 'BarCodeZAxis' is throwing an exception: Failed to initialize output device handle, OpenError = PortRead, Stack:    at Warp3Core.Warp`1.ThrowException(String errMsg, MMAxisMotionResult motionResult, Boolean showStack)
+   at Warp3Core.Warp3.SetOutput(Byte bitIndex, Boolean bitValue, Boolean bOwnPeripherialHandle)
+   at Warp3Core.Warp3.SetOutputState(Int32 bitIndex, MMIOState ioState)
+   at Warp3Core.Warp3.SetOutputState(String outputName, MMIOState ioState)
+   at MethodManager.Core.Domain.MMOutput.SetState(MMIOState state)
+   at MMGrippers.MMHeadGripper.SetOutput(IMMOutput output, Boolean state)
+   at MMGrippers.MMHeadGripper.Reset()
+   at MMGrippers.MMHeadGripper.ClearError()
+   at MMHardware.Core.MMHardwareDeviceBase.GetStatusReadyWithAxisClear(List`1 errorMsgs, Boolean tryToClearSimpleErrors)
+   at MMHardware.Core.MMHardwareDeviceBase.ClearError(List`1 errorMsgs)
+   at MethodManager.DX.Views.Main.MainForm.ClearDeviceErrors()
+   at MethodManager.DX.Views.Main.MainForm.btnClearErrors_ItemClick(Object sender, ItemClickEventArgs e)
+   at DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarButtonItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarItemLink.OnLinkActionCore(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPress(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at DevExpress.Utils.Drawing.Helpers.NativeMethods.UnsafeNativeMethods.DefSubclassProc(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam)
+   at DevExpress.Utils.Drawing.Helpers.Win32SubclasserFactory.Win32Subclasser.SubClassProcInner(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam, IntPtr uIdSubclass, IntPtr dwRefData)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at MethodManager.DX.Models.Program.Main()
+
+Errors could not be resolved for these devices:
+   Lynx (6 errors)
+      Axis 'XL' has not been homed.
+      Axis 'YL' has not been homed.
+      Axis 'ZL' has not been homed.
+      Axis 'BarCodeZAxis' has not been homed.
+      Error(s) on component 'VVP96': Exception of type 'Seyonic.Dispenser.DispenserException' was thrown.
+      Error(s) on component 'Gripper': Failed to set output 'Lynx.BarCodeZAxis.4'.
+
+11/29/2019 18:58:22.4 [XL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: 0, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+11/29/2019 18:58:22.4 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:22 PM 
+[User] Clear errors.
+11/29/2019 18:58:24.3 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.3 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: 0, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.3 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.3 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.4 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.5 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.5 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.5 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.5 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:24 PM 
+11/29/2019 18:58:24.5 [VVP96] VVP reported an initial error for the GetCommand Pressure Status: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+11/29/2019 18:58:26.5 [BarCodeZAxis] Warp3 'BarCodeZAxis' is throwing an exception: Failed to initialize output device handle, OpenError = PortRead, Stack:    at Warp3Core.Warp`1.ThrowException(String errMsg, MMAxisMotionResult motionResult, Boolean showStack)
+   at Warp3Core.Warp3.SetOutput(Byte bitIndex, Boolean bitValue, Boolean bOwnPeripherialHandle)
+   at Warp3Core.Warp3.SetOutputState(Int32 bitIndex, MMIOState ioState)
+   at Warp3Core.Warp3.SetOutputState(String outputName, MMIOState ioState)
+   at MethodManager.Core.Domain.MMOutput.SetState(MMIOState state)
+   at MMGrippers.MMHeadGripper.SetOutput(IMMOutput output, Boolean state)
+   at MMGrippers.MMHeadGripper.Reset()
+   at MMGrippers.MMHeadGripper.ClearError()
+   at MMHardware.Core.MMHardwareDeviceBase.GetStatusReadyWithAxisClear(List`1 errorMsgs, Boolean tryToClearSimpleErrors)
+   at MMHardware.Core.MMHardwareDeviceBase.ClearError(List`1 errorMsgs)
+   at MethodManager.DX.Views.Main.MainForm.ClearDeviceErrors()
+   at MethodManager.DX.Views.Main.MainForm.btnClearErrors_ItemClick(Object sender, ItemClickEventArgs e)
+   at DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarButtonItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarItemLink.OnLinkActionCore(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPress(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at DevExpress.Utils.Drawing.Helpers.NativeMethods.UnsafeNativeMethods.DefSubclassProc(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam)
+   at DevExpress.Utils.Drawing.Helpers.Win32SubclasserFactory.Win32Subclasser.SubClassProcInner(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam, IntPtr uIdSubclass, IntPtr dwRefData)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at MethodManager.DX.Models.Program.Main()
+
+Errors could not be resolved for these devices:
+   Lynx (6 errors)
+      Axis 'XL' has not been homed.
+      Axis 'YL' has not been homed.
+      Axis 'ZL' has not been homed.
+      Axis 'BarCodeZAxis' has not been homed.
+      Error(s) on component 'VVP96': Exception of type 'Seyonic.Dispenser.DispenserException' was thrown.
+      Error(s) on component 'Gripper': Failed to set output 'Lynx.BarCodeZAxis.4'.
+
+11/29/2019 18:58:27.8 [XL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.8 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.8 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.8 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.8 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.9 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: 0, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.9 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:27.9 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 11/29/2019 6:58:27 PM 
+11/29/2019 18:58:35.4 [VVP96] VVP reported an initial error for the GetCommand SLAVE_CONFIG: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+[User] Step.
+11/29/2019 18:59:49.6 [ZL] Error: MutexTimeout, Func: GetEventStatus, Win32: 0, Date: 11/29/2019 6:59:49 PM 
+11/29/2019 18:59:51.6 [ZL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 11/29/2019 6:59:51 PM 
+11/29/2019 18:59:51.6 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 18:59:47.5 and finished at 11/29/2019 18:59:51.6
+
+[User] Step.
+11/29/2019 19:00:02.5 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 11/29/2019 7:00:02 PM 
+11/29/2019 19:00:08.6 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 19:00:00.5 and terminated at 11/29/2019 19:00:08.5
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Axis 'XL' failed position query: 'Error'
+
+[User] Clear errors.
+No Device Errors to resolve.
+[User] Step.
+11/29/2019 19:00:19.1 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 11/29/2019 7:00:19 PM 
+11/29/2019 19:00:24.3 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 19:00:17.0 and terminated at 11/29/2019 19:00:24.3
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Axis 'XL' failed position query: 'Error'
+
+11/29/2019 19:00:49.6 [VVP96] VVP reported an initial error for the GetCommand SLAVE_CONFIG: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+11/29/2019 19:00:57.4 [XL] Move off limit completion: Failed (OKReady).
+11/29/2019 19:00:57.4 [XL] Failed to find Positive limit: OKReady.
+11/29/2019 19:00:57.4 [XL] Failed to home axis 'XL'.
+[User] Step.
+11/29/2019 19:02:21.6 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 11/29/2019 7:02:21 PM 
+11/29/2019 19:02:23.9 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 11/29/2019 19:02:19.6 and terminated at 11/29/2019 19:02:23.9
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Axis 'XL' failed position query: 'Error'
+

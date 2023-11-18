@@ -1,0 +1,52 @@
+12/18/2017 10:40:05.412 Application error in method Variable vol with 200ul tip.met[2], 'Load Tips(VVP96)': Command 'Load Tips(VVP96)' encountered an error: Axis 'XL' failed position query: 'Error'
+Application stack trace:
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.GetAxisPositions(List`1 axes)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.FormatAxisPositions(List`1 axes, String prefixMessage, String format)
+   at MMHardware.Core.Commands.LiquidHandler.MMLoadTips.Command(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)
+   at MethodManager.Core.Process.MMProcess.ExecuteCommand()
+   at MethodManager.Core.Process.MMProcess.RunProcess(Object obj)
+Method stack trace:
+   Variable vol with 200ul tip.met[2] 'Load Tips(VVP96)'
+
+
+12/18/2017 10:40:29.277 Application error in method Variable vol with 200ul tip.met[2], 'Load Tips(VVP96)': Command 'Load Tips(VVP96)' encountered an error: Axis 'XL' failed position query: 'Error'
+Application stack trace:
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.GetAxisPositions(List`1 axes)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.FormatAxisPositions(List`1 axes, String prefixMessage, String format)
+   at MMHardware.Core.Commands.LiquidHandler.MMLoadTips.Command(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)
+   at MethodManager.Core.Process.MMProcess.ExecuteCommand()
+   at MethodManager.Core.Process.MMProcess.RunProcess(Object obj)
+Method stack trace:
+   Variable vol with 200ul tip.met[2] 'Load Tips(VVP96)'
+
+
+12/18/2017 10:40:47.378 Application error in method Variable vol with 200ul tip.met[2], 'Load Tips(VVP96)': Command 'Load Tips(VVP96)' encountered an error: Axis 'XL' failed position query: 'Error'
+Application stack trace:
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.GetAxisPositions(List`1 axes)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.FormatAxisPositions(List`1 axes, String prefixMessage, String format)
+   at MMHardware.Core.Commands.LiquidHandler.MMLoadTips.Command(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)
+   at MethodManager.Core.Process.MMProcess.ExecuteCommand()
+   at MethodManager.Core.Process.MMProcess.RunProcess(Object obj)
+Method stack trace:
+   Variable vol with 200ul tip.met[2] 'Load Tips(VVP96)'
+
+
+12/18/2017 10:41:16.953 Application error in method Variable vol with 200ul tip.met[2], 'Load Tips(VVP96)': Command 'Load Tips(VVP96)' encountered an error: Axis 'XL' failed position query: 'Error'
+Application stack trace:
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.GetAxisPositions(List`1 axes)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.FormatAxisPositions(List`1 axes, String prefixMessage, String format)
+   at MMHardware.Core.Commands.LiquidHandler.MMLoadTips.Command(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)
+   at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)
+   at MethodManager.Core.Process.MMProcess.ExecuteCommand()
+   at MethodManager.Core.Process.MMProcess.RunProcess(Object obj)
+Method stack trace:
+   Variable vol with 200ul tip.met[2] 'Load Tips(VVP96)'
+
+

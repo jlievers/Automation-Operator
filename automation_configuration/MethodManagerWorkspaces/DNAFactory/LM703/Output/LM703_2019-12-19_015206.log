@@ -1,0 +1,180 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.7265.22152
+  MMCoreDevice   1.4.7265.22158
+  MMLiquidHandler   1.4.7265.22229
+  Warp3   2.0.7265.22182
+  MMVVP   1.4.7265.22230
+  MMIOLightTower   1.4.7265.22229
+  MMHeadGripper   1.4.7265.22430
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+[User] Start.
+12/19/2019 13:56:59.6 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:55:29.6 and finished at 12/19/2019 13:56:59.6
+
+[User] Step.
+12/19/2019 13:58:52.1 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:58:44.1 and finished at 12/19/2019 13:58:52.1
+
+[User] Step.
+12/19/2019 13:59:14.4 [VVP96] VVP Aspirate pressure is 25 mbar.
+12/19/2019 13:59:15.1 [VVP96] Aspirate complete.
+12/19/2019 13:59:15.7 [VVP96] Average residual volume was 0.67 ul for 96 channels at 25 mbar pressure
+12/19/2019 13:59:16.4 [VVP96] Clog detection is off.
+12/19/2019 13:59:16.4 [VVP96] Aspirate diagnostics are off.
+12/19/2019 13:59:16.4 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+12/19/2019 13:59:16.8 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+12/19/2019 13:59:17.0 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+12/19/2019 13:59:19.3 [VVP96] VVP Aspirate pressure is 23 mbar.
+12/19/2019 13:59:19.8 [VVP96] Aspirate complete.
+12/19/2019 13:59:20.4 [VVP96] Average residual volume was 0.63 ul for 96 channels at 25 mbar pressure
+12/19/2019 13:59:20.6 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 0.9uL/0.6uL OK, Ch:B01 0.8uL/0.6uL OK, Ch:C01 0.9uL/0.6uL OK, Ch:D01 0.8uL/0.5uL OK, Ch:E01 0.9uL/0.7uL OK, Ch:F01 0.9uL/0.6uL OK, Ch:G01 0.9uL/0.6uL OK, Ch:H01 0.9uL/0.7uL OK, Ch:A02 0.9uL/0.6uL OK, Ch:B02 0.8uL/0.6uL OK, Ch:C02 0.9uL/0.7uL OK, Ch:D02 1.0uL/0.6uL OK, Ch:E02 0.9uL/0.7uL OK, Ch:F02 1.0uL/0.6uL OK, Ch:G02 0.9uL/0.6uL OK, Ch:H02 0.9uL/0.6uL OK, Ch:A03 1.0uL/0.7uL OK, Ch:B03 0.8uL/0.6uL OK, Ch:C03 0.8uL/0.6uL OK, Ch:D03 0.9uL/0.6uL OK, Ch:E03 0.8uL/0.6uL OK, Ch:F03 1.0uL/0.6uL OK, Ch:G03 0.8uL/0.6uL OK, Ch:H03 1.0uL/0.6uL OK, Ch:A04 1.0uL/0.6uL OK, Ch:B04 0.8uL/0.6uL OK, Ch:C04 1.0uL/0.7uL OK, Ch:D04 0.9uL/0.6uL OK, Ch:E04 1.0uL/0.7uL OK, Ch:F04 1.0uL/0.6uL OK, Ch:G04 0.8uL/0.6uL OK, Ch:H04 0.9uL/0.6uL OK, Ch:A05 1.0uL/0.7uL OK, Ch:B05 0.8uL/0.6uL OK, Ch:C05 1.0uL/0.7uL OK, Ch:D05 0.9uL/0.6uL OK, Ch:E05 0.8uL/0.6uL OK, Ch:F05 0.9uL/0.6uL OK, Ch:G05 1.0uL/0.7uL OK, Ch:H05 0.8uL/0.6uL OK, Ch:A06 1.0uL/0.6uL OK, Ch:B06 0.8uL/0.6uL OK, Ch:C06 0.9uL/0.6uL OK, Ch:D06 1.0uL/0.6uL OK, Ch:E06 0.8uL/0.6uL OK, Ch:F06 0.8uL/0.6uL OK, Ch:G06 0.8uL/0.6uL OK, Ch:H06 0.9uL/0.6uL OK, Ch:A07 0.8uL/0.6uL OK, Ch:B07 1.0uL/0.7uL OK, Ch:C07 0.8uL/0.6uL OK, Ch:D07 0.9uL/0.6uL OK, Ch:E07 1.0uL/0.7uL OK, Ch:F07 1.0uL/0.6uL OK, Ch:G07 0.9uL/0.7uL OK, Ch:H07 0.9uL/0.7uL OK, Ch:A08 1.0uL/0.7uL OK, Ch:B08 1.0uL/0.7uL OK, Ch:C08 0.9uL/0.7uL OK, Ch:D08 0.8uL/0.6uL OK, Ch:E08 1.0uL/0.7uL OK, Ch:F08 0.9uL/0.6uL OK, Ch:G08 1.0uL/0.6uL OK, Ch:H08 0.9uL/0.6uL OK, Ch:A09 0.9uL/0.7uL OK, Ch:B09 0.9uL/0.6uL OK, Ch:C09 0.8uL/0.6uL OK, Ch:D09 0.9uL/0.7uL OK, Ch:E09 0.9uL/0.7uL OK, Ch:F09 1.0uL/0.7uL OK, Ch:G09 0.8uL/0.6uL OK, Ch:H09 0.9uL/0.7uL OK, Ch:A10 0.9uL/0.6uL OK, Ch:B10 0.8uL/0.7uL OK, Ch:C10 0.9uL/0.7uL OK, Ch:D10 0.9uL/0.6uL OK, Ch:E10 1.0uL/0.6uL OK, Ch:F10 0.8uL/0.6uL OK, Ch:G10 0.8uL/0.6uL OK, Ch:H10 0.9uL/0.7uL OK, Ch:A11 0.9uL/0.7uL OK, Ch:B11 0.9uL/0.7uL OK, Ch:C11 1.1uL/0.7uL OK, Ch:D11 0.8uL/0.6uL OK, Ch:E11 1.0uL/0.7uL OK, Ch:F11 0.9uL/0.6uL OK, Ch:G11 0.9uL/0.6uL OK, Ch:H11 0.9uL/0.6uL OK, Ch:A12 0.8uL/0.6uL OK, Ch:B12 0.9uL/0.7uL OK, Ch:C12 1.0uL/0.7uL OK, Ch:D12 0.9uL/0.6uL OK, Ch:E12 0.9uL/0.7uL OK, Ch:F12 0.9uL/0.6uL OK, Ch:G12 1.0uL/0.7uL OK, Ch:H12 0.9uL/0.6uL OK
+12/19/2019 13:59:21.7 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -11.89 mm, 'YL' -3.27 mm, 'ZL' -79.43 mm
+12/19/2019 13:59:21.7 [VVP96] VVP Pressure Controller OFF.
+12/19/2019 13:59:21.9 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 15 s.
+12/19/2019 13:59:21.9 Process 'Stamp_150uL.met'[6] 'Aspirate(VVP96)' CommandCompleted
+12/19/2019 13:59:21.9 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:59:06.4 and finished at 12/19/2019 13:59:21.9
+
+[User] Step.
+12/19/2019 13:59:26.2 Process 'Stamp_150uL.met' MethodStarted
+12/19/2019 13:59:26.2 Process 'Stamp_150uL.met'[8] 'Aspirate(VVP96)' CommandStarted
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Plate 'Fluidx_1mL_Tube_rack_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.20 mm.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-150F'.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_01' (2.53 mm, -14.47 mm, -173.43 mm) with a stack index of 1.
+12/19/2019 13:59:26.2 [VVP96] Use Auto Residual - OFF.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Pipette commands are from input [sampleAspData]
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Below 5 microliters': Pressure 25 mbar, Residual vol. 0.37 uL, Pre/Post delay 0.00/1.00
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (96): Ch:A01 3.5uL/0.4uL; Ch:B01 3.5uL/0.4uL; Ch:C01 3.5uL/0.4uL; Ch:D01 3.5uL/0.4uL; Ch:E01 3.5uL/0.4uL; Ch:F01 3.5uL/0.4uL; Ch:G01 3.5uL/0.4uL; Ch:H01 3.5uL/0.4uL; Ch:A02 3.5uL/0.4uL; Ch:B02 3.5uL/0.4uL; Ch:C02 3.5uL/0.4uL; Ch:D02 3.5uL/0.4uL; Ch:E02 3.5uL/0.4uL; Ch:F02 3.5uL/0.4uL; Ch:G02 3.5uL/0.4uL; Ch:H02 3.5uL/0.4uL; Ch:A03 3.5uL/0.4uL; Ch:B03 3.5uL/0.4uL; Ch:C03 3.5uL/0.4uL; Ch:D03 3.5uL/0.4uL; Ch:E03 3.5uL/0.4uL; Ch:F03 3.5uL/0.4uL; Ch:G03 3.5uL/0.4uL; Ch:H03 3.5uL/0.4uL; Ch:A04 3.5uL/0.4uL; Ch:B04 3.5uL/0.4uL; Ch:C04 3.5uL/0.4uL; Ch:D04 3.5uL/0.4uL; Ch:E04 3.5uL/0.4uL; Ch:F04 3.5uL/0.4uL; Ch:G04 3.5uL/0.4uL; Ch:H04 3.5uL/0.4uL; Ch:A05 3.5uL/0.4uL; Ch:B05 3.5uL/0.4uL; Ch:C05 3.5uL/0.4uL; Ch:D05 3.5uL/0.4uL; Ch:E05 3.5uL/0.4uL; Ch:F05 3.5uL/0.4uL; Ch:G05 3.5uL/0.4uL; Ch:H05 3.5uL/0.4uL; Ch:A06 3.5uL/0.4uL; Ch:B06 3.5uL/0.4uL; Ch:C06 3.5uL/0.4uL; Ch:D06 3.5uL/0.4uL; Ch:E06 3.5uL/0.4uL; Ch:F06 3.5uL/0.4uL; Ch:G06 3.5uL/0.4uL; Ch:H06 3.5uL/0.4uL; Ch:A07 3.5uL/0.4uL; Ch:B07 3.5uL/0.4uL; Ch:C07 3.5uL/0.4uL; Ch:D07 3.5uL/0.4uL; Ch:E07 3.5uL/0.4uL; Ch:F07 3.5uL/0.4uL; Ch:G07 3.5uL/0.4uL; Ch:H07 3.5uL/0.4uL; Ch:A08 3.5uL/0.4uL; Ch:B08 3.5uL/0.4uL; Ch:C08 3.5uL/0.4uL; Ch:D08 3.5uL/0.4uL; Ch:E08 3.5uL/0.4uL; Ch:F08 3.5uL/0.4uL; Ch:G08 3.5uL/0.4uL; Ch:H08 3.5uL/0.4uL; Ch:A09 3.5uL/0.4uL; Ch:B09 3.5uL/0.4uL; Ch:C09 3.5uL/0.4uL; Ch:D09 3.5uL/0.4uL; Ch:E09 3.5uL/0.4uL; Ch:F09 3.5uL/0.4uL; Ch:G09 3.5uL/0.4uL; Ch:H09 3.5uL/0.4uL; Ch:A10 3.5uL/0.4uL; Ch:B10 3.5uL/0.4uL; Ch:C10 3.5uL/0.4uL; Ch:D10 3.5uL/0.4uL; Ch:E10 3.5uL/0.4uL; Ch:F10 3.5uL/0.4uL; Ch:G10 3.5uL/0.4uL; Ch:H10 3.5uL/0.4uL; Ch:A11 3.5uL/0.4uL; Ch:B11 3.5uL/0.4uL; Ch:C11 3.5uL/0.4uL; Ch:D11 3.5uL/0.4uL; Ch:E11 3.5uL/0.4uL; Ch:F11 3.5uL/0.4uL; Ch:G11 3.5uL/0.4uL; Ch:H11 3.5uL/0.4uL; Ch:A12 3.5uL/0.4uL; Ch:B12 3.5uL/0.4uL; Ch:C12 3.5uL/0.4uL; Ch:D12 3.5uL/0.4uL; Ch:E12 3.5uL/0.4uL; Ch:F12 3.5uL/0.4uL; Ch:G12 3.5uL/0.4uL; Ch:H12 3.5uL/0.4uL
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+12/19/2019 13:59:26.2 [VVP96] Use Auto Residual - ON.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H01) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H02) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H03) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H04) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H05) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H06) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H07) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H08) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H09) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H10) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H11) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel A12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel B12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel C12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel D12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel E12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel F12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel G12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Hydrostatic Pressure Correction Enabled (Channel H12) volume : 0.00 ul.
+12/19/2019 13:59:26.2 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.85 mm, -3.23 mm, -129.23 mm, -129.43 mm, using motion profile 'Slow Speed'.
+12/19/2019 13:59:26.2 [VVP96] VVP Pressure Controller ON.
+12/19/2019 13:59:26.4 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -11.89 mm, 'YL' -3.27 mm, 'ZL' -79.43 mm
+12/19/2019 13:59:29.3 [VVP96] Clog detection is off.
+12/19/2019 13:59:29.3 [VVP96] Aspirate diagnostics are off.
+12/19/2019 13:59:29.3 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+12/19/2019 13:59:29.5 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+12/19/2019 13:59:29.7 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+12/19/2019 13:59:30.7 [VVP96] VVP Aspirate pressure is 27 mbar.
+12/19/2019 13:59:31.1 [VVP96] Aspirate complete.
+12/19/2019 13:59:31.8 [VVP96] Average residual volume was 0.75 ul for 96 channels at 25 mbar pressure
+12/19/2019 13:59:32.0 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 3.5uL/0.7uL OK, Ch:B01 3.6uL/0.8uL OK, Ch:C01 3.7uL/0.8uL OK, Ch:D01 3.6uL/0.7uL OK, Ch:E01 3.5uL/0.8uL OK, Ch:F01 3.5uL/0.7uL OK, Ch:G01 3.5uL/0.7uL OK, Ch:H01 3.4uL/0.7uL OK, Ch:A02 3.6uL/0.7uL OK, Ch:B02 3.5uL/0.7uL OK, Ch:C02 3.6uL/0.8uL OK, Ch:D02 3.5uL/0.7uL OK, Ch:E02 3.4uL/0.7uL OK, Ch:F02 3.5uL/0.7uL OK, Ch:G02 3.6uL/0.8uL OK, Ch:H02 3.5uL/0.7uL OK, Ch:A03 3.6uL/0.8uL OK, Ch:B03 3.6uL/0.8uL OK, Ch:C03 3.7uL/0.8uL OK, Ch:D03 3.6uL/0.8uL OK, Ch:E03 3.7uL/0.8uL OK, Ch:F03 3.7uL/0.8uL OK, Ch:G03 3.7uL/0.8uL OK, Ch:H03 3.6uL/0.7uL OK, Ch:A04 3.7uL/0.8uL OK, Ch:B04 3.5uL/0.7uL OK, Ch:C04 3.5uL/0.8uL OK, Ch:D04 3.6uL/0.7uL OK, Ch:E04 3.4uL/0.7uL OK, Ch:F04 3.6uL/0.7uL OK, Ch:G04 3.7uL/0.8uL OK, Ch:H04 3.5uL/0.6uL OK, Ch:A05 3.4uL/0.7uL OK, Ch:B05 3.6uL/0.7uL OK, Ch:C05 3.5uL/0.7uL OK, Ch:D05 3.5uL/0.7uL OK, Ch:E05 3.5uL/0.7uL OK, Ch:F05 3.7uL/0.8uL OK, Ch:G05 3.6uL/0.8uL OK, Ch:H05 3.7uL/0.8uL OK, Ch:A06 3.5uL/0.7uL OK, Ch:B06 3.7uL/0.8uL OK, Ch:C06 3.5uL/0.7uL OK, Ch:D06 3.6uL/0.7uL OK, Ch:E06 3.5uL/0.7uL OK, Ch:F06 3.7uL/0.8uL OK, Ch:G06 3.6uL/0.7uL OK, Ch:H06 3.6uL/0.8uL OK, Ch:A07 3.6uL/0.8uL OK, Ch:B07 3.4uL/0.7uL OK, Ch:C07 3.6uL/0.7uL OK, Ch:D07 3.7uL/0.8uL OK, Ch:E07 3.6uL/0.8uL OK, Ch:F07 3.6uL/0.7uL OK, Ch:G07 3.5uL/0.8uL OK, Ch:H07 3.4uL/0.7uL OK, Ch:A08 3.6uL/0.8uL OK, Ch:B08 3.6uL/0.8uL OK, Ch:C08 3.6uL/0.8uL OK, Ch:D08 3.6uL/0.8uL OK, Ch:E08 3.6uL/0.8uL OK, Ch:F08 3.7uL/0.8uL OK, Ch:G08 3.5uL/0.7uL OK, Ch:H08 3.6uL/0.7uL OK, Ch:A09 3.5uL/0.7uL OK, Ch:B09 3.6uL/0.7uL OK, Ch:C09 3.7uL/0.8uL OK, Ch:D09 3.5uL/0.8uL OK, Ch:E09 3.4uL/0.7uL OK, Ch:F09 3.6uL/0.8uL OK, Ch:G09 3.5uL/0.7uL OK, Ch:H09 3.5uL/0.7uL OK, Ch:A10 3.6uL/0.8uL OK, Ch:B10 3.7uL/0.9uL OK, Ch:C10 3.6uL/0.8uL OK, Ch:D10 3.6uL/0.7uL OK, Ch:E10 3.5uL/0.7uL OK, Ch:F10 3.6uL/0.8uL OK, Ch:G10 3.6uL/0.7uL OK, Ch:H10 3.4uL/0.7uL OK, Ch:A11 3.6uL/0.8uL OK, Ch:B11 3.4uL/0.7uL OK, Ch:C11 3.5uL/0.7uL OK, Ch:D11 3.7uL/0.8uL OK, Ch:E11 3.4uL/0.7uL OK, Ch:F11 3.6uL/0.8uL OK, Ch:G11 3.6uL/0.7uL OK, Ch:H11 3.6uL/0.7uL OK, Ch:A12 3.5uL/0.7uL OK, Ch:B12 3.5uL/0.8uL OK, Ch:C12 3.5uL/0.8uL OK, Ch:D12 3.5uL/0.7uL OK, Ch:E12 3.5uL/0.8uL OK, Ch:F12 3.6uL/0.7uL OK, Ch:G12 3.5uL/0.7uL OK, Ch:H12 3.5uL/0.7uL OK
+12/19/2019 13:59:33.0 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -11.89 mm, 'YL' -3.27 mm, 'ZL' -129.23 mm
+12/19/2019 13:59:33.1 [VVP96] VVP Pressure Controller OFF.
+12/19/2019 13:59:33.2 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 6 s.
+12/19/2019 13:59:33.2 Process 'Stamp_150uL.met'[8] 'Aspirate(VVP96)' CommandCompleted
+12/19/2019 13:59:33.2 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:59:26.2 and finished at 12/19/2019 13:59:33.2
+
+12/19/2019 13:59:57.5 [XL] Closing component connections for Warp 'XL'.
+12/19/2019 13:59:57.5 [YL] Closing component connections for Warp 'YL'.
+12/19/2019 13:59:57.5 [ZL] Closing component connections for Warp 'ZL'.
+12/19/2019 13:59:57.5 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+12/19/2019 13:59:58.1 [Lynx] 

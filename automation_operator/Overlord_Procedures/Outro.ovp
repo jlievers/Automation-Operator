@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Procedure>
+  <Author />
+  <Notes>3.2.0.0</Notes>
+  <Process>
+    <Labware />
+    <PreRun>
+      <InitializeVariables>True</InitializeVariables>
+      <ResetPositions>True</ResetPositions>
+      <CheckLabware>True</CheckLabware>
+      <Procedure />
+    </PreRun>
+    <PostRun>
+      <Procedure />
+    </PostRun>
+    <Scheduling>
+      <SubBatch>1</SubBatch>
+      <Marker>1</Marker>
+      <Stagger>0</Stagger>
+      <Auto>True</Auto>
+    </Scheduling>
+  </Process>
+  <Actions>
+    <Action xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Comment="">
+      <Parameters>Start</Parameters>
+      <ID>ac4879db-1a0f-4fc8-9b22-859a85fa198a</ID>
+      <Groups />
+      <WaitUntilIdle>
+        <Wait>true</Wait>
+      </WaitUntilIdle>
+      <ErrorRecovery>
+        <RetryOnError>false</RetryOnError>
+        <RetryCount>0</RetryCount>
+      </ErrorRecovery>
+      <Breakpoint>false</Breakpoint>
+      <Enabled>true</Enabled>
+      <ErrorResponse>None</ErrorResponse>
+      <Validate>All</Validate>
+      <Simulate>false</Simulate>
+      <SimulationTime>-1</SimulationTime>
+      <ToleranceTime>-1</ToleranceTime>
+      <RecordRuntimeInfo>false</RecordRuntimeInfo>
+      <ProcessIdVariable />
+      <LabwareVariable />
+      <ProcessId />
+    </Action>
+    <Action xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Comment="">
+      <Parameters>&lt;setVarCommand&gt;&lt;equation&gt;&lt;leftSide&gt;[current_step_name]&lt;/leftSide&gt;&lt;rightSide&gt;"P:\system_init\"+ [system_folder]+ "\Shutdown.ovp"&lt;/rightSide&gt;&lt;comment /&gt;&lt;setType&gt;Variable&lt;/setType&gt;&lt;/equation&gt;&lt;/setVarCommand&gt;</Parameters>
+      <ID>41a6a1c7-5ea3-419f-8109-7d944d199b55</ID>
+      <Groups />
+      <WaitUntilIdle>
+        <Wait>true</Wait>
+      </WaitUntilIdle>
+      <ErrorRecovery>
+        <RetryOnError>false</RetryOnError>
+        <RetryCount>0</RetryCount>
+      </ErrorRecovery>
+      <Breakpoint>false</Breakpoint>
+      <Enabled>true</Enabled>
+      <ErrorResponse>None</ErrorResponse>
+      <Validate>All</Validate>
+      <Simulate>false</Simulate>
+      <SimulationTime>-1</SimulationTime>
+      <ToleranceTime>-1</ToleranceTime>
+      <RecordRuntimeInfo>false</RecordRuntimeInfo>
+      <ProcessIdVariable />
+      <LabwareVariable />
+      <ProcessId />
+    </Action>
+    <Action xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Comment="">
+      <Parameters>&lt;callProcedure&gt;&lt;procedure&gt;[current_step_name]&lt;/procedure&gt;&lt;/callProcedure&gt;</Parameters>
+      <ID>592b25f7-e40e-46d8-b07f-33497d6951da</ID>
+      <Groups />
+      <WaitUntilIdle>
+        <Wait>true</Wait>
+      </WaitUntilIdle>
+      <ErrorRecovery>
+        <RetryOnError>false</RetryOnError>
+        <RetryCount>0</RetryCount>
+      </ErrorRecovery>
+      <Breakpoint>false</Breakpoint>
+      <Enabled>false</Enabled>
+      <ErrorResponse>None</ErrorResponse>
+      <Validate>All</Validate>
+      <Simulate>false</Simulate>
+      <SimulationTime>-1</SimulationTime>
+      <ToleranceTime>-1</ToleranceTime>
+      <RecordRuntimeInfo>false</RecordRuntimeInfo>
+      <ProcessIdVariable />
+      <LabwareVariable />
+      <ProcessId />
+    </Action>
+    <Action xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Comment="">
+      <Parameters>End</Parameters>
+      <ID>1f075630-10d3-46f0-8d31-761287c5efa0</ID>
+      <Groups />
+      <WaitUntilIdle>
+        <Wait>true</Wait>
+      </WaitUntilIdle>
+      <ErrorRecovery>
+        <RetryOnError>false</RetryOnError>
+        <RetryCount>0</RetryCount>
+      </ErrorRecovery>
+      <Breakpoint>false</Breakpoint>
+      <Enabled>true</Enabled>
+      <ErrorResponse>None</ErrorResponse>
+      <Validate>All</Validate>
+      <Simulate>false</Simulate>
+      <SimulationTime>-1</SimulationTime>
+      <ToleranceTime>-1</ToleranceTime>
+      <RecordRuntimeInfo>false</RecordRuntimeInfo>
+      <ProcessIdVariable />
+      <LabwareVariable />
+      <ProcessId />
+    </Action>
+  </Actions>
+</Procedure>

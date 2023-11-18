@@ -1,0 +1,228 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+12/17/2019 09:44:16.3 Tcp notification encountered an error: SocketException: System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 172.18.3.52:0
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at MethodManager.DX.Interop.MMTcpServer.<>c__DisplayClass5.<SendNotification>b__4()
+12/17/2019 09:44:38.2 Process 'InitializeLynx.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 09:44:36.0 and finished at 12/17/2019 09:44:38.2
+
+12/17/2019 12:22:24.2 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:21:21.7 and finished at 12/17/2019 12:22:24.2
+
+12/17/2019 12:32:14.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:29:05.4 and finished at 12/17/2019 12:32:14.3
+
+12/17/2019 12:33:11.9 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:32:17.8 and finished at 12/17/2019 12:33:11.9
+
+12/17/2019 12:41:04.7 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:40:02.9 and finished at 12/17/2019 12:41:04.7
+
+12/17/2019 12:48:28.7 [VVP96] VVP reports 1 errors in last aspirate: F05
+12/17/2019 12:51:07.8 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:47:46.4 and finished at 12/17/2019 12:51:07.8
+
+12/17/2019 12:52:04.2 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 12:51:10.7 and finished at 12/17/2019 12:52:04.2
+
+12/17/2019 13:44:23.7 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 13:43:22.4 and finished at 12/17/2019 13:44:23.7
+
+12/17/2019 13:54:29.7 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 13:51:24.9 and finished at 12/17/2019 13:54:29.7
+
+12/17/2019 13:55:26.8 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 13:54:33.0 and finished at 12/17/2019 13:55:26.8
+
+12/17/2019 14:03:12.3 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 14:02:11.0 and finished at 12/17/2019 14:03:12.3
+
+12/17/2019 14:13:01.4 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 14:09:53.9 and finished at 12/17/2019 14:13:01.4
+
+12/17/2019 14:13:56.8 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 14:13:04.4 and finished at 12/17/2019 14:13:56.8
+
+12/17/2019 14:37:07.8 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 14:35:51.9 and finished at 12/17/2019 14:37:07.8
+
+12/17/2019 15:36:13.4 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 15:34:59.7 and finished at 12/17/2019 15:36:13.4
+
+12/17/2019 15:41:42.6 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 15:40:40.3 and finished at 12/17/2019 15:41:42.6
+
+12/17/2019 15:51:29.9 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 15:48:25.4 and finished at 12/17/2019 15:51:29.9
+
+12/17/2019 15:52:26.6 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 15:51:33.2 and finished at 12/17/2019 15:52:26.6
+
+12/17/2019 16:00:12.3 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 15:59:10.7 and finished at 12/17/2019 16:00:12.3
+
+12/17/2019 16:09:59.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:06:53.9 and finished at 12/17/2019 16:09:59.6
+
+12/17/2019 16:10:56.1 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:10:02.7 and finished at 12/17/2019 16:10:56.1
+
+12/17/2019 16:24:11.8 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:23:10.9 and finished at 12/17/2019 16:24:11.8
+
+12/17/2019 16:33:58.7 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:30:55.1 and finished at 12/17/2019 16:33:58.7
+
+12/17/2019 16:34:54.0 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:34:01.4 and finished at 12/17/2019 16:34:54.0
+
+12/17/2019 16:42:37.9 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:41:35.7 and finished at 12/17/2019 16:42:37.9
+
+12/17/2019 16:52:20.8 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:49:18.0 and finished at 12/17/2019 16:52:20.8
+
+12/17/2019 16:53:17.1 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 16:52:23.7 and finished at 12/17/2019 16:53:17.1
+
+12/17/2019 17:23:29.1 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:22:27.3 and finished at 12/17/2019 17:23:29.1
+
+12/17/2019 17:33:14.8 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:30:11.4 and finished at 12/17/2019 17:33:14.8
+
+12/17/2019 17:34:11.2 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:33:17.6 and finished at 12/17/2019 17:34:11.1
+
+12/17/2019 17:42:01.6 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:40:59.8 and finished at 12/17/2019 17:42:01.6
+
+12/17/2019 17:51:49.9 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:48:45.0 and finished at 12/17/2019 17:51:49.9
+
+12/17/2019 17:52:45.7 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 17:51:52.6 and finished at 12/17/2019 17:52:45.7
+
+12/17/2019 18:04:03.1 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:02:47.5 and finished at 12/17/2019 18:04:03.1
+
+12/17/2019 18:11:31.5 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:10:29.8 and finished at 12/17/2019 18:11:31.5
+
+12/17/2019 18:21:18.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:18:13.4 and finished at 12/17/2019 18:21:18.6
+
+12/17/2019 18:22:14.9 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:21:21.6 and finished at 12/17/2019 18:22:14.9
+
+12/17/2019 18:30:07.6 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:29:02.5 and finished at 12/17/2019 18:30:07.6
+
+12/17/2019 18:39:54.5 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:36:50.2 and finished at 12/17/2019 18:39:54.5
+
+12/17/2019 18:40:50.7 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 18:39:57.4 and finished at 12/17/2019 18:40:50.7
+
+12/17/2019 19:07:43.2 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:06:42.2 and finished at 12/17/2019 19:07:43.2
+
+12/17/2019 19:15:40.8 [VVP96] VVP reports 1 errors in last aspirate: C01
+12/17/2019 19:16:45.6 [VVP96] VVP reports 1 errors in last aspirate: C01
+12/17/2019 19:17:07.5 [VVP96] VVP reports 1 errors in last aspirate: C01
+12/17/2019 19:17:33.1 [VVP96] VVP reports errors in last operation: Ch:B01 22.5uL/3.1uL Err: 0, Ch:C01 25.8uL/6553.4uL Err: -25, Ch:D01 22.5uL/3.2uL Err: 0, Ch:E01 22.4uL/3.0uL Err: 0, Ch:F01 22.5uL/3.1uL Err: 0, Ch:G01 22.5uL/3.1uL Err: 0, Ch:H01 22.5uL/3.1uL Err: 0, Ch:A02 22.5uL/3.1uL Err: 0, Ch:B02 22.6uL/3.2uL Err: 0, Ch:C02 22.6uL/3.2uL Err: 0, Ch:D02 22.5uL/3.1uL Err: 0, Ch:E02 22.5uL/3.1uL Err: 0, Ch:F02 22.6uL/3.2uL Err: 0, Ch:G02 22.5uL/3.1uL Err: 0, Ch:H02 22.4uL/3.1uL Err: 0, Ch:A03 22.6uL/3.2uL Err: 0, Ch:B03 22.5uL/3.1uL Err: 0, Ch:C03 22.4uL/3.0uL Err: 0, Ch:D03 22.4uL/3.0uL Err: 0, Ch:E03 22.5uL/3.1uL Err: 0, Ch:F03 22.6uL/3.2uL Err: 0, Ch:G03 22.5uL/3.1uL Err: 0, Ch:H03 22.6uL/3.2uL Err: 0, Ch:A04 22.7uL/3.3uL Err: 0, Ch:B04 22.5uL/3.2uL Err: 0, Ch:C04 22.4uL/3.1uL Err: 0, Ch:D04 22.4uL/3.0uL Err: 0, Ch:E04 22.5uL/3.1uL Err: 0, Ch:F04 22.4uL/3.0uL Err: 0, Ch:G04 22.5uL/3.1uL Err: 0, Ch:H04 22.4uL/3.1uL Err: 0, Ch:A05 22.4uL/3.0uL Err: 0, Ch:B05 22.3uL/2.9uL Err: 0, Ch:C05 22.4uL/3.0uL Err: 0, Ch:D05 22.3uL/3.0uL Err: 0, Ch:E05 22.3uL/3.0uL Err: 0, Ch:F05 22.5uL/3.1uL Err: 0, Ch:G05 22.6uL/3.2uL Err: 0, Ch:H05 22.4uL/3.0uL Err: 0, Ch:A06 22.4uL/3.0uL Err: 0, Ch:B06 22.5uL/3.1uL Err: 0, Ch:C06 22.5uL/3.1uL Err: 0, Ch:D06 22.6uL/3.2uL Err: 0, Ch:E06 22.6uL/3.2uL Err: 0, Ch:F06 22.5uL/3.1uL Err: 0, Ch:G06 22.5uL/3.1uL Err: 0, Ch:H06 22.6uL/3.2uL Err: 0, Ch:A07 22.5uL/3.1uL Err: 0, Ch:B07 22.5uL/3.1uL Err: 0, Ch:C07 22.4uL/3.0uL Err: 0, Ch:D07 22.4uL/3.0uL Err: 0, Ch:E07 22.5uL/3.1uL Err: 0, Ch:F07 22.6uL/3.2uL Err: 0, Ch:G07 22.4uL/3.1uL Err: 0, Ch:H07 22.6uL/3.2uL Err: 0, Ch:A08 22.5uL/3.1uL Err: 0, Ch:B08 22.4uL/3.1uL Err: 0, Ch:C08 22.5uL/3.1uL Err: 0, Ch:D08 22.4uL/3.1uL Err: 0, Ch:E08 22.5uL/3.1uL Err: 0, Ch:F08 22.5uL/3.1uL Err: 0, Ch:G08 22.6uL/3.2uL Err: 0, Ch:H08 22.6uL/3.2uL Err: 0, Ch:A09 22.5uL/3.1uL Err: 0, Ch:B09 22.6uL/3.2uL Err: 0, Ch:C09 22.4uL/3.0uL Err: 0, Ch:D09 22.5uL/3.1uL Err: 0, Ch:E09 22.5uL/3.1uL Err: 0, Ch:F09 22.6uL/3.2uL Err: 0, Ch:G09 22.6uL/3.2uL Err: 0, Ch:H09 22.4uL/3.1uL Err: 0, Ch:A10 22.5uL/3.1uL Err: 0, Ch:B10 23.0uL/3.6uL Err: 0, Ch:C10 22.6uL/3.2uL Err: 0, Ch:D10 22.6uL/3.2uL Err: 0, Ch:E10 22.6uL/3.2uL Err: 0, Ch:F10 22.5uL/3.1uL Err: 0, Ch:G10 22.6uL/3.2uL Err: 0, Ch:H10 22.5uL/3.1uL Err: 0, Ch:A11 22.5uL/3.1uL Err: 0, Ch:B11 22.5uL/3.1uL Err: 0, Ch:C11 22.3uL/3.0uL Err: 0, Ch:D11 22.4uL/3.1uL Err: 0, Ch:E11 22.5uL/3.1uL Err: 0, Ch:F11 22.5uL/3.1uL Err: 0, Ch:G11 22.5uL/3.1uL Err: 0, Ch:H11 22.6uL/3.2uL Err: 0, Ch:A12 22.6uL/3.2uL Err: 0, Ch:B12 22.6uL/3.2uL Err: 0, Ch:C12 22.6uL/3.2uL Err: 0, Ch:D12 22.6uL/3.2uL Err: 0, Ch:E12 22.5uL/3.1uL Err: 0, Ch:F12 22.4uL/3.1uL Err: 0, Ch:G12 22.5uL/3.1uL Err: 0, Ch:H12 22.6uL/3.2uL Err: 0
+12/17/2019 19:17:38.0 [VVP96] VVP reports errors in last operation: Ch:A01 27.7uL/3.3uL Err: 0, Ch:B01 27.6uL/3.2uL Err: 0, Ch:C01 25.8uL/6553.4uL Err: -25, Ch:D01 27.7uL/3.3uL Err: 0, Ch:E01 27.6uL/3.2uL Err: 0, Ch:F01 27.6uL/3.2uL Err: 0, Ch:G01 27.6uL/3.2uL Err: 0, Ch:H01 27.5uL/3.2uL Err: 0, Ch:A02 27.5uL/3.2uL Err: 0, Ch:B02 27.7uL/3.3uL Err: 0, Ch:C02 27.7uL/3.3uL Err: 0, Ch:D02 27.6uL/3.2uL Err: 0, Ch:E02 27.5uL/3.1uL Err: 0, Ch:F02 27.6uL/3.2uL Err: 0, Ch:G02 27.5uL/3.1uL Err: 0, Ch:H02 27.6uL/3.2uL Err: 0, Ch:A03 27.6uL/3.2uL Err: 0, Ch:B03 27.6uL/3.2uL Err: 0, Ch:C03 27.3uL/3.0uL Err: 0, Ch:D03 27.5uL/3.1uL Err: 0, Ch:E03 27.5uL/3.1uL Err: 0, Ch:F03 27.6uL/3.3uL Err: 0, Ch:G03 27.6uL/3.2uL Err: 0, Ch:H03 27.6uL/3.2uL Err: 0, Ch:A04 27.7uL/3.3uL Err: 0, Ch:B04 27.6uL/3.2uL Err: 0, Ch:C04 27.6uL/3.2uL Err: 0, Ch:D04 27.6uL/3.2uL Err: 0, Ch:E04 27.6uL/3.2uL Err: 0, Ch:F04 27.5uL/3.1uL Err: 0, Ch:G04 27.6uL/3.2uL Err: 0, Ch:H04 27.7uL/3.3uL Err: 0, Ch:A05 27.5uL/3.1uL Err: 0, Ch:B05 27.5uL/3.1uL Err: 0, Ch:C05 27.5uL/3.1uL Err: 0, Ch:D05 27.5uL/3.1uL Err: 0, Ch:E05 27.4uL/3.0uL Err: 0, Ch:F05 27.6uL/3.2uL Err: 0, Ch:G05 27.7uL/3.3uL Err: 0, Ch:H05 27.4uL/3.0uL Err: 0, Ch:A06 27.4uL/3.0uL Err: 0, Ch:B06 27.6uL/3.2uL Err: 0, Ch:C06 27.7uL/3.3uL Err: 0, Ch:D06 27.7uL/3.3uL Err: 0, Ch:E06 27.6uL/3.2uL Err: 0, Ch:F06 27.5uL/3.2uL Err: 0, Ch:G06 27.6uL/3.2uL Err: 0, Ch:H06 27.6uL/3.2uL Err: 0, Ch:A07 27.4uL/3.1uL Err: 0, Ch:B07 27.6uL/3.2uL Err: 0, Ch:C07 27.5uL/3.1uL Err: 0, Ch:D07 27.6uL/3.2uL Err: 0, Ch:E07 27.5uL/3.2uL Err: 0, Ch:F07 27.7uL/3.3uL Err: 0, Ch:G07 27.5uL/3.1uL Err: 0, Ch:H07 27.6uL/3.2uL Err: 0, Ch:A08 27.6uL/3.2uL Err: 0, Ch:B08 27.5uL/3.1uL Err: 0, Ch:C08 27.6uL/3.2uL Err: 0, Ch:D08 27.5uL/3.1uL Err: 0, Ch:E08 27.5uL/3.1uL Err: 0, Ch:F08 27.6uL/3.2uL Err: 0, Ch:G08 27.6uL/3.2uL Err: 0, Ch:H08 27.6uL/3.2uL Err: 0, Ch:A09 27.6uL/3.2uL Err: 0, Ch:B09 27.7uL/3.3uL Err: 0, Ch:C09 27.6uL/3.2uL Err: 0, Ch:D09 27.5uL/3.1uL Err: 0, Ch:E09 27.6uL/3.2uL Err: 0, Ch:F09 27.6uL/3.2uL Err: 0, Ch:G09 27.6uL/3.2uL Err: 0, Ch:H09 27.5uL/3.1uL Err: 0, Ch:A10 27.5uL/3.1uL Err: 0, Ch:B10 28.1uL/3.7uL Err: 0, Ch:C10 27.7uL/3.3uL Err: 0, Ch:D10 27.7uL/3.3uL Err: 0, Ch:E10 27.5uL/3.2uL Err: 0, Ch:F10 27.5uL/3.1uL Err: 0, Ch:G10 27.7uL/3.3uL Err: 0, Ch:H10 27.6uL/3.2uL Err: 0, Ch:A11 27.5uL/3.1uL Err: 0, Ch:B11 27.5uL/3.1uL Err: 0, Ch:C11 27.5uL/3.1uL Err: 0, Ch:D11 27.6uL/3.2uL Err: 0, Ch:E11 27.6uL/3.2uL Err: 0, Ch:F11 27.6uL/3.2uL Err: 0, Ch:G11 27.6uL/3.3uL Err: 0, Ch:H11 27.7uL/3.3uL Err: 0, Ch:A12 27.7uL/3.3uL Err: 0, Ch:B12 27.6uL/3.2uL Err: 0, Ch:C12 27.6uL/3.2uL Err: 0, Ch:D12 27.6uL/3.2uL Err: 0, Ch:E12 27.6uL/3.2uL Err: 0, Ch:F12 27.5uL/3.2uL Err: 0, Ch:G12 27.5uL/3.1uL Err: 0, Ch:H12 27.6uL/3.2uL Err: 0
+12/17/2019 19:17:49.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:14:26.6 and finished at 12/17/2019 19:17:49.3
+
+12/17/2019 19:22:22.8 [VVP96] VVP reports errors in last operation: Ch:A01 132.1uL/1.3uL Err: 0, Ch:B01 132.0uL/1.2uL Err: 0, Ch:C01 132.2uL/1.3uL Err: 0, Ch:D01 132.1uL/1.3uL Err: 0, Ch:E01 132.2uL/1.2uL Err: 0, Ch:F01 132.2uL/1.4uL Err: 0, Ch:G01 132.1uL/1.3uL Err: 0, Ch:H01 131.9uL/1.2uL Err: 0, Ch:A02 132.2uL/1.4uL Err: 0, Ch:B02 131.9uL/1.3uL Err: 0, Ch:C02 132.2uL/1.3uL Err: 0, Ch:D02 132.2uL/1.4uL Err: 0, Ch:E02 132.2uL/1.3uL Err: 0, Ch:F02 132.1uL/1.3uL Err: 0, Ch:G02 132.0uL/1.2uL Err: 0, Ch:H02 132.1uL/1.3uL Err: 0, Ch:A03 132.1uL/1.3uL Err: 0, Ch:B03 132.1uL/1.2uL Err: 0, Ch:C03 132.1uL/1.2uL Err: 0, Ch:D03 132.0uL/1.2uL Err: 0, Ch:E03 132.1uL/1.2uL Err: 0, Ch:F03 132.2uL/1.4uL Err: 0, Ch:G03 132.1uL/1.3uL Err: 0, Ch:H03 132.2uL/1.4uL Err: 0, Ch:A04 132.2uL/1.4uL Err: 0, Ch:B04 132.1uL/1.3uL Err: 0, Ch:C04 132.1uL/1.2uL Err: 0, Ch:D04 132.1uL/1.3uL Err: 0, Ch:E04 132.0uL/1.3uL Err: 0, Ch:F04 132.1uL/1.4uL Err: 0, Ch:G04 132.1uL/1.3uL Err: 0, Ch:H04 132.2uL/1.4uL Err: 0, Ch:A05 131.8uL/1.2uL Err: 0, Ch:B05 132.0uL/1.2uL Err: 0, Ch:C05 132.1uL/1.3uL Err: 0, Ch:D05 131.8uL/1.2uL Err: 0, Ch:E05 132.2uL/1.3uL Err: 0, Ch:F05 132.1uL/1.3uL Err: 0, Ch:G05 132.2uL/1.3uL Err: 0, Ch:H05 131.8uL/1.1uL Err: 0, Ch:A06 132.1uL/1.3uL Err: 0, Ch:B06 132.0uL/1.2uL Err: 0, Ch:C06 132.1uL/1.4uL Err: 0, Ch:D06 132.2uL/1.5uL Err: 0, Ch:E06 132.1uL/1.4uL Err: 0, Ch:F06 132.1uL/1.2uL Err: 0, Ch:G06 132.1uL/1.2uL Err: 0, Ch:H06 132.3uL/1.3uL Err: 0, Ch:A07 132.0uL/1.3uL Err: 0, Ch:B07 132.1uL/1.2uL Err: 0, Ch:C07 132.1uL/1.2uL Err: 0, Ch:D07 132.3uL/1.3uL Err: 0, Ch:E07 132.1uL/1.4uL Err: 0, Ch:F07 132.3uL/1.4uL Err: 0, Ch:G07 132.2uL/1.3uL Err: 0, Ch:H07 132.2uL/1.2uL Err: 0, Ch:A08 132.2uL/1.4uL Err: 0, Ch:B08 132.0uL/1.2uL Err: 0, Ch:C08 132.1uL/1.3uL Err: 0, Ch:D08 103.7uL/0.0uL Err: -4, Ch:E08 132.1uL/1.3uL Err: 0, Ch:F08 132.2uL/1.3uL Err: 0, Ch:G08 132.0uL/1.4uL Err: 0, Ch:H08 132.2uL/1.4uL Err: 0, Ch:A09 132.2uL/1.3uL Err: 0, Ch:B09 132.3uL/1.4uL Err: 0, Ch:C09 132.0uL/1.3uL Err: 0, Ch:D09 132.1uL/1.3uL Err: 0, Ch:E09 132.2uL/1.3uL Err: 0, Ch:F09 132.1uL/1.2uL Err: 0, Ch:G09 132.2uL/1.4uL Err: 0, Ch:H09 132.1uL/1.2uL Err: 0, Ch:A10 131.9uL/1.1uL Err: 0, Ch:B10 132.5uL/1.5uL Err: 0, Ch:C10 132.1uL/1.3uL Err: 0, Ch:D10 132.3uL/1.5uL Err: 0, Ch:E10 132.2uL/1.4uL Err: 0, Ch:F10 132.1uL/1.2uL Err: 0, Ch:G10 132.0uL/1.4uL Err: 0, Ch:H10 132.0uL/1.3uL Err: 0, Ch:A11 132.1uL/1.3uL Err: 0, Ch:B11 132.0uL/1.2uL Err: 0, Ch:C11 132.0uL/1.2uL Err: 0, Ch:D11 131.9uL/1.2uL Err: 0, Ch:E11 132.2uL/1.3uL Err: 0, Ch:F11 132.1uL/1.2uL Err: 0, Ch:G11 132.0uL/1.4uL Err: 0, Ch:H11 132.1uL/1.4uL Err: 0, Ch:A12 132.0uL/1.3uL Err: 0, Ch:B12 132.1uL/1.3uL Err: 0, Ch:C12 132.2uL/1.3uL Err: 0, Ch:D12 132.0uL/1.3uL Err: 0, Ch:E12 131.9uL/1.2uL Err: 0, Ch:F12 132.0uL/1.2uL Err: 0, Ch:G12 131.9uL/1.2uL Err: 0, Ch:H12 132.0uL/1.2uL Err: 0
+12/17/2019 19:22:25.7 [VVP96] VVP reports errors in last operation: Ch:A01 12.6uL/3.2uL Err: 0, Ch:B01 12.5uL/3.1uL Err: 0, Ch:C01 12.4uL/3.1uL Err: 0, Ch:D01 12.7uL/3.3uL Err: 0, Ch:E01 12.4uL/3.0uL Err: 0, Ch:F01 12.6uL/3.2uL Err: 0, Ch:G01 12.6uL/3.2uL Err: 0, Ch:H01 12.5uL/3.1uL Err: 0, Ch:A02 12.6uL/3.2uL Err: 0, Ch:B02 12.6uL/3.3uL Err: 0, Ch:C02 12.6uL/3.2uL Err: 0, Ch:D02 12.6uL/3.3uL Err: 0, Ch:E02 12.5uL/3.1uL Err: 0, Ch:F02 12.5uL/3.1uL Err: 0, Ch:G02 12.6uL/3.2uL Err: 0, Ch:H02 12.5uL/3.1uL Err: 0, Ch:A03 12.4uL/3.0uL Err: 0, Ch:B03 12.6uL/3.2uL Err: 0, Ch:C03 12.4uL/3.0uL Err: 0, Ch:D03 12.5uL/3.1uL Err: 0, Ch:E03 12.5uL/3.1uL Err: 0, Ch:F03 12.4uL/3.1uL Err: 0, Ch:G03 12.6uL/3.2uL Err: 0, Ch:H03 12.5uL/3.2uL Err: 0, Ch:A04 12.7uL/3.3uL Err: 0, Ch:B04 12.5uL/3.1uL Err: 0, Ch:C04 12.6uL/3.2uL Err: 0, Ch:D04 12.5uL/3.1uL Err: 0, Ch:E04 12.5uL/3.1uL Err: 0, Ch:F04 12.5uL/3.1uL Err: 0, Ch:G04 12.5uL/3.2uL Err: 0, Ch:H04 12.4uL/3.1uL Err: 0, Ch:A05 12.4uL/3.1uL Err: 0, Ch:B05 12.5uL/3.1uL Err: 0, Ch:C05 12.5uL/3.1uL Err: 0, Ch:D05 12.5uL/3.1uL Err: 0, Ch:E05 12.5uL/3.1uL Err: 0, Ch:F05 12.6uL/3.2uL Err: 0, Ch:G05 12.7uL/3.3uL Err: 0, Ch:H05 12.4uL/3.0uL Err: 0, Ch:A06 12.5uL/3.1uL Err: 0, Ch:B06 12.5uL/3.1uL Err: 0, Ch:C06 12.6uL/3.3uL Err: 0, Ch:D06 12.7uL/3.3uL Err: 0, Ch:E06 12.6uL/3.2uL Err: 0, Ch:F06 12.5uL/3.1uL Err: 0, Ch:G06 12.6uL/3.2uL Err: 0, Ch:H06 12.5uL/3.1uL Err: 0, Ch:A07 12.5uL/3.1uL Err: 0, Ch:B07 12.6uL/3.2uL Err: 0, Ch:C07 12.5uL/3.1uL Err: 0, Ch:D07 12.5uL/3.1uL Err: 0, Ch:E07 12.5uL/3.2uL Err: 0, Ch:F07 12.7uL/3.3uL Err: 0, Ch:G07 12.5uL/3.1uL Err: 0, Ch:H07 12.6uL/3.2uL Err: 0, Ch:A08 12.6uL/3.2uL Err: 0, Ch:B08 12.6uL/3.2uL Err: 0, Ch:C08 12.5uL/3.2uL Err: 0, Ch:D08 103.7uL/0.0uL Err: -25, Ch:E08 12.6uL/3.2uL Err: 0, Ch:F08 12.6uL/3.2uL Err: 0, Ch:G08 12.6uL/3.2uL Err: 0, Ch:H08 12.7uL/3.3uL Err: 0, Ch:A09 12.5uL/3.1uL Err: 0, Ch:B09 12.7uL/3.3uL Err: 0, Ch:C09 12.5uL/3.1uL Err: 0, Ch:D09 12.5uL/3.1uL Err: 0, Ch:E09 12.6uL/3.2uL Err: 0, Ch:F09 12.6uL/3.2uL Err: 0, Ch:G09 12.6uL/3.2uL Err: 0, Ch:H09 12.6uL/3.2uL Err: 0, Ch:A10 12.6uL/3.2uL Err: 0, Ch:B10 13.0uL/3.7uL Err: 0, Ch:C10 12.6uL/3.2uL Err: 0, Ch:D10 12.7uL/3.3uL Err: 0, Ch:E10 12.6uL/3.2uL Err: 0, Ch:F10 12.5uL/3.1uL Err: 0, Ch:G10 12.6uL/3.2uL Err: 0, Ch:H10 12.5uL/3.2uL Err: 0, Ch:A11 12.5uL/3.1uL Err: 0, Ch:B11 12.4uL/3.1uL Err: 0, Ch:C11 12.6uL/3.2uL Err: 0, Ch:D11 12.5uL/3.1uL Err: 0, Ch:E11 12.6uL/3.2uL Err: 0, Ch:F11 12.5uL/3.2uL Err: 0, Ch:G11 12.5uL/3.1uL Err: 0, Ch:H11 12.7uL/3.3uL Err: 0, Ch:A12 12.6uL/3.2uL Err: 0, Ch:B12 12.6uL/3.2uL Err: 0, Ch:C12 12.6uL/3.2uL Err: 0, Ch:D12 12.6uL/3.2uL Err: 0, Ch:E12 12.6uL/3.2uL Err: 0, Ch:F12 12.6uL/3.2uL Err: 0, Ch:G12 12.5uL/3.1uL Err: 0, Ch:H12 12.6uL/3.2uL Err: 0
+12/17/2019 19:22:36.4 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:21:25.8 and finished at 12/17/2019 19:22:36.4
+
+12/17/2019 19:33:43.2 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:32:40.4 and finished at 12/17/2019 19:33:43.2
+
+12/17/2019 19:43:33.7 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:40:24.1 and finished at 12/17/2019 19:43:33.7
+
+12/17/2019 19:45:31.5 SubProcess 'SubMethods\TipOn_Check_300uL.met' MethodCompleted, A 'Move Axis' command was stopped due to a motion error
+12/17/2019 19:45:31.5 Process 'AndStamp.met' MethodCompleted
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:43:36.8 and terminated at 12/17/2019 19:45:31.5
+    Terminate reason:CommandError
+    Command 'Move Axis', line 2, was interrupted due to A motion error, Move axes failed:ZL had MotionError
+
+[User] Clear errors.
+All device errors were resolved.
+[User] Jump.
+[UserPause] Stop.
+12/17/2019 19:46:22.7 Process 'SubMethods\TipOn_Check_300uL.met'[4] 'Eject Tips(VVP96)' MethodResumed
+12/17/2019 19:46:34.9 Process 'SubMethods\TipOn_Check_300uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:46:05.9 and finished at 12/17/2019 19:46:34.9
+
+[User] Jump.
+12/17/2019 19:47:58.3 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/17/2019 19:47:12.5 and finished at 12/17/2019 19:47:58.3
+

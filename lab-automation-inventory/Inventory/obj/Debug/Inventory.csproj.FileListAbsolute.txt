@@ -1,0 +1,6 @@
+P:\lab-automation-inventory\Inventory\bin\Debug\Inventory.dll
+P:\lab-automation-inventory\Inventory\bin\Debug\Inventory.pdb
+P:\lab-automation-inventory\Inventory\obj\Debug\Inventory.csprojAssemblyReference.cache
+P:\lab-automation-inventory\Inventory\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+P:\lab-automation-inventory\Inventory\obj\Debug\Inventory.dll
+P:\lab-automation-inventory\Inventory\obj\Debug\Inventory.pdb

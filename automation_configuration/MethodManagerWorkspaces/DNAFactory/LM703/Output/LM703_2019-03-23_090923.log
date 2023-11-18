@@ -1,0 +1,474 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+03/23/2019 09:09:23.6 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+03/23/2019 09:09:45.3 [ZL] Instruction Error Status: None
+03/23/2019 09:09:45.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:09:45.3 [ZL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:09:45.3 [ZL]   Inputs: False False False False False 
+03/23/2019 09:09:45.4 [ZL] Current IP communications rate is 10 mb.
+03/23/2019 09:09:45.4 [ZL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:09:45.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:09:45.5 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+03/23/2019 09:09:45.6 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+03/23/2019 09:09:45.7 [ZL] Start Hall-based phase initialization.
+03/23/2019 09:09:45.7 [ZL] Phases initialized.
+03/23/2019 09:09:45.8 [BarCodeZAxis] Instruction Error Status: None
+03/23/2019 09:09:45.8 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:09:45.8 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:09:45.8 [BarCodeZAxis]   Inputs: False True False False False 
+03/23/2019 09:09:45.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+03/23/2019 09:09:45.8 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:09:45.9 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:09:46.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+03/23/2019 09:09:46.0 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+03/23/2019 09:09:46.1 [BarCodeZAxis] Start Hall-based phase initialization.
+03/23/2019 09:09:46.1 [BarCodeZAxis] Phases initialized.
+03/23/2019 09:09:46.2 [YL] Instruction Error Status: None
+03/23/2019 09:09:46.2 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:09:46.2 [YL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:09:46.2 [YL]   Inputs: False False False False False 
+03/23/2019 09:09:46.3 [YL] Current IP communications rate is 10 mb.
+03/23/2019 09:09:46.3 [YL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:09:46.4 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:09:46.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:09:46.4 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:09:46.5 [YL] Start Hall-based phase initialization.
+03/23/2019 09:09:46.6 [YL] Phases initialized.
+03/23/2019 09:09:46.6 [XL] Instruction Error Status: None
+03/23/2019 09:09:46.6 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:09:46.6 [XL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:09:46.7 [XL]   Inputs: False False False False False 
+03/23/2019 09:09:46.7 [XL] Current IP communications rate is 10 mb.
+03/23/2019 09:09:46.7 [XL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:09:46.8 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:09:46.8 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:09:46.8 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:09:47.0 [XL] Start Hall-based phase initialization.
+03/23/2019 09:09:47.0 [XL] Phases initialized.
+03/23/2019 09:09:48.9 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+03/23/2019 09:09:49.2 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+03/23/2019 09:09:49.6 [ZL] Reached limit successfully.
+03/23/2019 09:09:49.6 [ZL] Attempting to back off Positive limit.
+03/23/2019 09:09:50.1 [ZL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:09:50.1 [ZL] Move to limit finished.
+03/23/2019 09:09:50.2 [ZL] Establishing new 0 position for the old position 0.00 mm.
+03/23/2019 09:09:50.2 [ZL] Timestamp of last successful home: 3/23/2019 9:09:50 AM
+03/23/2019 09:09:50.4 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+03/23/2019 09:09:50.8 [BarCodeZAxis] Reached limit successfully.
+03/23/2019 09:09:50.8 [BarCodeZAxis] Attempting to back off Negative limit.
+03/23/2019 09:09:51.3 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+03/23/2019 09:09:51.3 [BarCodeZAxis] Move to limit finished.
+03/23/2019 09:09:51.4 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+03/23/2019 09:09:51.4 [BarCodeZAxis] Timestamp of last successful home: 3/23/2019 9:09:51 AM
+03/23/2019 09:09:52.5 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:09:53.1 [YL] Reached limit successfully.
+03/23/2019 09:09:53.2 [YL] Attempting to back off Positive limit.
+03/23/2019 09:09:53.6 [YL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:09:53.6 [YL] Move to limit finished.
+03/23/2019 09:09:53.7 [YL] Establishing new 0 position for the old position 0.03 mm.
+03/23/2019 09:09:53.7 [YL] Timestamp of last successful home: 3/23/2019 9:09:53 AM
+03/23/2019 09:09:53.9 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:09:54.6 [XL] Reached limit successfully.
+03/23/2019 09:09:54.6 [XL] Attempting to back off Positive limit.
+03/23/2019 09:09:55.0 [XL] Move off limit completion: Failed (OKReady).
+03/23/2019 09:09:55.1 [XL] Failed to find Positive limit: OKReady.
+03/23/2019 09:09:55.1 [XL] Failed to home axis 'XL'.
+[User] Clear errors.
+03/23/2019 09:10:20.7 [XL] Error: RcvTimeout, Func: GetMotorLimit, Win32: 0, Date: 3/23/2019 9:10:20 AM 
+03/23/2019 09:10:26.3 [XL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:26 AM 
+03/23/2019 09:10:31.8 [YL] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:31 AM 
+03/23/2019 09:10:37.3 [YL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:37 AM 
+03/23/2019 09:10:42.8 [ZL] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:42 AM 
+03/23/2019 09:10:48.3 [ZL] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:48 AM 
+03/23/2019 09:10:53.8 [BarCodeZAxis] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:53 AM 
+03/23/2019 09:10:59.4 [BarCodeZAxis] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.4 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.4 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.4 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.4 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.4 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:10:59.5 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:10:59 AM 
+03/23/2019 09:11:05.0 [BarCodeZAxis] Error: RcvTimeout, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:05 AM 
+03/23/2019 09:11:07.2 [BarCodeZAxis] Error: RcvTimeout, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:07 AM 
+03/23/2019 09:11:12.3 [VVP96] VVP reported an initial error for the GetCommand Pressure Status: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+03/23/2019 09:11:14.3 [BarCodeZAxis] Open Handle failed for 'Outputs': PortRead
+03/23/2019 09:11:14.3 [BarCodeZAxis] Warp3 'BarCodeZAxis' is throwing an exception: Failed to initialize output device handle, OpenError = PortRead, Stack:    at Warp3Core.Warp`1.ThrowException(String errMsg, MMAxisMotionResult motionResult, Boolean showStack)
+   at Warp3Core.Warp3.SetOutput(Byte bitIndex, Boolean bitValue, Boolean bOwnPeripherialHandle)
+   at Warp3Core.Warp3.SetOutputState(Int32 bitIndex, MMIOState ioState)
+   at Warp3Core.Warp3.SetOutputState(String outputName, MMIOState ioState)
+   at MethodManager.Core.Domain.MMOutput.SetState(MMIOState state)
+   at MMGrippers.MMHeadGripper.SetOutput(IMMOutput output, Boolean state)
+   at MMGrippers.MMHeadGripper.Reset()
+   at MMGrippers.MMHeadGripper.ClearError()
+   at MMHardware.Core.MMHardwareDeviceBase.GetStatusReadyWithAxisClear(List`1 errorMsgs, Boolean tryToClearSimpleErrors)
+   at MMHardware.Core.MMHardwareDeviceBase.ClearError(List`1 errorMsgs)
+   at MethodManager.DX.Views.Main.MainForm.ClearDeviceErrors()
+   at MethodManager.DX.Views.Main.MainForm.btnClearErrors_ItemClick(Object sender, ItemClickEventArgs e)
+   at DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarButtonItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarItemLink.OnLinkActionCore(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPress(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at DevExpress.Utils.Drawing.Helpers.NativeMethods.UnsafeNativeMethods.DefSubclassProc(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam)
+   at DevExpress.Utils.Drawing.Helpers.Win32SubclasserFactory.Win32Subclasser.SubClassProcInner(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam, IntPtr uIdSubclass, IntPtr dwRefData)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at MethodManager.DX.Models.Program.Main()
+
+Errors could not be resolved for these devices:
+   Lynx (6 errors)
+      Axis 'XL' has not been homed.
+      Axis 'YL' has not been homed.
+      Axis 'ZL' has not been homed.
+      Axis 'BarCodeZAxis' has not been homed.
+      Error(s) on component 'VVP96': Exception of type 'Seyonic.Dispenser.DispenserException' was thrown.
+      Error(s) on component 'Gripper': Failed to set output 'Lynx.BarCodeZAxis.4'.
+
+03/23/2019 09:11:16.8 [XL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.8 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.8 [YL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.8 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.9 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.9 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.9 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:16 AM 
+03/23/2019 09:11:16.9 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:16 AM 
+[User] Clear errors.
+03/23/2019 09:11:19.6 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.6 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.6 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [XL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.7 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.8 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:19 AM 
+03/23/2019 09:11:19.9 [VVP96] VVP reported an initial error for the GetCommand Pressure Status: Exception of type 'Seyonic.Dispenser.DispenserException' was thrown. (Inner exception: none)
+03/23/2019 09:11:21.9 [BarCodeZAxis] Open Handle failed for 'Outputs': PortRead
+03/23/2019 09:11:22.0 [BarCodeZAxis] Warp3 'BarCodeZAxis' is throwing an exception: Failed to initialize output device handle, OpenError = PortRead, Stack:    at Warp3Core.Warp`1.ThrowException(String errMsg, MMAxisMotionResult motionResult, Boolean showStack)
+   at Warp3Core.Warp3.SetOutput(Byte bitIndex, Boolean bitValue, Boolean bOwnPeripherialHandle)
+   at Warp3Core.Warp3.SetOutputState(Int32 bitIndex, MMIOState ioState)
+   at Warp3Core.Warp3.SetOutputState(String outputName, MMIOState ioState)
+   at MethodManager.Core.Domain.MMOutput.SetState(MMIOState state)
+   at MMGrippers.MMHeadGripper.SetOutput(IMMOutput output, Boolean state)
+   at MMGrippers.MMHeadGripper.Reset()
+   at MMGrippers.MMHeadGripper.ClearError()
+   at MMHardware.Core.MMHardwareDeviceBase.GetStatusReadyWithAxisClear(List`1 errorMsgs, Boolean tryToClearSimpleErrors)
+   at MMHardware.Core.MMHardwareDeviceBase.ClearError(List`1 errorMsgs)
+   at MethodManager.DX.Views.Main.MainForm.ClearDeviceErrors()
+   at MethodManager.DX.Views.Main.MainForm.btnClearErrors_ItemClick(Object sender, ItemClickEventArgs e)
+   at DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarButtonItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.BarItemLink.OnLinkActionCore(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPress(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   at DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at DevExpress.Utils.Drawing.Helpers.NativeMethods.UnsafeNativeMethods.DefSubclassProc(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam)
+   at DevExpress.Utils.Drawing.Helpers.Win32SubclasserFactory.Win32Subclasser.SubClassProcInner(IntPtr hWnd, IntPtr Msg, IntPtr wParam, IntPtr lParam, IntPtr uIdSubclass, IntPtr dwRefData)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at MethodManager.DX.Models.Program.Main()
+
+Errors could not be resolved for these devices:
+   Lynx (6 errors)
+      Axis 'XL' has not been homed.
+      Axis 'YL' has not been homed.
+      Axis 'ZL' has not been homed.
+      Axis 'BarCodeZAxis' has not been homed.
+      Error(s) on component 'VVP96': Exception of type 'Seyonic.Dispenser.DispenserException' was thrown.
+      Error(s) on component 'Gripper': Failed to set output 'Lynx.BarCodeZAxis.4'.
+
+03/23/2019 09:11:24.0 [XL] Error: PortRead, Func: GetMotorLimit, Win32: 0, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.0 [XL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.0 [YL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.0 [YL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.1 [ZL] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.1 [ZL] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.1 [BarCodeZAxis] Error: PortRead, Func: GetMotorLimit, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:24.1 [BarCodeZAxis] Error: PortRead, Func: SetBufferReadIndex, Win32: B7, Date: 3/23/2019 9:11:24 AM 
+03/23/2019 09:11:28.8 [ZL] Closing component connections for Warp 'ZL'.
+03/23/2019 09:11:29.0 [ZL] Instruction Error Status: None
+03/23/2019 09:11:29.0 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:11:29.0 [ZL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:11:29.1 [ZL]   Inputs: False False False False False 
+03/23/2019 09:11:29.1 [ZL] Current IP communications rate is 10 mb.
+03/23/2019 09:11:29.1 [ZL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:11:29.2 [ZL] Relative motor limit setting 100.0%, changing limit from 100.0% to 30.0%
+03/23/2019 09:11:29.2 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:11:29.3 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+03/23/2019 09:11:29.3 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+03/23/2019 09:11:29.5 [ZL] Start Hall-based phase initialization.
+03/23/2019 09:11:29.5 [ZL] Phases initialized.
+03/23/2019 09:11:29.5 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+03/23/2019 09:11:29.7 [BarCodeZAxis] Instruction Error Status: None
+03/23/2019 09:11:29.7 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:11:29.8 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:11:29.8 [BarCodeZAxis]   Inputs: False False False False False 
+03/23/2019 09:11:29.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+03/23/2019 09:11:29.9 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:11:29.9 [BarCodeZAxis] Relative motor limit setting 100.0%, changing limit from 100.0% to 10.0%
+03/23/2019 09:11:30.0 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:11:30.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+03/23/2019 09:11:30.1 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+03/23/2019 09:11:30.2 [BarCodeZAxis] Start Hall-based phase initialization.
+03/23/2019 09:11:30.3 [BarCodeZAxis] Phases initialized.
+03/23/2019 09:11:30.3 [YL] Closing component connections for Warp 'YL'.
+03/23/2019 09:11:30.5 [YL] Instruction Error Status: None
+03/23/2019 09:11:30.5 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:11:30.5 [YL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:11:30.6 [YL]   Inputs: False False False False False 
+03/23/2019 09:11:30.6 [YL] Current IP communications rate is 10 mb.
+03/23/2019 09:11:30.6 [YL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:11:30.7 [YL] Relative motor limit setting 100.0%, changing limit from 100.0% to 70.0%
+03/23/2019 09:11:30.7 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:11:30.8 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:11:30.8 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:11:31.0 [YL] Start Hall-based phase initialization.
+03/23/2019 09:11:31.0 [YL] Phases initialized.
+03/23/2019 09:11:31.1 [XL] Closing component connections for Warp 'XL'.
+03/23/2019 09:11:31.2 [XL] Instruction Error Status: None
+03/23/2019 09:11:31.3 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:11:31.3 [XL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:11:31.3 [XL]   Inputs: False False False False False 
+03/23/2019 09:11:31.3 [XL] Current IP communications rate is 10 mb.
+03/23/2019 09:11:31.4 [XL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:11:31.5 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:11:31.5 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:11:31.5 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:11:31.7 [XL] Start Hall-based phase initialization.
+03/23/2019 09:11:31.7 [XL] Phases initialized.
+03/23/2019 09:11:33.6 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+03/23/2019 09:11:33.8 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+03/23/2019 09:11:34.3 [ZL] Reached limit successfully.
+03/23/2019 09:11:34.3 [ZL] Attempting to back off Positive limit.
+03/23/2019 09:11:34.7 [ZL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:11:34.8 [ZL] Move to limit finished.
+03/23/2019 09:11:34.8 [ZL] Establishing new 0 position for the old position 0.43 mm.
+03/23/2019 09:11:34.9 [ZL] Timestamp of last successful home: 3/23/2019 9:11:34 AM
+03/23/2019 09:11:35.1 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+03/23/2019 09:11:35.5 [BarCodeZAxis] Reached limit successfully.
+03/23/2019 09:11:35.6 [BarCodeZAxis] Attempting to back off Negative limit.
+03/23/2019 09:11:36.0 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+03/23/2019 09:11:36.1 [BarCodeZAxis] Move to limit finished.
+03/23/2019 09:11:36.1 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+03/23/2019 09:11:36.2 [BarCodeZAxis] Timestamp of last successful home: 3/23/2019 9:11:36 AM
+03/23/2019 09:11:37.5 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:11:49.6 [YL] Reached limit successfully.
+03/23/2019 09:11:49.6 [YL] Attempting to back off Positive limit.
+03/23/2019 09:11:50.1 [YL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:11:50.2 [YL] Move to limit finished.
+03/23/2019 09:11:50.2 [YL] Establishing new 0 position for the old position 234.47 mm.
+03/23/2019 09:11:50.3 [YL] Timestamp of last successful home: 3/23/2019 9:11:50 AM
+03/23/2019 09:11:50.5 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:11:57.5 [XL] Reached limit successfully.
+03/23/2019 09:11:57.5 [XL] Attempting to back off Positive limit.
+03/23/2019 09:11:57.9 [XL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:11:58.0 [XL] Move to limit finished.
+03/23/2019 09:11:58.0 [XL] Establishing new 0 position for the old position 131.32 mm.
+03/23/2019 09:11:58.1 [XL] Timestamp of last successful home: 3/23/2019 9:11:58 AM
+[User] Start.
+03/23/2019 09:13:50.2 Process 'AndStamp.met' MethodStarted
+03/23/2019 09:13:50.3 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/23/2019 09:13:50.3 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+03/23/2019 09:13:52.4 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 3/23/2019 9:13:52 AM 
+03/23/2019 09:13:52.4 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandFailed
+03/23/2019 09:14:19.0 Process 'AndStamp.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/23/2019 09:13:50.2 and terminated at 03/23/2019 09:14:18.9
+    Terminate reason:CommandError
+    Command 'Load Tips(VVP96)', line 0, was interrupted due to Axis 'XL' failed position query: 'Error'
+
+03/23/2019 09:48:15.1 Process 'AndStamp.met' MethodStarted
+03/23/2019 09:48:15.1 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/23/2019 09:48:15.1 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+03/23/2019 09:48:17.1 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 3/23/2019 9:48:17 AM 
+03/23/2019 09:48:17.1 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandFailed
+03/23/2019 09:49:12.2 Process 'AndStamp.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/23/2019 09:48:15.1 and terminated at 03/23/2019 09:49:12.2
+    Terminate reason:CommandError
+    Command 'Load Tips(VVP96)', line 0, was interrupted due to Axis 'XL' failed position query: 'Error'
+
+[User] Clear errors.
+No Device Errors to resolve.
+03/23/2019 09:49:27.2 [ZL] Closing component connections for Warp 'ZL'.
+03/23/2019 09:49:27.7 [ZL] Instruction Error Status: None
+03/23/2019 09:49:27.7 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:49:27.7 [ZL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:49:27.7 [ZL]   Inputs: False False False False False 
+03/23/2019 09:49:27.7 [ZL] Current IP communications rate is 10 mb.
+03/23/2019 09:49:27.7 [ZL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:49:27.8 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:49:27.9 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+03/23/2019 09:49:27.9 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+03/23/2019 09:49:28.0 [ZL] Start Hall-based phase initialization.
+03/23/2019 09:49:28.1 [ZL] Phases initialized.
+03/23/2019 09:49:28.1 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+03/23/2019 09:49:28.6 [BarCodeZAxis] Instruction Error Status: None
+03/23/2019 09:49:28.6 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:49:28.6 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:49:28.7 [BarCodeZAxis]   Inputs: False True False False False 
+03/23/2019 09:49:28.7 [BarCodeZAxis] Current IP communications rate is 10 mb.
+03/23/2019 09:49:28.7 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:49:28.8 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/23/2019 09:49:28.8 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+03/23/2019 09:49:28.8 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+03/23/2019 09:49:29.0 [BarCodeZAxis] Start Hall-based phase initialization.
+03/23/2019 09:49:29.0 [BarCodeZAxis] Phases initialized.
+03/23/2019 09:49:29.0 [YL] Closing component connections for Warp 'YL'.
+03/23/2019 09:49:29.5 [YL] Instruction Error Status: None
+03/23/2019 09:49:29.6 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:49:29.6 [YL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:49:29.6 [YL]   Inputs: False False False False False 
+03/23/2019 09:49:29.6 [YL] Current IP communications rate is 10 mb.
+03/23/2019 09:49:29.6 [YL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:49:29.7 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:49:29.7 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:49:29.8 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:49:29.9 [YL] Start Hall-based phase initialization.
+03/23/2019 09:49:29.9 [YL] Phases initialized.
+03/23/2019 09:49:30.0 [XL] Closing component connections for Warp 'XL'.
+03/23/2019 09:49:30.5 [XL] Instruction Error Status: None
+03/23/2019 09:49:30.5 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+03/23/2019 09:49:30.5 [XL] Configured as an enhanced Warp3 with I/O.
+03/23/2019 09:49:30.5 [XL]   Inputs: False False False False False 
+03/23/2019 09:49:30.6 [XL] Current IP communications rate is 10 mb.
+03/23/2019 09:49:30.6 [XL] IP communications speed is currently set to 10 Mbps.
+03/23/2019 09:49:30.7 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/23/2019 09:49:30.7 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/23/2019 09:49:30.7 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/23/2019 09:49:30.9 [XL] Start Hall-based phase initialization.
+03/23/2019 09:49:30.9 [XL] Phases initialized.
+03/23/2019 09:49:33.1 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+03/23/2019 09:49:33.3 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+03/23/2019 09:49:33.7 [ZL] Reached limit successfully.
+03/23/2019 09:49:33.7 [ZL] Attempting to back off Positive limit.
+03/23/2019 09:49:34.2 [ZL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:49:34.2 [ZL] Move to limit finished.
+03/23/2019 09:49:34.2 [ZL] Establishing new 0 position for the old position 0.00 mm.
+03/23/2019 09:49:34.3 [ZL] Timestamp of last successful home: 3/23/2019 9:49:34 AM
+03/23/2019 09:49:34.5 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+03/23/2019 09:49:34.9 [BarCodeZAxis] Reached limit successfully.
+03/23/2019 09:49:34.9 [BarCodeZAxis] Attempting to back off Negative limit.
+03/23/2019 09:49:35.4 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+03/23/2019 09:49:35.4 [BarCodeZAxis] Move to limit finished.
+03/23/2019 09:49:35.5 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+03/23/2019 09:49:35.5 [BarCodeZAxis] Timestamp of last successful home: 3/23/2019 9:49:35 AM
+03/23/2019 09:49:36.8 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:49:37.5 [YL] Reached limit successfully.
+03/23/2019 09:49:37.5 [YL] Attempting to back off Positive limit.
+03/23/2019 09:49:37.9 [YL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:49:38.0 [YL] Move to limit finished.
+03/23/2019 09:49:38.0 [YL] Establishing new 0 position for the old position 0.05 mm.
+03/23/2019 09:49:38.1 [YL] Timestamp of last successful home: 3/23/2019 9:49:38 AM
+03/23/2019 09:49:38.2 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/23/2019 09:49:38.9 [XL] Reached limit successfully.
+03/23/2019 09:49:38.9 [XL] Attempting to back off Positive limit.
+03/23/2019 09:49:39.4 [XL] Move off limit completion: Successful (OKReady).
+03/23/2019 09:49:39.4 [XL] Move to limit finished.
+03/23/2019 09:49:39.4 [XL] Establishing new 0 position for the old position -0.03 mm.
+03/23/2019 09:49:39.5 [XL] Timestamp of last successful home: 3/23/2019 9:49:39 AM
+03/23/2019 09:50:22.0 Process 'AndStamp.met' MethodStarted
+03/23/2019 09:50:22.0 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/23/2019 09:50:22.1 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+03/23/2019 09:50:24.1 [XL] Error: MutexTimeout, Func: GetActualPosition, Win32: 0, Date: 3/23/2019 9:50:24 AM 
+03/23/2019 09:50:24.1 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandFailed
+03/23/2019 10:02:07.2 Process 'AndStamp.met' MethodCompleted, Application error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/23/2019 09:50:22.0 and terminated at 03/23/2019 10:02:07.2
+    Terminate reason:CommandError
+    Command 'Load Tips(VVP96)', line 0, was interrupted due to Axis 'XL' failed position query: 'Error'
+
+[User] Step.
+03/23/2019 10:02:33.9 Process 'AndStamp.met' MethodStarted
+03/23/2019 10:02:33.9 Process 'AndStamp.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/23/2019 10:02:33.9 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/23/2019 10:02:33.9 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/23/2019 10:02:33.9 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+03/23/2019 10:02:33.9 Process 'AndStamp.met'[4] 'Eject Tips(VVP96)' CommandFailed
+03/23/2019 10:04:06.9 Process 'AndStamp.met' MethodCompleted, A 'Eject Tips(VVP96)' command has a logic or parameter error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/23/2019 10:02:33.9 and terminated at 03/23/2019 10:04:06.9
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Command 'Eject Tips(VVP96)' requires a valid tip type
+
+03/23/2019 10:04:12.6 [XL] Closing component connections for Warp 'XL'.
+03/23/2019 10:04:12.6 [YL] Closing component connections for Warp 'YL'.
+03/23/2019 10:04:12.6 [ZL] Closing component connections for Warp 'ZL'.
+03/23/2019 10:04:12.6 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+03/23/2019 10:04:13.2 [Lynx] 

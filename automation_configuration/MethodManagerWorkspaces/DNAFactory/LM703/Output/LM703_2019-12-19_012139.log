@@ -1,0 +1,33 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.7265.22152
+  MMCoreDevice   1.4.7265.22158
+  MMLiquidHandler   1.4.7265.22229
+  Warp3   2.0.7265.22182
+  MMVVP   1.4.7265.22230
+  MMIOLightTower   1.4.7265.22229
+  MMHeadGripper   1.4.7265.22430
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+[User] Start.
+12/19/2019 13:43:17.3 Process 'Stamp_150uL.met' MethodCompleted, A 'Aspirate(VVP96)' command was stopped due to a motion error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:42:51.4 and terminated at 12/19/2019 13:43:17.2
+    Terminate reason:CommandError
+    Command 'Aspirate(VVP96)', line 6, was interrupted due to A motion error, Move X/Y axes failed:XL had MotionError, YL had MotionError
+
+[User] Step.
+12/19/2019 13:44:35.3 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:44:27.4 and finished at 12/19/2019 13:44:35.3
+
+[User] Start.
+12/19/2019 13:46:13.6 Process 'Stamp_150uL.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/19/2019 13:44:40.2 and finished at 12/19/2019 13:46:13.6
+

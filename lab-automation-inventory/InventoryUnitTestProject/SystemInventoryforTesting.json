@@ -1,0 +1,854 @@
+{
+	"system_name": "LM10965",
+	"system_lm": "LM10965",
+	"devices": [
+		{
+			"device_name": "stack1",
+			"device_type": "static_stack",
+			"lm_number": "",
+			"enabled": true,
+			"num_nests": 23,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 4,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 5,
+					"workflow_id": null,
+					"plate_barcode": "PQXXXXX",
+					"priority": "1",
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 6,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 7,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 8,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 9,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 10,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 11,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 12,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 13,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 14,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 15,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 16,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 17,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 18,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 19,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 20,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 21,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 22,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 23,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "stack2",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 24,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 4,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 5,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 6,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 7,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 8,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 9,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 10,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 11,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 12,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 13,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 14,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 15,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 16,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 17,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 18,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 19,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 20,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 21,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 22,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 23,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 24,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "stack3",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 23,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 4,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 5,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 6,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 7,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 8,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 9,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 10,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 11,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 12,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 13,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 14,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 15,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 16,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 17,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 18,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 19,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 20,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 21,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 22,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 23,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "stack4",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 5,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 4,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 5,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "stack5",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 3,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "stack6",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 5,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 4,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 5,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "verso",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 1,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "centrifuge1",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 1,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "bravo1",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 1,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "lunatic1",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 1,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": "30113Ag0p10023",
+					"priority": "1",
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "lunatic2",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 1,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": "30113Ag0p10022",
+					"priority": "1",
+					"assay_id": null,
+					"status": null
+				}
+			]
+		},
+		{
+			"device_name": "lynx",
+			"device_type": null,
+			"lm_number": null,
+			"enabled": true,
+			"num_nests": 3,
+			"stacks": null,
+			"nests": [
+				{
+					"nest_number": 1,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 2,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				},
+				{
+					"nest_number": 3,
+					"workflow_id": null,
+					"plate_barcode": null,
+					"priority": null,
+					"assay_id": null,
+					"status": null
+				}
+			]
+		}
+	]
+}

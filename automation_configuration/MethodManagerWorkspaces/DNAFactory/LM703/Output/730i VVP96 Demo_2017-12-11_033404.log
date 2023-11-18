@@ -1,0 +1,126 @@
+Logfile Name: C:\MethodManager4\Workspaces\730i VVP96 Demo\Output\730i VVP96 Demo_2017-12-11_033404.log
+Workspace '730i VVP96 Demo' modules...
+  MethodManagerV4   1.3.6522.17140
+  MMCoreDevice   1.3.6522.17174
+  MMLiquidHandler   1.3.6522.9893
+  Warp3   2.0.6522.17120
+  MMVVP   1.3.6522.9892
+  MMIOLightTower   1.3.0.0
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-1000NF', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+12/11/2017 15:34:05.240 The remote server is not configured: 
+12/11/2017 15:34:07.026 [ZL] Instruction Error Status: None
+12/11/2017 15:34:07.039 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:07.053 [ZL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:07.076 [ZL]   Inputs: False False False False False 
+12/11/2017 15:34:07.103 [ZL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:07.109 [ZL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:07.217 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+12/11/2017 15:34:07.255 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+12/11/2017 15:34:07.268 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+12/11/2017 15:34:07.427 [ZL] Start Hall-based phase initialization.
+12/11/2017 15:34:07.445 [ZL] Phases initialized.
+12/11/2017 15:34:07.502 [YL] Instruction Error Status: None
+12/11/2017 15:34:07.516 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:07.529 [YL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:07.551 [YL]   Inputs: False False False False False 
+12/11/2017 15:34:07.574 [YL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:07.581 [YL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:07.674 [YL] Phase correction: disabled, prescale: 1, phase counts: 3901
+12/11/2017 15:34:07.707 [YL] SetCurrentFoldbackAmps(8, 100) will set 17440 , 1083
+12/11/2017 15:34:07.722 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Y Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 4096 cts/mm.
+12/11/2017 15:34:07.877 [YL] Start Hall-based phase initialization.
+12/11/2017 15:34:07.898 [YL] Phases initialized.
+12/11/2017 15:34:07.947 [XL] Instruction Error Status: None
+12/11/2017 15:34:07.961 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:07.975 [XL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:07.997 [XL]   Inputs: False False False False False 
+12/11/2017 15:34:08.020 [XL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:08.026 [XL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:08.116 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+12/11/2017 15:34:08.151 [XL] SetCurrentFoldbackAmps(8, 150) will set 17440 , 1625
+12/11/2017 15:34:08.164 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\X Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 2000 cts/mm.
+12/11/2017 15:34:08.318 [XL] Start Hall-based phase initialization.
+12/11/2017 15:34:08.330 [XL] Phases initialized.
+12/11/2017 15:34:17.849 [ZL] Closing component connections for Warp 'ZL'.
+12/11/2017 15:34:18.371 [ZL] Instruction Error Status: None
+12/11/2017 15:34:18.387 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:18.401 [ZL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:18.422 [ZL]   Inputs: False False False False False 
+12/11/2017 15:34:18.445 [ZL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:18.451 [ZL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:18.542 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+12/11/2017 15:34:18.577 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+12/11/2017 15:34:18.591 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+12/11/2017 15:34:18.746 [ZL] Start Hall-based phase initialization.
+12/11/2017 15:34:18.759 [ZL] Phases initialized.
+12/11/2017 15:34:18.809 [YL] Closing component connections for Warp 'YL'.
+12/11/2017 15:34:19.331 [YL] Instruction Error Status: None
+12/11/2017 15:34:19.344 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:19.362 [YL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:19.384 [YL]   Inputs: False False False False False 
+12/11/2017 15:34:19.412 [YL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:19.419 [YL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:19.514 [YL] Phase correction: disabled, prescale: 1, phase counts: 3901
+12/11/2017 15:34:19.548 [YL] SetCurrentFoldbackAmps(8, 100) will set 17440 , 1083
+12/11/2017 15:34:19.564 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Y Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 4096 cts/mm.
+12/11/2017 15:34:19.719 [YL] Start Hall-based phase initialization.
+12/11/2017 15:34:19.729 [YL] Phases initialized.
+12/11/2017 15:34:19.766 [XL] Closing component connections for Warp 'XL'.
+12/11/2017 15:34:20.282 [XL] Instruction Error Status: None
+12/11/2017 15:34:20.296 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:34:20.310 [XL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:34:20.332 [XL]   Inputs: False False False False False 
+12/11/2017 15:34:20.355 [XL] Current IP communications rate is 10 mb.
+12/11/2017 15:34:20.362 [XL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:34:20.453 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+12/11/2017 15:34:20.496 [XL] SetCurrentFoldbackAmps(8, 150) will set 17440 , 1625
+12/11/2017 15:34:20.510 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\X Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 2000 cts/mm.
+12/11/2017 15:34:20.666 [XL] Start Hall-based phase initialization.
+12/11/2017 15:34:20.678 [XL] Phases initialized.
+12/11/2017 15:47:44.701 [ZL] Closing component connections for Warp 'ZL'.
+12/11/2017 15:47:44.725 [ZL] Instruction Error Status: None
+12/11/2017 15:47:44.736 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:47:44.749 [ZL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:47:44.780 [ZL]   Inputs: False False False False False 
+12/11/2017 15:47:44.804 [ZL] Current IP communications rate is 10 mb.
+12/11/2017 15:47:44.811 [ZL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:47:44.903 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+12/11/2017 15:47:44.937 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+12/11/2017 15:47:44.950 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+12/11/2017 15:47:45.104 [ZL] Start Hall-based phase initialization.
+12/11/2017 15:47:45.118 [ZL] Phases initialized.
+12/11/2017 15:47:45.160 [YL] Closing component connections for Warp 'YL'.
+12/11/2017 15:47:45.676 [YL] Instruction Error Status: None
+12/11/2017 15:47:45.694 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:47:45.714 [YL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:47:45.747 [YL]   Inputs: False False False False False 
+12/11/2017 15:47:45.771 [YL] Current IP communications rate is 10 mb.
+12/11/2017 15:47:45.778 [YL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:47:45.872 [YL] Phase correction: disabled, prescale: 1, phase counts: 3901
+12/11/2017 15:47:45.906 [YL] SetCurrentFoldbackAmps(8, 100) will set 17440 , 1083
+12/11/2017 15:47:45.922 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Y Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 4096 cts/mm.
+12/11/2017 15:47:46.077 [YL] Start Hall-based phase initialization.
+12/11/2017 15:47:46.094 [YL] Phases initialized.
+12/11/2017 15:47:46.133 [XL] Closing component connections for Warp 'XL'.
+12/11/2017 15:47:46.156 [XL] Instruction Error Status: None
+12/11/2017 15:47:46.171 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+12/11/2017 15:47:46.185 [XL] Configured as an enhanced Warp3 with I/O.
+12/11/2017 15:47:46.206 [XL]   Inputs: False False False False False 
+12/11/2017 15:47:46.230 [XL] Current IP communications rate is 10 mb.
+12/11/2017 15:47:46.240 [XL] IP communications speed is currently set to 10 Mbps.
+12/11/2017 15:47:46.333 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+12/11/2017 15:47:46.366 [XL] SetCurrentFoldbackAmps(8, 150) will set 17440 , 1625
+12/11/2017 15:47:46.380 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\X Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 2000 cts/mm.
+12/11/2017 15:47:46.541 [XL] Start Hall-based phase initialization.
+12/11/2017 15:47:46.552 [XL] Phases initialized.
+12/11/2017 15:48:07.074 [XL] Closing component connections for Warp 'XL'.
+12/11/2017 15:48:07.089 [YL] Closing component connections for Warp 'YL'.
+12/11/2017 15:48:07.101 [ZL] Closing component connections for Warp 'ZL'.
+12/11/2017 15:48:07.109 [Lynx] 

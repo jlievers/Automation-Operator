@@ -1,0 +1,16 @@
+[Experiment definition]
+experiment_name="remote test"
+application_name="dsDNA (Turbidity)"
+dropplate_type="Lunatic Plate"
+
+[Import samples]
+column_source_plate=-1
+column_source_position=-1
+column_dropplate_ID=0
+column_dropplate_position=1
+column_sample_name=2
+column_blank_dropplate_ID=-1
+column_blank_dropplate_position=-1
+blanking_information=0
+blank_dropplate_ID=""
+blank_dropplate_position=""

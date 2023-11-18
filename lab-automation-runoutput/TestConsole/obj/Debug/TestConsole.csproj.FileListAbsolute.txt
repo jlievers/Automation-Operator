@@ -1,0 +1,2 @@
+P:\lab-automation-runoutput\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
+P:\lab-automation-runoutput\TestConsole\obj\Debug\TestConsole.csproj.CoreCompileInputs.cache

@@ -1,0 +1,341 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+07/27/2019 11:21:13.1 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+07/27/2019 11:22:18.3 [ZL] Instruction Error Status: None
+07/27/2019 11:22:18.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 11:22:18.3 [ZL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 11:22:18.3 [ZL]   Inputs: False False False False False 
+07/27/2019 11:22:18.4 [ZL] Current IP communications rate is 10 mb.
+07/27/2019 11:22:18.4 [ZL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 11:22:18.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 11:22:18.5 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/27/2019 11:22:18.6 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/27/2019 11:22:18.7 [ZL] Start Hall-based phase initialization.
+07/27/2019 11:22:18.7 [ZL] Phases initialized.
+07/27/2019 11:22:18.8 [BarCodeZAxis] Instruction Error Status: None
+07/27/2019 11:22:18.8 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 11:22:18.8 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/27/2019 11:22:18.8 [BarCodeZAxis]   Inputs: False True False False False 
+07/27/2019 11:22:18.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/27/2019 11:22:18.8 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/27/2019 11:22:18.9 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 11:22:19.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/27/2019 11:22:19.0 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/27/2019 11:22:19.1 [BarCodeZAxis] Start Hall-based phase initialization.
+07/27/2019 11:22:19.1 [BarCodeZAxis] Phases initialized.
+07/27/2019 11:22:19.2 [YL] Instruction Error Status: None
+07/27/2019 11:22:19.2 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 11:22:19.2 [YL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 11:22:19.2 [YL]   Inputs: False False False False False 
+07/27/2019 11:22:19.3 [YL] Current IP communications rate is 10 mb.
+07/27/2019 11:22:19.3 [YL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 11:22:19.4 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 11:22:19.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 11:22:19.4 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 11:22:19.6 [YL] Start Hall-based phase initialization.
+07/27/2019 11:22:19.6 [YL] Phases initialized.
+07/27/2019 11:22:19.6 [XL] Instruction Error Status: None
+07/27/2019 11:22:19.6 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 11:22:19.6 [XL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 11:22:19.7 [XL]   Inputs: False False False False False 
+07/27/2019 11:22:19.7 [XL] Current IP communications rate is 10 mb.
+07/27/2019 11:22:19.7 [XL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 11:22:19.8 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 11:22:19.8 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 11:22:19.8 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 11:22:20.0 [XL] Start Hall-based phase initialization.
+07/27/2019 11:22:20.0 [XL] Phases initialized.
+07/27/2019 11:22:22.2 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/27/2019 11:22:22.4 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+07/27/2019 11:22:27.8 [ZL] Reached limit successfully.
+07/27/2019 11:22:27.8 [ZL] Attempting to back off Positive limit.
+07/27/2019 11:22:28.7 [ZL] Move off limit completion: Successful (OKReady).
+07/27/2019 11:22:28.7 [ZL] Move to limit finished.
+07/27/2019 11:22:28.7 [ZL] Establishing new 0 position for the old position -0.06 mm.
+07/27/2019 11:22:28.8 [ZL] Timestamp of last successful home: 7/27/2019 11:22:28 AM
+07/27/2019 11:22:29.0 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+07/27/2019 11:22:29.4 [BarCodeZAxis] Reached limit successfully.
+07/27/2019 11:22:29.4 [BarCodeZAxis] Attempting to back off Negative limit.
+07/27/2019 11:22:29.9 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+07/27/2019 11:22:29.9 [BarCodeZAxis] Move to limit finished.
+07/27/2019 11:22:29.9 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+07/27/2019 11:22:30.0 [BarCodeZAxis] Timestamp of last successful home: 7/27/2019 11:22:30 AM
+07/27/2019 11:22:33.4 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 11:22:39.3 [YL] Reached limit successfully.
+07/27/2019 11:22:39.4 [YL] Attempting to back off Positive limit.
+07/27/2019 11:22:39.8 [YL] Move off limit completion: Successful (OKReady).
+07/27/2019 11:22:39.8 [YL] Move to limit finished.
+07/27/2019 11:22:39.9 [YL] Establishing new 0 position for the old position 0.02 mm.
+07/27/2019 11:22:39.9 [YL] Timestamp of last successful home: 7/27/2019 11:22:39 AM
+07/27/2019 11:22:40.1 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 11:22:48.6 [XL] Reached limit successfully.
+07/27/2019 11:22:48.6 [XL] Attempting to back off Positive limit.
+07/27/2019 11:22:49.0 [XL] Move off limit completion: Successful (OKReady).
+07/27/2019 11:22:49.1 [XL] Move to limit finished.
+07/27/2019 11:22:49.1 [XL] Establishing new 0 position for the old position -0.11 mm.
+07/27/2019 11:22:49.1 [XL] Timestamp of last successful home: 7/27/2019 11:22:49 AM
+[User] Step.
+07/27/2019 11:24:42.4 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:24:42.4 Process 'AndStamp.met'[4] 'Dispense(VVP96)' CommandStarted
+07/27/2019 11:24:42.5 [Lynx.Dispense(VVP96).VVP96] Plate 'Nunc 1ml_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 1.00 mm.
+07/27/2019 11:24:42.5 [Lynx.Dispense(VVP96).VVP96] No current tip.
+07/27/2019 11:24:42.5 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_01' (2.46 mm, -14.88 mm, -173.43 mm) with a stack index of 1.
+07/27/2019 11:24:42.5 Process 'AndStamp.met'[4] 'Dispense(VVP96)' CommandFailed
+07/27/2019 11:24:51.9 Process 'AndStamp.met' MethodCompleted, A 'Dispense(VVP96)' command has a logic or parameter error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:24:42.4 and terminated at 07/27/2019 11:24:51.8
+    Terminate reason:CommandError
+    Command 'Dispense(VVP96)', line 4, was interrupted due to Command 'Dispense(VVP96)' requires a valid tip type
+
+[User] Step.
+07/27/2019 11:25:08.6 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:25:08.7 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+07/27/2019 11:25:08.7 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -0.04 mm, 'YL' -0.05 mm, 'ZL' 0.00 mm
+07/27/2019 11:25:11.9 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+07/27/2019 11:25:11.9 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+07/27/2019 11:25:14.5 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.8 mm, motor current 25.2 %
+07/27/2019 11:25:14.6 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+07/27/2019 11:25:14.6 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.00 mm, -3.78 mm
+07/27/2019 11:25:14.8 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+07/27/2019 11:25:14.9 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+07/27/2019 11:25:15.0 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+07/27/2019 11:25:15.2 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+07/27/2019 11:25:15.3 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+07/27/2019 11:25:17.0 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+07/27/2019 11:25:17.0 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+07/27/2019 11:25:17.0 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.76 mm, 'YL' -212.50 mm, 'ZL' -2.02 mm
+07/27/2019 11:25:17.0 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:25:17.0 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 8 s.
+07/27/2019 11:25:17.0 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandCompleted
+07/27/2019 11:25:17.0 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:25:08.6 and finished at 07/27/2019 11:25:17.0
+
+[User] Step.
+07/27/2019 11:25:26.0 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:25:26.0 Process 'AndStamp.met'[4] 'Dispense(VVP96)' CommandStarted
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Plate 'Nunc 1ml_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 1.00 mm.
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_01' (2.46 mm, -14.88 mm, -173.43 mm) with a stack index of 1.
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.64 uL, Pre/Post delay 0.00/1.00
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Dispense parameters (0): 
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Blowout parameters (96): Ch:A01 10.0uL/0.6uL; Ch:B01 10.0uL/0.6uL; Ch:C01 10.0uL/0.6uL; Ch:D01 10.0uL/0.6uL; Ch:E01 10.0uL/0.6uL; Ch:F01 10.0uL/0.6uL; Ch:G01 10.0uL/0.6uL; Ch:H01 10.0uL/0.6uL; Ch:A02 10.0uL/0.6uL; Ch:B02 10.0uL/0.6uL; Ch:C02 10.0uL/0.6uL; Ch:D02 10.0uL/0.6uL; Ch:E02 10.0uL/0.6uL; Ch:F02 10.0uL/0.6uL; Ch:G02 10.0uL/0.6uL; Ch:H02 10.0uL/0.6uL; Ch:A03 10.0uL/0.6uL; Ch:B03 10.0uL/0.6uL; Ch:C03 10.0uL/0.6uL; Ch:D03 10.0uL/0.6uL; Ch:E03 10.0uL/0.6uL; Ch:F03 10.0uL/0.6uL; Ch:G03 10.0uL/0.6uL; Ch:H03 10.0uL/0.6uL; Ch:A04 10.0uL/0.6uL; Ch:B04 10.0uL/0.6uL; Ch:C04 10.0uL/0.6uL; Ch:D04 10.0uL/0.6uL; Ch:E04 10.0uL/0.6uL; Ch:F04 10.0uL/0.6uL; Ch:G04 10.0uL/0.6uL; Ch:H04 10.0uL/0.6uL; Ch:A05 10.0uL/0.6uL; Ch:B05 10.0uL/0.6uL; Ch:C05 10.0uL/0.6uL; Ch:D05 10.0uL/0.6uL; Ch:E05 10.0uL/0.6uL; Ch:F05 10.0uL/0.6uL; Ch:G05 10.0uL/0.6uL; Ch:H05 10.0uL/0.6uL; Ch:A06 10.0uL/0.6uL; Ch:B06 10.0uL/0.6uL; Ch:C06 10.0uL/0.6uL; Ch:D06 10.0uL/0.6uL; Ch:E06 10.0uL/0.6uL; Ch:F06 10.0uL/0.6uL; Ch:G06 10.0uL/0.6uL; Ch:H06 10.0uL/0.6uL; Ch:A07 10.0uL/0.6uL; Ch:B07 10.0uL/0.6uL; Ch:C07 10.0uL/0.6uL; Ch:D07 10.0uL/0.6uL; Ch:E07 10.0uL/0.6uL; Ch:F07 10.0uL/0.6uL; Ch:G07 10.0uL/0.6uL; Ch:H07 10.0uL/0.6uL; Ch:A08 10.0uL/0.6uL; Ch:B08 10.0uL/0.6uL; Ch:C08 10.0uL/0.6uL; Ch:D08 10.0uL/0.6uL; Ch:E08 10.0uL/0.6uL; Ch:F08 10.0uL/0.6uL; Ch:G08 10.0uL/0.6uL; Ch:H08 10.0uL/0.6uL; Ch:A09 10.0uL/0.6uL; Ch:B09 10.0uL/0.6uL; Ch:C09 10.0uL/0.6uL; Ch:D09 10.0uL/0.6uL; Ch:E09 10.0uL/0.6uL; Ch:F09 10.0uL/0.6uL; Ch:G09 10.0uL/0.6uL; Ch:H09 10.0uL/0.6uL; Ch:A10 10.0uL/0.6uL; Ch:B10 10.0uL/0.6uL; Ch:C10 10.0uL/0.6uL; Ch:D10 10.0uL/0.6uL; Ch:E10 10.0uL/0.6uL; Ch:F10 10.0uL/0.6uL; Ch:G10 10.0uL/0.6uL; Ch:H10 10.0uL/0.6uL; Ch:A11 10.0uL/0.6uL; Ch:B11 10.0uL/0.6uL; Ch:C11 10.0uL/0.6uL; Ch:D11 10.0uL/0.6uL; Ch:E11 10.0uL/0.6uL; Ch:F11 10.0uL/0.6uL; Ch:G11 10.0uL/0.6uL; Ch:H11 10.0uL/0.6uL; Ch:A12 10.0uL/0.6uL; Ch:B12 10.0uL/0.6uL; Ch:C12 10.0uL/0.6uL; Ch:D12 10.0uL/0.6uL; Ch:E12 10.0uL/0.6uL; Ch:F12 10.0uL/0.6uL; Ch:G12 10.0uL/0.6uL; Ch:H12 10.0uL/0.6uL
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Post airgap parameters (0): 
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.92 mm, -3.64 mm, -121.03 mm, -122.03 mm, using motion profile 'Fast Speed'.
+07/27/2019 11:25:26.0 [Lynx.Dispense(VVP96).VVP96] Initial axis positions:'XL' -11.76 mm, 'YL' -212.50 mm, 'ZL' -2.01 mm
+07/27/2019 11:25:29.3 [Lynx.Dispense(VVP96).VVP96] Dispense results: 
+07/27/2019 11:25:29.3 [Lynx.Dispense(VVP96).VVP96] Set dispense pressure for blowout.
+07/27/2019 11:25:29.4 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+07/27/2019 11:25:29.6 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:25:29.8 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:25:30.9 [VVP96] VVP Dispense pressure is 98 mbar.
+07/27/2019 11:25:31.3 [VVP96] Dispense complete.
+07/27/2019 11:25:32.1 [VVP96] Average residual volume was 3.28 ul for 96 channels at 100 mbar pressure
+07/27/2019 11:25:32.3 [Lynx.Dispense(VVP96).VVP96] Blowout results: 
+07/27/2019 11:25:34.8 [Lynx.Dispense(VVP96).VVP96] Final axis positions:'XL' -11.94 mm, 'YL' -3.68 mm, 'ZL' -2.02 mm
+07/27/2019 11:25:34.8 [Lynx.Dispense(VVP96).VVP96] Time to complete: 8 s.
+07/27/2019 11:25:34.8 Process 'AndStamp.met'[4] 'Dispense(VVP96)' CommandCompleted
+07/27/2019 11:25:34.8 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:25:26.0 and finished at 07/27/2019 11:25:34.8
+
+[User] Step.
+07/27/2019 11:26:00.4 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:26:00.4 Process 'AndStamp.met'[5] 'Eject Tips(VVP96)' CommandStarted
+07/27/2019 11:26:00.4 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+07/27/2019 11:26:00.4 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:26:00.4 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 11:26:00.4 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -102.07 mm, using motion profile 'Mid Speed'.
+07/27/2019 11:26:00.4 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -11.94 mm, 'YL' -3.67 mm, 'ZL' -2.01 mm
+07/27/2019 11:26:05.8 [VVP96] Tip ejection performed 2 times.
+07/27/2019 11:26:07.2 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+07/27/2019 11:26:07.2 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 6 s.
+07/27/2019 11:26:07.2 Process 'AndStamp.met'[5] 'Eject Tips(VVP96)' CommandCompleted
+07/27/2019 11:26:07.2 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:26:00.4 and finished at 07/27/2019 11:26:07.2
+
+[User] Step.
+07/27/2019 11:26:53.1 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:26:53.1 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+07/27/2019 11:26:53.1 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+07/27/2019 11:26:53.1 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+07/27/2019 11:26:53.1 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+07/27/2019 11:26:53.1 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 11:26:53.2 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+07/27/2019 11:26:53.2 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+07/27/2019 11:26:53.2 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+07/27/2019 11:26:53.2 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -11.76 mm, 'YL' -212.50 mm, 'ZL' -2.01 mm
+07/27/2019 11:26:54.7 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+07/27/2019 11:26:54.7 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+07/27/2019 11:26:57.6 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.9 mm, motor current 29.9 %
+07/27/2019 11:26:57.6 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+07/27/2019 11:26:57.6 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.02 mm, -3.90 mm
+07/27/2019 11:26:57.8 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+07/27/2019 11:26:57.9 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+07/27/2019 11:26:58.1 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+07/27/2019 11:26:58.2 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+07/27/2019 11:26:58.3 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+07/27/2019 11:27:00.0 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+07/27/2019 11:27:00.0 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+07/27/2019 11:27:00.0 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.76 mm, 'YL' -212.50 mm, 'ZL' -2.02 mm
+07/27/2019 11:27:00.0 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:27:00.0 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+07/27/2019 11:27:00.0 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandCompleted
+07/27/2019 11:27:00.0 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:26:53.1 and finished at 07/27/2019 11:27:00.0
+
+[User] Step.
+07/27/2019 11:27:09.6 Process 'AndStamp.met' MethodStarted
+07/27/2019 11:27:09.6 Process 'AndStamp.met'[2] 'Aspirate(VVP96)' CommandStarted
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Plate 'Fluidx_1mL_Tube_rack_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.50 mm.
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_08' (-146.20 mm, -118.67 mm, -173.31 mm) with a stack index of 1.
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.59 uL, Pre/Post delay 0.00/1.00
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (96): Ch:A01 130.0uL/0.6uL; Ch:B01 130.0uL/0.6uL; Ch:C01 130.0uL/0.6uL; Ch:D01 130.0uL/0.6uL; Ch:E01 130.0uL/0.6uL; Ch:F01 130.0uL/0.6uL; Ch:G01 130.0uL/0.6uL; Ch:H01 130.0uL/0.6uL; Ch:A02 130.0uL/0.6uL; Ch:B02 130.0uL/0.6uL; Ch:C02 130.0uL/0.6uL; Ch:D02 130.0uL/0.6uL; Ch:E02 130.0uL/0.6uL; Ch:F02 130.0uL/0.6uL; Ch:G02 130.0uL/0.6uL; Ch:H02 130.0uL/0.6uL; Ch:A03 130.0uL/0.6uL; Ch:B03 130.0uL/0.6uL; Ch:C03 130.0uL/0.6uL; Ch:D03 130.0uL/0.6uL; Ch:E03 130.0uL/0.6uL; Ch:F03 130.0uL/0.6uL; Ch:G03 130.0uL/0.6uL; Ch:H03 130.0uL/0.6uL; Ch:A04 130.0uL/0.6uL; Ch:B04 130.0uL/0.6uL; Ch:C04 130.0uL/0.6uL; Ch:D04 130.0uL/0.6uL; Ch:E04 130.0uL/0.6uL; Ch:F04 130.0uL/0.6uL; Ch:G04 130.0uL/0.6uL; Ch:H04 130.0uL/0.6uL; Ch:A05 130.0uL/0.6uL; Ch:B05 130.0uL/0.6uL; Ch:C05 130.0uL/0.6uL; Ch:D05 130.0uL/0.6uL; Ch:E05 130.0uL/0.6uL; Ch:F05 130.0uL/0.6uL; Ch:G05 130.0uL/0.6uL; Ch:H05 130.0uL/0.6uL; Ch:A06 130.0uL/0.6uL; Ch:B06 130.0uL/0.6uL; Ch:C06 130.0uL/0.6uL; Ch:D06 130.0uL/0.6uL; Ch:E06 130.0uL/0.6uL; Ch:F06 130.0uL/0.6uL; Ch:G06 130.0uL/0.6uL; Ch:H06 130.0uL/0.6uL; Ch:A07 130.0uL/0.6uL; Ch:B07 130.0uL/0.6uL; Ch:C07 130.0uL/0.6uL; Ch:D07 130.0uL/0.6uL; Ch:E07 130.0uL/0.6uL; Ch:F07 130.0uL/0.6uL; Ch:G07 130.0uL/0.6uL; Ch:H07 130.0uL/0.6uL; Ch:A08 130.0uL/0.6uL; Ch:B08 130.0uL/0.6uL; Ch:C08 130.0uL/0.6uL; Ch:D08 130.0uL/0.6uL; Ch:E08 130.0uL/0.6uL; Ch:F08 130.0uL/0.6uL; Ch:G08 130.0uL/0.6uL; Ch:H08 130.0uL/0.6uL; Ch:A09 130.0uL/0.6uL; Ch:B09 130.0uL/0.6uL; Ch:C09 130.0uL/0.6uL; Ch:D09 130.0uL/0.6uL; Ch:E09 130.0uL/0.6uL; Ch:F09 130.0uL/0.6uL; Ch:G09 130.0uL/0.6uL; Ch:H09 130.0uL/0.6uL; Ch:A10 130.0uL/0.6uL; Ch:B10 130.0uL/0.6uL; Ch:C10 130.0uL/0.6uL; Ch:D10 130.0uL/0.6uL; Ch:E10 130.0uL/0.6uL; Ch:F10 130.0uL/0.6uL; Ch:G10 130.0uL/0.6uL; Ch:H10 130.0uL/0.6uL; Ch:A11 130.0uL/0.6uL; Ch:B11 130.0uL/0.6uL; Ch:C11 130.0uL/0.6uL; Ch:D11 130.0uL/0.6uL; Ch:E11 130.0uL/0.6uL; Ch:F11 130.0uL/0.6uL; Ch:G11 130.0uL/0.6uL; Ch:H11 130.0uL/0.6uL; Ch:A12 130.0uL/0.6uL; Ch:B12 130.0uL/0.6uL; Ch:C12 130.0uL/0.6uL; Ch:D12 130.0uL/0.6uL; Ch:E12 130.0uL/0.6uL; Ch:F12 130.0uL/0.6uL; Ch:G12 130.0uL/0.6uL; Ch:H12 130.0uL/0.6uL
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.58 mm, -107.43 mm, -121.11 mm, -121.61 mm, using motion profile 'Slow Speed'.
+07/27/2019 11:27:09.6 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -11.76 mm, 'YL' -212.50 mm, 'ZL' -2.01 mm
+07/27/2019 11:27:16.0 [VVP96] Clog detection is off.
+07/27/2019 11:27:16.0 [VVP96] Aspirate diagnostics are off.
+07/27/2019 11:27:16.0 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+07/27/2019 11:27:16.2 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:27:16.4 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:27:17.5 [VVP96] VVP Aspirate pressure is 41 mbar.
+07/27/2019 11:27:19.6 [VVP96] Aspirate complete.
+07/27/2019 11:27:20.2 [VVP96] Average residual volume was 1.12 ul for 96 channels at 40 mbar pressure
+07/27/2019 11:27:20.4 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 131.4uL/1.1uL OK, Ch:B01 131.5uL/1.1uL OK, Ch:C01 131.5uL/1.1uL OK, Ch:D01 131.5uL/1.2uL OK, Ch:E01 131.5uL/1.2uL OK, Ch:F01 131.5uL/1.1uL OK, Ch:G01 131.5uL/1.2uL OK, Ch:H01 131.5uL/1.2uL OK, Ch:A02 131.4uL/1.0uL OK, Ch:B02 131.5uL/1.1uL OK, Ch:C02 131.4uL/1.1uL OK, Ch:D02 131.5uL/1.1uL OK, Ch:E02 131.6uL/1.2uL OK, Ch:F02 131.4uL/1.0uL OK, Ch:G02 131.4uL/1.1uL OK, Ch:H02 131.4uL/1.1uL OK, Ch:A03 131.6uL/1.2uL OK, Ch:B03 131.4uL/1.1uL OK, Ch:C03 131.5uL/1.1uL OK, Ch:D03 131.4uL/1.1uL OK, Ch:E03 131.5uL/1.1uL OK, Ch:F03 131.6uL/1.2uL OK, Ch:G03 131.4uL/1.1uL OK, Ch:H03 131.5uL/1.1uL OK, Ch:A04 131.4uL/1.1uL OK, Ch:B04 131.5uL/1.1uL OK, Ch:C04 131.5uL/1.2uL OK, Ch:D04 131.5uL/1.1uL OK, Ch:E04 131.5uL/1.1uL OK, Ch:F04 131.4uL/1.0uL OK, Ch:G04 131.4uL/1.1uL OK, Ch:H04 131.5uL/1.1uL OK, Ch:A05 131.5uL/1.1uL OK, Ch:B05 131.5uL/1.1uL OK, Ch:C05 131.5uL/1.1uL OK, Ch:D05 131.4uL/1.0uL OK, Ch:E05 131.3uL/1.0uL OK, Ch:F05 131.6uL/1.2uL OK, Ch:G05 131.6uL/1.2uL OK, Ch:H05 131.3uL/1.0uL OK, Ch:A06 131.5uL/1.1uL OK, Ch:B06 131.5uL/1.1uL OK, Ch:C06 131.5uL/1.1uL OK, Ch:D06 131.5uL/1.1uL OK, Ch:E06 131.4uL/1.0uL OK, Ch:F06 131.4uL/1.1uL OK, Ch:G06 131.5uL/1.1uL OK, Ch:H06 131.6uL/1.2uL OK, Ch:A07 131.4uL/1.1uL OK, Ch:B07 131.5uL/1.1uL OK, Ch:C07 131.5uL/1.1uL OK, Ch:D07 131.6uL/1.2uL OK, Ch:E07 131.6uL/1.2uL OK, Ch:F07 131.5uL/1.1uL OK, Ch:G07 131.6uL/1.2uL OK, Ch:H07 131.6uL/1.2uL OK, Ch:A08 131.5uL/1.1uL OK, Ch:B08 131.5uL/1.1uL OK, Ch:C08 131.4uL/1.1uL OK, Ch:D08 131.5uL/1.1uL OK, Ch:E08 131.6uL/1.2uL OK, Ch:F08 131.4uL/1.1uL OK, Ch:G08 131.3uL/1.0uL OK, Ch:H08 131.5uL/1.1uL OK, Ch:A09 131.6uL/1.2uL OK, Ch:B09 131.4uL/1.1uL OK, Ch:C09 131.6uL/1.2uL OK, Ch:D09 131.6uL/1.2uL OK, Ch:E09 131.6uL/1.2uL OK, Ch:F09 131.4uL/1.1uL OK, Ch:G09 131.6uL/1.2uL OK, Ch:H09 131.5uL/1.1uL OK, Ch:A10 131.5uL/1.2uL OK, Ch:B10 131.7uL/1.3uL OK, Ch:C10 131.5uL/1.2uL OK, Ch:D10 131.5uL/1.1uL OK, Ch:E10 131.4uL/1.1uL OK, Ch:F10 131.5uL/1.1uL OK, Ch:G10 131.5uL/1.1uL OK, Ch:H10 131.5uL/1.2uL OK, Ch:A11 131.5uL/1.1uL OK, Ch:B11 131.5uL/1.1uL OK, Ch:C11 131.5uL/1.1uL OK, Ch:D11 131.4uL/1.1uL OK, Ch:E11 131.5uL/1.1uL OK, Ch:F11 131.5uL/1.2uL OK, Ch:G11 131.4uL/1.0uL OK, Ch:H11 131.4uL/1.1uL OK, Ch:A12 131.5uL/1.1uL OK, Ch:B12 131.4uL/1.1uL OK, Ch:C12 131.6uL/1.2uL OK, Ch:D12 131.5uL/1.1uL OK, Ch:E12 131.6uL/1.2uL OK, Ch:F12 131.5uL/1.2uL OK, Ch:G12 131.5uL/1.1uL OK, Ch:H12 131.5uL/1.1uL OK
+07/27/2019 11:27:21.4 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -146.02 mm, 'YL' -107.52 mm, 'ZL' -116.14 mm
+07/27/2019 11:27:21.4 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 11 s.
+07/27/2019 11:27:21.4 Process 'AndStamp.met'[2] 'Aspirate(VVP96)' CommandCompleted
+07/27/2019 11:27:21.4 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:27:09.6 and finished at 07/27/2019 11:27:21.4
+
+[User] Clear errors.
+All device errors were resolved.
+07/27/2019 11:27:59.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:27:59.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:01.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:01.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:01.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:01.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:02.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:02.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:03.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:03.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:09.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:09.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:11.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:11.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:14.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:14.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:28:50.5 [Lynx.Move Axis] Move axes: 'XL' to -129.73 mm
+07/27/2019 11:28:52.0 [Lynx.Move Axis] Time to complete: 1 s.
+07/27/2019 11:28:57.3 [Lynx.Move Axis] Move axes: 'XL' to -154.75 mm
+07/27/2019 11:28:58.7 [Lynx.Move Axis] Time to complete: 1 s.
+07/27/2019 11:29:14.2 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:14.2 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:14.7 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:14.7 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:15.1 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:15.2 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:17.4 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:17.4 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:25.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:25.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:26.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:26.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:27.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:27.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:29.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:29.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:29.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:29.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:31.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:31.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:32.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:32.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:34.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:34.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:35.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 11:29:35.8 [ZL] StopMotion flag is active in WaitReady.
+[User] Step.
+07/27/2019 11:35:16.6 Process 'UNPtoFluidX.met' MethodStarted
+07/27/2019 11:35:16.6 Process 'UNPtoFluidX.met'[3] 'Dispense(VVP96)' CommandStarted
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Plate 'Fluidx_1mL_Tube_rack_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.50 mm.
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_08' (-146.20 mm, -118.67 mm, -173.31 mm) with a stack index of 1.
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.64 uL, Pre/Post delay 0.00/1.00
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Dispense parameters (96): Ch:A01 131.4uL/0.6uL; Ch:B01 131.5uL/0.6uL; Ch:C01 131.5uL/0.6uL; Ch:D01 131.5uL/0.6uL; Ch:E01 131.5uL/0.6uL; Ch:F01 131.5uL/0.6uL; Ch:G01 131.5uL/0.6uL; Ch:H01 131.5uL/0.6uL; Ch:A02 131.4uL/0.6uL; Ch:B02 131.5uL/0.6uL; Ch:C02 131.4uL/0.6uL; Ch:D02 131.5uL/0.6uL; Ch:E02 131.6uL/0.6uL; Ch:F02 131.4uL/0.6uL; Ch:G02 131.4uL/0.6uL; Ch:H02 131.4uL/0.6uL; Ch:A03 131.6uL/0.6uL; Ch:B03 131.4uL/0.6uL; Ch:C03 131.5uL/0.6uL; Ch:D03 131.4uL/0.6uL; Ch:E03 131.5uL/0.6uL; Ch:F03 131.6uL/0.6uL; Ch:G03 131.4uL/0.6uL; Ch:H03 131.5uL/0.6uL; Ch:A04 131.4uL/0.6uL; Ch:B04 131.5uL/0.6uL; Ch:C04 131.5uL/0.6uL; Ch:D04 131.5uL/0.6uL; Ch:E04 131.5uL/0.6uL; Ch:F04 131.4uL/0.6uL; Ch:G04 131.4uL/0.6uL; Ch:H04 131.5uL/0.6uL; Ch:A05 131.5uL/0.6uL; Ch:B05 131.5uL/0.6uL; Ch:C05 131.5uL/0.6uL; Ch:D05 131.4uL/0.6uL; Ch:E05 131.3uL/0.6uL; Ch:F05 131.6uL/0.6uL; Ch:G05 131.6uL/0.6uL; Ch:H05 131.3uL/0.6uL; Ch:A06 131.5uL/0.6uL; Ch:B06 131.5uL/0.6uL; Ch:C06 131.5uL/0.6uL; Ch:D06 131.5uL/0.6uL; Ch:E06 131.4uL/0.6uL; Ch:F06 131.4uL/0.6uL; Ch:G06 131.5uL/0.6uL; Ch:H06 131.6uL/0.6uL; Ch:A07 131.4uL/0.6uL; Ch:B07 131.5uL/0.6uL; Ch:C07 131.5uL/0.6uL; Ch:D07 131.6uL/0.6uL; Ch:E07 131.6uL/0.6uL; Ch:F07 131.5uL/0.6uL; Ch:G07 131.6uL/0.6uL; Ch:H07 131.6uL/0.6uL; Ch:A08 131.5uL/0.6uL; Ch:B08 131.5uL/0.6uL; Ch:C08 131.4uL/0.6uL; Ch:D08 131.5uL/0.6uL; Ch:E08 131.6uL/0.6uL; Ch:F08 131.4uL/0.6uL; Ch:G08 131.3uL/0.6uL; Ch:H08 131.5uL/0.6uL; Ch:A09 131.6uL/0.6uL; Ch:B09 131.4uL/0.6uL; Ch:C09 131.6uL/0.6uL; Ch:D09 131.6uL/0.6uL; Ch:E09 131.6uL/0.6uL; Ch:F09 131.4uL/0.6uL; Ch:G09 131.6uL/0.6uL; Ch:H09 131.5uL/0.6uL; Ch:A10 131.5uL/0.6uL; Ch:B10 131.7uL/0.6uL; Ch:C10 131.5uL/0.6uL; Ch:D10 131.5uL/0.6uL; Ch:E10 131.4uL/0.6uL; Ch:F10 131.5uL/0.6uL; Ch:G10 131.5uL/0.6uL; Ch:H10 131.5uL/0.6uL; Ch:A11 131.5uL/0.6uL; Ch:B11 131.5uL/0.6uL; Ch:C11 131.5uL/0.6uL; Ch:D11 131.4uL/0.6uL; Ch:E11 131.5uL/0.6uL; Ch:F11 131.5uL/0.6uL; Ch:G11 131.4uL/0.6uL; Ch:H11 131.4uL/0.6uL; Ch:A12 131.5uL/0.6uL; Ch:B12 131.4uL/0.6uL; Ch:C12 131.6uL/0.6uL; Ch:D12 131.5uL/0.6uL; Ch:E12 131.6uL/0.6uL; Ch:F12 131.5uL/0.6uL; Ch:G12 131.5uL/0.6uL; Ch:H12 131.5uL/0.6uL
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Blowout parameters (96): Ch:A01 10.0uL/0.6uL; Ch:B01 10.0uL/0.6uL; Ch:C01 10.0uL/0.6uL; Ch:D01 10.0uL/0.6uL; Ch:E01 10.0uL/0.6uL; Ch:F01 10.0uL/0.6uL; Ch:G01 10.0uL/0.6uL; Ch:H01 10.0uL/0.6uL; Ch:A02 10.0uL/0.6uL; Ch:B02 10.0uL/0.6uL; Ch:C02 10.0uL/0.6uL; Ch:D02 10.0uL/0.6uL; Ch:E02 10.0uL/0.6uL; Ch:F02 10.0uL/0.6uL; Ch:G02 10.0uL/0.6uL; Ch:H02 10.0uL/0.6uL; Ch:A03 10.0uL/0.6uL; Ch:B03 10.0uL/0.6uL; Ch:C03 10.0uL/0.6uL; Ch:D03 10.0uL/0.6uL; Ch:E03 10.0uL/0.6uL; Ch:F03 10.0uL/0.6uL; Ch:G03 10.0uL/0.6uL; Ch:H03 10.0uL/0.6uL; Ch:A04 10.0uL/0.6uL; Ch:B04 10.0uL/0.6uL; Ch:C04 10.0uL/0.6uL; Ch:D04 10.0uL/0.6uL; Ch:E04 10.0uL/0.6uL; Ch:F04 10.0uL/0.6uL; Ch:G04 10.0uL/0.6uL; Ch:H04 10.0uL/0.6uL; Ch:A05 10.0uL/0.6uL; Ch:B05 10.0uL/0.6uL; Ch:C05 10.0uL/0.6uL; Ch:D05 10.0uL/0.6uL; Ch:E05 10.0uL/0.6uL; Ch:F05 10.0uL/0.6uL; Ch:G05 10.0uL/0.6uL; Ch:H05 10.0uL/0.6uL; Ch:A06 10.0uL/0.6uL; Ch:B06 10.0uL/0.6uL; Ch:C06 10.0uL/0.6uL; Ch:D06 10.0uL/0.6uL; Ch:E06 10.0uL/0.6uL; Ch:F06 10.0uL/0.6uL; Ch:G06 10.0uL/0.6uL; Ch:H06 10.0uL/0.6uL; Ch:A07 10.0uL/0.6uL; Ch:B07 10.0uL/0.6uL; Ch:C07 10.0uL/0.6uL; Ch:D07 10.0uL/0.6uL; Ch:E07 10.0uL/0.6uL; Ch:F07 10.0uL/0.6uL; Ch:G07 10.0uL/0.6uL; Ch:H07 10.0uL/0.6uL; Ch:A08 10.0uL/0.6uL; Ch:B08 10.0uL/0.6uL; Ch:C08 10.0uL/0.6uL; Ch:D08 10.0uL/0.6uL; Ch:E08 10.0uL/0.6uL; Ch:F08 10.0uL/0.6uL; Ch:G08 10.0uL/0.6uL; Ch:H08 10.0uL/0.6uL; Ch:A09 10.0uL/0.6uL; Ch:B09 10.0uL/0.6uL; Ch:C09 10.0uL/0.6uL; Ch:D09 10.0uL/0.6uL; Ch:E09 10.0uL/0.6uL; Ch:F09 10.0uL/0.6uL; Ch:G09 10.0uL/0.6uL; Ch:H09 10.0uL/0.6uL; Ch:A10 10.0uL/0.6uL; Ch:B10 10.0uL/0.6uL; Ch:C10 10.0uL/0.6uL; Ch:D10 10.0uL/0.6uL; Ch:E10 10.0uL/0.6uL; Ch:F10 10.0uL/0.6uL; Ch:G10 10.0uL/0.6uL; Ch:H10 10.0uL/0.6uL; Ch:A11 10.0uL/0.6uL; Ch:B11 10.0uL/0.6uL; Ch:C11 10.0uL/0.6uL; Ch:D11 10.0uL/0.6uL; Ch:E11 10.0uL/0.6uL; Ch:F11 10.0uL/0.6uL; Ch:G11 10.0uL/0.6uL; Ch:H11 10.0uL/0.6uL; Ch:A12 10.0uL/0.6uL; Ch:B12 10.0uL/0.6uL; Ch:C12 10.0uL/0.6uL; Ch:D12 10.0uL/0.6uL; Ch:E12 10.0uL/0.6uL; Ch:F12 10.0uL/0.6uL; Ch:G12 10.0uL/0.6uL; Ch:H12 10.0uL/0.6uL
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Post airgap parameters (0): 
+07/27/2019 11:35:16.6 [Lynx.Dispense(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.58 mm, -107.43 mm, -121.11 mm, -116.61 mm, using motion profile 'Fast Speed'.
+07/27/2019 11:35:16.7 [Lynx.Dispense(VVP96).VVP96] Initial axis positions:'XL' -160.70 mm, 'YL' -107.45 mm, 'ZL' -99.97 mm
+07/27/2019 11:35:20.2 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+07/27/2019 11:35:20.4 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:35:20.7 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:35:21.8 [VVP96] Tiptrack motion started:11:35:21.836
+07/27/2019 11:35:21.8 [VVP96] VVP Dispense pressure is 41 mbar.
+07/27/2019 11:35:23.6 [VVP96] Dispense complete.
+07/27/2019 11:35:24.2 [VVP96] Average residual volume was 1.28 ul for 96 channels at 40 mbar pressure
+07/27/2019 11:35:24.2 [VVP96] Tiptrack motion stopped:11:35:24.125
+07/27/2019 11:35:24.4 [Lynx.Dispense(VVP96).VVP96] Dispense results: Ch:A01 132.1uL/1.4uL OK, Ch:B01 132.1uL/1.2uL OK, Ch:C01 132.1uL/1.2uL OK, Ch:D01 132.0uL/1.2uL OK, Ch:E01 132.2uL/1.3uL OK, Ch:F01 132.2uL/1.3uL OK, Ch:G01 132.1uL/1.2uL OK, Ch:H01 132.2uL/1.3uL OK, Ch:A02 132.1uL/1.3uL OK, Ch:B02 132.1uL/1.3uL OK, Ch:C02 132.0uL/1.2uL OK, Ch:D02 132.3uL/1.4uL OK, Ch:E02 132.3uL/1.3uL OK, Ch:F02 132.1uL/1.3uL OK, Ch:G02 132.0uL/1.2uL OK, Ch:H02 132.0uL/1.3uL OK, Ch:A03 132.3uL/1.3uL OK, Ch:B03 132.0uL/1.3uL OK, Ch:C03 132.1uL/1.2uL OK, Ch:D03 132.1uL/1.4uL OK, Ch:E03 132.1uL/1.3uL OK, Ch:F03 132.3uL/1.3uL OK, Ch:G03 132.1uL/1.3uL OK, Ch:H03 132.3uL/1.4uL OK, Ch:A04 132.2uL/1.4uL OK, Ch:B04 132.0uL/1.2uL OK, Ch:C04 132.2uL/1.3uL OK, Ch:D04 132.2uL/1.3uL OK, Ch:E04 132.2uL/1.3uL OK, Ch:F04 132.0uL/1.3uL OK, Ch:G04 132.0uL/1.2uL OK, Ch:H04 132.3uL/1.4uL OK, Ch:A05 132.2uL/1.3uL OK, Ch:B05 132.0uL/1.2uL OK, Ch:C05 132.1uL/1.2uL OK, Ch:D05 131.9uL/1.2uL OK, Ch:E05 131.9uL/1.2uL OK, Ch:F05 132.4uL/1.4uL OK, Ch:G05 132.3uL/1.3uL OK, Ch:H05 131.9uL/1.2uL OK, Ch:A06 132.0uL/1.2uL OK, Ch:B06 132.1uL/1.2uL OK, Ch:C06 132.2uL/1.3uL OK, Ch:D06 132.2uL/1.3uL OK, Ch:E06 132.2uL/1.4uL OK, Ch:F06 132.0uL/1.2uL OK, Ch:G06 132.2uL/1.3uL OK, Ch:H06 132.3uL/1.3uL OK, Ch:A07 132.1uL/1.3uL OK, Ch:B07 132.1uL/1.2uL OK, Ch:C07 132.1uL/1.2uL OK, Ch:D07 132.3uL/1.3uL OK, Ch:E07 132.2uL/1.3uL OK, Ch:F07 132.2uL/1.3uL OK, Ch:G07 132.3uL/1.3uL OK, Ch:H07 132.3uL/1.3uL OK, Ch:A08 132.2uL/1.3uL OK, Ch:B08 132.2uL/1.3uL OK, Ch:C08 132.0uL/1.3uL OK, Ch:D08 132.1uL/1.3uL OK, Ch:E08 132.3uL/1.3uL OK, Ch:F08 132.0uL/1.3uL OK, Ch:G08 131.9uL/1.3uL OK, Ch:H08 132.3uL/1.4uL OK, Ch:A09 132.3uL/1.3uL OK, Ch:B09 132.1uL/1.3uL OK, Ch:C09 132.3uL/1.3uL OK, Ch:D09 132.3uL/1.3uL OK, Ch:E09 132.2uL/1.3uL OK, Ch:F09 132.0uL/1.3uL OK, Ch:G09 132.2uL/1.3uL OK, Ch:H09 132.1uL/1.3uL OK, Ch:A10 132.1uL/1.3uL OK, Ch:B10 132.6uL/1.5uL OK, Ch:C10 132.1uL/1.2uL OK, Ch:D10 132.1uL/1.2uL OK, Ch:E10 132.1uL/1.3uL OK, Ch:F10 132.1uL/1.2uL OK, Ch:G10 132.2uL/1.3uL OK, Ch:H10 132.2uL/1.3uL OK, Ch:A11 132.2uL/1.3uL OK, Ch:B11 132.2uL/1.3uL OK, Ch:C11 132.1uL/1.2uL OK, Ch:D11 132.0uL/1.2uL OK, Ch:E11 132.2uL/1.3uL OK, Ch:F11 132.2uL/1.3uL OK, Ch:G11 132.1uL/1.3uL OK, Ch:H11 132.1uL/1.3uL OK, Ch:A12 132.1uL/1.2uL OK, Ch:B12 131.9uL/1.2uL OK, Ch:C12 132.2uL/1.3uL OK, Ch:D12 132.1uL/1.2uL OK, Ch:E12 132.3uL/1.3uL OK, Ch:F12 132.1uL/1.2uL OK, Ch:G12 132.2uL/1.3uL OK, Ch:H12 132.2uL/1.3uL OK
+07/27/2019 11:35:24.4 [Lynx.Dispense(VVP96).VVP96] Set dispense pressure for blowout.
+07/27/2019 11:35:24.5 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+07/27/2019 11:35:24.7 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:35:25.0 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+07/27/2019 11:35:26.0 [VVP96] VVP Dispense pressure is 100 mbar.
+07/27/2019 11:35:26.5 [VVP96] Dispense complete.
+07/27/2019 11:35:27.5 [VVP96] Average residual volume was 3.26 ul for 96 channels at 100 mbar pressure
+07/27/2019 11:35:27.7 [Lynx.Dispense(VVP96).VVP96] Blowout results: Ch:A01 132.1uL/1.4uL OK, Ch:B01 132.1uL/1.2uL OK, Ch:C01 132.1uL/1.2uL OK, Ch:D01 132.0uL/1.2uL OK, Ch:E01 132.2uL/1.3uL OK, Ch:F01 132.2uL/1.3uL OK, Ch:G01 132.1uL/1.2uL OK, Ch:H01 132.2uL/1.3uL OK, Ch:A02 132.1uL/1.3uL OK, Ch:B02 132.1uL/1.3uL OK, Ch:C02 132.0uL/1.2uL OK, Ch:D02 132.3uL/1.4uL OK, Ch:E02 132.3uL/1.3uL OK, Ch:F02 132.1uL/1.3uL OK, Ch:G02 132.0uL/1.2uL OK, Ch:H02 132.0uL/1.3uL OK, Ch:A03 132.3uL/1.3uL OK, Ch:B03 132.0uL/1.3uL OK, Ch:C03 132.1uL/1.2uL OK, Ch:D03 132.1uL/1.4uL OK, Ch:E03 132.1uL/1.3uL OK, Ch:F03 132.3uL/1.3uL OK, Ch:G03 132.1uL/1.3uL OK, Ch:H03 132.3uL/1.4uL OK, Ch:A04 132.2uL/1.4uL OK, Ch:B04 132.0uL/1.2uL OK, Ch:C04 132.2uL/1.3uL OK, Ch:D04 132.2uL/1.3uL OK, Ch:E04 132.2uL/1.3uL OK, Ch:F04 132.0uL/1.3uL OK, Ch:G04 132.0uL/1.2uL OK, Ch:H04 132.3uL/1.4uL OK, Ch:A05 132.2uL/1.3uL OK, Ch:B05 132.0uL/1.2uL OK, Ch:C05 132.1uL/1.2uL OK, Ch:D05 131.9uL/1.2uL OK, Ch:E05 131.9uL/1.2uL OK, Ch:F05 132.4uL/1.4uL OK, Ch:G05 132.3uL/1.3uL OK, Ch:H05 131.9uL/1.2uL OK, Ch:A06 132.0uL/1.2uL OK, Ch:B06 132.1uL/1.2uL OK, Ch:C06 132.2uL/1.3uL OK, Ch:D06 132.2uL/1.3uL OK, Ch:E06 132.2uL/1.4uL OK, Ch:F06 132.0uL/1.2uL OK, Ch:G06 132.2uL/1.3uL OK, Ch:H06 132.3uL/1.3uL OK, Ch:A07 132.1uL/1.3uL OK, Ch:B07 132.1uL/1.2uL OK, Ch:C07 132.1uL/1.2uL OK, Ch:D07 132.3uL/1.3uL OK, Ch:E07 132.2uL/1.3uL OK, Ch:F07 132.2uL/1.3uL OK, Ch:G07 132.3uL/1.3uL OK, Ch:H07 132.3uL/1.3uL OK, Ch:A08 132.2uL/1.3uL OK, Ch:B08 132.2uL/1.3uL OK, Ch:C08 132.0uL/1.3uL OK, Ch:D08 132.1uL/1.3uL OK, Ch:E08 132.3uL/1.3uL OK, Ch:F08 132.0uL/1.3uL OK, Ch:G08 131.9uL/1.3uL OK, Ch:H08 132.3uL/1.4uL OK, Ch:A09 132.3uL/1.3uL OK, Ch:B09 132.1uL/1.3uL OK, Ch:C09 132.3uL/1.3uL OK, Ch:D09 132.3uL/1.3uL OK, Ch:E09 132.2uL/1.3uL OK, Ch:F09 132.0uL/1.3uL OK, Ch:G09 132.2uL/1.3uL OK, Ch:H09 132.1uL/1.3uL OK, Ch:A10 132.1uL/1.3uL OK, Ch:B10 132.6uL/1.5uL OK, Ch:C10 132.1uL/1.2uL OK, Ch:D10 132.1uL/1.2uL OK, Ch:E10 132.1uL/1.3uL OK, Ch:F10 132.1uL/1.2uL OK, Ch:G10 132.2uL/1.3uL OK, Ch:H10 132.2uL/1.3uL OK, Ch:A11 132.2uL/1.3uL OK, Ch:B11 132.2uL/1.3uL OK, Ch:C11 132.1uL/1.2uL OK, Ch:D11 132.0uL/1.2uL OK, Ch:E11 132.2uL/1.3uL OK, Ch:F11 132.2uL/1.3uL OK, Ch:G11 132.1uL/1.3uL OK, Ch:H11 132.1uL/1.3uL OK, Ch:A12 132.1uL/1.2uL OK, Ch:B12 131.9uL/1.2uL OK, Ch:C12 132.2uL/1.3uL OK, Ch:D12 132.1uL/1.2uL OK, Ch:E12 132.3uL/1.3uL OK, Ch:F12 132.1uL/1.2uL OK, Ch:G12 132.2uL/1.3uL OK, Ch:H12 132.2uL/1.3uL OK
+07/27/2019 11:35:28.7 [Lynx.Dispense(VVP96).VVP96] Final axis positions:'XL' -160.56 mm, 'YL' -107.46 mm, 'ZL' -116.62 mm
+07/27/2019 11:35:28.7 [Lynx.Dispense(VVP96).VVP96] Time to complete: 12 s.
+07/27/2019 11:35:28.7 Process 'UNPtoFluidX.met'[3] 'Dispense(VVP96)' CommandCompleted
+07/27/2019 11:35:28.7 Process 'UNPtoFluidX.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:35:16.6 and finished at 07/27/2019 11:35:28.7
+
+[User] Step.
+07/27/2019 11:44:31.5 Process 'UNPtoFluidX.met' MethodStarted
+07/27/2019 11:44:31.5 Process 'UNPtoFluidX.met'[5] 'Eject Tips(VVP96)' CommandStarted
+07/27/2019 11:44:31.5 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+07/27/2019 11:44:31.5 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 11:44:31.5 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 11:44:31.6 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -102.07 mm, using motion profile 'Mid Speed'.
+07/27/2019 11:44:31.6 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.55 mm, 'YL' -107.46 mm, 'ZL' -116.61 mm
+07/27/2019 11:44:38.2 [VVP96] Tip ejection performed 2 times.
+07/27/2019 11:44:39.6 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+07/27/2019 11:44:39.6 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 8 s.
+07/27/2019 11:44:39.6 Process 'UNPtoFluidX.met'[5] 'Eject Tips(VVP96)' CommandCompleted
+07/27/2019 11:44:39.6 Process 'UNPtoFluidX.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 11:44:31.5 and finished at 07/27/2019 11:44:39.6
+
+07/27/2019 11:47:03.6 [XL] Closing component connections for Warp 'XL'.
+07/27/2019 11:47:03.6 [YL] Closing component connections for Warp 'YL'.
+07/27/2019 11:47:03.6 [ZL] Closing component connections for Warp 'ZL'.
+07/27/2019 11:47:03.6 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/27/2019 11:47:09.1 [Lynx] 

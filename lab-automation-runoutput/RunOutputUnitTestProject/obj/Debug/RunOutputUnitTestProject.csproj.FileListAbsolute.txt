@@ -1,0 +1,2 @@
+P:\lab-automation-runoutput\RunOutputUnitTestProject\obj\Debug\RunOutputUnitTestProject.csprojAssemblyReference.cache
+P:\lab-automation-runoutput\RunOutputUnitTestProject\obj\Debug\RunOutputUnitTestProject.csproj.CoreCompileInputs.cache

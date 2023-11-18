@@ -1,0 +1,919 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+03/01/2019 13:17:40.7 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+[User] Clear errors.
+Errors could not be resolved for these devices:
+   Lynx (6 errors)
+      Axis 'XL' is not connected.
+      Axis 'YL' is not connected.
+      Axis 'ZL' is not connected.
+      Axis 'BarCodeZAxis' is not connected.
+      Pipettor 'VVP96' is not connected.
+      Error(s) on component 'Gripper': Failed to set output 'Lynx.BarCodeZAxis.4'.
+
+03/01/2019 13:19:08.3 [ZL] Instruction Error Status: None
+03/01/2019 13:19:08.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 13:19:08.4 [ZL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 13:19:08.4 [ZL]   Inputs: False False False False False 
+03/01/2019 13:19:08.4 [ZL] Current IP communications rate is 10 mb.
+03/01/2019 13:19:08.4 [ZL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 13:19:08.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/01/2019 13:19:08.6 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+03/01/2019 13:19:08.6 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+03/01/2019 13:19:08.8 [ZL] Start Hall-based phase initialization.
+03/01/2019 13:19:08.8 [ZL] Phases initialized.
+03/01/2019 13:19:08.8 [BarCodeZAxis] Instruction Error Status: None
+03/01/2019 13:19:08.8 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 13:19:08.8 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+03/01/2019 13:19:08.9 [BarCodeZAxis]   Inputs: False True False False False 
+03/01/2019 13:19:08.9 [BarCodeZAxis] Current IP communications rate is 10 mb.
+03/01/2019 13:19:08.9 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+03/01/2019 13:19:09.0 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/01/2019 13:19:09.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+03/01/2019 13:19:09.0 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+03/01/2019 13:19:09.2 [BarCodeZAxis] Start Hall-based phase initialization.
+03/01/2019 13:19:09.2 [BarCodeZAxis] Phases initialized.
+03/01/2019 13:19:09.2 [YL] Instruction Error Status: None
+03/01/2019 13:19:09.2 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 13:19:09.3 [YL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 13:19:09.3 [YL]   Inputs: False False False False False 
+03/01/2019 13:19:09.3 [YL] Current IP communications rate is 10 mb.
+03/01/2019 13:19:09.3 [YL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 13:19:09.4 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/01/2019 13:19:09.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/01/2019 13:19:09.5 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/01/2019 13:19:09.6 [YL] Start Hall-based phase initialization.
+03/01/2019 13:19:09.6 [YL] Phases initialized.
+03/01/2019 13:19:09.7 [XL] Instruction Error Status: None
+03/01/2019 13:19:09.7 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 13:19:09.7 [XL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 13:19:09.7 [XL]   Inputs: False False False False False 
+03/01/2019 13:19:09.7 [XL] Current IP communications rate is 10 mb.
+03/01/2019 13:19:09.8 [XL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 13:19:09.8 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/01/2019 13:19:09.9 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/01/2019 13:19:09.9 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/01/2019 13:19:10.0 [XL] Start Hall-based phase initialization.
+03/01/2019 13:19:10.1 [XL] Phases initialized.
+03/01/2019 13:19:16.8 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+03/01/2019 13:19:17.1 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+03/01/2019 13:19:17.9 [ZL] Reached limit successfully.
+03/01/2019 13:19:17.9 [ZL] Attempting to back off Positive limit.
+03/01/2019 13:19:18.6 [ZL] Move off limit completion: Successful (OKReady).
+03/01/2019 13:19:18.6 [ZL] Move to limit finished.
+03/01/2019 13:19:18.7 [ZL] Establishing new 0 position for the old position 0.00 mm.
+03/01/2019 13:19:18.7 [ZL] Timestamp of last successful home: 3/1/2019 1:19:18 PM
+03/01/2019 13:19:18.9 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+03/01/2019 13:19:19.3 [BarCodeZAxis] Reached limit successfully.
+03/01/2019 13:19:19.3 [BarCodeZAxis] Attempting to back off Negative limit.
+03/01/2019 13:19:19.8 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+03/01/2019 13:19:19.8 [BarCodeZAxis] Move to limit finished.
+03/01/2019 13:19:19.9 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+03/01/2019 13:19:19.9 [BarCodeZAxis] Timestamp of last successful home: 3/1/2019 1:19:19 PM
+03/01/2019 13:19:24.0 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/01/2019 13:19:35.9 [YL] Reached limit successfully.
+03/01/2019 13:19:35.9 [YL] Attempting to back off Positive limit.
+03/01/2019 13:19:36.4 [YL] Move off limit completion: Successful (OKReady).
+03/01/2019 13:19:36.4 [YL] Move to limit finished.
+03/01/2019 13:19:36.5 [YL] Establishing new 0 position for the old position 0.01 mm.
+03/01/2019 13:19:36.5 [YL] Timestamp of last successful home: 3/1/2019 1:19:36 PM
+03/01/2019 13:19:36.7 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/01/2019 13:19:45.1 [XL] Reached limit successfully.
+03/01/2019 13:19:45.1 [XL] Attempting to back off Positive limit.
+03/01/2019 13:19:45.6 [XL] Move off limit completion: Successful (OKReady).
+03/01/2019 13:19:45.6 [XL] Move to limit finished.
+03/01/2019 13:19:45.7 [XL] Establishing new 0 position for the old position -0.03 mm.
+03/01/2019 13:19:45.7 [XL] Timestamp of last successful home: 3/1/2019 1:19:45 PM
+[User] Step.
+03/01/2019 13:20:11.6 Process 'Norm.met' MethodStarted
+03/01/2019 13:20:11.7 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:20:11.7 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:20:11.7 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:20:11.7 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:20:11.7 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandFailed
+03/01/2019 13:20:24.9 Process 'Norm.met' MethodCompleted, A 'Eject Tips(VVP96)' command has a logic or parameter error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:20:11.6 and terminated at 03/01/2019 13:20:24.9
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Command 'Eject Tips(VVP96)' requires a valid tip type
+
+[User] Step.
+03/01/2019 13:20:31.2 Process 'Norm.met' MethodStarted
+03/01/2019 13:20:31.3 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:20:31.3 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:20:31.3 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:20:31.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:20:31.3 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:20:31.4 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:20:31.4 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:20:31.4 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:20:31.4 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -0.04 mm, 'YL' -0.02 mm, 'ZL' 0.00 mm
+03/01/2019 13:20:34.6 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:20:34.6 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:20:37.3 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.2 mm, motor current 15.3 %
+03/01/2019 13:20:37.4 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:20:37.4 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.00 mm, 0.00 mm, -3.20 mm
+03/01/2019 13:20:37.6 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:20:37.7 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:20:37.8 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:20:37.9 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:20:38.0 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:20:39.7 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:20:39.7 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:20:39.7 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.41 mm, 'ZL' -2.02 mm
+03/01/2019 13:20:39.8 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:20:39.9 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 8 s.
+03/01/2019 13:20:40.0 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:20:40.0 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:20:31.2 and finished at 03/01/2019 13:20:40.0
+
+[User] Step.
+03/01/2019 13:20:45.1 Process 'Norm.met' MethodStarted
+03/01/2019 13:20:45.1 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:20:45.1 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:20:45.1 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:20:45.1 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:20:45.1 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:20:45.1 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.41 mm, 'ZL' -2.01 mm
+03/01/2019 13:20:49.1 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:20:50.5 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:20:50.5 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:20:50.5 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:20:50.5 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:20:45.1 and finished at 03/01/2019 13:20:50.5
+
+[User] Step.
+03/01/2019 13:21:23.5 Process 'Norm.met' MethodStarted
+03/01/2019 13:21:23.5 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:21:23.5 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:21:25.1 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:21:25.1 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:21:27.7 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.2 mm, motor current 19.1 %
+03/01/2019 13:21:27.7 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:21:27.7 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.01 mm, -3.22 mm
+03/01/2019 13:21:28.0 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:21:28.1 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:21:28.2 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:21:28.3 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:21:28.4 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:21:30.1 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:21:30.1 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:21:30.1 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:21:30.2 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:21:30.2 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:21:30.2 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:21:30.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:21:23.5 and finished at 03/01/2019 13:21:30.2
+
+[User] Step.
+03/01/2019 13:21:34.0 Process 'Norm.met' MethodStarted
+03/01/2019 13:21:34.0 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:21:34.0 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:21:34.0 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:21:34.0 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:21:34.0 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:21:34.0 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:21:38.0 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:21:39.4 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:21:39.4 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:21:39.4 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:21:39.4 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:21:34.0 and finished at 03/01/2019 13:21:39.4
+
+[User] Step.
+03/01/2019 13:21:50.8 Process 'Norm.met' MethodStarted
+03/01/2019 13:21:50.8 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:21:50.8 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:21:52.4 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:21:52.4 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:21:55.1 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.2 mm, motor current 17.9 %
+03/01/2019 13:21:55.1 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:21:55.1 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.01 mm, -3.22 mm
+03/01/2019 13:21:55.3 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:21:55.4 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:21:55.5 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:21:55.6 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:21:55.7 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:21:57.5 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:21:57.5 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:21:57.5 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:21:57.5 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:21:57.5 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:21:57.5 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:21:57.5 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:21:50.8 and finished at 03/01/2019 13:21:57.5
+
+[User] Step.
+03/01/2019 13:22:01.2 Process 'Norm.met' MethodStarted
+03/01/2019 13:22:01.2 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:22:01.2 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:22:01.2 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:22:01.2 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:22:01.2 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:22:01.2 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:22:05.2 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:22:06.5 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:22:06.6 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:22:06.6 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:22:06.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:22:01.1 and finished at 03/01/2019 13:22:06.6
+
+[User] Step.
+03/01/2019 13:22:43.9 Process 'Norm.met' MethodStarted
+03/01/2019 13:22:43.9 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:22:43.9 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:22:45.5 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:22:45.5 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:22:48.1 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.2 mm, motor current 18.4 %
+03/01/2019 13:22:48.1 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:22:48.1 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.01 mm, -3.22 mm
+03/01/2019 13:22:48.4 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:22:48.5 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:22:48.6 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:22:48.7 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:22:48.8 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:22:50.5 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:22:50.5 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:22:50.5 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:22:50.6 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:22:50.6 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:22:50.6 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:22:50.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:22:43.9 and finished at 03/01/2019 13:22:50.6
+
+[User] Step.
+03/01/2019 13:22:52.8 Process 'Norm.met' MethodStarted
+03/01/2019 13:22:52.8 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:22:52.8 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:22:52.8 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:22:52.8 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:22:52.8 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:22:52.8 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:22:56.8 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:22:58.1 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:22:58.2 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:22:58.2 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:22:58.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:22:52.7 and finished at 03/01/2019 13:22:58.2
+
+[User] Step.
+03/01/2019 13:29:38.5 Process 'Norm.met' MethodStarted
+03/01/2019 13:29:38.5 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:29:38.5 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:29:40.1 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:29:40.1 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:29:42.8 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.5 mm, motor current 5.2 %
+03/01/2019 13:29:42.8 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:29:42.8 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.01 mm, 0.00 mm, -3.51 mm
+03/01/2019 13:29:43.1 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:29:43.2 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:29:43.3 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:29:43.4 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:29:43.5 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:29:45.2 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:29:45.2 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:29:45.2 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:29:45.2 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:29:45.2 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:29:45.2 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:29:45.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:29:38.5 and finished at 03/01/2019 13:29:45.3
+
+[User] Step.
+03/01/2019 13:29:49.3 Process 'Norm.met' MethodStarted
+03/01/2019 13:29:49.3 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:29:49.3 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:29:49.3 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:29:49.3 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:29:49.3 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:29:49.3 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.19 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:29:53.2 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:29:54.6 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:29:54.6 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:29:54.6 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:29:54.7 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:29:49.2 and finished at 03/01/2019 13:29:54.7
+
+[User] Step.
+03/01/2019 13:35:37.4 Process 'Norm.met' MethodStarted
+03/01/2019 13:35:37.4 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:35:37.4 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:35:37.4 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:35:37.4 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:35:37.4 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandFailed
+03/01/2019 13:35:39.7 Process 'Norm.met' MethodCompleted, A 'Eject Tips(VVP96)' command has a logic or parameter error
+0 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:35:37.3 and terminated at 03/01/2019 13:35:39.7
+    Terminate reason:CommandError
+    Command 'Eject Tips(VVP96)', line 4, was interrupted due to Command 'Eject Tips(VVP96)' requires a valid tip type
+
+[User] Step.
+03/01/2019 13:35:42.4 Process 'Norm.met' MethodStarted
+03/01/2019 13:35:42.4 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:35:42.4 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:35:44.0 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:35:44.0 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:35:44.0 [ZL] Absolute motor limit setting 25.0%, changing limit from 30.0% to 25.0%
+03/01/2019 13:35:46.6 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.6 mm, motor current 14.9 %
+03/01/2019 13:35:46.7 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:35:46.7 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.01 mm, 0.00 mm, -3.61 mm
+03/01/2019 13:35:46.9 [ZL] Absolute motor limit setting 20.0%, changing limit from 25.0% to 20.0%
+03/01/2019 13:35:47.0 [ZL] Absolute motor limit setting 15.0%, changing limit from 20.0% to 15.0%
+03/01/2019 13:35:47.1 [ZL] Absolute motor limit setting 10.0%, changing limit from 15.0% to 10.0%
+03/01/2019 13:35:47.2 [ZL] Absolute motor limit setting 5.0%, changing limit from 10.0% to 5.0%
+03/01/2019 13:35:47.3 [ZL] Relative motor limit setting 100.0%, changing limit from 5.0% to 30.0%
+03/01/2019 13:35:49.0 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:35:49.0 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:35:49.0 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:35:49.1 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:35:49.1 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:35:49.1 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:35:49.1 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:35:42.4 and finished at 03/01/2019 13:35:49.1
+
+[User] Step.
+03/01/2019 13:35:51.6 Process 'Norm.met' MethodStarted
+03/01/2019 13:35:51.6 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:35:51.6 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:35:51.6 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:35:51.6 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:35:51.6 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:35:51.6 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:35:55.6 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:35:57.0 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:35:57.0 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:35:57.0 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:35:57.0 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:35:51.6 and finished at 03/01/2019 13:35:57.0
+
+[User] Step.
+03/01/2019 13:36:02.6 Process 'Norm.met' MethodStarted
+03/01/2019 13:36:02.6 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:36:02.6 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:36:02.6 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:36:02.6 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:36:02.7 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:36:02.7 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/01/2019 13:36:02.7 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:36:02.7 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:36:02.7 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:36:04.2 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:36:04.2 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:36:04.2 [ZL] Absolute motor limit setting 25.0%, changing limit from 30.0% to 25.0%
+03/01/2019 13:36:06.9 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.6 mm, motor current 13.9 %
+03/01/2019 13:36:06.9 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:36:06.9 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.01 mm, 0.00 mm, -3.60 mm
+03/01/2019 13:36:07.1 [ZL] Absolute motor limit setting 20.0%, changing limit from 25.0% to 20.0%
+03/01/2019 13:36:07.2 [ZL] Absolute motor limit setting 15.0%, changing limit from 20.0% to 15.0%
+03/01/2019 13:36:07.4 [ZL] Absolute motor limit setting 10.0%, changing limit from 15.0% to 10.0%
+03/01/2019 13:36:07.5 [ZL] Absolute motor limit setting 5.0%, changing limit from 10.0% to 5.0%
+03/01/2019 13:36:07.6 [ZL] Relative motor limit setting 100.0%, changing limit from 5.0% to 30.0%
+03/01/2019 13:36:09.3 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:36:09.3 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:36:09.3 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:36:09.3 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:36:09.3 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:36:09.3 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:36:09.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:36:02.6 and finished at 03/01/2019 13:36:09.3
+
+[User] Step.
+03/01/2019 13:36:31.2 Process 'Norm.met' MethodStarted
+03/01/2019 13:36:31.2 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:36:31.2 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:36:31.2 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:36:31.2 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:36:31.2 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:36:31.3 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:36:35.2 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:36:36.6 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:36:36.6 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:36:36.6 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:36:36.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:36:31.2 and finished at 03/01/2019 13:36:36.6
+
+[User] Step.
+03/01/2019 13:36:50.3 Process 'Norm.met' MethodStarted
+03/01/2019 13:36:50.3 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:36:50.3 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:36:51.8 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:36:51.8 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:36:51.8 [ZL] Absolute motor limit setting 25.0%, changing limit from 30.0% to 25.0%
+03/01/2019 13:36:54.5 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.6 mm, motor current 12.5 %
+03/01/2019 13:36:54.5 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:36:54.5 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.01 mm, 0.00 mm, -3.59 mm
+03/01/2019 13:36:54.8 [ZL] Absolute motor limit setting 20.0%, changing limit from 25.0% to 20.0%
+03/01/2019 13:36:54.9 [ZL] Absolute motor limit setting 15.0%, changing limit from 20.0% to 15.0%
+03/01/2019 13:36:55.0 [ZL] Absolute motor limit setting 10.0%, changing limit from 15.0% to 10.0%
+03/01/2019 13:36:55.1 [ZL] Absolute motor limit setting 5.0%, changing limit from 10.0% to 5.0%
+03/01/2019 13:36:55.2 [ZL] Relative motor limit setting 100.0%, changing limit from 5.0% to 30.0%
+03/01/2019 13:36:56.9 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:36:56.9 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:36:56.9 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.02 mm
+03/01/2019 13:36:56.9 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:36:56.9 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:36:56.9 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:36:57.0 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:36:50.2 and finished at 03/01/2019 13:36:56.9
+
+[User] Step.
+03/01/2019 13:37:02.8 Process 'Norm.met' MethodStarted
+03/01/2019 13:37:02.8 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:37:02.8 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:37:02.8 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:37:02.8 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:37:02.8 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:37:02.8 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.19 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:06.8 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:37:08.1 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:37:08.2 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:37:08.2 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:37:08.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:37:02.7 and finished at 03/01/2019 13:37:08.2
+
+[User] Step.
+03/01/2019 13:37:14.9 Process 'Norm.met' MethodStarted
+03/01/2019 13:37:14.9 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:37:14.9 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:16.5 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:37:16.5 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:37:16.5 [ZL] Absolute motor limit setting 25.0%, changing limit from 30.0% to 25.0%
+03/01/2019 13:37:19.1 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.6 mm, motor current 12.5 %
+03/01/2019 13:37:19.2 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:37:19.2 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.01 mm, 0.00 mm, -3.59 mm
+03/01/2019 13:37:19.4 [ZL] Absolute motor limit setting 20.0%, changing limit from 25.0% to 20.0%
+03/01/2019 13:37:19.5 [ZL] Absolute motor limit setting 15.0%, changing limit from 20.0% to 15.0%
+03/01/2019 13:37:19.6 [ZL] Absolute motor limit setting 10.0%, changing limit from 15.0% to 10.0%
+03/01/2019 13:37:19.7 [ZL] Absolute motor limit setting 5.0%, changing limit from 10.0% to 5.0%
+03/01/2019 13:37:19.8 [ZL] Relative motor limit setting 100.0%, changing limit from 5.0% to 30.0%
+03/01/2019 13:37:21.5 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:37:21.5 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:37:21.5 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:21.6 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:37:21.6 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:37:21.6 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:37:21.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:37:14.9 and finished at 03/01/2019 13:37:21.6
+
+[User] Step.
+03/01/2019 13:37:26.8 Process 'Norm.met' MethodStarted
+03/01/2019 13:37:26.8 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:37:26.9 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:37:26.9 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:37:26.9 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:37:26.9 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:37:26.9 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:30.8 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:37:32.2 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:37:32.2 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:37:32.2 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:37:32.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:37:26.8 and finished at 03/01/2019 13:37:32.2
+
+[User] Step.
+03/01/2019 13:37:49.7 Process 'Norm.met' MethodStarted
+03/01/2019 13:37:49.8 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 25% of full power.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:37:49.8 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:51.3 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:37:51.3 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:37:51.3 [ZL] Absolute motor limit setting 25.0%, changing limit from 30.0% to 25.0%
+03/01/2019 13:37:54.2 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.7 mm, motor current 24.8 %
+03/01/2019 13:37:54.3 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:37:54.3 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.00 mm, -3.68 mm
+03/01/2019 13:37:54.5 [ZL] Absolute motor limit setting 20.0%, changing limit from 25.0% to 20.0%
+03/01/2019 13:37:54.6 [ZL] Absolute motor limit setting 15.0%, changing limit from 20.0% to 15.0%
+03/01/2019 13:37:54.7 [ZL] Absolute motor limit setting 10.0%, changing limit from 15.0% to 10.0%
+03/01/2019 13:37:54.8 [ZL] Absolute motor limit setting 5.0%, changing limit from 10.0% to 5.0%
+03/01/2019 13:37:54.9 [ZL] Relative motor limit setting 100.0%, changing limit from 5.0% to 30.0%
+03/01/2019 13:37:56.6 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:37:56.6 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:37:56.6 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:37:56.7 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:37:56.7 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:37:56.7 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:37:56.7 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:37:49.7 and finished at 03/01/2019 13:37:56.7
+
+[User] Step.
+03/01/2019 13:38:01.9 Process 'Norm.met' MethodStarted
+03/01/2019 13:38:01.9 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:38:01.9 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:38:01.9 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:38:01.9 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:38:02.0 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:38:02.0 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.19 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:38:05.9 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:38:07.3 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:38:07.3 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:38:07.3 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:38:07.3 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:38:01.9 and finished at 03/01/2019 13:38:07.3
+
+[User] Step.
+03/01/2019 13:38:40.5 Process 'Norm.met' MethodStarted
+03/01/2019 13:38:40.5 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 18% of full power.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -124.73 mm, using motion profile 'Tip Load'.
+03/01/2019 13:38:40.5 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:38:42.1 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:38:42.1 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:38:42.1 [ZL] Absolute motor limit setting 18.0%, changing limit from 30.0% to 18.0%
+03/01/2019 13:38:44.8 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 4.0 mm, motor current 8.5 %
+03/01/2019 13:38:44.8 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:38:44.8 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.02 mm, 0.00 mm, -3.98 mm
+03/01/2019 13:38:45.0 [ZL] Absolute motor limit setting 14.4%, changing limit from 18.0% to 14.4%
+03/01/2019 13:38:45.1 [ZL] Absolute motor limit setting 10.8%, changing limit from 14.4% to 10.8%
+03/01/2019 13:38:45.2 [ZL] Absolute motor limit setting 7.2%, changing limit from 10.8% to 7.2%
+03/01/2019 13:38:45.3 [ZL] Absolute motor limit setting 3.6%, changing limit from 7.2% to 3.6%
+03/01/2019 13:38:45.5 [ZL] Relative motor limit setting 100.0%, changing limit from 3.6% to 30.0%
+03/01/2019 13:38:47.2 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:38:47.2 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:38:47.2 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:38:47.2 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:38:47.2 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:38:47.2 Process 'Norm.met'[1] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:38:47.2 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:38:40.5 and finished at 03/01/2019 13:38:47.2
+
+[User] Step.
+03/01/2019 13:38:59.7 Process 'Norm.met' MethodStarted
+03/01/2019 13:38:59.7 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:38:59.7 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+03/01/2019 13:38:59.7 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:38:59.7 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_09' (-145.82 mm, -223.65 mm, -173.33 mm) with a stack index of 1.
+03/01/2019 13:38:59.8 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.20 mm, -212.41 mm, -2.00 mm, -101.83 mm, using motion profile 'Tip Eject'.
+03/01/2019 13:38:59.8 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.19 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:39:03.7 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:39:05.1 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:39:05.1 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 5 s.
+03/01/2019 13:39:05.1 Process 'Norm.met'[4] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:39:05.1 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:38:59.7 and finished at 03/01/2019 13:39:05.1
+
+03/01/2019 13:56:56.2 Process 'AndStamp.met' MethodStarted
+03/01/2019 13:56:56.2 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (3.30 mm, -223.76 mm, -173.57 mm) with a stack index of 1.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.08 mm, -212.52 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+03/01/2019 13:56:56.2 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -160.18 mm, 'YL' -212.42 mm, 'ZL' -2.01 mm
+03/01/2019 13:56:58.8 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:56:58.9 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 13:57:01.5 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.9 mm, motor current 26.9 %
+03/01/2019 13:57:01.6 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 13:57:01.6 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.09 mm, 0.01 mm, -3.89 mm
+03/01/2019 13:57:01.8 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 13:57:01.9 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 13:57:02.0 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 13:57:02.1 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 13:57:02.3 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 13:57:04.0 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 13:57:04.0 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 13:57:04.0 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.14 mm, 'YL' -212.52 mm, 'ZL' -2.01 mm
+03/01/2019 13:57:04.0 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:57:04.0 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 7 s.
+03/01/2019 13:57:04.0 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 13:57:04.0 Process 'AndStamp.met'[1] 'Aspirate(VVP96)' CommandStarted
+03/01/2019 13:57:04.0 [Lynx.Aspirate(VVP96).VVP96] Plate 'Fluidx_1mL_Tube_rack_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.50 mm.
+03/01/2019 13:57:04.0 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:57:04.0 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_08' (-146.20 mm, -118.67 mm, -173.31 mm) with a stack index of 1.
+03/01/2019 13:57:04.0 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.59 uL, Pre/Post delay 0.00/1.00
+03/01/2019 13:57:04.1 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (96): Ch:A01 130.0uL/0.6uL; Ch:B01 130.0uL/0.6uL; Ch:C01 130.0uL/0.6uL; Ch:D01 130.0uL/0.6uL; Ch:E01 130.0uL/0.6uL; Ch:F01 130.0uL/0.6uL; Ch:G01 130.0uL/0.6uL; Ch:H01 130.0uL/0.6uL; Ch:A02 130.0uL/0.6uL; Ch:B02 130.0uL/0.6uL; Ch:C02 130.0uL/0.6uL; Ch:D02 130.0uL/0.6uL; Ch:E02 130.0uL/0.6uL; Ch:F02 130.0uL/0.6uL; Ch:G02 130.0uL/0.6uL; Ch:H02 130.0uL/0.6uL; Ch:A03 130.0uL/0.6uL; Ch:B03 130.0uL/0.6uL; Ch:C03 130.0uL/0.6uL; Ch:D03 130.0uL/0.6uL; Ch:E03 130.0uL/0.6uL; Ch:F03 130.0uL/0.6uL; Ch:G03 130.0uL/0.6uL; Ch:H03 130.0uL/0.6uL; Ch:A04 130.0uL/0.6uL; Ch:B04 130.0uL/0.6uL; Ch:C04 130.0uL/0.6uL; Ch:D04 130.0uL/0.6uL; Ch:E04 130.0uL/0.6uL; Ch:F04 130.0uL/0.6uL; Ch:G04 130.0uL/0.6uL; Ch:H04 130.0uL/0.6uL; Ch:A05 130.0uL/0.6uL; Ch:B05 130.0uL/0.6uL; Ch:C05 130.0uL/0.6uL; Ch:D05 130.0uL/0.6uL; Ch:E05 130.0uL/0.6uL; Ch:F05 130.0uL/0.6uL; Ch:G05 130.0uL/0.6uL; Ch:H05 130.0uL/0.6uL; Ch:A06 130.0uL/0.6uL; Ch:B06 130.0uL/0.6uL; Ch:C06 130.0uL/0.6uL; Ch:D06 130.0uL/0.6uL; Ch:E06 130.0uL/0.6uL; Ch:F06 130.0uL/0.6uL; Ch:G06 130.0uL/0.6uL; Ch:H06 130.0uL/0.6uL; Ch:A07 130.0uL/0.6uL; Ch:B07 130.0uL/0.6uL; Ch:C07 130.0uL/0.6uL; Ch:D07 130.0uL/0.6uL; Ch:E07 130.0uL/0.6uL; Ch:F07 130.0uL/0.6uL; Ch:G07 130.0uL/0.6uL; Ch:H07 130.0uL/0.6uL; Ch:A08 130.0uL/0.6uL; Ch:B08 130.0uL/0.6uL; Ch:C08 130.0uL/0.6uL; Ch:D08 130.0uL/0.6uL; Ch:E08 130.0uL/0.6uL; Ch:F08 130.0uL/0.6uL; Ch:G08 130.0uL/0.6uL; Ch:H08 130.0uL/0.6uL; Ch:A09 130.0uL/0.6uL; Ch:B09 130.0uL/0.6uL; Ch:C09 130.0uL/0.6uL; Ch:D09 130.0uL/0.6uL; Ch:E09 130.0uL/0.6uL; Ch:F09 130.0uL/0.6uL; Ch:G09 130.0uL/0.6uL; Ch:H09 130.0uL/0.6uL; Ch:A10 130.0uL/0.6uL; Ch:B10 130.0uL/0.6uL; Ch:C10 130.0uL/0.6uL; Ch:D10 130.0uL/0.6uL; Ch:E10 130.0uL/0.6uL; Ch:F10 130.0uL/0.6uL; Ch:G10 130.0uL/0.6uL; Ch:H10 130.0uL/0.6uL; Ch:A11 130.0uL/0.6uL; Ch:B11 130.0uL/0.6uL; Ch:C11 130.0uL/0.6uL; Ch:D11 130.0uL/0.6uL; Ch:E11 130.0uL/0.6uL; Ch:F11 130.0uL/0.6uL; Ch:G11 130.0uL/0.6uL; Ch:H11 130.0uL/0.6uL; Ch:A12 130.0uL/0.6uL; Ch:B12 130.0uL/0.6uL; Ch:C12 130.0uL/0.6uL; Ch:D12 130.0uL/0.6uL; Ch:E12 130.0uL/0.6uL; Ch:F12 130.0uL/0.6uL; Ch:G12 130.0uL/0.6uL; Ch:H12 130.0uL/0.6uL
+03/01/2019 13:57:04.1 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+03/01/2019 13:57:04.1 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.58 mm, -107.43 mm, -121.11 mm, -121.61 mm, using motion profile 'Slow Speed'.
+03/01/2019 13:57:04.1 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -11.14 mm, 'YL' -212.52 mm, 'ZL' -2.01 mm
+03/01/2019 13:57:10.2 [VVP96] Clog detection is off.
+03/01/2019 13:57:10.2 [VVP96] Aspirate diagnostics are off.
+03/01/2019 13:57:10.2 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+03/01/2019 13:57:10.5 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+03/01/2019 13:57:10.7 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+03/01/2019 13:57:11.8 [VVP96] VVP Aspirate pressure is 40 mbar.
+03/01/2019 13:57:32.2 [VVP96] Aspirate complete.
+03/01/2019 13:57:32.9 [VVP96] VVP reports 96 errors in last aspirate: A01, B01, C01, D01, E01, F01, G01, H01, A02, B02, C02, D02, E02, F02, G02, H02, A03, B03, C03, D03, E03, F03, G03, H03, A04, B04, C04, D04, E04, F04, G04, H04, A05, B05, C05, D05, E05, F05, G05, H05, A06, B06, C06, D06, E06, F06, G06, H06, A07, B07, C07, D07, E07, F07, G07, H07, A08, B08, C08, D08, E08, F08, G08, H08, A09, B09, C09, D09, E09, F09, G09, H09, A10, B10, C10, D10, E10, F10, G10, H10, A11, B11, C11, D11, E11, F11, G11, H11, A12, B12, C12, D12, E12, F12, G12, H12
+03/01/2019 13:57:32.9 [VVP96] Average residual volume was 0.00 ul for 0 channels at 40 mbar pressure
+03/01/2019 13:57:33.0 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 47.0uL/0.0uL Err: -4, Ch:B01 6553.3uL/0.0uL Err: -4, Ch:C01 33.1uL/0.0uL Err: -4, Ch:D01 62.0uL/0.0uL Err: -4, Ch:E01 58.1uL/0.0uL Err: -4, Ch:F01 4.4uL/0.0uL Err: -4, Ch:G01 50.4uL/0.0uL Err: -4, Ch:H01 71.8uL/0.0uL Err: -4, Ch:A02 35.4uL/0.0uL Err: -4, Ch:B02 6553.3uL/0.0uL Err: -3, Ch:C02 9.0uL/0.0uL Err: -4, Ch:D02 6553.3uL/0.0uL Err: -3, Ch:E02 5.3uL/0.0uL Err: -4, Ch:F02 6553.2uL/6553.5uL Err: -3, Ch:G02 26.1uL/0.0uL Err: -4, Ch:H02 1.2uL/0.0uL Err: -4, Ch:A03 1.9uL/0.0uL Err: -4, Ch:B03 5.6uL/0.0uL Err: -4, Ch:C03 6553.3uL/0.0uL Err: -3, Ch:D03 48.7uL/0.0uL Err: -4, Ch:E03 6553.3uL/0.0uL Err: -3, Ch:F03 6553.3uL/0.0uL Err: -3, Ch:G03 6.1uL/0.0uL Err: -4, Ch:H03 8.7uL/6553.5uL Err: -4, Ch:A04 6553.3uL/0.0uL Err: -3, Ch:B04 6553.3uL/0.0uL Err: -3, Ch:C04 7.1uL/0.0uL Err: -4, Ch:D04 6553.3uL/0.0uL Err: -3, Ch:E04 6553.2uL/6553.5uL Err: -3, Ch:F04 44.2uL/6553.5uL Err: -4, Ch:G04 64.4uL/0.0uL Err: -4, Ch:H04 16.0uL/0.0uL Err: -4, Ch:A05 6553.2uL/6553.5uL Err: -3, Ch:B05 48.3uL/0.0uL Err: -4, Ch:C05 34.7uL/0.0uL Err: -4, Ch:D05 3.6uL/0.0uL Err: -4, Ch:E05 3.3uL/0.0uL Err: -4, Ch:F05 1.7uL/0.0uL Err: -4, Ch:G05 0.3uL/0.0uL Err: -4, Ch:H05 16.7uL/6553.5uL Err: -4, Ch:A06 5.0uL/0.0uL Err: -4, Ch:B06 6553.3uL/0.0uL Err: -3, Ch:C06 6553.2uL/6553.5uL Err: -3, Ch:D06 6553.1uL/6553.5uL Err: -3, Ch:E06 6553.2uL/6553.5uL Err: -3, Ch:F06 2.0uL/0.0uL Err: -4, Ch:G06 2.7uL/0.0uL Err: -4, Ch:H06 57.0uL/0.0uL Err: -4, Ch:A07 4.7uL/0.0uL Err: -4, Ch:B07 10.9uL/0.0uL Err: -4, Ch:C07 60.4uL/0.0uL Err: -4, Ch:D07 54.8uL/0.0uL Err: -4, Ch:E07 51.9uL/0.0uL Err: -4, Ch:F07 6553.3uL/0.0uL Err: -3, Ch:G07 12.1uL/0.0uL Err: -4, Ch:H07 41.0uL/0.0uL Err: -4, Ch:A08 27.1uL/0.0uL Err: -4, Ch:B08 57.1uL/0.0uL Err: -4, Ch:C08 8.6uL/0.0uL Err: -4, Ch:D08 48.7uL/0.0uL Err: -4, Ch:E08 5.3uL/0.0uL Err: -4, Ch:F08 64.7uL/0.0uL Err: -4, Ch:G08 6553.2uL/6553.5uL Err: -3, Ch:H08 6553.3uL/0.0uL Err: -3, Ch:A09 4.2uL/0.0uL Err: -4, Ch:B09 2.7uL/0.0uL Err: -4, Ch:C09 6553.3uL/0.0uL Err: -3, Ch:D09 6553.3uL/0.0uL Err: -3, Ch:E09 1.6uL/0.0uL Err: -4, Ch:F09 6553.3uL/0.0uL Err: -3, Ch:G09 38.4uL/0.0uL Err: -4, Ch:H09 59.9uL/0.0uL Err: -4, Ch:A10 5.6uL/0.0uL Err: -4, Ch:B10 56.8uL/0.0uL Err: -4, Ch:C10 7.5uL/0.0uL Err: -4, Ch:D10 6553.2uL/6553.5uL Err: -3, Ch:E10 6553.2uL/6553.5uL Err: -3, Ch:F10 46.0uL/0.0uL Err: -4, Ch:G10 47.3uL/0.0uL Err: -4, Ch:H10 61.3uL/0.0uL Err: -4, Ch:A11 64.7uL/0.0uL Err: -4, Ch:B11 47.1uL/0.0uL Err: -4, Ch:C11 9.5uL/0.0uL Err: -4, Ch:D11 5.5uL/0.0uL Err: -4, Ch:E11 47.3uL/0.0uL Err: -4, Ch:F11 1.6uL/0.0uL Err: -4, Ch:G11 6553.2uL/0.0uL Err: -3, Ch:H11 6553.3uL/0.0uL Err: -3, Ch:A12 6553.3uL/0.0uL Err: -3, Ch:B12 6.4uL/0.0uL Err: -4, Ch:C12 7.0uL/0.0uL Err: -4, Ch:D12 28.1uL/0.0uL Err: -4, Ch:E12 4.1uL/0.0uL Err: -4, Ch:F12 41.5uL/0.0uL Err: -4, Ch:G12 6.9uL/0.0uL Err: -4, Ch:H12 1.8uL/0.0uL Err: -4
+03/01/2019 13:57:38.7 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -160.55 mm, 'YL' -107.46 mm, 'ZL' -2.02 mm
+03/01/2019 13:57:38.7 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 34 s.
+03/01/2019 13:57:38.8 Process 'AndStamp.met'[1] 'Aspirate(VVP96)' CommandCompleted
+03/01/2019 13:57:38.8 Process 'AndStamp.met'[2] 'Dispense(VVP96)' CommandStarted
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Plate 'Nunc 1ml_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 1.00 mm.
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_01' (2.89 mm, -14.40 mm, -172.89 mm) with a stack index of 1.
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.64 uL, Pre/Post delay 0.00/1.00
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Dispense parameters (0): 
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Blowout parameters (96): Ch:A01 10.0uL/0.6uL; Ch:B01 10.0uL/0.6uL; Ch:C01 10.0uL/0.6uL; Ch:D01 10.0uL/0.6uL; Ch:E01 10.0uL/0.6uL; Ch:F01 10.0uL/0.6uL; Ch:G01 10.0uL/0.6uL; Ch:H01 10.0uL/0.6uL; Ch:A02 10.0uL/0.6uL; Ch:B02 10.0uL/0.6uL; Ch:C02 10.0uL/0.6uL; Ch:D02 10.0uL/0.6uL; Ch:E02 10.0uL/0.6uL; Ch:F02 10.0uL/0.6uL; Ch:G02 10.0uL/0.6uL; Ch:H02 10.0uL/0.6uL; Ch:A03 10.0uL/0.6uL; Ch:B03 10.0uL/0.6uL; Ch:C03 10.0uL/0.6uL; Ch:D03 10.0uL/0.6uL; Ch:E03 10.0uL/0.6uL; Ch:F03 10.0uL/0.6uL; Ch:G03 10.0uL/0.6uL; Ch:H03 10.0uL/0.6uL; Ch:A04 10.0uL/0.6uL; Ch:B04 10.0uL/0.6uL; Ch:C04 10.0uL/0.6uL; Ch:D04 10.0uL/0.6uL; Ch:E04 10.0uL/0.6uL; Ch:F04 10.0uL/0.6uL; Ch:G04 10.0uL/0.6uL; Ch:H04 10.0uL/0.6uL; Ch:A05 10.0uL/0.6uL; Ch:B05 10.0uL/0.6uL; Ch:C05 10.0uL/0.6uL; Ch:D05 10.0uL/0.6uL; Ch:E05 10.0uL/0.6uL; Ch:F05 10.0uL/0.6uL; Ch:G05 10.0uL/0.6uL; Ch:H05 10.0uL/0.6uL; Ch:A06 10.0uL/0.6uL; Ch:B06 10.0uL/0.6uL; Ch:C06 10.0uL/0.6uL; Ch:D06 10.0uL/0.6uL; Ch:E06 10.0uL/0.6uL; Ch:F06 10.0uL/0.6uL; Ch:G06 10.0uL/0.6uL; Ch:H06 10.0uL/0.6uL; Ch:A07 10.0uL/0.6uL; Ch:B07 10.0uL/0.6uL; Ch:C07 10.0uL/0.6uL; Ch:D07 10.0uL/0.6uL; Ch:E07 10.0uL/0.6uL; Ch:F07 10.0uL/0.6uL; Ch:G07 10.0uL/0.6uL; Ch:H07 10.0uL/0.6uL; Ch:A08 10.0uL/0.6uL; Ch:B08 10.0uL/0.6uL; Ch:C08 10.0uL/0.6uL; Ch:D08 10.0uL/0.6uL; Ch:E08 10.0uL/0.6uL; Ch:F08 10.0uL/0.6uL; Ch:G08 10.0uL/0.6uL; Ch:H08 10.0uL/0.6uL; Ch:A09 10.0uL/0.6uL; Ch:B09 10.0uL/0.6uL; Ch:C09 10.0uL/0.6uL; Ch:D09 10.0uL/0.6uL; Ch:E09 10.0uL/0.6uL; Ch:F09 10.0uL/0.6uL; Ch:G09 10.0uL/0.6uL; Ch:H09 10.0uL/0.6uL; Ch:A10 10.0uL/0.6uL; Ch:B10 10.0uL/0.6uL; Ch:C10 10.0uL/0.6uL; Ch:D10 10.0uL/0.6uL; Ch:E10 10.0uL/0.6uL; Ch:F10 10.0uL/0.6uL; Ch:G10 10.0uL/0.6uL; Ch:H10 10.0uL/0.6uL; Ch:A11 10.0uL/0.6uL; Ch:B11 10.0uL/0.6uL; Ch:C11 10.0uL/0.6uL; Ch:D11 10.0uL/0.6uL; Ch:E11 10.0uL/0.6uL; Ch:F11 10.0uL/0.6uL; Ch:G11 10.0uL/0.6uL; Ch:H11 10.0uL/0.6uL; Ch:A12 10.0uL/0.6uL; Ch:B12 10.0uL/0.6uL; Ch:C12 10.0uL/0.6uL; Ch:D12 10.0uL/0.6uL; Ch:E12 10.0uL/0.6uL; Ch:F12 10.0uL/0.6uL; Ch:G12 10.0uL/0.6uL; Ch:H12 10.0uL/0.6uL
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Post airgap parameters (0): 
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.49 mm, -3.16 mm, -120.49 mm, -121.49 mm, using motion profile 'Fast Speed'.
+03/01/2019 13:57:38.8 [Lynx.Dispense(VVP96).VVP96] Initial axis positions:'XL' -160.55 mm, 'YL' -107.46 mm, 'ZL' -2.01 mm
+03/01/2019 13:57:41.6 [Lynx.Dispense(VVP96).VVP96] Dispense results: 
+03/01/2019 13:57:41.6 [Lynx.Dispense(VVP96).VVP96] Set dispense pressure for blowout.
+03/01/2019 13:57:41.7 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+03/01/2019 13:57:41.9 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+03/01/2019 13:57:42.2 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+03/01/2019 13:57:43.3 [VVP96] VVP Dispense pressure is 101 mbar.
+03/01/2019 13:58:03.8 [VVP96] Dispense complete.
+03/01/2019 13:58:05.0 [VVP96] Average residual volume was 0.10 ul for 1 channels at 100 mbar pressure
+03/01/2019 13:58:05.0 [VVP96] VVP reports errors in last operation: Ch:A01 5.3uL/0.0uL Err: -4, Ch:B01 6553.3uL/0.0uL Err: -3, Ch:C01 6553.3uL/0.0uL Err: -3, Ch:D01 6553.3uL/0.0uL Err: -3, Ch:E01 6553.3uL/0.0uL Err: -3, Ch:F01 6553.3uL/0.0uL Err: -3, Ch:G01 6553.3uL/0.0uL Err: -3, Ch:H01 6553.3uL/0.0uL Err: -3, Ch:A02 7.6uL/0.0uL Err: -4, Ch:B02 6553.3uL/0.0uL Err: -16, Ch:C02 6553.3uL/0.0uL Err: -3, Ch:D02 6553.3uL/0.0uL Err: -16, Ch:E02 6553.3uL/0.0uL Err: -3, Ch:F02 5.4uL/0.0uL Err: -4, Ch:G02 6553.3uL/0.0uL Err: -3, Ch:H02 6553.3uL/0.0uL Err: -3, Ch:A03 6553.3uL/0.0uL Err: -3, Ch:B03 6553.3uL/0.0uL Err: -16, Ch:C03 6553.3uL/0.0uL Err: -16, Ch:D03 3.0uL/0.0uL Err: -4, Ch:E03 6553.3uL/0.0uL Err: -16, Ch:F03 2.7uL/0.0uL Err: -4, Ch:G03 6553.3uL/0.0uL Err: -3, Ch:H03 6.2uL/0.0uL Err: -4, Ch:A04 6553.3uL/0.0uL Err: -16, Ch:B04 6553.3uL/0.0uL Err: -16, Ch:C04 6553.3uL/0.0uL Err: -16, Ch:D04 6553.3uL/0.0uL Err: -16, Ch:E04 3.0uL/0.0uL Err: -4, Ch:F04 1.5uL/0.0uL Err: -4, Ch:G04 6553.3uL/0.0uL Err: -3, Ch:H04 3.2uL/0.0uL Err: -4, Ch:A05 6553.3uL/0.0uL Err: -16, Ch:B05 6553.3uL/0.0uL Err: -3, Ch:C05 6553.3uL/0.0uL Err: -3, Ch:D05 6553.3uL/0.0uL Err: -16, Ch:E05 6553.3uL/0.0uL Err: -16, Ch:F05 6553.3uL/0.0uL Err: -3, Ch:G05 6553.3uL/0.0uL Err: -3, Ch:H05 6553.3uL/0.0uL Err: -3, Ch:A06 6553.3uL/0.0uL Err: -3, Ch:B06 6553.3uL/0.0uL Err: -16, Ch:C06 6553.3uL/0.0uL Err: -16, Ch:D06 6.4uL/0.0uL Err: -4, Ch:E06 9.4uL/0.1uL Err: 0, Ch:F06 6553.3uL/0.0uL Err: -3, Ch:G06 6553.3uL/0.0uL Err: -3, Ch:H06 6553.3uL/0.0uL Err: -3, Ch:A07 6553.3uL/0.0uL Err: -3, Ch:B07 6553.3uL/0.0uL Err: -16, Ch:C07 6553.3uL/0.0uL Err: -3, Ch:D07 6553.3uL/0.0uL Err: -3, Ch:E07 6553.3uL/0.0uL Err: -3, Ch:F07 2.8uL/0.0uL Err: -4, Ch:G07 6553.3uL/0.0uL Err: -3, Ch:H07 6553.3uL/0.0uL Err: -3, Ch:A08 6553.3uL/0.0uL Err: -3, Ch:B08 6553.3uL/0.0uL Err: -3, Ch:C08 6553.3uL/0.0uL Err: -16, Ch:D08 7.3uL/0.0uL Err: -4, Ch:E08 6553.3uL/0.0uL Err: -3, Ch:F08 6553.3uL/0.0uL Err: -3, Ch:G08 0.3uL/0.0uL Err: -4, Ch:H08 2.5uL/0.0uL Err: -4, Ch:A09 6553.3uL/0.0uL Err: -16, Ch:B09 6553.3uL/0.0uL Err: -3, Ch:C09 6553.3uL/0.0uL Err: -3, Ch:D09 6553.3uL/0.0uL Err: -16, Ch:E09 6553.3uL/0.0uL Err: -3, Ch:F09 6553.3uL/0.0uL Err: -3, Ch:G09 0.6uL/0.0uL Err: -4, Ch:H09 6553.3uL/0.0uL Err: -3, Ch:A10 6553.3uL/0.0uL Err: -3, Ch:B10 6553.3uL/0.0uL Err: -3, Ch:C10 6553.3uL/0.0uL Err: -16, Ch:D10 6553.3uL/0.0uL Err: -16, Ch:E10 5.4uL/0.0uL Err: -4, Ch:F10 4.3uL/0.0uL Err: -4, Ch:G10 6553.3uL/0.0uL Err: -3, Ch:H10 6553.3uL/0.0uL Err: -3, Ch:A11 6553.3uL/0.0uL Err: -3, Ch:B11 0.2uL/0.0uL Err: -4, Ch:C11 6553.3uL/0.0uL Err: -3, Ch:D11 6553.3uL/0.0uL Err: -3, Ch:E11 6553.3uL/0.0uL Err: -3, Ch:F11 6553.3uL/0.0uL Err: -3, Ch:G11 6.5uL/0.0uL Err: -4, Ch:H11 6553.3uL/0.0uL Err: -3, Ch:A12 6553.3uL/0.0uL Err: -3, Ch:B12 6553.3uL/0.0uL Err: -3, Ch:C12 6553.3uL/0.0uL Err: -3, Ch:D12 6553.3uL/0.0uL Err: -3, Ch:E12 6553.3uL/0.0uL Err: -3, Ch:F12 6553.3uL/0.0uL Err: -3, Ch:G12 6553.3uL/0.0uL Err: -3, Ch:H12 6553.3uL/0.0uL Err: -3
+03/01/2019 13:58:05.2 [Lynx.Dispense(VVP96).VVP96] Blowout results: 
+03/01/2019 13:58:08.4 [Lynx.Dispense(VVP96).VVP96] Final axis positions:'XL' -11.54 mm, 'YL' -3.20 mm, 'ZL' -2.01 mm
+03/01/2019 13:58:08.4 [Lynx.Dispense(VVP96).VVP96] Time to complete: 29 s.
+03/01/2019 13:58:08.5 Process 'AndStamp.met'[2] 'Dispense(VVP96)' CommandCompleted
+03/01/2019 13:58:08.5 Process 'AndStamp.met'[3] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 13:58:08.5 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 9.00 mm.
+03/01/2019 13:58:08.5 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 13:58:08.5 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (3.30 mm, -223.76 mm, -173.57 mm) with a stack index of 1.
+03/01/2019 13:58:08.5 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.08 mm, -212.52 mm, -2.00 mm, -103.07 mm, using motion profile 'Mid Speed'.
+03/01/2019 13:58:08.5 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -11.54 mm, 'YL' -3.20 mm, 'ZL' -2.01 mm
+03/01/2019 13:58:13.9 [VVP96] Tip ejection performed 2 times.
+03/01/2019 13:58:15.3 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:58:15.3 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 13:58:15.3 Process 'AndStamp.met'[3] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 13:58:15.3 Process 'AndStamp.met'[4] 'Move To Location(VVP96)' CommandStarted
+03/01/2019 13:58:15.3 [Lynx.Move To Location(VVP96).VVP96] Location 'Loc_10' with X/Y offsets 0.00 mm / 0.00 mm.
+03/01/2019 13:58:15.4 [Lynx.Move To Location(VVP96).VVP96] Location coords: -145.48 mm, -327.87 mm, -174.72 mm.
+03/01/2019 13:58:15.4 [Lynx.Move To Location(VVP96).VVP96] Tool X/Y location offsets: 14.38 mm, 11.24 mm.
+03/01/2019 13:58:15.4 [Lynx.Move To Location(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -159.86 mm, -316.63 mm, -2.00 mm, -2.00 mm, using motion profile 'Fast Speed'.
+03/01/2019 13:58:15.4 [Lynx.Move To Location(VVP96).VVP96] Initial axis positions:'XL' -11.13 mm, 'YL' -212.52 mm, 'ZL' -2.01 mm
+03/01/2019 13:58:16.6 [Lynx.Move To Location(VVP96).VVP96] Final axis positions:'XL' -159.82 mm, 'YL' -316.60 mm, 'ZL' -2.01 mm
+03/01/2019 13:58:16.6 [Lynx.Move To Location(VVP96).VVP96] Time to complete: 1 s.
+03/01/2019 13:58:16.6 Process 'AndStamp.met'[4] 'Move To Location(VVP96)' CommandCompleted
+03/01/2019 13:58:16.6 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:56:56.2 and finished at 03/01/2019 13:58:16.6
+
+[User] Start.
+03/01/2019 13:59:56.9 Process 'AndStamp.met' MethodStarted
+03/01/2019 13:59:56.9 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandStarted
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (3.30 mm, -223.76 mm, -173.57 mm) with a stack index of 1.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.08 mm, -212.52 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+03/01/2019 13:59:57.0 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -159.83 mm, 'YL' -316.61 mm, 'ZL' -2.01 mm
+03/01/2019 13:59:59.6 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+03/01/2019 13:59:59.6 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+03/01/2019 14:00:02.2 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.9 mm, motor current 25.9 %
+03/01/2019 14:00:02.3 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+03/01/2019 14:00:02.3 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.09 mm, 0.03 mm, -3.88 mm
+03/01/2019 14:00:02.5 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+03/01/2019 14:00:02.6 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+03/01/2019 14:00:02.7 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+03/01/2019 14:00:02.8 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+03/01/2019 14:00:02.9 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+03/01/2019 14:00:04.6 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+03/01/2019 14:00:04.6 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+03/01/2019 14:00:04.6 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.13 mm, 'YL' -212.55 mm, 'ZL' -2.01 mm
+03/01/2019 14:00:04.7 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 14:00:04.7 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 7 s.
+03/01/2019 14:00:04.7 Process 'AndStamp.met'[0] 'Load Tips(VVP96)' CommandCompleted
+03/01/2019 14:00:04.7 Process 'AndStamp.met'[1] 'Aspirate(VVP96)' CommandStarted
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Plate 'Fluidx_1mL_Tube_rack_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.50 mm.
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_08' (-146.20 mm, -118.67 mm, -173.31 mm) with a stack index of 1.
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.59 uL, Pre/Post delay 0.00/1.00
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (96): Ch:A01 130.0uL/0.6uL; Ch:B01 130.0uL/0.6uL; Ch:C01 130.0uL/0.6uL; Ch:D01 130.0uL/0.6uL; Ch:E01 130.0uL/0.6uL; Ch:F01 130.0uL/0.6uL; Ch:G01 130.0uL/0.6uL; Ch:H01 130.0uL/0.6uL; Ch:A02 130.0uL/0.6uL; Ch:B02 130.0uL/0.6uL; Ch:C02 130.0uL/0.6uL; Ch:D02 130.0uL/0.6uL; Ch:E02 130.0uL/0.6uL; Ch:F02 130.0uL/0.6uL; Ch:G02 130.0uL/0.6uL; Ch:H02 130.0uL/0.6uL; Ch:A03 130.0uL/0.6uL; Ch:B03 130.0uL/0.6uL; Ch:C03 130.0uL/0.6uL; Ch:D03 130.0uL/0.6uL; Ch:E03 130.0uL/0.6uL; Ch:F03 130.0uL/0.6uL; Ch:G03 130.0uL/0.6uL; Ch:H03 130.0uL/0.6uL; Ch:A04 130.0uL/0.6uL; Ch:B04 130.0uL/0.6uL; Ch:C04 130.0uL/0.6uL; Ch:D04 130.0uL/0.6uL; Ch:E04 130.0uL/0.6uL; Ch:F04 130.0uL/0.6uL; Ch:G04 130.0uL/0.6uL; Ch:H04 130.0uL/0.6uL; Ch:A05 130.0uL/0.6uL; Ch:B05 130.0uL/0.6uL; Ch:C05 130.0uL/0.6uL; Ch:D05 130.0uL/0.6uL; Ch:E05 130.0uL/0.6uL; Ch:F05 130.0uL/0.6uL; Ch:G05 130.0uL/0.6uL; Ch:H05 130.0uL/0.6uL; Ch:A06 130.0uL/0.6uL; Ch:B06 130.0uL/0.6uL; Ch:C06 130.0uL/0.6uL; Ch:D06 130.0uL/0.6uL; Ch:E06 130.0uL/0.6uL; Ch:F06 130.0uL/0.6uL; Ch:G06 130.0uL/0.6uL; Ch:H06 130.0uL/0.6uL; Ch:A07 130.0uL/0.6uL; Ch:B07 130.0uL/0.6uL; Ch:C07 130.0uL/0.6uL; Ch:D07 130.0uL/0.6uL; Ch:E07 130.0uL/0.6uL; Ch:F07 130.0uL/0.6uL; Ch:G07 130.0uL/0.6uL; Ch:H07 130.0uL/0.6uL; Ch:A08 130.0uL/0.6uL; Ch:B08 130.0uL/0.6uL; Ch:C08 130.0uL/0.6uL; Ch:D08 130.0uL/0.6uL; Ch:E08 130.0uL/0.6uL; Ch:F08 130.0uL/0.6uL; Ch:G08 130.0uL/0.6uL; Ch:H08 130.0uL/0.6uL; Ch:A09 130.0uL/0.6uL; Ch:B09 130.0uL/0.6uL; Ch:C09 130.0uL/0.6uL; Ch:D09 130.0uL/0.6uL; Ch:E09 130.0uL/0.6uL; Ch:F09 130.0uL/0.6uL; Ch:G09 130.0uL/0.6uL; Ch:H09 130.0uL/0.6uL; Ch:A10 130.0uL/0.6uL; Ch:B10 130.0uL/0.6uL; Ch:C10 130.0uL/0.6uL; Ch:D10 130.0uL/0.6uL; Ch:E10 130.0uL/0.6uL; Ch:F10 130.0uL/0.6uL; Ch:G10 130.0uL/0.6uL; Ch:H10 130.0uL/0.6uL; Ch:A11 130.0uL/0.6uL; Ch:B11 130.0uL/0.6uL; Ch:C11 130.0uL/0.6uL; Ch:D11 130.0uL/0.6uL; Ch:E11 130.0uL/0.6uL; Ch:F11 130.0uL/0.6uL; Ch:G11 130.0uL/0.6uL; Ch:H11 130.0uL/0.6uL; Ch:A12 130.0uL/0.6uL; Ch:B12 130.0uL/0.6uL; Ch:C12 130.0uL/0.6uL; Ch:D12 130.0uL/0.6uL; Ch:E12 130.0uL/0.6uL; Ch:F12 130.0uL/0.6uL; Ch:G12 130.0uL/0.6uL; Ch:H12 130.0uL/0.6uL
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -160.58 mm, -107.43 mm, -121.11 mm, -121.61 mm, using motion profile 'Slow Speed'.
+03/01/2019 14:00:04.7 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -11.14 mm, 'YL' -212.55 mm, 'ZL' -2.01 mm
+03/01/2019 14:00:10.9 [VVP96] Clog detection is off.
+03/01/2019 14:00:10.9 [VVP96] Aspirate diagnostics are off.
+03/01/2019 14:00:10.9 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+03/01/2019 14:00:11.1 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+03/01/2019 14:00:11.3 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+03/01/2019 14:00:12.4 [VVP96] VVP Aspirate pressure is 41 mbar.
+03/01/2019 14:00:32.8 [VVP96] Aspirate complete.
+03/01/2019 14:00:33.4 [VVP96] VVP reports 96 errors in last aspirate: A01, B01, C01, D01, E01, F01, G01, H01, A02, B02, C02, D02, E02, F02, G02, H02, A03, B03, C03, D03, E03, F03, G03, H03, A04, B04, C04, D04, E04, F04, G04, H04, A05, B05, C05, D05, E05, F05, G05, H05, A06, B06, C06, D06, E06, F06, G06, H06, A07, B07, C07, D07, E07, F07, G07, H07, A08, B08, C08, D08, E08, F08, G08, H08, A09, B09, C09, D09, E09, F09, G09, H09, A10, B10, C10, D10, E10, F10, G10, H10, A11, B11, C11, D11, E11, F11, G11, H11, A12, B12, C12, D12, E12, F12, G12, H12
+03/01/2019 14:00:33.4 [VVP96] Average residual volume was 0.00 ul for 0 channels at 40 mbar pressure
+03/01/2019 14:00:33.6 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 38.6uL/0.0uL Err: -4, Ch:B01 8.3uL/0.0uL Err: -4, Ch:C01 15.1uL/0.0uL Err: -4, Ch:D01 59.9uL/0.0uL Err: -4, Ch:E01 50.9uL/0.0uL Err: -4, Ch:F01 9.3uL/0.0uL Err: -4, Ch:G01 43.6uL/0.0uL Err: -4, Ch:H01 51.7uL/0.0uL Err: -4, Ch:A02 6553.2uL/6553.5uL Err: -3, Ch:B02 6553.2uL/6553.5uL Err: -3, Ch:C02 11.8uL/0.0uL Err: -4, Ch:D02 6553.3uL/0.0uL Err: -3, Ch:E02 3.6uL/0.0uL Err: -4, Ch:F02 6553.2uL/6553.5uL Err: -3, Ch:G02 3.9uL/0.0uL Err: -4, Ch:H02 7.7uL/0.0uL Err: -4, Ch:A03 6553.3uL/0.0uL Err: -3, Ch:B03 3.5uL/0.0uL Err: -4, Ch:C03 9.7uL/0.0uL Err: -4, Ch:D03 38.8uL/0.0uL Err: -4, Ch:E03 6553.3uL/0.0uL Err: -3, Ch:F03 0.1uL/0.0uL Err: -4, Ch:G03 8.1uL/0.0uL Err: -4, Ch:H03 6553.2uL/6553.5uL Err: -3, Ch:A04 6553.3uL/0.0uL Err: -3, Ch:B04 6553.2uL/6553.5uL Err: -3, Ch:C04 4.4uL/0.0uL Err: -4, Ch:D04 6553.3uL/0.0uL Err: -3, Ch:E04 6553.3uL/0.0uL Err: -3, Ch:F04 44.3uL/0.0uL Err: -4, Ch:G04 48.5uL/0.0uL Err: -4, Ch:H04 24.1uL/0.0uL Err: -4, Ch:A05 6553.3uL/0.0uL Err: -3, Ch:B05 46.8uL/0.0uL Err: -4, Ch:C05 30.3uL/0.0uL Err: -4, Ch:D05 0.0uL/0.0uL Err: -4, Ch:E05 2.5uL/0.0uL Err: -4, Ch:F05 10.6uL/0.0uL Err: -4, Ch:G05 4.4uL/0.0uL Err: -4, Ch:H05 6553.5uL/6553.5uL Err: -4, Ch:A06 6.0uL/0.0uL Err: -4, Ch:B06 6553.4uL/0.0uL Err: -4, Ch:C06 6553.2uL/6553.5uL Err: -3, Ch:D06 6553.2uL/0.0uL Err: -3, Ch:E06 6553.2uL/6553.5uL Err: -3, Ch:F06 2.4uL/0.0uL Err: -4, Ch:G06 3.6uL/0.0uL Err: -4, Ch:H06 55.3uL/0.0uL Err: -4, Ch:A07 6.5uL/0.0uL Err: -4, Ch:B07 2.8uL/0.0uL Err: -4, Ch:C07 48.2uL/0.0uL Err: -4, Ch:D07 44.0uL/0.0uL Err: -4, Ch:E07 41.5uL/0.0uL Err: -4, Ch:F07 6553.3uL/0.0uL Err: -3, Ch:G07 7.8uL/0.0uL Err: -4, Ch:H07 39.4uL/0.0uL Err: -4, Ch:A08 7.7uL/0.0uL Err: -4, Ch:B08 48.6uL/0.0uL Err: -4, Ch:C08 9.6uL/0.0uL Err: -4, Ch:D08 35.4uL/6553.5uL Err: -4, Ch:E08 6.4uL/0.0uL Err: -4, Ch:F08 53.6uL/0.0uL Err: -4, Ch:G08 6553.2uL/6553.5uL Err: -3, Ch:H08 6553.2uL/6553.5uL Err: -3, Ch:A09 5.0uL/0.0uL Err: -4, Ch:B09 11.1uL/0.0uL Err: -4, Ch:C09 9.4uL/0.0uL Err: -4, Ch:D09 6553.3uL/0.0uL Err: -3, Ch:E09 7.5uL/0.0uL Err: -4, Ch:F09 3.6uL/0.0uL Err: -4, Ch:G09 20.0uL/6553.5uL Err: -4, Ch:H09 50.3uL/0.0uL Err: -4, Ch:A10 5.7uL/0.0uL Err: -4, Ch:B10 43.6uL/0.0uL Err: -4, Ch:C10 8.5uL/0.0uL Err: -4, Ch:D10 6553.3uL/0.0uL Err: -3, Ch:E10 6553.3uL/0.0uL Err: -3, Ch:F10 44.6uL/0.0uL Err: -4, Ch:G10 37.6uL/0.0uL Err: -4, Ch:H10 55.9uL/0.0uL Err: -4, Ch:A11 52.3uL/0.0uL Err: -4, Ch:B11 46.3uL/0.0uL Err: -4, Ch:C11 5.8uL/0.0uL Err: -4, Ch:D11 7.3uL/0.0uL Err: -4, Ch:E11 47.1uL/0.0uL Err: -4, Ch:F11 1.8uL/0.0uL Err: -4, Ch:G11 6553.2uL/0.0uL Err: -3, Ch:H11 6553.2uL/6553.5uL Err: -3, Ch:A12 6553.3uL/0.0uL Err: -3, Ch:B12 2.3uL/0.0uL Err: -4, Ch:C12 11.4uL/0.0uL Err: -4, Ch:D12 25.9uL/0.0uL Err: -4, Ch:E12 11.4uL/0.0uL Err: -4, Ch:F12 38.9uL/0.0uL Err: -4, Ch:G12 8.7uL/0.0uL Err: -4, Ch:H12 7.1uL/0.0uL Err: -4
+03/01/2019 14:00:39.3 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -160.55 mm, 'YL' -107.47 mm, 'ZL' -2.01 mm
+03/01/2019 14:00:39.3 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 34 s.
+03/01/2019 14:00:39.3 Process 'AndStamp.met'[1] 'Aspirate(VVP96)' CommandCompleted
+03/01/2019 14:00:39.3 Process 'AndStamp.met'[2] 'Dispense(VVP96)' CommandStarted
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Plate 'Nunc 1ml_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 1.00 mm.
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_01' (2.89 mm, -14.40 mm, -172.89 mm) with a stack index of 1.
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.64 uL, Pre/Post delay 0.00/1.00
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Dispense parameters (0): 
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Blowout parameters (96): Ch:A01 10.0uL/0.6uL; Ch:B01 10.0uL/0.6uL; Ch:C01 10.0uL/0.6uL; Ch:D01 10.0uL/0.6uL; Ch:E01 10.0uL/0.6uL; Ch:F01 10.0uL/0.6uL; Ch:G01 10.0uL/0.6uL; Ch:H01 10.0uL/0.6uL; Ch:A02 10.0uL/0.6uL; Ch:B02 10.0uL/0.6uL; Ch:C02 10.0uL/0.6uL; Ch:D02 10.0uL/0.6uL; Ch:E02 10.0uL/0.6uL; Ch:F02 10.0uL/0.6uL; Ch:G02 10.0uL/0.6uL; Ch:H02 10.0uL/0.6uL; Ch:A03 10.0uL/0.6uL; Ch:B03 10.0uL/0.6uL; Ch:C03 10.0uL/0.6uL; Ch:D03 10.0uL/0.6uL; Ch:E03 10.0uL/0.6uL; Ch:F03 10.0uL/0.6uL; Ch:G03 10.0uL/0.6uL; Ch:H03 10.0uL/0.6uL; Ch:A04 10.0uL/0.6uL; Ch:B04 10.0uL/0.6uL; Ch:C04 10.0uL/0.6uL; Ch:D04 10.0uL/0.6uL; Ch:E04 10.0uL/0.6uL; Ch:F04 10.0uL/0.6uL; Ch:G04 10.0uL/0.6uL; Ch:H04 10.0uL/0.6uL; Ch:A05 10.0uL/0.6uL; Ch:B05 10.0uL/0.6uL; Ch:C05 10.0uL/0.6uL; Ch:D05 10.0uL/0.6uL; Ch:E05 10.0uL/0.6uL; Ch:F05 10.0uL/0.6uL; Ch:G05 10.0uL/0.6uL; Ch:H05 10.0uL/0.6uL; Ch:A06 10.0uL/0.6uL; Ch:B06 10.0uL/0.6uL; Ch:C06 10.0uL/0.6uL; Ch:D06 10.0uL/0.6uL; Ch:E06 10.0uL/0.6uL; Ch:F06 10.0uL/0.6uL; Ch:G06 10.0uL/0.6uL; Ch:H06 10.0uL/0.6uL; Ch:A07 10.0uL/0.6uL; Ch:B07 10.0uL/0.6uL; Ch:C07 10.0uL/0.6uL; Ch:D07 10.0uL/0.6uL; Ch:E07 10.0uL/0.6uL; Ch:F07 10.0uL/0.6uL; Ch:G07 10.0uL/0.6uL; Ch:H07 10.0uL/0.6uL; Ch:A08 10.0uL/0.6uL; Ch:B08 10.0uL/0.6uL; Ch:C08 10.0uL/0.6uL; Ch:D08 10.0uL/0.6uL; Ch:E08 10.0uL/0.6uL; Ch:F08 10.0uL/0.6uL; Ch:G08 10.0uL/0.6uL; Ch:H08 10.0uL/0.6uL; Ch:A09 10.0uL/0.6uL; Ch:B09 10.0uL/0.6uL; Ch:C09 10.0uL/0.6uL; Ch:D09 10.0uL/0.6uL; Ch:E09 10.0uL/0.6uL; Ch:F09 10.0uL/0.6uL; Ch:G09 10.0uL/0.6uL; Ch:H09 10.0uL/0.6uL; Ch:A10 10.0uL/0.6uL; Ch:B10 10.0uL/0.6uL; Ch:C10 10.0uL/0.6uL; Ch:D10 10.0uL/0.6uL; Ch:E10 10.0uL/0.6uL; Ch:F10 10.0uL/0.6uL; Ch:G10 10.0uL/0.6uL; Ch:H10 10.0uL/0.6uL; Ch:A11 10.0uL/0.6uL; Ch:B11 10.0uL/0.6uL; Ch:C11 10.0uL/0.6uL; Ch:D11 10.0uL/0.6uL; Ch:E11 10.0uL/0.6uL; Ch:F11 10.0uL/0.6uL; Ch:G11 10.0uL/0.6uL; Ch:H11 10.0uL/0.6uL; Ch:A12 10.0uL/0.6uL; Ch:B12 10.0uL/0.6uL; Ch:C12 10.0uL/0.6uL; Ch:D12 10.0uL/0.6uL; Ch:E12 10.0uL/0.6uL; Ch:F12 10.0uL/0.6uL; Ch:G12 10.0uL/0.6uL; Ch:H12 10.0uL/0.6uL
+03/01/2019 14:00:39.3 [Lynx.Dispense(VVP96).VVP96] Post airgap parameters (0): 
+03/01/2019 14:00:39.4 [Lynx.Dispense(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.49 mm, -3.16 mm, -120.49 mm, -121.49 mm, using motion profile 'Fast Speed'.
+03/01/2019 14:00:39.4 [Lynx.Dispense(VVP96).VVP96] Initial axis positions:'XL' -160.55 mm, 'YL' -107.47 mm, 'ZL' -2.01 mm
+03/01/2019 14:00:42.2 [Lynx.Dispense(VVP96).VVP96] Dispense results: 
+03/01/2019 14:00:42.2 [Lynx.Dispense(VVP96).VVP96] Set dispense pressure for blowout.
+03/01/2019 14:00:42.3 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+03/01/2019 14:00:42.5 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+03/01/2019 14:00:42.7 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+03/01/2019 14:00:43.7 [VVP96] VVP Dispense pressure is 101 mbar.
+03/01/2019 14:01:04.1 [VVP96] Dispense complete.
+03/01/2019 14:01:04.8 [VVP96] Average residual volume was 0.05 ul for 2 channels at 100 mbar pressure
+03/01/2019 14:01:04.8 [VVP96] VVP reports errors in last operation: Ch:A01 4.6uL/0.0uL Err: -4, Ch:B01 6553.3uL/0.0uL Err: -3, Ch:C01 6553.3uL/0.0uL Err: -3, Ch:D01 6553.3uL/0.0uL Err: -3, Ch:E01 6553.3uL/0.0uL Err: -3, Ch:F01 6553.3uL/0.0uL Err: -3, Ch:G01 6553.3uL/0.0uL Err: -3, Ch:H01 6553.3uL/0.0uL Err: -3, Ch:A02 6553.3uL/0.0uL Err: -16, Ch:B02 2.2uL/0.0uL Err: -4, Ch:C02 6553.3uL/0.0uL Err: -16, Ch:D02 6553.3uL/0.0uL Err: -16, Ch:E02 6553.3uL/0.0uL Err: -3, Ch:F02 6553.3uL/0.0uL Err: -16, Ch:G02 6553.3uL/0.0uL Err: -3, Ch:H02 6553.3uL/0.0uL Err: -3, Ch:A03 6553.3uL/0.0uL Err: -16, Ch:B03 6553.3uL/0.0uL Err: -16, Ch:C03 6553.3uL/0.0uL Err: -16, Ch:D03 6553.3uL/0.0uL Err: -3, Ch:E03 6553.3uL/0.0uL Err: -16, Ch:F03 0.1uL/0.0uL Err: -4, Ch:G03 6553.3uL/0.0uL Err: -3, Ch:H03 6553.3uL/0.0uL Err: -16, Ch:A04 6553.3uL/0.0uL Err: -16, Ch:B04 6553.2uL/6553.5uL Err: -16, Ch:C04 6553.3uL/0.0uL Err: -16, Ch:D04 6553.3uL/0.0uL Err: -16, Ch:E04 6553.3uL/0.0uL Err: -16, Ch:F04 8.0uL/0.0uL Err: -4, Ch:G04 6553.3uL/0.0uL Err: -3, Ch:H04 9.4uL/0.1uL Err: 0, Ch:A05 5.3uL/0.0uL Err: -4, Ch:B05 6553.3uL/0.0uL Err: -3, Ch:C05 6553.3uL/0.0uL Err: -3, Ch:D05 6553.3uL/0.0uL Err: -16, Ch:E05 6553.3uL/0.0uL Err: -16, Ch:F05 6553.3uL/0.0uL Err: -16, Ch:G05 6553.3uL/0.0uL Err: -3, Ch:H05 6553.3uL/0.0uL Err: -3, Ch:A06 6553.3uL/0.0uL Err: -3, Ch:B06 6553.3uL/0.0uL Err: -16, Ch:C06 6553.3uL/0.0uL Err: -16, Ch:D06 6553.2uL/0.0uL Err: -16, Ch:E06 6553.3uL/0.0uL Err: -16, Ch:F06 6553.3uL/0.0uL Err: -16, Ch:G06 6553.3uL/0.0uL Err: -3, Ch:H06 6553.3uL/0.0uL Err: -3, Ch:A07 6553.3uL/0.0uL Err: -16, Ch:B07 6553.3uL/0.0uL Err: -16, Ch:C07 6553.3uL/0.0uL Err: -3, Ch:D07 6553.3uL/0.0uL Err: -3, Ch:E07 6553.3uL/0.0uL Err: -3, Ch:F07 6553.3uL/0.0uL Err: -16, Ch:G07 6553.3uL/0.0uL Err: -3, Ch:H07 6553.3uL/0.0uL Err: -3, Ch:A08 6553.3uL/0.0uL Err: -3, Ch:B08 6553.3uL/0.0uL Err: -3, Ch:C08 6553.3uL/0.0uL Err: -16, Ch:D08 8.7uL/0.0uL Err: -4, Ch:E08 6553.3uL/0.0uL Err: -16, Ch:F08 6553.3uL/0.0uL Err: -3, Ch:G08 6553.3uL/0.0uL Err: -16, Ch:H08 6553.3uL/0.0uL Err: -16, Ch:A09 6553.3uL/0.0uL Err: -3, Ch:B09 6553.3uL/0.0uL Err: -16, Ch:C09 6553.3uL/0.0uL Err: -3, Ch:D09 6553.3uL/0.0uL Err: -16, Ch:E09 6553.3uL/0.0uL Err: -16, Ch:F09 6553.3uL/0.0uL Err: -16, Ch:G09 8.1uL/0.0uL Err: -4, Ch:H09 6553.3uL/0.0uL Err: -3, Ch:A10 6553.3uL/0.0uL Err: -16, Ch:B10 6553.3uL/0.0uL Err: -3, Ch:C10 6553.3uL/0.0uL Err: -3, Ch:D10 6553.3uL/0.0uL Err: -16, Ch:E10 6553.3uL/0.0uL Err: -16, Ch:F10 6.6uL/0.0uL Err: -4, Ch:G10 9.3uL/0.0uL Err: 0, Ch:H10 6553.3uL/0.0uL Err: -3, Ch:A11 6553.3uL/0.0uL Err: -3, Ch:B11 6553.3uL/0.0uL Err: -3, Ch:C11 6553.3uL/0.0uL Err: -3, Ch:D11 6553.3uL/0.0uL Err: -16, Ch:E11 6553.3uL/0.0uL Err: -3, Ch:F11 6553.3uL/0.0uL Err: -3, Ch:G11 6553.2uL/0.0uL Err: -16, Ch:H11 6553.3uL/0.0uL Err: -16, Ch:A12 6553.3uL/0.0uL Err: -16, Ch:B12 6553.3uL/0.0uL Err: -16, Ch:C12 6553.3uL/0.0uL Err: -3, Ch:D12 6553.3uL/0.0uL Err: -3, Ch:E12 6553.3uL/0.0uL Err: -16, Ch:F12 6553.3uL/0.0uL Err: -3, Ch:G12 6553.3uL/0.0uL Err: -3, Ch:H12 6553.3uL/0.0uL Err: -3
+03/01/2019 14:01:05.0 [Lynx.Dispense(VVP96).VVP96] Blowout results: 
+03/01/2019 14:01:08.2 [Lynx.Dispense(VVP96).VVP96] Final axis positions:'XL' -11.54 mm, 'YL' -3.20 mm, 'ZL' -2.01 mm
+03/01/2019 14:01:08.3 [Lynx.Dispense(VVP96).VVP96] Time to complete: 28 s.
+03/01/2019 14:01:08.3 Process 'AndStamp.met'[2] 'Dispense(VVP96)' CommandCompleted
+03/01/2019 14:01:08.3 Process 'AndStamp.met'[3] 'Eject Tips(VVP96)' CommandStarted
+03/01/2019 14:01:08.3 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 9.00 mm.
+03/01/2019 14:01:08.3 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+03/01/2019 14:01:08.3 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (3.30 mm, -223.76 mm, -173.57 mm) with a stack index of 1.
+03/01/2019 14:01:08.3 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.08 mm, -212.52 mm, -2.00 mm, -103.07 mm, using motion profile 'Mid Speed'.
+03/01/2019 14:01:08.3 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -11.54 mm, 'YL' -3.20 mm, 'ZL' -2.01 mm
+03/01/2019 14:01:13.7 [VVP96] Tip ejection performed 2 times.
+03/01/2019 14:01:15.1 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+03/01/2019 14:01:15.1 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 6 s.
+03/01/2019 14:01:15.1 Process 'AndStamp.met'[3] 'Eject Tips(VVP96)' CommandCompleted
+03/01/2019 14:01:15.2 Process 'AndStamp.met'[4] 'Move To Location(VVP96)' CommandStarted
+03/01/2019 14:01:15.2 [Lynx.Move To Location(VVP96).VVP96] Location 'Loc_10' with X/Y offsets 0.00 mm / 0.00 mm.
+03/01/2019 14:01:15.2 [Lynx.Move To Location(VVP96).VVP96] Location coords: -145.48 mm, -327.87 mm, -174.72 mm.
+03/01/2019 14:01:15.2 [Lynx.Move To Location(VVP96).VVP96] Tool X/Y location offsets: 14.38 mm, 11.24 mm.
+03/01/2019 14:01:15.2 [Lynx.Move To Location(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -159.86 mm, -316.63 mm, -2.00 mm, -2.00 mm, using motion profile 'Fast Speed'.
+03/01/2019 14:01:15.2 [Lynx.Move To Location(VVP96).VVP96] Initial axis positions:'XL' -11.13 mm, 'YL' -212.52 mm, 'ZL' -2.01 mm
+03/01/2019 14:01:16.4 [Lynx.Move To Location(VVP96).VVP96] Final axis positions:'XL' -159.82 mm, 'YL' -316.60 mm, 'ZL' -2.01 mm
+03/01/2019 14:01:16.4 [Lynx.Move To Location(VVP96).VVP96] Time to complete: 1 s.
+03/01/2019 14:01:16.4 Process 'AndStamp.met'[4] 'Move To Location(VVP96)' CommandCompleted
+03/01/2019 14:01:16.4 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 03/01/2019 13:59:56.9 and finished at 03/01/2019 14:01:16.4
+
+03/01/2019 14:02:09.7 [ZL] Closing component connections for Warp 'ZL'.
+03/01/2019 14:02:10.3 [ZL] Instruction Error Status: None
+03/01/2019 14:02:10.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 14:02:10.3 [ZL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 14:02:10.4 [ZL]   Inputs: False False False False False 
+03/01/2019 14:02:10.4 [ZL] Current IP communications rate is 10 mb.
+03/01/2019 14:02:10.4 [ZL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 14:02:10.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/01/2019 14:02:10.6 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+03/01/2019 14:02:10.6 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+03/01/2019 14:02:10.7 [ZL] Start Hall-based phase initialization.
+03/01/2019 14:02:10.8 [ZL] Phases initialized.
+03/01/2019 14:02:10.8 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+03/01/2019 14:02:11.3 [BarCodeZAxis] Instruction Error Status: None
+03/01/2019 14:02:11.4 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 14:02:11.4 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+03/01/2019 14:02:11.4 [BarCodeZAxis]   Inputs: False True False False False 
+03/01/2019 14:02:11.5 [BarCodeZAxis] Current IP communications rate is 10 mb.
+03/01/2019 14:02:11.5 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+03/01/2019 14:02:11.6 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+03/01/2019 14:02:11.6 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+03/01/2019 14:02:11.7 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+03/01/2019 14:02:11.8 [BarCodeZAxis] Start Hall-based phase initialization.
+03/01/2019 14:02:11.8 [BarCodeZAxis] Phases initialized.
+03/01/2019 14:02:11.9 [YL] Closing component connections for Warp 'YL'.
+03/01/2019 14:02:12.4 [YL] Instruction Error Status: None
+03/01/2019 14:02:12.4 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 14:02:12.5 [YL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 14:02:12.5 [YL]   Inputs: False False False False False 
+03/01/2019 14:02:12.5 [YL] Current IP communications rate is 10 mb.
+03/01/2019 14:02:12.6 [YL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 14:02:12.7 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/01/2019 14:02:12.7 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/01/2019 14:02:12.7 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/01/2019 14:02:12.9 [YL] Start Hall-based phase initialization.
+03/01/2019 14:02:12.9 [YL] Phases initialized.
+03/01/2019 14:02:13.0 [XL] Closing component connections for Warp 'XL'.
+03/01/2019 14:02:13.5 [XL] Instruction Error Status: None
+03/01/2019 14:02:13.5 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+03/01/2019 14:02:13.5 [XL] Configured as an enhanced Warp3 with I/O.
+03/01/2019 14:02:13.6 [XL]   Inputs: False False False False False 
+03/01/2019 14:02:13.6 [XL] Current IP communications rate is 10 mb.
+03/01/2019 14:02:13.6 [XL] IP communications speed is currently set to 10 Mbps.
+03/01/2019 14:02:13.7 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+03/01/2019 14:02:13.7 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+03/01/2019 14:02:13.8 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+03/01/2019 14:02:14.1 [XL] Start Hall-based phase initialization.
+03/01/2019 14:02:14.1 [XL] Phases initialized.
+03/01/2019 14:02:16.1 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+03/01/2019 14:02:16.3 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+03/01/2019 14:02:16.9 [ZL] Reached limit successfully.
+03/01/2019 14:02:16.9 [ZL] Attempting to back off Positive limit.
+03/01/2019 14:02:17.6 [ZL] Move off limit completion: Successful (OKReady).
+03/01/2019 14:02:17.6 [ZL] Move to limit finished.
+03/01/2019 14:02:17.7 [ZL] Establishing new 0 position for the old position 0.00 mm.
+03/01/2019 14:02:17.8 [ZL] Timestamp of last successful home: 3/1/2019 2:02:17 PM
+03/01/2019 14:02:18.0 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+03/01/2019 14:02:18.4 [BarCodeZAxis] Reached limit successfully.
+03/01/2019 14:02:18.4 [BarCodeZAxis] Attempting to back off Negative limit.
+03/01/2019 14:02:18.9 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+03/01/2019 14:02:18.9 [BarCodeZAxis] Move to limit finished.
+03/01/2019 14:02:19.0 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+03/01/2019 14:02:19.0 [BarCodeZAxis] Timestamp of last successful home: 3/1/2019 2:02:19 PM
+03/01/2019 14:02:23.4 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/01/2019 14:02:39.6 [YL] Reached limit successfully.
+03/01/2019 14:02:39.6 [YL] Attempting to back off Positive limit.
+03/01/2019 14:02:40.1 [YL] Move off limit completion: Successful (OKReady).
+03/01/2019 14:02:40.1 [YL] Move to limit finished.
+03/01/2019 14:02:40.2 [YL] Establishing new 0 position for the old position 0.05 mm.
+03/01/2019 14:02:40.3 [YL] Timestamp of last successful home: 3/1/2019 2:02:40 PM
+03/01/2019 14:02:40.5 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+03/01/2019 14:02:48.7 [XL] Reached limit successfully.
+03/01/2019 14:02:48.7 [XL] Attempting to back off Positive limit.
+03/01/2019 14:02:49.2 [XL] Move off limit completion: Failed (OKReady).
+03/01/2019 14:02:49.2 [XL] Failed to find Positive limit: OKReady.
+03/01/2019 14:02:49.3 [XL] Failed to home axis 'XL'.
+03/01/2019 14:03:02.9 [XL] Closing component connections for Warp 'XL'.
+03/01/2019 14:03:03.0 [YL] Closing component connections for Warp 'YL'.
+03/01/2019 14:03:03.0 [ZL] Closing component connections for Warp 'ZL'.
+03/01/2019 14:03:03.0 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+03/01/2019 14:03:03.6 [Lynx] 

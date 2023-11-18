@@ -1,0 +1,2797 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+08/23/2018 11:42:05.4 The remote server is not configured: 
+08/23/2018 11:42:07.4 [ZL] Instruction Error Status: None
+08/23/2018 11:42:07.4 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:07.4 [ZL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:07.4 [ZL]   Inputs: False False False False False 
+08/23/2018 11:42:07.5 [ZL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:07.5 [ZL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:07.6 [ZL] Relative motor limit setting 100.0%, changing limit from 100.0% to 30.0%
+08/23/2018 11:42:07.6 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 11:42:07.6 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+08/23/2018 11:42:07.6 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+08/23/2018 11:42:07.7 [ZL] EStop is on while attempting to clear errors.
+08/23/2018 11:42:07.7 [ZL] Warp3 'ZL' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:07.9 [BarCodeZAxis] Instruction Error Status: None
+08/23/2018 11:42:07.9 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:07.9 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:07.9 [BarCodeZAxis]   Inputs: False False False False False 
+08/23/2018 11:42:07.9 [BarCodeZAxis] Current IP communications rate is 10 mb.
+08/23/2018 11:42:07.9 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:08.0 [BarCodeZAxis] Relative motor limit setting 100.0%, changing limit from 100.0% to 10.0%
+08/23/2018 11:42:08.0 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 11:42:08.0 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+08/23/2018 11:42:08.1 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+08/23/2018 11:42:08.1 [BarCodeZAxis] EStop is on while attempting to clear errors.
+08/23/2018 11:42:08.1 [BarCodeZAxis] Warp3 'BarCodeZAxis' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:08.3 [YL] Instruction Error Status: None
+08/23/2018 11:42:08.3 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:08.3 [YL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:08.3 [YL]   Inputs: False False False False False 
+08/23/2018 11:42:08.3 [YL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:08.3 [YL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:08.4 [YL] Relative motor limit setting 100.0%, changing limit from 100.0% to 70.0%
+08/23/2018 11:42:08.4 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 11:42:08.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 11:42:08.5 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 11:42:08.5 [YL] EStop is on while attempting to clear errors.
+08/23/2018 11:42:08.5 [YL] Warp3 'YL' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:08.7 [XL] Instruction Error Status: None
+08/23/2018 11:42:08.7 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:08.7 [XL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:08.7 [XL]   Inputs: False False False False False 
+08/23/2018 11:42:08.7 [XL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:08.7 [XL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:08.8 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 11:42:08.9 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 11:42:08.9 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 11:42:08.9 [XL] EStop is on while attempting to clear errors.
+08/23/2018 11:42:08.9 [XL] Warp3 'XL' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:10.9 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+08/23/2018 11:42:10.9 [ZL] EStop is on while attempting to clear errors.
+08/23/2018 11:42:11.0 [ZL] Warp3 'ZL' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:11.0 [ZL] Warp3 'ZL' is throwing an exception: Can not initialize phases when Emergency Stop is on.
+08/23/2018 11:42:11.0 [ZL] Failed to home axis 'ZL'.
+08/23/2018 11:42:19.6 [ZL] Closing component connections for Warp 'ZL'.
+08/23/2018 11:42:20.1 [ZL] Instruction Error Status: None
+08/23/2018 11:42:20.1 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:20.1 [ZL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:20.1 [ZL]   Inputs: False False False False False 
+08/23/2018 11:42:20.2 [ZL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:20.2 [ZL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:20.3 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 11:42:20.3 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+08/23/2018 11:42:20.3 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+08/23/2018 11:42:20.5 [ZL] Start Hall-based phase initialization.
+08/23/2018 11:42:20.5 [ZL] Phases initialized.
+08/23/2018 11:42:20.5 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+08/23/2018 11:42:21.1 [BarCodeZAxis] Instruction Error Status: None
+08/23/2018 11:42:21.1 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:21.1 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:21.1 [BarCodeZAxis]   Inputs: False False False False False 
+08/23/2018 11:42:21.1 [BarCodeZAxis] Current IP communications rate is 10 mb.
+08/23/2018 11:42:21.2 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:21.3 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 11:42:21.3 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+08/23/2018 11:42:21.3 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+08/23/2018 11:42:21.5 [BarCodeZAxis] Start Hall-based phase initialization.
+08/23/2018 11:42:21.5 [BarCodeZAxis] Phases initialized.
+08/23/2018 11:42:21.5 [YL] Closing component connections for Warp 'YL'.
+08/23/2018 11:42:22.0 [YL] Instruction Error Status: None
+08/23/2018 11:42:22.1 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:22.1 [YL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:22.1 [YL]   Inputs: False False False False False 
+08/23/2018 11:42:22.1 [YL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:22.1 [YL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:22.2 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 11:42:22.3 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 11:42:22.3 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 11:42:22.4 [YL] Start Hall-based phase initialization.
+08/23/2018 11:42:22.5 [YL] Phases initialized.
+08/23/2018 11:42:22.5 [XL] Closing component connections for Warp 'XL'.
+08/23/2018 11:42:23.0 [XL] Instruction Error Status: None
+08/23/2018 11:42:23.0 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 11:42:23.1 [XL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 11:42:23.1 [XL]   Inputs: False False False False False 
+08/23/2018 11:42:23.1 [XL] Current IP communications rate is 10 mb.
+08/23/2018 11:42:23.1 [XL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 11:42:23.2 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 11:42:23.3 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 11:42:23.3 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 11:42:23.4 [XL] Start Hall-based phase initialization.
+08/23/2018 11:42:23.5 [XL] Phases initialized.
+08/23/2018 11:42:25.4 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+08/23/2018 11:42:25.7 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+08/23/2018 11:42:26.1 [ZL] Reached limit successfully.
+08/23/2018 11:42:26.1 [ZL] Attempting to back off Positive limit.
+08/23/2018 11:42:26.6 [ZL] Move off limit completion: Successful (OKReady).
+08/23/2018 11:42:26.6 [ZL] Move to limit finished.
+08/23/2018 11:42:26.7 [ZL] Establishing new 0 position for the old position 0.07 mm.
+08/23/2018 11:42:26.7 [ZL] Timestamp of last successful home: 8/23/2018 11:42:26 AM
+08/23/2018 11:42:26.9 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+08/23/2018 11:42:27.4 [BarCodeZAxis] Reached limit successfully.
+08/23/2018 11:42:27.4 [BarCodeZAxis] Attempting to back off Negative limit.
+08/23/2018 11:42:27.8 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+08/23/2018 11:42:27.9 [BarCodeZAxis] Move to limit finished.
+08/23/2018 11:42:27.9 [BarCodeZAxis] Establishing new 0 position for the old position -0.01 mm.
+08/23/2018 11:42:28.0 [BarCodeZAxis] Timestamp of last successful home: 8/23/2018 11:42:27 AM
+08/23/2018 11:42:32.1 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/23/2018 11:42:53.8 [YL] Reached limit successfully.
+08/23/2018 11:42:53.8 [YL] Attempting to back off Positive limit.
+08/23/2018 11:42:54.2 [YL] Move off limit completion: Successful (OKReady).
+08/23/2018 11:42:54.3 [YL] Move to limit finished.
+08/23/2018 11:42:54.3 [YL] Establishing new 0 position for the old position 420.31 mm.
+08/23/2018 11:42:54.4 [YL] Timestamp of last successful home: 8/23/2018 11:42:54 AM
+08/23/2018 11:42:54.6 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/23/2018 11:42:56.9 [XL] Reached limit successfully.
+08/23/2018 11:42:56.9 [XL] Attempting to back off Positive limit.
+08/23/2018 11:42:57.3 [XL] Move off limit completion: Failed (OKReady).
+08/23/2018 11:42:57.4 [XL] Failed to find Positive limit: OKReady.
+08/23/2018 11:42:57.4 [XL] Failed to home axis 'XL'.
+08/23/2018 11:43:23.2 [XL] This axis has not been homed!
+08/23/2018 11:43:45.6 [XL] This axis has not been homed!
+08/23/2018 11:44:04.8 [XL] This axis has not been homed!
+08/23/2018 11:44:07.6 [XL] This axis has not been homed!
+08/23/2018 11:49:40.6 [XL] This axis has not been homed!
+08/23/2018 11:49:43.9 [XL] This axis has not been homed!
+08/23/2018 11:51:29.8 [XL] This axis has not been homed!
+08/23/2018 11:51:33.9 [XL] This axis has not been homed!
+08/23/2018 11:52:20.6 [XL] This axis has not been homed!
+08/23/2018 11:53:15.1 [XL] This axis has not been homed!
+08/23/2018 11:53:55.7 [XL] This axis has not been homed!
+08/23/2018 16:39:50.1 [ZL] Closing component connections for Warp 'ZL'.
+08/23/2018 16:39:50.6 [ZL] Instruction Error Status: None
+08/23/2018 16:39:50.7 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 16:39:50.7 [ZL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 16:39:50.8 [ZL]   Inputs: False False False False False 
+08/23/2018 16:39:50.8 [ZL] Current IP communications rate is 10 mb.
+08/23/2018 16:39:50.8 [ZL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 16:39:50.9 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 16:39:50.9 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+08/23/2018 16:39:51.0 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+08/23/2018 16:39:51.1 [ZL] Start Hall-based phase initialization.
+08/23/2018 16:39:51.1 [ZL] Phases initialized.
+08/23/2018 16:39:51.2 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+08/23/2018 16:39:51.7 [BarCodeZAxis] Instruction Error Status: None
+08/23/2018 16:39:51.7 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 16:39:51.7 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+08/23/2018 16:39:51.8 [BarCodeZAxis]   Inputs: False True False False False 
+08/23/2018 16:39:51.8 [BarCodeZAxis] Current IP communications rate is 10 mb.
+08/23/2018 16:39:51.8 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+08/23/2018 16:39:51.9 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/23/2018 16:39:51.9 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+08/23/2018 16:39:52.0 [BarCodeZAxis] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+08/23/2018 16:39:52.1 [BarCodeZAxis] Start Hall-based phase initialization.
+08/23/2018 16:39:52.1 [BarCodeZAxis] Phases initialized.
+08/23/2018 16:39:52.2 [YL] Closing component connections for Warp 'YL'.
+08/23/2018 16:39:52.7 [YL] Instruction Error Status: None
+08/23/2018 16:39:52.7 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 16:39:52.7 [YL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 16:39:52.8 [YL]   Inputs: False False False False False 
+08/23/2018 16:39:52.8 [YL] Current IP communications rate is 10 mb.
+08/23/2018 16:39:52.8 [YL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 16:39:52.9 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 16:39:52.9 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 16:39:53.0 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 16:39:53.1 [YL] Start Hall-based phase initialization.
+08/23/2018 16:39:53.1 [YL] Phases initialized.
+08/23/2018 16:39:53.2 [XL] Closing component connections for Warp 'XL'.
+08/23/2018 16:39:53.7 [XL] Instruction Error Status: None
+08/23/2018 16:39:53.7 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+08/23/2018 16:39:53.7 [XL] Configured as an enhanced Warp3 with I/O.
+08/23/2018 16:39:53.8 [XL]   Inputs: False False False False False 
+08/23/2018 16:39:53.8 [XL] Current IP communications rate is 10 mb.
+08/23/2018 16:39:53.8 [XL] IP communications speed is currently set to 10 Mbps.
+08/23/2018 16:39:53.9 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/23/2018 16:39:54.0 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/23/2018 16:39:54.0 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/23/2018 16:39:54.1 [XL] Start Hall-based phase initialization.
+08/23/2018 16:39:54.2 [XL] Phases initialized.
+08/23/2018 16:39:56.0 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+08/23/2018 16:39:56.2 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+08/23/2018 16:39:56.6 [ZL] Reached limit successfully.
+08/23/2018 16:39:56.7 [ZL] Attempting to back off Positive limit.
+08/23/2018 16:39:57.1 [ZL] Move off limit completion: Successful (OKReady).
+08/23/2018 16:39:57.2 [ZL] Move to limit finished.
+08/23/2018 16:39:57.2 [ZL] Establishing new 0 position for the old position 0.00 mm.
+08/23/2018 16:39:57.3 [ZL] Timestamp of last successful home: 8/23/2018 4:39:57 PM
+08/23/2018 16:39:57.4 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+08/23/2018 16:39:57.9 [BarCodeZAxis] Reached limit successfully.
+08/23/2018 16:39:57.9 [BarCodeZAxis] Attempting to back off Negative limit.
+08/23/2018 16:39:58.4 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+08/23/2018 16:39:58.4 [BarCodeZAxis] Move to limit finished.
+08/23/2018 16:39:58.5 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+08/23/2018 16:39:58.5 [BarCodeZAxis] Timestamp of last successful home: 8/23/2018 4:39:58 PM
+08/23/2018 16:40:02.6 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/23/2018 16:40:28.7 [YL] Reached limit successfully.
+08/23/2018 16:40:28.7 [YL] Attempting to back off Positive limit.
+08/23/2018 16:40:29.2 [YL] Move off limit completion: Successful (OKReady).
+08/23/2018 16:40:29.2 [YL] Move to limit finished.
+08/23/2018 16:40:29.3 [YL] Establishing new 0 position for the old position 0.04 mm.
+08/23/2018 16:40:29.3 [YL] Timestamp of last successful home: 8/23/2018 4:40:29 PM
+08/23/2018 16:40:29.5 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/23/2018 16:40:30.8 [XL] Reached limit successfully.
+08/23/2018 16:40:30.8 [XL] Attempting to back off Positive limit.
+08/23/2018 16:40:31.3 [XL] Move off limit completion: Successful (OKReady).
+08/23/2018 16:40:31.4 [XL] Move to limit finished.
+08/23/2018 16:40:31.4 [XL] Establishing new 0 position for the old position 38.98 mm.
+08/23/2018 16:40:31.5 [XL] Timestamp of last successful home: 8/23/2018 4:40:31 PM
+08/24/2018 09:40:01.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 09:40:02.1 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 09:40:02.2 [Lynx.Move Axis] Move axes: 'XL' to 2.60 mm, 'YL' to -534.56 mm
+08/24/2018 09:40:24.1 [Lynx.Move Axis] Time to complete: 21 s.
+08/24/2018 09:41:15.9 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 09:41:18.9 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 09:41:31.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:41:31.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:03.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:03.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:04.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:04.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:05.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:05.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:05.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:05.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:21.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:21.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:21.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:21.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:22.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:22.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:23.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:24.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:25.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:25.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:25.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:42:27.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:40.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:40.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:41.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:41.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:42.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:42.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:42.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:42.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:44.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:44:44.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:40.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:40.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:41.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:41.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:42.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:42.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:43.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:43.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:45.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:46.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:46.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:46.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:46.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:47.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:47.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:47.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:47.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:48.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:48.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:51.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:54.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:54.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:55.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:55.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:57.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:57.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:58.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:46:58.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:04.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:04.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:05.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:05.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:05.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:05.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:09.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:09.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:10.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:10.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:11.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:11.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:22.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:22.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:26.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:26.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:26.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:26.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:27.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:27.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:28.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:29.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:29.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:29.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:29.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:34.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:34.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:34.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:34.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:35.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:35.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:35.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:35.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:36.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:36.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:37.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:37.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:39.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:39.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:41.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:41.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:50.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:50.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:50.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:50.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:51.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:51.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:51.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:51.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:52.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:52.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:56.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:56.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:57.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:57.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:57.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:57.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:58.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:58.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:58.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:59.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:47:59.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:48:00.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:48:00.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:48:00.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 09:48:00.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:21:55.4 [Lynx.Move Axis] Move axes: 'XL' to -10.43 mm
+08/24/2018 10:21:56.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 10:22:59.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:22:59.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:01.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:01.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:02.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:02.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:03.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:03.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:04.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:04.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:08.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:08.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:09.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:09.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:10.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:10.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:21.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:21.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:34.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:34.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:41.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:41.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:45.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:23:45.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:33.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:33.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:35.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:26:35.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:31:51.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:31:51.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:32:15.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:32:19.8 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:32:19.9 [Lynx.Move Axis] Move axes: 'XL' to -145.85 mm, 'YL' to -535.01 mm
+08/24/2018 10:32:47.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:32:47.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 10:32:48.0 [Lynx.Move Axis] Move axes: 'XL' to -145.85 mm, 'YL' to -535.01 mm
+08/24/2018 10:32:51.1 [Lynx.Move Axis] Time to complete: 3 s.
+08/24/2018 10:32:54.8 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:32:57.8 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:33:06.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:06.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:15.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:15.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:16.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:16.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:16.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:16.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:17.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:17.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:17.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:17.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:20.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:20.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:21.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:21.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:36.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:36.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:36.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:36.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:37.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:38.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:38.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:39.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:39.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:56.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:56.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:57.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:33:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:02.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:02.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:02.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:02.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:03.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:03.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:04.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:04.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:05.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:05.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:09.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:09.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:10.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:10.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:12.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:12.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:16.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:16.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:17.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:17.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:18.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:18.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:18.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:18.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:41.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:41.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:48.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:48.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:48.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:48.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:49.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:49.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:51.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:51.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:59.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:34:59.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:00.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:00.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:00.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:00.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:01.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:01.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:01.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:01.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:02.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:02.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:03.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:03.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:19.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:19.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:20.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:20.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:21.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:21.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:23.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:35:23.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:36:58.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:37:03.8 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:37:03.9 [Lynx.Move Axis] Move axes: 'XL' to -294.29 mm, 'YL' to -535.46 mm
+08/24/2018 10:37:09.8 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 10:37:25.9 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:37:28.9 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:37:39.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:39.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:40.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:40.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:41.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:41.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:53.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:53.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:53.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:53.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:54.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:54.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:54.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:54.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:55.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:55.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:56.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:56.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:57.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:57.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:57.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:37:57.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:38:18.7 [YL] Error: MP_InvalidOperatingModeRestore, Func: SetOperatingMode, Win32: 0, Date: 8/24/2018 10:38:18 AM 
+08/24/2018 10:38:45.7 [Lynx.Move Axis] Move axes: 'YL' to -529.49 mm
+08/24/2018 10:38:45.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 10:39:05.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:05.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:12.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:12.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:13.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:13.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:13.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:13.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:56.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:56.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:58.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:39:58.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:00.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:00.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:01.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:01.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:09.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:09.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:11.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:11.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:12.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:12.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:12.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:12.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:17.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:17.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:31.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:31.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:33.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:33.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:34.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:34.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:36.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:36.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:37.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:37.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:38.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:38.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:40.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:40.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:40.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:40.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:48.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:48.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:49.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:49.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:52.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:52.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:54.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:54.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:55.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:40:55.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:42:24.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:42:29.7 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:42:29.8 [Lynx.Move Axis] Move axes: 'XL' to -294.31 mm, 'YL' to -431.43 mm
+08/24/2018 10:42:34.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:42:45.5 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:42:48.5 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:42:56.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:42:56.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:42:57.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:42:57.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:10.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:10.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:11.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:11.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:12.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:13.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:16.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:16.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:17.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:17.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:18.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:18.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:18.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:18.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:19.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:20.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:20.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:20.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:20.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:21.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:21.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:21.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:21.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:40.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:40.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:54.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:54.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:54.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:54.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:56.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:56.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:58.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:58.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:59.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:43:59.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:00.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:00.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:01.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:01.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:02.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:02.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:05.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:05.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:08.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:12.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:12.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:13.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:13.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:13.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:13.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:33.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:33.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:35.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:35.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:37.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:37.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:48.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:48.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:49.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:49.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:51.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:51.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:52.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:52.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:53.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:53.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:55.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:55.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:56.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:56.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:57.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:44:57.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:45:11.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:45:11.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:45:12.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:45:12.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:46:38.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:46:50.6 [Lynx.Move Axis] Time to complete: 11 s.
+08/24/2018 10:46:50.8 [Lynx.Move Axis] Move axes: 'XL' to -145.86 mm, 'YL' to -430.98 mm
+08/24/2018 10:47:07.6 [Lynx.Move Axis] Time to complete: 16 s.
+08/24/2018 10:47:09.9 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:47:16.6 [Lynx.Move Axis] Time to complete: 6 s.
+08/24/2018 10:47:27.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:27.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:28.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:28.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:28.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:28.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:41.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:41.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:42.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:42.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:43.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:43.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:43.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:43.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:46.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:46.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:47.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:47.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:58.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:58.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:59.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:47:59.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:01.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:01.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:02.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:02.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:41.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:41.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:49.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:49.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:50.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:50.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:52.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:48:52.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:02.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:02.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:04.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:04.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:09.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:09.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:17.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:17.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:17.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:17.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:18.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:18.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:25.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:25.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:26.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:26.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:27.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:27.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:31.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:31.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:34.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:34.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:38.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:38.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:44.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:49:44.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:02.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:02.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:04.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:04.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:05.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:50:05.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:51:34.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:51:39.9 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:51:39.9 [Lynx.Move Axis] Move axes: 'XL' to 2.58 mm, 'YL' to -430.53 mm
+08/24/2018 10:51:46.9 [Lynx.Move Axis] Time to complete: 7 s.
+08/24/2018 10:52:01.1 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:52:04.1 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:52:16.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:16.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:20.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:20.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:24.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:24.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:25.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:25.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:26.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:26.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:27.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:27.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:27.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:27.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:28.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:28.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:28.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:28.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:29.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:29.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:29.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:29.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:30.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:30.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:31.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:31.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:31.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:31.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:40.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:40.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:41.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:41.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:41.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:42.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:42.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:43.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:43.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:44.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:44.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:44.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:44.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:46.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:46.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:50.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:50.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:51.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:51.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:51.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:51.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:52.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:52.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:57.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:57.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:59.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:52:59.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:01.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:01.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:02.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:02.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:03.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:03.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:03.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:03.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:05.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:05.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:06.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:06.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:08.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:08.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:09.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:09.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:15.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:15.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:15.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:16.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:27.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:27.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:38.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:38.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:45.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:45.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:48.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:48.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:55.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:56.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:56.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:59.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:53:59.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:20.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:55:25.8 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:55:26.0 [Lynx.Move Axis] Move axes: 'XL' to 2.57 mm, 'YL' to -326.49 mm
+08/24/2018 10:55:30.3 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 10:55:34.6 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:55:37.5 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:55:52.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:52.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:53.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:53.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:54.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:54.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:54.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:55.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:55.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:55.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:55:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:04.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:04.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:06.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:06.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:06.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:06.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:07.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:07.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:07.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:07.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:10.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:10.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:10.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:10.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:11.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:11.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:12.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:12.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:27.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:27.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:28.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:28.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:28.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:28.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:29.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:29.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:30.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:30.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:39.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:39.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:40.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:40.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:40.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:40.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:41.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:41.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:42.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:42.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:42.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:42.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:47.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:47.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:48.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:48.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:58.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:56:58.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:03.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:03.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:05.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:05.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:08.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:08.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:11.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:11.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:12.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:12.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:13.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:21.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:21.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:43.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:43.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:46.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:46.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:46.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:46.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:49.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:49.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:49.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:50.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:51.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:57:51.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:06.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 10:59:11.9 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 10:59:12.0 [Lynx.Move Axis] Move axes: 'XL' to -145.88 mm, 'YL' to -326.94 mm
+08/24/2018 10:59:17.9 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 10:59:20.7 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 10:59:23.7 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 10:59:34.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:34.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:35.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:35.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:39.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:39.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:40.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:40.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:41.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:41.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:43.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:43.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:46.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:46.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:57.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:57.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:59.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 10:59:59.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:00.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:00.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:03.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:03.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:04.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:04.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:05.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:05.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:06.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:06.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:07.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:07.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:07.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:07.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:12.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:12.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:13.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:13.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:15.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:15.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:18.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:18.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:20.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:20.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:31.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:31.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:32.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:32.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:41.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:41.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:43.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:43.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:48.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:48.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:50.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:50.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:56.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:00:56.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:14.7 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:02:19.7 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:02:19.8 [Lynx.Move Axis] Move axes: 'XL' to -294.32 mm, 'YL' to -327.39 mm
+08/24/2018 11:02:25.7 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:02:36.3 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:02:39.3 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:02:51.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:51.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:51.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:51.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:52.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:52.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:52.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:52.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:53.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:53.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:53.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:53.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:53.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:54.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:56.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:56.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:57.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:57.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:58.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:02:58.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:00.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:00.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:15.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:15.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:16.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:16.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:19.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:19.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:39.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:39.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:39.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:39.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:40.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:40.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:41.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:41.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:54.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:54.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:55.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:55.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:03:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:00.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:00.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:02.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:02.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:03.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:03.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:03.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:04.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:05.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:05.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:05.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:08.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:08.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:24.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:24.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:25.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:25.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:25.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:04:25.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:05:56.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:06:01.6 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:06:01.7 [Lynx.Move Axis] Move axes: 'XL' to -294.34 mm, 'YL' to -223.36 mm
+08/24/2018 11:06:06.0 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:06:07.8 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:06:10.7 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:06:20.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:21.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:21.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:21.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:23.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:23.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:24.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:24.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:26.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:26.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:27.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:27.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:28.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:28.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:28.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:28.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:29.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:29.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:46.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:46.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:51.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:51.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:52.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:06:52.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:02.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:02.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:03.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:03.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:09.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:09.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:12.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:12.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:13.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:13.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:14.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:14.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:15.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:15.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:15.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:15.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:16.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:16.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:18.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:18.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:22.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:22.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:23.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:23.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:24.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:24.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:26.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:26.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:27.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:27.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:28.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:28.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:37.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:37.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:38.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:07:38.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:08:06.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:08:06.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:09:30.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:09:34.9 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:09:35.0 [Lynx.Move Axis] Move axes: 'XL' to -294.35 mm, 'YL' to -119.32 mm
+08/24/2018 11:09:39.2 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:09:42.9 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:09:45.9 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:10:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:16.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:16.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:18.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:18.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:18.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:18.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:23.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:23.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:24.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:24.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:25.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:25.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:27.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:27.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:41.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:41.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:42.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:42.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:51.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:52.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:53.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:53.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:53.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:53.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:54.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:54.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:57.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:57.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:57.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:10:57.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:03.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:03.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:06.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:06.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:10.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:10.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:23.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:23.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:24.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:24.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:24.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:24.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:25.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:25.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:26.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:26.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:40.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:40.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:46.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:46.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:48.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:48.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:48.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:48.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:52.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:11:52.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:18.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:13:23.8 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:13:23.9 [Lynx.Move Axis] Move axes: 'XL' to -145.91 mm, 'YL' to -118.87 mm
+08/24/2018 11:13:31.0 [Lynx.Move Axis] Time to complete: 7 s.
+08/24/2018 11:13:33.6 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:13:36.6 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:13:47.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:47.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:49.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:49.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:49.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:49.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:50.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:50.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:50.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:50.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:51.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:51.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:52.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:13:52.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:04.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:04.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:05.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:05.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:07.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:07.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:07.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:07.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:09.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:09.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:10.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:10.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:21.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:21.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:22.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:22.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:33.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:33.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:38.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:38.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:39.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:39.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:40.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:40.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:42.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:43.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:43.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:43.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:43.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:55.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:55.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:55.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:56.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:56.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:57.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:57.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:58.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:58.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:59.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:14:59.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:00.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:00.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:00.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:00.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:01.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:01.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:01.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:01.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:03.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:03.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:03.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:03.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:04.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:04.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:08.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:08.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:11.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:24.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:24.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:26.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:26.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:27.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:27.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:35.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:35.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:35.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:35.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:37.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:37.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:37.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:37.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:53.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:53.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:54.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:15:54.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:04.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:04.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:05.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:05.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:06.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:08.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:08.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:10.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:10.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:11.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:11.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:19.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:19.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:47.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:47.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:48.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:48.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:50.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:50.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:51.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:53.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:16:53.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:18:49.1 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:18:54.1 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:18:54.1 [Lynx.Move Axis] Move axes: 'XL' to 2.54 mm, 'YL' to -118.42 mm
+08/24/2018 11:19:01.1 [Lynx.Move Axis] Time to complete: 7 s.
+08/24/2018 11:19:44.9 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:19:47.9 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:20:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:11.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:11.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:14.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:14.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:15.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:15.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:17.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:17.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:17.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:17.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:18.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:18.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:18.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:18.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:32.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:34.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:34.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:35.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:35.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:35.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:35.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:37.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:37.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:38.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:38.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:55.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:55.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:57.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:57.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:20:57.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:08.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:08.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:09.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:09.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:29.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:30.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:43.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:43.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:44.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:44.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:54.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:21:55.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:04.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:04.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:06.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:06.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:09.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:09.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:22:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:23:47.5 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:24:29.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:24:34.2 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:24:34.3 [Lynx.Move Axis] Move axes: 'XL' to 2.55 mm, 'YL' to -222.46 mm
+08/24/2018 11:24:39.4 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:24:41.1 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:24:44.0 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:24:52.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:24:52.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:24:59.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:24:59.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:01.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:01.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:03.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:03.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:03.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:03.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:15.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:15.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:16.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:16.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:17.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:17.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:18.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:18.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:20.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:20.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:21.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:21.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:21.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:21.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:30.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:30.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:31.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:31.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:36.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:36.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:38.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:38.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:39.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:39.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:39.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:39.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:40.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:40.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:42.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:42.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:55.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:55.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:56.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:56.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:25:57.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:01.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:01.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:01.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:01.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:02.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:02.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:11.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:11.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:12.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:12.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:13.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:13.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:13.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:13.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:14.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:14.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:39.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:39.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:41.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:41.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:44.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:44.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:26:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:28:39.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:28:39.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:20.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:25.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:25.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:26.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:26.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:55.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:55.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:58.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:58.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:59.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:29:59.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:00.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:00.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:01.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:01.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:04.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:30:04.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:31:08.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:31:13.7 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:31:13.8 [Lynx.Move Axis] Move axes: 'XL' to 2.68 mm, 'YL' to -14.41 mm
+08/24/2018 11:31:22.3 [Lynx.Move Axis] Time to complete: 8 s.
+08/24/2018 11:31:24.5 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:31:27.5 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:32:03.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:03.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:05.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:05.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:05.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:05.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:06.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:06.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:08.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:08.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:09.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:10.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:10.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:10.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:10.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:14.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:14.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:15.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:15.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:17.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:17.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:18.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:18.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:38.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:39.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:39.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:50.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:50.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:50.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:50.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:51.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:51.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:51.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:52.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:52.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:52.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:54.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:32:54.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:09.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:09.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:12.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:12.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:13.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:13.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:21.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:21.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:22.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:22.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:30.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:30.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:31.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:31.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:32.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:32.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:34.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:34.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:34.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:34.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:35.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:35.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:36.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:36.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:37.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:37.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:37.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:37.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:38.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:41.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:33:41.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:04.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:04.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:06.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:06.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:08.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:08.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:08.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:08.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:09.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:34:09.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:35:36.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:35:41.0 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:35:41.0 [Lynx.Move Axis] Move axes: 'XL' to -145.93 mm, 'YL' to -14.84 mm
+08/24/2018 11:35:46.9 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:35:52.2 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:35:55.1 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:36:07.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:07.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:07.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:07.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:09.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:09.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:09.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:09.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:09.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:10.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:11.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:11.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:14.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:14.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:14.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:14.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:15.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:15.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:17.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:17.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:17.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:18.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:28.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:28.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:30.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:30.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:31.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:31.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:33.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:33.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:39.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:39.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:40.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:40.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:41.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:41.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:41.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:41.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:43.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:43.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:44.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:44.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:45.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:45.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:46.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:46.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:47.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:49.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:36:49.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:03.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:03.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:04.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:04.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:04.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:04.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:05.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:05.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:05.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:05.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:06.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:06.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:06.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:06.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:07.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:07.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:07.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:07.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:08.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:08.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:09.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:09.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:10.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:10.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:11.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:11.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:15.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:15.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:37.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:37.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:38.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:38.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:37:39.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:03.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:03.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:06.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:06.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:07.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:07.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:09.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:09.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:19.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:19.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:20.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:38:20.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:39:38.3 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:39:43.3 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:39:43.3 [Lynx.Move Axis] Move axes: 'XL' to -145.78 mm, 'YL' to -119.29 mm
+08/24/2018 11:39:48.5 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:39:50.1 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:39:53.1 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:40:06.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:06.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:06.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:06.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:07.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:10.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:10.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:10.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:10.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:11.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:11.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:14.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:14.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:27.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:27.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:28.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:28.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:29.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:29.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:30.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:30.6 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:31.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:31.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:31.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:31.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:32.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:32.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:37.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:37.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:37.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:37.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:38.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:38.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:39.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:39.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:40.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:40.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:54.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:54.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:55.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:55.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:55.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:55.9 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:56.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:56.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:57.1 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:40:57.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:04.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:04.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:08.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:09.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:09.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:09.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:09.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:16.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:16.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:16.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:16.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:17.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:17.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:17.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:17.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:23.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:23.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:24.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:24.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:24.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:24.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:35.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:41:35.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:03.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:06.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:07.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:07.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:08.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:42:08.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:43:37.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:43:42.8 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:43:42.9 [Lynx.Move Axis] Move axes: 'XL' to -294.37 mm, 'YL' to -15.29 mm
+08/24/2018 11:43:48.8 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:43:53.2 [Lynx.Move Axis] Move axes: 'ZL' to -64.05 mm
+08/24/2018 11:43:56.2 [Lynx.Move Axis] Time to complete: 2 s.
+08/24/2018 11:44:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:01.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:03.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:03.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:04.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:04.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:05.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:05.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:16.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:16.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:17.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:17.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:18.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:19.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:19.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:19.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:19.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:20.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:20.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:43.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:43.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:45.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:44:45.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:21.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:21.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:22.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:22.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:23.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:23.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:23.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:23.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:24.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:24.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:24.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:24.8 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:25.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:25.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:29.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:29.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:31.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:31.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:32.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:32.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:32.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:32.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:33.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:33.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:46.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:46.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:47.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:47.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:48.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:48.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:48.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:48.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:49.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:49.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:50.0 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:50.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:50.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:57.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:57.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:58.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:58.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:58.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:45:58.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:13.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:13.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:14.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:14.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:29.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:29.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:41.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:41.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:42.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:43.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:43.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:43.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:46:43.7 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:02.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:02.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:03.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:03.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:03.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:03.8 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:04.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:04.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:05.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:05.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:06.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:06.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:17.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:17.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:17.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:17.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:23.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:23.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:41.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:41.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:42.5 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:47:42.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:49:46.7 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:49:51.6 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:49:51.7 [Lynx.Move Axis] Move axes: 'XL' to -294.63 mm, 'YL' to -14.80 mm
+08/24/2018 11:49:52.7 [Lynx.Move Axis] Time to complete: 1 s.
+08/24/2018 11:50:07.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 11:51:06.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.65 mm
+08/24/2018 11:51:06.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:51:14.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.75 mm
+08/24/2018 11:51:15.3 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:51:43.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:43.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:46.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:46.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:50.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:50.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:52.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:52.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:54.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:54.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:56.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:51:56.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:52:12.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.97 mm
+08/24/2018 11:52:13.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:52:28.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.78 mm
+08/24/2018 11:52:28.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:52:41.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.70 mm
+08/24/2018 11:52:41.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:55:26.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:55:32.4 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:55:32.4 [Lynx.Move Axis] Move axes: 'XL' to -294.63 mm, 'YL' to -119.00 mm
+08/24/2018 11:55:37.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:55:40.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 11:56:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:05.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:05.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:06.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:08.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:10.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:10.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:13.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:13.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:14.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:14.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:29.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:29.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:41.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:41.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:56:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:10.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:10.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:11.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:11.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:14.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:14.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:17.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:17.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:57:30.9 [Lynx.Move Axis] Move axes: 'ZL' to -126.02 mm
+08/24/2018 11:57:31.6 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:57:37.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.93 mm
+08/24/2018 11:57:38.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:57:44.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.85 mm
+08/24/2018 11:57:44.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:58:36.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 11:58:41.4 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 11:58:41.5 [Lynx.Move Axis] Move axes: 'XL' to -295.09 mm, 'YL' to -223.75 mm
+08/24/2018 11:58:46.2 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 11:58:49.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 11:59:04.5 [Lynx.Move Axis] Move axes: 'ZL' to -125.45 mm
+08/24/2018 11:59:04.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:59:12.5 [Lynx.Move Axis] Move axes: 'ZL' to -125.36 mm
+08/24/2018 11:59:12.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:59:19.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.28 mm
+08/24/2018 11:59:20.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 11:59:28.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:28.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:34.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:34.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:35.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:35.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:45.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:45.5 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:48.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:48.4 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:49.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:49.6 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:59.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 11:59:59.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:04.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:18.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:18.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:21.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:21.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:22.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:22.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:24.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:24.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:27.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:27.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:29.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:29.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:31.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:31.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:34.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:34.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:36.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:36.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:38.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:38.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:40.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:40.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:42.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:42.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:00:51.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.98 mm
+08/24/2018 12:00:52.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:00:56.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.89 mm
+08/24/2018 12:00:56.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:01:00.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.81 mm
+08/24/2018 12:01:00.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:02:03.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:02:08.5 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 12:02:08.6 [Lynx.Move Axis] Move axes: 'XL' to -294.49 mm, 'YL' to -327.72 mm
+08/24/2018 12:02:13.7 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 12:02:16.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:02:31.2 [Lynx.Move Axis] Move axes: 'ZL' to -124.34 mm
+08/24/2018 12:02:31.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:02:39.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:39.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:40.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:40.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:41.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:41.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:42.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:42.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:43.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:43.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:46.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:46.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:48.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:50.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:50.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:51.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:51.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:53.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:53.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:56.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:56.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:02:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:03:07.6 [Lynx.Move Axis] Move axes: 'ZL' to -126.37 mm
+08/24/2018 12:03:08.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:03:14.9 [Lynx.Move Axis] Move axes: 'ZL' to -126.28 mm
+08/24/2018 12:03:15.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:03:19.6 [Lynx.Move Axis] Move axes: 'ZL' to -126.19 mm
+08/24/2018 12:03:20.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:03:23.0 [Lynx.Move Axis] Move axes: 'ZL' to -126.10 mm
+08/24/2018 12:03:23.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:03:26.8 [Lynx.Move Axis] Move axes: 'ZL' to -126.02 mm
+08/24/2018 12:03:27.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:04:31.2 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:04:44.1 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:04:44.3 [Lynx.Move Axis] Move axes: 'XL' to -294.31 mm, 'YL' to -432.19 mm
+08/24/2018 12:04:49.0 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:04:55.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:05:13.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.45 mm
+08/24/2018 12:05:13.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:05:19.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:19.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:20.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:21.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:21.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:23.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:29.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:29.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:30.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:30.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:32.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:32.2 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:35.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:35.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:36.2 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:36.3 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:37.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:37.7 [YL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:47.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:47.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:48.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:48.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:49.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:49.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:51.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:51.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:52.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:52.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:53.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:53.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:57.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:57.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:05:58.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:00.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:00.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:01.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:01.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:03.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:03.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:05.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:05.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:06.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:06.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:08.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:12.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:12.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:06:22.3 [Lynx.Move Axis] Move axes: 'ZL' to -126.00 mm
+08/24/2018 12:06:22.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:06:27.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.91 mm
+08/24/2018 12:06:27.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:06:31.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.83 mm
+08/24/2018 12:06:31.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:06:34.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.74 mm
+08/24/2018 12:06:35.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:07:14.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:07:20.1 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 12:07:20.2 [Lynx.Move Axis] Move axes: 'XL' to -294.36 mm, 'YL' to -536.52 mm
+08/24/2018 12:07:25.3 [Lynx.Move Axis] Time to complete: 5 s.
+08/24/2018 12:08:11.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:08:11.1 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:08:11.2 [Lynx.Move Axis] Move axes: 'XL' to -294.36 mm, 'YL' to -536.52 mm
+08/24/2018 12:08:12.4 [Lynx.Move Axis] Time to complete: 1 s.
+08/24/2018 12:08:16.5 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:08:42.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:42.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:43.3 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:43.4 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:44.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:44.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:53.0 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:53.1 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:54.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:08:54.9 [XL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:11.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:13.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:13.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:14.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:14.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:15.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:15.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:17.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:17.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:18.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:18.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:20.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:20.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:09:34.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.76 mm
+08/24/2018 12:09:34.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:09:39.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.68 mm
+08/24/2018 12:09:40.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:09:42.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.60 mm
+08/24/2018 12:09:42.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:09:45.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.51 mm
+08/24/2018 12:09:45.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:10:33.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:10:45.9 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:10:45.9 [Lynx.Move Axis] Move axes: 'XL' to -145.14 mm, 'YL' to -536.34 mm
+08/24/2018 12:10:52.9 [Lynx.Move Axis] Time to complete: 6 s.
+08/24/2018 12:11:06.3 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:11:06.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:11:06.4 [Lynx.Move Axis] Move axes: 'XL' to -159.52 mm, 'YL' to -525.10 mm
+08/24/2018 12:11:07.5 [Lynx.Move Axis] Time to complete: 1 s.
+08/24/2018 12:11:14.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:11:43.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:43.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:45.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:45.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:47.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:47.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:48.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:48.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:11:56.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.77 mm
+08/24/2018 12:11:57.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:12:00.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.68 mm
+08/24/2018 12:12:00.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:12:02.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.60 mm
+08/24/2018 12:12:03.6 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:12:05.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.52 mm
+08/24/2018 12:12:06.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:12:51.5 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:13:04.4 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:13:04.4 [Lynx.Move Axis] Move axes: 'XL' to -10.39 mm, 'YL' to -524.81 mm
+08/24/2018 12:13:10.9 [Lynx.Move Axis] Time to complete: 6 s.
+08/24/2018 12:13:13.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:14:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:10.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:10.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:11.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:13.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:13.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:15.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:15.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:28.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:28.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:40.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:14:40.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:15:03.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.70 mm
+08/24/2018 12:15:03.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:15:07.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.62 mm
+08/24/2018 12:15:07.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:15:09.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.54 mm
+08/24/2018 12:15:10.3 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:15:12.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.45 mm
+08/24/2018 12:15:13.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:15:55.4 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:16:08.3 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:16:08.4 [Lynx.Move Axis] Move axes: 'XL' to -10.43 mm, 'YL' to -420.78 mm
+08/24/2018 12:16:13.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:16:19.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:16:50.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:16:51.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:16:53.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:16:53.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:17:02.9 [Lynx.Move Axis] Move axes: 'ZL' to -126.07 mm
+08/24/2018 12:17:03.3 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:17:06.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.98 mm
+08/24/2018 12:17:06.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:17:09.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.90 mm
+08/24/2018 12:17:10.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:17:14.5 [Lynx.Move Axis] Move axes: 'ZL' to -125.82 mm
+08/24/2018 12:17:14.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:17:17.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.73 mm
+08/24/2018 12:17:17.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:17:19.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.65 mm
+08/24/2018 12:17:19.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:18:11.5 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:18:24.4 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:18:24.4 [Lynx.Move Axis] Move axes: 'XL' to -10.95 mm, 'YL' to -316.75 mm
+08/24/2018 12:18:29.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:18:32.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:18:57.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:18:57.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:18:59.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:18:59.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:19:07.0 [Lynx.Move Axis] Move axes: 'ZL' to -126.13 mm
+08/24/2018 12:19:07.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:11.4 [Lynx.Move Axis] Move axes: 'ZL' to -126.04 mm
+08/24/2018 12:19:11.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:17.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.96 mm
+08/24/2018 12:19:17.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:20.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.88 mm
+08/24/2018 12:19:21.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:24.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.79 mm
+08/24/2018 12:19:24.3 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:27.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.71 mm
+08/24/2018 12:19:27.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:19:57.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:20:10.8 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:20:10.9 [Lynx.Move Axis] Move axes: 'XL' to -11.08 mm, 'YL' to -212.52 mm
+08/24/2018 12:20:15.5 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:20:18.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:20:40.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:40.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:41.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:41.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:42.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:42.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:43.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:43.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:44.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:45.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:46.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:46.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:47.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:47.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:48.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:49.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:50.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:50.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:51.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:51.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:53.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:53.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:54.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:54.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:56.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:56.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:20:58.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:00.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:00.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:02.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:02.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:03.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:03.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:05.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:05.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:07.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:07.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:21:19.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.95 mm
+08/24/2018 12:21:20.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:21:24.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.86 mm
+08/24/2018 12:21:24.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:21:27.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.77 mm
+08/24/2018 12:21:28.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:21:31.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.69 mm
+08/24/2018 12:21:31.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:22:13.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:22:26.7 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:22:26.8 [Lynx.Move Axis] Move axes: 'XL' to -11.20 mm, 'YL' to -108.13 mm
+08/24/2018 12:22:31.5 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:22:36.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:23:00.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:00.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:01.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:01.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:02.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:02.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:04.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:04.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:05.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:05.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:07.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:07.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:08.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:08.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:09.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:09.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:11.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:11.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:12.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:13.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:14.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:14.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:16.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:17.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:17.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:19.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:19.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:21.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:21.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:22.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:23.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:24.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:24.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:26.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:26.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:28.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:28.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:29.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:29.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:31.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:31.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:32.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:32.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:34.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:34.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:35.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:35.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:37.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:37.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:38.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:40.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:40.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:23:51.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.89 mm
+08/24/2018 12:23:51.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:23:55.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.80 mm
+08/24/2018 12:23:55.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:23:57.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.71 mm
+08/24/2018 12:23:58.1 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:24:00.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.64 mm
+08/24/2018 12:24:01.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:24:28.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:24:41.5 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:24:41.7 [Lynx.Move Axis] Move axes: 'XL' to -11.46 mm, 'YL' to -3.48 mm
+08/24/2018 12:24:46.4 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:24:49.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:25:15.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:16.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:17.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:18.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:18.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:19.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:19.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:20.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:20.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:22.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:22.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:23.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:23.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:25:37.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.77 mm
+08/24/2018 12:25:37.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:25:41.3 [Lynx.Move Axis] Move axes: 'ZL' to -125.68 mm
+08/24/2018 12:25:41.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:25:43.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.61 mm
+08/24/2018 12:25:44.1 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:25:45.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.52 mm
+08/24/2018 12:25:46.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:26:23.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:26:36.7 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:26:36.9 [Lynx.Move Axis] Move axes: 'XL' to -160.60 mm, 'YL' to -2.75 mm
+08/24/2018 12:26:47.1 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:26:47.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:26:47.2 [Lynx.Move Axis] Move axes: 'XL' to -160.60 mm, 'YL' to -2.75 mm
+08/24/2018 12:26:52.0 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:26:54.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:27:21.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:21.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:23.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:23.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:26.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:26.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:27.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:27.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:30.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:30.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:32.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:27:43.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.80 mm
+08/24/2018 12:27:43.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:27:46.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.71 mm
+08/24/2018 12:27:47.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:27:49.1 [Lynx.Move Axis] Move axes: 'ZL' to -125.64 mm
+08/24/2018 12:27:49.6 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:27:51.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:27:52.3 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:28:20.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:28:33.8 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:28:33.9 [Lynx.Move Axis] Move axes: 'XL' to -160.44 mm, 'YL' to -107.19 mm
+08/24/2018 12:28:38.6 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:28:41.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:29:05.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:05.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:12.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:12.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:16.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:16.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:18.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:18.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:20.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:20.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:21.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:21.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:29:33.1 [Lynx.Move Axis] Move axes: 'ZL' to -126.11 mm
+08/24/2018 12:29:33.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:29:36.0 [Lynx.Move Axis] Move axes: 'ZL' to -126.02 mm
+08/24/2018 12:29:36.6 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:29:40.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.94 mm
+08/24/2018 12:29:40.7 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:29:43.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.86 mm
+08/24/2018 12:29:43.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:29:46.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.77 mm
+08/24/2018 12:29:46.6 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:29:48.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.70 mm
+08/24/2018 12:29:49.1 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:30:22.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:30:35.8 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:30:35.9 [Lynx.Move Axis] Move axes: 'XL' to -160.27 mm, 'YL' to -211.67 mm
+08/24/2018 12:30:40.6 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:30:43.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:31:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:08.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:08.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:08.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:10.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:10.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:11.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:12.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:13.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:13.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:15.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:15.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:17.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:31:24.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.97 mm
+08/24/2018 12:31:25.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:31:27.7 [Lynx.Move Axis] Move axes: 'ZL' to -125.89 mm
+08/24/2018 12:31:28.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:31:30.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.80 mm
+08/24/2018 12:31:31.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:31:33.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.72 mm
+08/24/2018 12:31:34.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:31:36.0 [Lynx.Move Axis] Move axes: 'ZL' to -125.64 mm
+08/24/2018 12:31:36.5 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:32:04.4 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:32:17.3 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:32:17.4 [Lynx.Move Axis] Move axes: 'XL' to -159.86 mm, 'YL' to -316.63 mm
+08/24/2018 12:32:22.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:32:25.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:32:57.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:32:57.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:32:59.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:32:59.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:00.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:00.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:01.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:01.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:02.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:02.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:03.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:03.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:03.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:05.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:05.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:05.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:05.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:07.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:07.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:08.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:09.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:09.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:10.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:12.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:12.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:12.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:13.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:14.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:14.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:15.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:15.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:17.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:18.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:18.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:20.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:33:28.8 [Lynx.Move Axis] Move axes: 'ZL' to -126.15 mm
+08/24/2018 12:33:29.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:33:32.5 [Lynx.Move Axis] Move axes: 'ZL' to -126.06 mm
+08/24/2018 12:33:33.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:33:35.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.97 mm
+08/24/2018 12:33:36.0 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:33:37.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.89 mm
+08/24/2018 12:33:38.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:33:40.2 [Lynx.Move Axis] Move axes: 'ZL' to -125.81 mm
+08/24/2018 12:33:40.8 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:34:07.3 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/24/2018 12:34:20.2 [Lynx.Move Axis] Time to complete: 12 s.
+08/24/2018 12:34:20.4 [Lynx.Move Axis] Move axes: 'XL' to -159.49 mm, 'YL' to -421.05 mm
+08/24/2018 12:34:25.1 [Lynx.Move Axis] Time to complete: 4 s.
+08/24/2018 12:34:27.8 [Lynx.Move Axis] Move axes: 'ZL' to -125.55 mm
+08/24/2018 12:35:36.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:36.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:38.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:38.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:39.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:39.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:40.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:40.8 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:41.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:41.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:43.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:43.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:44.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:44.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:45.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:45.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:46.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:46.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:47.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:47.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:49.1 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:49.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:50.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:50.4 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:51.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:51.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:53.2 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:53.3 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:54.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:54.5 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:55.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:55.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:56.9 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:58.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:58.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:59.6 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:35:59.7 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:36:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:36:02.0 [ZL] StopMotion flag is active in WaitReady.
+08/24/2018 12:36:10.6 [Lynx.Move Axis] Move axes: 'ZL' to -125.90 mm
+08/24/2018 12:36:11.2 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:36:14.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.82 mm
+08/24/2018 12:36:15.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:36:16.9 [Lynx.Move Axis] Move axes: 'ZL' to -125.74 mm
+08/24/2018 12:36:17.4 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:36:19.4 [Lynx.Move Axis] Move axes: 'ZL' to -125.66 mm
+08/24/2018 12:36:19.9 [Lynx.Move Axis] Time to complete: 0 s.
+08/24/2018 12:37:44.3 [Lynx.Home Axis] Home axes: ZL, BarCodeZAxis, YL, XL
+08/24/2018 12:37:44.5 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+08/24/2018 12:37:51.5 [ZL] Reached limit successfully.
+08/24/2018 12:37:51.5 [ZL] Attempting to back off Positive limit.
+08/24/2018 12:37:52.4 [ZL] Move off limit completion: Successful (OKReady).
+08/24/2018 12:37:52.4 [ZL] Move to limit finished.
+08/24/2018 12:37:52.4 [ZL] Establishing new 0 position for the old position 0.00 mm.
+08/24/2018 12:37:52.4 [ZL] Timestamp of last successful home: 8/24/2018 12:37:52 PM
+08/24/2018 12:37:52.6 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+08/24/2018 12:37:53.0 [BarCodeZAxis] Reached limit successfully.
+08/24/2018 12:37:53.0 [BarCodeZAxis] Attempting to back off Negative limit.
+08/24/2018 12:37:53.5 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+08/24/2018 12:37:53.5 [BarCodeZAxis] Move to limit finished.
+08/24/2018 12:37:53.5 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+08/24/2018 12:37:53.6 [BarCodeZAxis] Timestamp of last successful home: 8/24/2018 12:37:53 PM
+08/24/2018 12:37:53.7 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/24/2018 12:38:15.3 [YL] Reached limit successfully.
+08/24/2018 12:38:15.3 [YL] Attempting to back off Positive limit.
+08/24/2018 12:38:15.7 [YL] Move off limit completion: Successful (OKReady).
+08/24/2018 12:38:15.7 [YL] Move to limit finished.
+08/24/2018 12:38:15.8 [YL] Establishing new 0 position for the old position 0.00 mm.
+08/24/2018 12:38:15.8 [YL] Timestamp of last successful home: 8/24/2018 12:38:15 PM
+08/24/2018 12:38:16.0 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/24/2018 12:38:24.4 [XL] Reached limit successfully.
+08/24/2018 12:38:24.4 [XL] Attempting to back off Positive limit.
+08/24/2018 12:38:24.8 [XL] Move off limit completion: Successful (OKReady).
+08/24/2018 12:38:24.9 [XL] Move to limit finished.
+08/24/2018 12:38:24.9 [XL] Establishing new 0 position for the old position -0.10 mm.
+08/24/2018 12:38:24.9 [XL] Timestamp of last successful home: 8/24/2018 12:38:24 PM
+08/24/2018 12:38:24.9 [Lynx.Home Axis] Time to complete: 40 s.

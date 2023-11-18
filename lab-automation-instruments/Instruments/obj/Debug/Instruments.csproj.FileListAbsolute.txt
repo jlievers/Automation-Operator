@@ -1,0 +1,6 @@
+P:\lab-automation-instruments\Instruments\bin\Debug\Instruments.dll
+P:\lab-automation-instruments\Instruments\bin\Debug\Instruments.pdb
+P:\lab-automation-instruments\Instruments\obj\Debug\Instruments.csprojAssemblyReference.cache
+P:\lab-automation-instruments\Instruments\obj\Debug\Instruments.csproj.CoreCompileInputs.cache
+P:\lab-automation-instruments\Instruments\obj\Debug\Instruments.dll
+P:\lab-automation-instruments\Instruments\obj\Debug\Instruments.pdb

@@ -1,0 +1,5 @@
+SourcePlateName	SourcePlateBC	SourceWell	AntibodyCloneName	Status
+Plate1		G12	Sample1	TRUE
+Plate2		A5	Sample105	TRUE
+Plate2		F8	Sample160	TRUE
+Plate3		C10	Sample204	TRUE

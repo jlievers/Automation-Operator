@@ -1,0 +1,75 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+08/22/2018 17:53:49.7 The remote server is not configured: 
+08/22/2018 17:53:52.8 [ZL] Instruction Error Status: None
+08/22/2018 17:53:52.8 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 17:53:52.8 [ZL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 17:53:52.9 [ZL]   Inputs: False False False False False 
+08/22/2018 17:53:52.9 [ZL] Current IP communications rate is 10 mb.
+08/22/2018 17:53:52.9 [ZL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 17:53:53.1 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/22/2018 17:53:53.1 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+08/22/2018 17:53:53.1 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+08/22/2018 17:53:53.3 [ZL] Start Hall-based phase initialization.
+08/22/2018 17:53:53.3 [ZL] Phases initialized.
+08/22/2018 17:53:53.3 [YL] Instruction Error Status: None
+08/22/2018 17:53:53.4 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 17:53:53.4 [YL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 17:53:53.4 [YL]   Inputs: False False False False False 
+08/22/2018 17:53:53.4 [YL] Current IP communications rate is 10 mb.
+08/22/2018 17:53:53.4 [YL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 17:53:53.5 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/22/2018 17:53:53.5 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/22/2018 17:53:53.6 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/22/2018 17:53:53.7 [YL] Start Hall-based phase initialization.
+08/22/2018 17:53:53.7 [YL] Phases initialized.
+08/22/2018 17:53:53.8 [XL] Instruction Error Status: None
+08/22/2018 17:53:53.8 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 17:53:53.8 [XL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 17:53:53.8 [XL]   Inputs: False False False False False 
+08/22/2018 17:53:53.8 [XL] Current IP communications rate is 10 mb.
+08/22/2018 17:53:53.8 [XL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 17:53:53.9 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/22/2018 17:53:53.9 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/22/2018 17:53:54.0 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/22/2018 17:53:54.1 [XL] Start Hall-based phase initialization.
+08/22/2018 17:53:54.1 [XL] Phases initialized.
+08/22/2018 17:53:56.4 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+08/22/2018 17:53:56.6 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+08/22/2018 17:53:57.0 [ZL] Reached limit successfully.
+08/22/2018 17:53:57.0 [ZL] Attempting to back off Positive limit.
+08/22/2018 17:53:57.5 [ZL] Move off limit completion: Successful (OKReady).
+08/22/2018 17:53:57.5 [ZL] Move to limit finished.
+08/22/2018 17:53:57.5 [ZL] Establishing new 0 position for the old position 0.00 mm.
+08/22/2018 17:53:57.6 [ZL] Timestamp of last successful home: 8/22/2018 5:53:57 PM
+08/22/2018 17:53:57.8 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/22/2018 17:53:58.2 [YL] Reached limit successfully.
+08/22/2018 17:53:58.2 [YL] Attempting to back off Positive limit.
+08/22/2018 17:53:58.7 [YL] Move off limit completion: Successful (OKReady).
+08/22/2018 17:53:58.7 [YL] Move to limit finished.
+08/22/2018 17:53:58.8 [YL] Establishing new 0 position for the old position 0.03 mm.
+08/22/2018 17:53:58.8 [YL] Timestamp of last successful home: 8/22/2018 5:53:58 PM
+08/22/2018 17:53:59.0 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/22/2018 17:53:59.4 [XL] Reached limit successfully.
+08/22/2018 17:53:59.4 [XL] Attempting to back off Positive limit.
+08/22/2018 17:53:59.9 [XL] Move off limit completion: Successful (OKReady).
+08/22/2018 17:53:59.9 [XL] Move to limit finished.
+08/22/2018 17:54:00.0 [XL] Establishing new 0 position for the old position 0.10 mm.
+08/22/2018 17:54:00.0 [XL] Timestamp of last successful home: 8/22/2018 5:54:00 PM
+08/22/2018 18:02:16.3 [XL] Closing component connections for Warp 'XL'.
+08/22/2018 18:02:16.3 [YL] Closing component connections for Warp 'YL'.
+08/22/2018 18:02:16.3 [ZL] Closing component connections for Warp 'ZL'.
+08/22/2018 18:02:17.1 [Lynx] 

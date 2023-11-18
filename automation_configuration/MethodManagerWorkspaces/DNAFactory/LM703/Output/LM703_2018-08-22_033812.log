@@ -1,0 +1,284 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+08/22/2018 15:38:13.0 The remote server is not configured: 
+08/22/2018 15:38:33.3 [ZL] Instruction Error Status: None
+08/22/2018 15:38:33.3 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 15:38:33.3 [ZL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 15:38:33.3 [ZL]   Inputs: False False False False False 
+08/22/2018 15:38:33.4 [ZL] Current IP communications rate is 10 mb.
+08/22/2018 15:38:33.4 [ZL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 15:38:33.5 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+08/22/2018 15:38:33.5 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+08/22/2018 15:38:33.5 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+08/22/2018 15:38:33.7 [ZL] Start Hall-based phase initialization.
+08/22/2018 15:38:33.7 [ZL] Phases initialized.
+08/22/2018 15:38:33.7 [YL] Instruction Error Status: None
+08/22/2018 15:38:33.8 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 15:38:33.8 [YL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 15:38:33.8 [YL]   Inputs: False False False False False 
+08/22/2018 15:38:33.8 [YL] Current IP communications rate is 10 mb.
+08/22/2018 15:38:33.8 [YL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 15:38:33.9 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/22/2018 15:38:33.9 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/22/2018 15:38:34.0 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/22/2018 15:38:34.1 [YL] Start Hall-based phase initialization.
+08/22/2018 15:38:34.1 [YL] Phases initialized.
+08/22/2018 15:38:34.2 [XL] Instruction Error Status: None
+08/22/2018 15:38:34.2 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+08/22/2018 15:38:34.2 [XL] Configured as an enhanced Warp3 with I/O.
+08/22/2018 15:38:34.2 [XL]   Inputs: False False False False False 
+08/22/2018 15:38:34.2 [XL] Current IP communications rate is 10 mb.
+08/22/2018 15:38:34.2 [XL] IP communications speed is currently set to 10 Mbps.
+08/22/2018 15:38:34.3 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+08/22/2018 15:38:34.4 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+08/22/2018 15:38:34.4 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+08/22/2018 15:38:34.5 [XL] Start Hall-based phase initialization.
+08/22/2018 15:38:34.6 [XL] Phases initialized.
+08/22/2018 15:38:36.6 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+08/22/2018 15:38:36.8 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+08/22/2018 15:38:37.2 [ZL] Reached limit successfully.
+08/22/2018 15:38:37.3 [ZL] Attempting to back off Positive limit.
+08/22/2018 15:38:37.7 [ZL] Move off limit completion: Successful (OKReady).
+08/22/2018 15:38:37.7 [ZL] Move to limit finished.
+08/22/2018 15:38:37.8 [ZL] Establishing new 0 position for the old position 0.00 mm.
+08/22/2018 15:38:37.8 [ZL] Timestamp of last successful home: 8/22/2018 3:38:37 PM
+08/22/2018 15:38:38.0 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/22/2018 15:39:02.0 [YL] Reached limit successfully.
+08/22/2018 15:39:02.1 [YL] Attempting to back off Positive limit.
+08/22/2018 15:39:02.5 [YL] Move off limit completion: Successful (OKReady).
+08/22/2018 15:39:02.5 [YL] Move to limit finished.
+08/22/2018 15:39:02.6 [YL] Establishing new 0 position for the old position -0.02 mm.
+08/22/2018 15:39:02.6 [YL] Timestamp of last successful home: 8/22/2018 3:39:02 PM
+08/22/2018 15:39:02.8 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+08/22/2018 15:39:03.2 [XL] Reached limit successfully.
+08/22/2018 15:39:03.3 [XL] Backing off Positive limit not required.
+08/22/2018 15:39:03.3 [XL] Move to limit finished.
+08/22/2018 15:39:03.3 [XL] Establishing new 0 position for the old position 0.00 mm.
+08/22/2018 15:39:03.4 [XL] Timestamp of last successful home: 8/22/2018 3:39:03 PM
+08/22/2018 15:40:54.4 [XL] EStop is on while attempting to clear errors.
+08/22/2018 15:40:54.5 [XL] Error: MP_InvalidOperatingModeRestore, Func: SetOperatingMode, Win32: 0, Date: 8/22/2018 3:40:54 PM 
+08/22/2018 15:40:58.2 [YL] EStop is on while attempting to clear errors.
+08/22/2018 15:40:58.2 [YL] Error: MP_InvalidOperatingModeRestore, Func: SetOperatingMode, Win32: 0, Date: 8/22/2018 3:40:58 PM 
+08/22/2018 15:41:08.6 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:08.6 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:08.7 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:08.7 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:14.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:14.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:14.5 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:14.5 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:16.7 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:16.7 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:17.8 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:17.8 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:18.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:18.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:19.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:19.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:20.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:20.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:23.1 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:41:23.1 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:42:15.5 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:42:15.5 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:13.8 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+08/22/2018 15:43:18.6 [Lynx.Move Axis] Time to complete: 4 s.
+08/22/2018 15:43:18.7 [Lynx.Move Axis] Move axes: 'XL' to -309.35 mm, 'YL' to -523.90 mm
+08/22/2018 15:43:24.6 [Lynx.Move Axis] Time to complete: 5 s.
+08/22/2018 15:43:31.3 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:31.4 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:31.9 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:31.9 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:32.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:32.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:33.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:33.7 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:34.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:34.7 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:37.3 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:37.3 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:37.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:37.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:38.5 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:38.5 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:39.0 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:39.0 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:41.1 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:41.1 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:41.6 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:41.6 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:43.7 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:43.7 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:44.6 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:44.6 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:45.3 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:45.3 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:46.3 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:46.4 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:43:58.9 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:29.5 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:29.5 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:30.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:38.1 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:38.1 [YL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:53.2 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:53.2 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:45:55.6 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:03.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:03.9 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:06.3 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:06.3 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:08.2 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:08.2 [XL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:38.2 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:39.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:46:39.1 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:47:07.3 [ZL] StopMotion flag is active in WaitReady.
+08/22/2018 15:47:07.3 [ZL] StopMotion flag is active in WaitReady.
+[User] Step.
+08/22/2018 15:49:38.3 Process 'Invitae Test.met' MethodStarted
+08/22/2018 15:49:38.3 Process 'Invitae Test.met'[0] 'Load Tips(VVP96)' CommandStarted
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 0.00 mm.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_01' (-322.96 mm, -536.44 mm, -184.78 mm) with a stack index of 1.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is 0.0 mm and Z axis force limit is 30% of full power.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -308.58 mm, -525.20 mm, -2.00 mm, -133.68 mm, using motion profile 'Tip Load'.
+08/22/2018 15:49:38.3 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -157.61 mm, 'YL' -525.19 mm, 'ZL' -76.05 mm
+08/22/2018 15:49:42.2 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+08/22/2018 15:49:42.2 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+08/22/2018 15:49:43.9 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 6.0 mm, motor current 24.8 %
+08/22/2018 15:49:43.9 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis was still applying force at completion.
+08/22/2018 15:49:43.9 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.00 mm, -0.73 mm, -11.80 mm
+08/22/2018 15:49:44.6 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+08/22/2018 15:49:44.8 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+08/22/2018 15:49:44.9 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+08/22/2018 15:49:45.0 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+08/22/2018 15:49:45.1 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+08/22/2018 15:49:46.8 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+08/22/2018 15:49:46.8 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+08/22/2018 15:49:46.8 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -308.52 mm, 'YL' -525.18 mm, 'ZL' -2.02 mm
+08/22/2018 15:49:46.8 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+08/22/2018 15:49:46.8 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 8 s.
+08/22/2018 15:49:46.9 Process 'Invitae Test.met'[0] 'Load Tips(VVP96)' CommandCompleted
+08/22/2018 15:49:47.0 Process 'Invitae Test.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 08/22/2018 15:49:38.2 and finished at 08/22/2018 15:49:47.0
+
+[User] Step.
+08/22/2018 15:49:58.5 Process 'Invitae Test.met' MethodStarted
+08/22/2018 15:49:58.5 Process 'Invitae Test.met'[1] 'Aspirate(VVP96)' CommandStarted
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Plate 'Reservoir_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 4.00 mm.
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-300F'.
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_02' (-171.99 mm, -536.43 mm, -172.92 mm) with a stack index of 1.
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.59 uL, Pre/Post delay 0.00/1.00
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (8): Ch:A01 100.0uL/0.6uL; Ch:B01 100.0uL/0.6uL; Ch:C01 100.0uL/0.6uL; Ch:D01 100.0uL/0.6uL; Ch:E01 100.0uL/0.6uL; Ch:F01 100.0uL/0.6uL; Ch:G01 100.0uL/0.6uL; Ch:H01 100.0uL/0.6uL
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+08/22/2018 15:49:58.5 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -157.69 mm, -525.23 mm, -115.18 mm, -119.18 mm, using motion profile 'Mid Speed'.
+08/22/2018 15:49:58.6 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -308.52 mm, 'YL' -525.18 mm, 'ZL' -2.02 mm
+08/22/2018 15:50:01.9 [VVP96] Clog detection is off.
+08/22/2018 15:50:01.9 [VVP96] Aspirate diagnostics are off.
+08/22/2018 15:50:01.9 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+08/22/2018 15:50:02.1 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+08/22/2018 15:50:02.3 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+08/22/2018 15:50:03.1 [VVP96] VVP Aspirate pressure is 42 mbar.
+08/22/2018 15:50:08.3 [VVP96] Aspirate complete.
+08/22/2018 15:50:08.4 [VVP96] VVP reports 8 errors in last aspirate: A01, B01, C01, D01, E01, F01, G01, H01
+08/22/2018 15:50:08.4 [VVP96] Average residual volume was 0.00 ul for 0 channels at 40 mbar pressure
+08/22/2018 15:50:08.6 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 0.4uL/0.0uL Err: -4, Ch:B01 0.3uL/0.0uL Err: -4, Ch:C01 0.0uL/0.0uL Err: -4, Ch:D01 6553.2uL/6553.5uL Err: -3, Ch:E01 0.3uL/0.0uL Err: -4, Ch:F01 6553.3uL/0.0uL Err: -3, Ch:G01 0.8uL/0.0uL Err: -4, Ch:H01 1.3uL/0.0uL Err: -4
+08/22/2018 15:50:11.8 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -157.69 mm, 'YL' -525.20 mm, 'ZL' -2.02 mm
+08/22/2018 15:50:11.9 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 13 s.
+08/22/2018 15:50:11.9 Process 'Invitae Test.met'[1] 'Aspirate(VVP96)' CommandCompleted
+08/22/2018 15:50:11.9 Process 'Invitae Test.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 08/22/2018 15:49:58.5 and finished at 08/22/2018 15:50:11.9
+
+[User] Step.
+08/22/2018 15:50:19.0 Process 'Invitae Test.met' MethodStarted
+08/22/2018 15:50:19.0 Process 'Invitae Test.met'[2] 'Dispense(VVP96)' CommandStarted
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Plate 'Reservoir_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 2.00 mm.
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Current tip 'LXB-96-300F'.
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Plate is at location 'Loc_02' (-171.99 mm, -536.43 mm, -172.92 mm) with a stack index of 1.
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.64 uL, Pre/Post delay 0.00/1.00
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Dispense parameters (0): 
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Post airgap parameters (0): 
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -157.69 mm, -525.23 mm, -117.18 mm, -119.18 mm, using motion profile 'Mid Speed'.
+08/22/2018 15:50:19.0 [Lynx.Dispense(VVP96).VVP96] Initial axis positions:'XL' -157.69 mm, 'YL' -525.20 mm, 'ZL' -2.02 mm
+08/22/2018 15:50:20.8 [Lynx.Dispense(VVP96).VVP96] Dispense results: 
+08/22/2018 15:50:24.0 [Lynx.Dispense(VVP96).VVP96] Final axis positions:'XL' -157.69 mm, 'YL' -525.20 mm, 'ZL' -2.02 mm
+08/22/2018 15:50:24.0 [Lynx.Dispense(VVP96).VVP96] Time to complete: 5 s.
+08/22/2018 15:50:24.0 Process 'Invitae Test.met'[2] 'Dispense(VVP96)' CommandCompleted
+08/22/2018 15:50:24.0 Process 'Invitae Test.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 08/22/2018 15:50:19.0 and finished at 08/22/2018 15:50:24.0
+
+[User] Clear errors.
+No Device Errors to resolve.
+[User] Clear errors.
+No Device Errors to resolve.
+[User] Step.
+08/22/2018 15:51:12.8 Process 'Invitae Test.met' MethodStarted
+08/22/2018 15:51:12.8 Process 'Invitae Test.met'[1] 'Aspirate(VVP96)' CommandStarted
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] Plate 'Reservoir_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 2.00 mm.
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] Current tip 'LXB-96-300F'.
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] Plate is at location 'Loc_02' (-171.99 mm, -536.43 mm, -172.92 mm) with a stack index of 1.
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] VVP Pressure 'Mid-Range Volumes': Pressure 40 mbar, Residual vol. 0.59 uL, Pre/Post delay 0.00/1.00
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] Aspirate parameters (96): Ch:A01 100.0uL/0.6uL; Ch:B01 100.0uL/0.6uL; Ch:C01 100.0uL/0.6uL; Ch:D01 100.0uL/0.6uL; Ch:E01 100.0uL/0.6uL; Ch:F01 100.0uL/0.6uL; Ch:G01 100.0uL/0.6uL; Ch:H01 100.0uL/0.6uL; Ch:A02 100.0uL/0.6uL; Ch:B02 100.0uL/0.6uL; Ch:C02 100.0uL/0.6uL; Ch:D02 100.0uL/0.6uL; Ch:E02 100.0uL/0.6uL; Ch:F02 100.0uL/0.6uL; Ch:G02 100.0uL/0.6uL; Ch:H02 100.0uL/0.6uL; Ch:A03 100.0uL/0.6uL; Ch:B03 100.0uL/0.6uL; Ch:C03 100.0uL/0.6uL; Ch:D03 100.0uL/0.6uL; Ch:E03 100.0uL/0.6uL; Ch:F03 100.0uL/0.6uL; Ch:G03 100.0uL/0.6uL; Ch:H03 100.0uL/0.6uL; Ch:A04 100.0uL/0.6uL; Ch:B04 100.0uL/0.6uL; Ch:C04 100.0uL/0.6uL; Ch:D04 100.0uL/0.6uL; Ch:E04 100.0uL/0.6uL; Ch:F04 100.0uL/0.6uL; Ch:G04 100.0uL/0.6uL; Ch:H04 100.0uL/0.6uL; Ch:A05 100.0uL/0.6uL; Ch:B05 100.0uL/0.6uL; Ch:C05 100.0uL/0.6uL; Ch:D05 100.0uL/0.6uL; Ch:E05 100.0uL/0.6uL; Ch:F05 100.0uL/0.6uL; Ch:G05 100.0uL/0.6uL; Ch:H05 100.0uL/0.6uL; Ch:A06 100.0uL/0.6uL; Ch:B06 100.0uL/0.6uL; Ch:C06 100.0uL/0.6uL; Ch:D06 100.0uL/0.6uL; Ch:E06 100.0uL/0.6uL; Ch:F06 100.0uL/0.6uL; Ch:G06 100.0uL/0.6uL; Ch:H06 100.0uL/0.6uL; Ch:A07 100.0uL/0.6uL; Ch:B07 100.0uL/0.6uL; Ch:C07 100.0uL/0.6uL; Ch:D07 100.0uL/0.6uL; Ch:E07 100.0uL/0.6uL; Ch:F07 100.0uL/0.6uL; Ch:G07 100.0uL/0.6uL; Ch:H07 100.0uL/0.6uL; Ch:A08 100.0uL/0.6uL; Ch:B08 100.0uL/0.6uL; Ch:C08 100.0uL/0.6uL; Ch:D08 100.0uL/0.6uL; Ch:E08 100.0uL/0.6uL; Ch:F08 100.0uL/0.6uL; Ch:G08 100.0uL/0.6uL; Ch:H08 100.0uL/0.6uL; Ch:A09 100.0uL/0.6uL; Ch:B09 100.0uL/0.6uL; Ch:C09 100.0uL/0.6uL; Ch:D09 100.0uL/0.6uL; Ch:E09 100.0uL/0.6uL; Ch:F09 100.0uL/0.6uL; Ch:G09 100.0uL/0.6uL; Ch:H09 100.0uL/0.6uL; Ch:A10 100.0uL/0.6uL; Ch:B10 100.0uL/0.6uL; Ch:C10 100.0uL/0.6uL; Ch:D10 100.0uL/0.6uL; Ch:E10 100.0uL/0.6uL; Ch:F10 100.0uL/0.6uL; Ch:G10 100.0uL/0.6uL; Ch:H10 100.0uL/0.6uL; Ch:A11 100.0uL/0.6uL; Ch:B11 100.0uL/0.6uL; Ch:C11 100.0uL/0.6uL; Ch:D11 100.0uL/0.6uL; Ch:E11 100.0uL/0.6uL; Ch:F11 100.0uL/0.6uL; Ch:G11 100.0uL/0.6uL; Ch:H11 100.0uL/0.6uL; Ch:A12 100.0uL/0.6uL; Ch:B12 100.0uL/0.6uL; Ch:C12 100.0uL/0.6uL; Ch:D12 100.0uL/0.6uL; Ch:E12 100.0uL/0.6uL; Ch:F12 100.0uL/0.6uL; Ch:G12 100.0uL/0.6uL; Ch:H12 100.0uL/0.6uL
+08/22/2018 15:51:12.8 [Lynx.Aspirate(VVP96).VVP96] Post airgap parameters (0): 
+08/22/2018 15:51:12.9 [Lynx.Aspirate(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -157.69 mm, -525.23 mm, -117.18 mm, -119.18 mm, using motion profile 'Mid Speed'.
+08/22/2018 15:51:12.9 [Lynx.Aspirate(VVP96).VVP96] Initial axis positions:'XL' -157.69 mm, 'YL' -525.20 mm, 'ZL' -2.02 mm
+08/22/2018 15:51:14.9 [VVP96] Clog detection is off.
+08/22/2018 15:51:14.9 [VVP96] Aspirate diagnostics are off.
+08/22/2018 15:51:14.9 [VVP96] Set VVP: command 'Clogging Limit' with setting of 0 for 96 channels.
+08/22/2018 15:51:15.2 [VVP96] Set VVP: command 'Air-to-Liquid Sens.' with setting of 0 for 96 channels.
+08/22/2018 15:51:15.4 [VVP96] Set VVP: command 'Liquid-to-Air Sens.' with setting of 0 for 96 channels.
+08/22/2018 15:51:16.5 [VVP96] VVP Aspirate pressure is 41 mbar.
+08/22/2018 15:51:21.8 [VVP96] Aspirate complete.
+08/22/2018 15:51:22.4 [VVP96] VVP reports 96 errors in last aspirate: A01, B01, C01, D01, E01, F01, G01, H01, A02, B02, C02, D02, E02, F02, G02, H02, A03, B03, C03, D03, E03, F03, G03, H03, A04, B04, C04, D04, E04, F04, G04, H04, A05, B05, C05, D05, E05, F05, G05, H05, A06, B06, C06, D06, E06, F06, G06, H06, A07, B07, C07, D07, E07, F07, G07, H07, A08, B08, C08, D08, E08, F08, G08, H08, A09, B09, C09, D09, E09, F09, G09, H09, A10, B10, C10, D10, E10, F10, G10, H10, A11, B11, C11, D11, E11, F11, G11, H11, A12, B12, C12, D12, E12, F12, G12, H12
+08/22/2018 15:51:22.4 [VVP96] Average residual volume was 0.00 ul for 0 channels at 40 mbar pressure
+08/22/2018 15:51:22.6 [Lynx.Aspirate(VVP96).VVP96] Aspirate results: Ch:A01 1.0uL/0.0uL Err: -4, Ch:B01 0.9uL/0.0uL Err: -4, Ch:C01 6553.5uL/0.0uL Err: -4, Ch:D01 6553.2uL/6553.5uL Err: -19, Ch:E01 1.2uL/0.0uL Err: -4, Ch:F01 0.2uL/0.0uL Err: -4, Ch:G01 1.9uL/0.0uL Err: -4, Ch:H01 6553.5uL/0.0uL Err: -4, Ch:A02 6553.3uL/0.0uL Err: -3, Ch:B02 6553.3uL/0.0uL Err: -3, Ch:C02 6553.2uL/6553.5uL Err: -3, Ch:D02 6553.3uL/0.0uL Err: -3, Ch:E02 6553.3uL/0.0uL Err: -3, Ch:F02 6553.3uL/0.0uL Err: -3, Ch:G02 0.4uL/0.0uL Err: -4, Ch:H02 6553.3uL/0.0uL Err: -19, Ch:A03 6553.3uL/0.0uL Err: -3, Ch:B03 6553.2uL/6553.5uL Err: -3, Ch:C03 0.1uL/0.0uL Err: -4, Ch:D03 6553.3uL/0.0uL Err: -3, Ch:E03 6553.3uL/0.0uL Err: -19, Ch:F03 6553.2uL/6553.5uL Err: -19, Ch:G03 0.0uL/0.0uL Err: -4, Ch:H03 6553.3uL/0.0uL Err: -3, Ch:A04 6553.3uL/0.0uL Err: -3, Ch:B04 6553.2uL/6553.5uL Err: -3, Ch:C04 6553.2uL/6553.5uL Err: -3, Ch:D04 6553.3uL/0.0uL Err: -3, Ch:E04 6553.3uL/0.0uL Err: -3, Ch:F04 6553.2uL/6553.5uL Err: -19, Ch:G04 0.1uL/0.0uL Err: -4, Ch:H04 6553.2uL/6553.5uL Err: -3, Ch:A05 6553.3uL/0.0uL Err: -3, Ch:B05 6553.3uL/0.0uL Err: -3, Ch:C05 0.3uL/0.0uL Err: -4, Ch:D05 1.0uL/0.0uL Err: -4, Ch:E05 0.9uL/0.0uL Err: -4, Ch:F05 6553.2uL/6553.5uL Err: -3, Ch:G05 0.6uL/0.0uL Err: -4, Ch:H05 6553.3uL/0.0uL Err: -3, Ch:A06 0.4uL/0.0uL Err: -4, Ch:B06 0.5uL/0.0uL Err: -4, Ch:C06 6553.3uL/0.0uL Err: -3, Ch:D06 6553.3uL/0.0uL Err: -3, Ch:E06 6553.2uL/6553.5uL Err: -19, Ch:F06 2.3uL/0.0uL Err: -4, Ch:G06 6553.3uL/0.0uL Err: -3, Ch:H06 6553.5uL/0.0uL Err: -4, Ch:A07 6553.4uL/0.0uL Err: -4, Ch:B07 0.4uL/0.0uL Err: -4, Ch:C07 0.7uL/0.0uL Err: -4, Ch:D07 6553.3uL/0.0uL Err: -3, Ch:E07 6553.3uL/0.0uL Err: -3, Ch:F07 6553.3uL/0.0uL Err: -3, Ch:G07 6553.3uL/0.0uL Err: -3, Ch:H07 0.2uL/0.0uL Err: -4, Ch:A08 0.8uL/0.0uL Err: -4, Ch:B08 0.3uL/0.0uL Err: -4, Ch:C08 0.5uL/0.0uL Err: -4, Ch:D08 6553.3uL/0.0uL Err: -3, Ch:E08 0.4uL/0.0uL Err: -4, Ch:F08 2.2uL/0.0uL Err: -4, Ch:G08 6553.2uL/6553.5uL Err: -3, Ch:H08 6553.2uL/6553.5uL Err: -19, Ch:A09 0.3uL/0.0uL Err: -4, Ch:B09 6553.2uL/6553.5uL Err: -3, Ch:C09 1.0uL/0.0uL Err: -4, Ch:D09 1.5uL/0.0uL Err: -4, Ch:E09 1.0uL/0.0uL Err: -4, Ch:F09 1.5uL/0.0uL Err: -4, Ch:G09 6553.2uL/6553.5uL Err: -3, Ch:H09 6553.3uL/0.0uL Err: -3, Ch:A10 6553.3uL/0.0uL Err: -4, Ch:B10 0.4uL/0.0uL Err: -4, Ch:C10 6553.3uL/0.0uL Err: -3, Ch:D10 6553.3uL/0.0uL Err: -3, Ch:E10 6553.2uL/6553.5uL Err: -3, Ch:F10 6553.3uL/0.0uL Err: -3, Ch:G10 6553.2uL/6553.5uL Err: -3, Ch:H10 0.7uL/0.0uL Err: -4, Ch:A11 1.5uL/0.0uL Err: -4, Ch:B11 1.5uL/0.0uL Err: -4, Ch:C11 6553.3uL/0.0uL Err: -3, Ch:D11 1.2uL/0.0uL Err: -4, Ch:E11 6553.3uL/0.0uL Err: -3, Ch:F11 6553.2uL/6553.5uL Err: -3, Ch:G11 6553.2uL/0.0uL Err: -3, Ch:H11 6553.2uL/6553.5uL Err: -19, Ch:A12 0.3uL/0.0uL Err: -4, Ch:B12 1.0uL/0.0uL Err: -4, Ch:C12 6553.3uL/0.0uL Err: -3, Ch:D12 1.3uL/0.0uL Err: -4, Ch:E12 6553.2uL/6553.5uL Err: -19, Ch:F12 1.0uL/0.0uL Err: -4, Ch:G12 6553.3uL/0.0uL Err: -3, Ch:H12 0.6uL/0.0uL Err: -4
+08/22/2018 15:51:25.9 [Lynx.Aspirate(VVP96).VVP96] Final axis positions:'XL' -157.68 mm, 'YL' -525.21 mm, 'ZL' -2.02 mm
+08/22/2018 15:51:25.9 [Lynx.Aspirate(VVP96).VVP96] Time to complete: 13 s.
+08/22/2018 15:51:25.9 Process 'Invitae Test.met'[1] 'Aspirate(VVP96)' CommandCompleted
+08/22/2018 15:51:25.9 Process 'Invitae Test.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 08/22/2018 15:51:12.8 and finished at 08/22/2018 15:51:25.9
+
+[User] Step.
+08/22/2018 15:56:16.6 Process 'Invitae Test.met' MethodStarted
+08/22/2018 15:56:16.6 Process 'Invitae Test.met'[3] 'Eject Tips(VVP96)' CommandStarted
+08/22/2018 15:56:16.6 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 15.00 mm.
+08/22/2018 15:56:16.6 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+08/22/2018 15:56:16.6 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_01' (-322.96 mm, -536.44 mm, -184.78 mm) with a stack index of 1.
+08/22/2018 15:56:16.6 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -308.58 mm, -525.20 mm, -2.00 mm, -108.28 mm, using motion profile 'Tip Eject'.
+08/22/2018 15:56:16.7 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -157.68 mm, 'YL' -525.20 mm, 'ZL' -2.02 mm
+08/22/2018 15:56:21.7 [VVP96] Tip ejection performed 2 times.
+08/22/2018 15:56:23.1 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+08/22/2018 15:56:23.2 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 6 s.
+08/22/2018 15:56:23.2 Process 'Invitae Test.met'[3] 'Eject Tips(VVP96)' CommandCompleted
+08/22/2018 15:56:23.2 Process 'Invitae Test.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 08/22/2018 15:56:16.6 and finished at 08/22/2018 15:56:23.2
+
+08/22/2018 15:56:30.4 [XL] Closing component connections for Warp 'XL'.
+08/22/2018 15:56:30.4 [YL] Closing component connections for Warp 'YL'.
+08/22/2018 15:56:30.4 [ZL] Closing component connections for Warp 'ZL'.
+08/22/2018 15:56:30.9 [Lynx] 

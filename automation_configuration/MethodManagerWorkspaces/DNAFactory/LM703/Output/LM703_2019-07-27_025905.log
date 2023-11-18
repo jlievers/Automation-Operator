@@ -1,0 +1,748 @@
+Logfile Name: P:\MethodManagerWorkspaces\LM703\Output\LM703_2019-07-27_025905.log
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+07/27/2019 14:59:06.5 The command server is monitoring the workspace 'LM703' and is available on 172.18.3.53/1000
+07/27/2019 14:59:11.8 [ZL] Instruction Error Status: None
+07/27/2019 14:59:11.8 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 14:59:11.8 [ZL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 14:59:11.9 [ZL]   Inputs: False False False False False 
+07/27/2019 14:59:11.9 [ZL] Current IP communications rate is 10 mb.
+07/27/2019 14:59:11.9 [ZL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 14:59:12.0 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 14:59:12.1 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/27/2019 14:59:12.1 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/27/2019 14:59:12.3 [ZL] Start Hall-based phase initialization.
+07/27/2019 14:59:12.3 [ZL] Phases initialized.
+07/27/2019 14:59:12.3 [BarCodeZAxis] Instruction Error Status: None
+07/27/2019 14:59:12.4 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 14:59:12.4 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/27/2019 14:59:12.4 [BarCodeZAxis]   Inputs: False True False False False 
+07/27/2019 14:59:12.5 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/27/2019 14:59:12.5 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/27/2019 14:59:12.6 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 14:59:12.6 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/27/2019 14:59:12.7 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/27/2019 14:59:12.8 [BarCodeZAxis] Start Hall-based phase initialization.
+07/27/2019 14:59:12.9 [BarCodeZAxis] Phases initialized.
+07/27/2019 14:59:12.9 [YL] Instruction Error Status: None
+07/27/2019 14:59:12.9 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 14:59:13.0 [YL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 14:59:13.0 [YL]   Inputs: False False False False False 
+07/27/2019 14:59:13.0 [YL] Current IP communications rate is 10 mb.
+07/27/2019 14:59:13.1 [YL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 14:59:13.2 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 14:59:13.2 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 14:59:13.2 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 14:59:13.4 [YL] Start Hall-based phase initialization.
+07/27/2019 14:59:13.4 [YL] Phases initialized.
+07/27/2019 14:59:13.5 [XL] Instruction Error Status: None
+07/27/2019 14:59:13.5 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 14:59:13.5 [XL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 14:59:13.6 [XL]   Inputs: False False False False False 
+07/27/2019 14:59:13.6 [XL] Current IP communications rate is 10 mb.
+07/27/2019 14:59:13.6 [XL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 14:59:13.7 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 14:59:13.8 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 14:59:13.8 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 14:59:14.0 [XL] Start Hall-based phase initialization.
+07/27/2019 14:59:14.0 [XL] Phases initialized.
+07/27/2019 14:59:15.3 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/27/2019 14:59:15.5 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+07/27/2019 14:59:16.2 [ZL] Reached limit successfully.
+07/27/2019 14:59:16.2 [ZL] Attempting to back off Positive limit.
+07/27/2019 14:59:16.9 [ZL] Move off limit completion: Successful (OKReady).
+07/27/2019 14:59:16.9 [ZL] Move to limit finished.
+07/27/2019 14:59:17.0 [ZL] Establishing new 0 position for the old position 0.00 mm.
+07/27/2019 14:59:17.0 [ZL] Timestamp of last successful home: 7/27/2019 2:59:17 PM
+07/27/2019 14:59:17.2 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+07/27/2019 14:59:17.7 [BarCodeZAxis] Reached limit successfully.
+07/27/2019 14:59:17.7 [BarCodeZAxis] Attempting to back off Negative limit.
+07/27/2019 14:59:18.2 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+07/27/2019 14:59:18.2 [BarCodeZAxis] Move to limit finished.
+07/27/2019 14:59:18.3 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+07/27/2019 14:59:18.4 [BarCodeZAxis] Timestamp of last successful home: 7/27/2019 2:59:18 PM
+07/27/2019 14:59:19.7 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 14:59:35.9 [YL] Reached limit successfully.
+07/27/2019 14:59:35.9 [YL] Attempting to back off Positive limit.
+07/27/2019 14:59:36.4 [YL] Move off limit completion: Successful (OKReady).
+07/27/2019 14:59:36.5 [YL] Move to limit finished.
+07/27/2019 14:59:36.5 [YL] Establishing new 0 position for the old position 0.02 mm.
+07/27/2019 14:59:36.6 [YL] Timestamp of last successful home: 7/27/2019 2:59:36 PM
+07/27/2019 14:59:36.8 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 14:59:45.2 [XL] Reached limit successfully.
+07/27/2019 14:59:45.3 [XL] Attempting to back off Positive limit.
+07/27/2019 14:59:45.7 [XL] Move off limit completion: Successful (OKReady).
+07/27/2019 14:59:45.8 [XL] Move to limit finished.
+07/27/2019 14:59:45.9 [XL] Establishing new 0 position for the old position -0.04 mm.
+07/27/2019 14:59:45.9 [XL] Timestamp of last successful home: 7/27/2019 2:59:45 PM
+07/27/2019 15:07:54.9 [XL] Closing component connections for Warp 'XL'.
+07/27/2019 15:07:54.9 [YL] Closing component connections for Warp 'YL'.
+07/27/2019 15:07:54.9 [ZL] Closing component connections for Warp 'ZL'.
+07/27/2019 15:07:54.9 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/27/2019 15:07:57.2 [XL] Instruction Error Status: None
+07/27/2019 15:07:57.2 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:07:57.2 [XL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:07:57.3 [XL]   Inputs: False False False False False 
+07/27/2019 15:07:57.3 [XL] Current IP communications rate is 10 mb.
+07/27/2019 15:07:57.3 [XL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:07:57.5 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:07:57.5 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:07:57.6 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:07:57.7 [XL] Start Hall-based phase initialization.
+07/27/2019 15:07:57.8 [XL] Phases initialized.
+07/27/2019 15:07:57.8 [Lynx] Component Component 'XL' (Axis) at TCP/10.0.0.161 is now connected.
+07/27/2019 15:07:59.1 [YL] Instruction Error Status: None
+07/27/2019 15:07:59.1 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:07:59.2 [YL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:07:59.2 [YL]   Inputs: False False False False False 
+07/27/2019 15:07:59.3 [YL] Current IP communications rate is 10 mb.
+07/27/2019 15:07:59.3 [YL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:07:59.4 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:07:59.4 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:07:59.5 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:07:59.7 [YL] Start Hall-based phase initialization.
+07/27/2019 15:07:59.7 [YL] Phases initialized.
+07/27/2019 15:07:59.7 [Lynx] Component Component 'YL' (Axis) at TCP/10.0.0.162 is now connected.
+07/27/2019 15:08:01.0 [ZL] Instruction Error Status: None
+07/27/2019 15:08:01.1 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:08:01.1 [ZL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:08:01.2 [ZL]   Inputs: False False False False False 
+07/27/2019 15:08:01.2 [ZL] Current IP communications rate is 10 mb.
+07/27/2019 15:08:01.2 [ZL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:08:01.3 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:08:01.4 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/27/2019 15:08:01.4 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/27/2019 15:08:01.6 [ZL] Start Hall-based phase initialization.
+07/27/2019 15:08:01.6 [ZL] Phases initialized.
+07/27/2019 15:08:01.7 [Lynx] Component Component 'ZL' (Axis) at TCP/10.0.0.163 is now connected.
+07/27/2019 15:08:03.0 [BarCodeZAxis] Instruction Error Status: None
+07/27/2019 15:08:03.0 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:08:03.0 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:08:03.1 [BarCodeZAxis]   Inputs: False True False False False 
+07/27/2019 15:08:03.1 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/27/2019 15:08:03.2 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:08:03.3 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:08:03.3 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/27/2019 15:08:03.4 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/27/2019 15:08:03.5 [BarCodeZAxis] Start Hall-based phase initialization.
+07/27/2019 15:08:03.6 [BarCodeZAxis] Phases initialized.
+07/27/2019 15:08:03.6 [Lynx] Component Component 'BarCodeZAxis' (Axis) at TCP/10.0.0.165 is now connected.
+07/27/2019 15:08:06.2 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/27/2019 15:08:06.2 [Lynx] Component Component 'VVP96' (PipetteTool) at TCP/10.0.0.178 is now connected.
+07/27/2019 15:08:06.2 [Lynx] Component 'LightTower' (LightTower) at None/ is disabled and will not be connected.
+07/27/2019 15:08:06.2 [Lynx] Component 'Gripper' (Gripper) at None/ is disabled and will not be connected.
+07/27/2019 15:09:55.0 [XL] Closing component connections for Warp 'XL'.
+07/27/2019 15:09:55.0 [YL] Closing component connections for Warp 'YL'.
+07/27/2019 15:09:55.1 [ZL] Closing component connections for Warp 'ZL'.
+07/27/2019 15:09:55.1 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/27/2019 15:09:56.9 [XL] Instruction Error Status: None
+07/27/2019 15:09:56.9 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:09:57.0 [XL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:09:57.0 [XL]   Inputs: False False False False False 
+07/27/2019 15:09:57.0 [XL] Current IP communications rate is 10 mb.
+07/27/2019 15:09:57.1 [XL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:09:57.2 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:09:57.2 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:09:57.3 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:09:57.4 [XL] Start Hall-based phase initialization.
+07/27/2019 15:09:57.5 [XL] Phases initialized.
+07/27/2019 15:09:57.5 [Lynx] Component Component 'XL' (Axis) at TCP/10.0.0.161 is now connected.
+07/27/2019 15:09:58.8 [YL] Instruction Error Status: None
+07/27/2019 15:09:58.8 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:09:58.9 [YL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:09:58.9 [YL]   Inputs: False False False False False 
+07/27/2019 15:09:58.9 [YL] Current IP communications rate is 10 mb.
+07/27/2019 15:09:59.0 [YL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:09:59.1 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:09:59.1 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:09:59.2 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:09:59.3 [YL] Start Hall-based phase initialization.
+07/27/2019 15:09:59.4 [YL] Phases initialized.
+07/27/2019 15:09:59.4 [Lynx] Component Component 'YL' (Axis) at TCP/10.0.0.162 is now connected.
+07/27/2019 15:10:00.7 [ZL] Instruction Error Status: None
+07/27/2019 15:10:00.7 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:10:00.7 [ZL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:10:00.8 [ZL]   Inputs: False False False False False 
+07/27/2019 15:10:00.8 [ZL] Current IP communications rate is 10 mb.
+07/27/2019 15:10:00.8 [ZL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:10:00.9 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:10:01.0 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/27/2019 15:10:01.0 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/27/2019 15:10:01.2 [ZL] Start Hall-based phase initialization.
+07/27/2019 15:10:01.2 [ZL] Phases initialized.
+07/27/2019 15:10:01.2 [Lynx] Component Component 'ZL' (Axis) at TCP/10.0.0.163 is now connected.
+07/27/2019 15:10:02.5 [BarCodeZAxis] Instruction Error Status: None
+07/27/2019 15:10:02.6 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:10:02.6 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:10:02.6 [BarCodeZAxis]   Inputs: False True False False False 
+07/27/2019 15:10:02.7 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/27/2019 15:10:02.7 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:10:02.8 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:10:02.8 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/27/2019 15:10:02.9 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/27/2019 15:10:03.0 [BarCodeZAxis] Start Hall-based phase initialization.
+07/27/2019 15:10:03.1 [BarCodeZAxis] Phases initialized.
+07/27/2019 15:10:03.1 [Lynx] Component Component 'BarCodeZAxis' (Axis) at TCP/10.0.0.165 is now connected.
+07/27/2019 15:10:05.7 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/27/2019 15:10:05.7 [Lynx] Component Component 'VVP96' (PipetteTool) at TCP/10.0.0.178 is now connected.
+07/27/2019 15:10:05.7 [Lynx] Component 'LightTower' (LightTower) at None/ is disabled and will not be connected.
+07/27/2019 15:10:05.8 [Lynx] Component 'Gripper' (Gripper) at None/ is disabled and will not be connected.
+07/27/2019 15:11:10.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:11:10.5 [ZL] StopMotion flag is active in WaitReady.
+[User] Step.
+07/27/2019 15:11:35.8 Process 'UNPtoFluidX.met' MethodStarted
+07/27/2019 15:11:35.8 Process 'UNPtoFluidX.met'[0] 'Load Tips(VVP96)' CommandStarted
+07/27/2019 15:11:35.8 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+07/27/2019 15:11:35.8 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+07/27/2019 15:11:35.8 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+07/27/2019 15:11:35.8 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 15:11:35.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+07/27/2019 15:11:35.9 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+07/27/2019 15:11:35.9 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+07/27/2019 15:11:35.9 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -8.60 mm, 'YL' -12.27 mm, 'ZL' -13.05 mm
+07/27/2019 15:11:39.1 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+07/27/2019 15:11:39.1 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+07/27/2019 15:11:42.2 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.9 mm, motor current 30.2 %
+07/27/2019 15:11:42.3 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+07/27/2019 15:11:42.3 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.00 mm, 0.00 mm, -3.92 mm
+07/27/2019 15:11:42.5 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+07/27/2019 15:11:42.6 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+07/27/2019 15:11:42.7 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+07/27/2019 15:11:42.8 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+07/27/2019 15:11:43.0 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+07/27/2019 15:11:44.7 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+07/27/2019 15:11:44.7 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+07/27/2019 15:11:44.7 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.75 mm, 'YL' -212.50 mm, 'ZL' -2.02 mm
+07/27/2019 15:11:44.7 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 15:11:44.7 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 8 s.
+07/27/2019 15:11:44.7 Process 'UNPtoFluidX.met'[0] 'Load Tips(VVP96)' CommandCompleted
+07/27/2019 15:11:44.7 Process 'UNPtoFluidX.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 15:11:35.8 and finished at 07/27/2019 15:11:44.7
+
+07/27/2019 15:13:07.1 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:13:07.2 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:13:07.2 [Lynx.Move Axis] Move axes: 'XL' to -11.92 mm, 'YL' to -3.64 mm
+07/27/2019 15:13:16.1 [Lynx.Move Axis] Time to complete: 8 s.
+07/27/2019 15:13:31.1 [Lynx.Move Axis] Move axes: 'ZL' to -63.03 mm
+07/27/2019 15:13:34.0 [Lynx.Move Axis] Time to complete: 2 s.
+07/27/2019 15:13:41.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:41.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:42.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:42.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:42.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:42.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:43.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:43.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:43.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:43.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:44.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:44.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:44.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:44.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:45.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:45.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:45.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:45.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:46.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:46.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:46.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:46.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:52.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:52.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:53.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:53.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:55.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:55.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:55.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:13:55.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:14:15.8 [Lynx.Move Axis] Move axes: 'XL' to -11.83 mm
+07/27/2019 15:14:16.1 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:23.4 [Lynx.Move Axis] Move axes: 'XL' to -11.76 mm
+07/27/2019 15:14:23.7 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:34.2 [Lynx.Move Axis] Move axes: 'XL' to -11.58 mm
+07/27/2019 15:14:34.5 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:41.0 [Lynx.Move Axis] Move axes: 'XL' to -11.40 mm
+07/27/2019 15:14:41.4 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:43.6 [Lynx.Move Axis] Move axes: 'XL' to -11.23 mm
+07/27/2019 15:14:43.9 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:53.8 [Lynx.Move Axis] Move axes: 'XL' to -11.06 mm
+07/27/2019 15:14:54.1 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:14:56.7 [Lynx.Move Axis] Move axes: 'XL' to -10.89 mm
+07/27/2019 15:14:57.0 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:15:18.6 [Lynx.Move Axis] Move axes: 'YL' to -3.48 mm
+07/27/2019 15:15:18.9 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:15:22.8 [Lynx.Move Axis] Move axes: 'YL' to -3.31 mm
+07/27/2019 15:15:23.1 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:15:34.9 [Lynx.Move Axis] Move axes: 'XL' to -11.12 mm
+07/27/2019 15:15:35.2 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:15:43.1 [Lynx.Move Axis] Move axes: 'XL' to -11.33 mm
+07/27/2019 15:15:43.5 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:20:50.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:20:50.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:20:56.2 [Lynx.Home Axis] Home axes: ZL, BarCodeZAxis, YL, XL
+07/27/2019 15:20:56.4 [ZL] Move to Positive limit. Velocity 20 mm/s, accel 40 mm/s2, decel 200 mm/s2, timeout 60 s.
+07/27/2019 15:20:59.5 [ZL] Reached limit successfully.
+07/27/2019 15:20:59.5 [ZL] Attempting to back off Positive limit.
+07/27/2019 15:21:00.3 [ZL] Move off limit completion: Successful (OKReady).
+07/27/2019 15:21:00.4 [ZL] Move to limit finished.
+07/27/2019 15:21:00.4 [ZL] Establishing new 0 position for the old position 0.00 mm.
+07/27/2019 15:21:00.4 [ZL] Timestamp of last successful home: 7/27/2019 3:21:00 PM
+07/27/2019 15:21:00.6 [BarCodeZAxis] Move to Negative limit. Velocity 20 mm/s, accel 200 mm/s2, decel 350 mm/s2, timeout 60 s.
+07/27/2019 15:21:01.0 [BarCodeZAxis] Reached limit successfully.
+07/27/2019 15:21:01.0 [BarCodeZAxis] Attempting to back off Negative limit.
+07/27/2019 15:21:01.5 [BarCodeZAxis] Move off limit completion: Successful (OKReady).
+07/27/2019 15:21:01.5 [BarCodeZAxis] Move to limit finished.
+07/27/2019 15:21:01.5 [BarCodeZAxis] Establishing new 0 position for the old position 0.00 mm.
+07/27/2019 15:21:01.6 [BarCodeZAxis] Timestamp of last successful home: 7/27/2019 3:21:01 PM
+07/27/2019 15:21:01.7 [YL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 15:21:02.4 [YL] Reached limit successfully.
+07/27/2019 15:21:02.4 [YL] Attempting to back off Positive limit.
+07/27/2019 15:21:02.8 [YL] Move off limit completion: Successful (OKReady).
+07/27/2019 15:21:02.8 [YL] Move to limit finished.
+07/27/2019 15:21:02.9 [YL] Establishing new 0 position for the old position -0.03 mm.
+07/27/2019 15:21:02.9 [YL] Timestamp of last successful home: 7/27/2019 3:21:02 PM
+07/27/2019 15:21:03.1 [XL] Move to Positive limit. Velocity 20 mm/s, accel 200 mm/s2, decel 1000 mm/s2, timeout 60 s.
+07/27/2019 15:21:04.1 [XL] Reached limit successfully.
+07/27/2019 15:21:04.1 [XL] Attempting to back off Positive limit.
+07/27/2019 15:21:04.5 [XL] Move off limit completion: Successful (OKReady).
+07/27/2019 15:21:04.6 [XL] Move to limit finished.
+07/27/2019 15:21:04.6 [XL] Establishing new 0 position for the old position 0.13 mm.
+07/27/2019 15:21:04.6 [XL] Timestamp of last successful home: 7/27/2019 3:21:04 PM
+07/27/2019 15:21:04.6 [Lynx.Home Axis] Time to complete: 8 s.
+07/27/2019 15:24:40.8 [XL] Closing component connections for Warp 'XL'.
+07/27/2019 15:24:40.8 [YL] Closing component connections for Warp 'YL'.
+07/27/2019 15:24:40.8 [ZL] Closing component connections for Warp 'ZL'.
+07/27/2019 15:24:40.8 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/27/2019 15:24:42.7 [XL] Instruction Error Status: None
+07/27/2019 15:24:42.7 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:24:42.7 [XL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:24:42.7 [XL]   Inputs: False False False False False 
+07/27/2019 15:24:42.8 [XL] Current IP communications rate is 10 mb.
+07/27/2019 15:24:42.8 [XL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:24:42.9 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:24:42.9 [XL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:24:42.9 [XL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\X Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:24:43.1 [XL] Start Hall-based phase initialization.
+07/27/2019 15:24:43.1 [XL] Phases initialized.
+07/27/2019 15:24:43.1 [Lynx] Component Component 'XL' (Axis) at TCP/10.0.0.161 is now connected.
+07/27/2019 15:24:44.4 [YL] Instruction Error Status: None
+07/27/2019 15:24:44.4 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:24:44.5 [YL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:24:44.5 [YL]   Inputs: False False False False False 
+07/27/2019 15:24:44.5 [YL] Current IP communications rate is 10 mb.
+07/27/2019 15:24:44.5 [YL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:24:44.6 [YL] Phase correction: disabled, prescale: 1, phase counts: 1905
+07/27/2019 15:24:44.7 [YL] SetCurrentFoldbackAmps(6, 100) will set 13080 , 1083
+07/27/2019 15:24:44.7 [YL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Y Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2000 cts/mm.
+07/27/2019 15:24:44.8 [YL] Start Hall-based phase initialization.
+07/27/2019 15:24:44.9 [YL] Phases initialized.
+07/27/2019 15:24:44.9 [Lynx] Component Component 'YL' (Axis) at TCP/10.0.0.162 is now connected.
+07/27/2019 15:24:46.2 [ZL] Instruction Error Status: None
+07/27/2019 15:24:46.2 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:24:46.2 [ZL] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:24:46.3 [ZL]   Inputs: False False False False False 
+07/27/2019 15:24:46.3 [ZL] Current IP communications rate is 10 mb.
+07/27/2019 15:24:46.3 [ZL] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:24:46.4 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:24:46.4 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+07/27/2019 15:24:46.4 [ZL] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+07/27/2019 15:24:46.6 [ZL] Start Hall-based phase initialization.
+07/27/2019 15:24:46.6 [ZL] Phases initialized.
+07/27/2019 15:24:46.7 [Lynx] Component Component 'ZL' (Axis) at TCP/10.0.0.163 is now connected.
+07/27/2019 15:24:48.0 [BarCodeZAxis] Instruction Error Status: None
+07/27/2019 15:24:48.0 [BarCodeZAxis] Warp3 core version: 99103v1.0 (will support I/O).
+07/27/2019 15:24:48.0 [BarCodeZAxis] Configured as an enhanced Warp3 with I/O.
+07/27/2019 15:24:48.0 [BarCodeZAxis]   Inputs: False True False False False 
+07/27/2019 15:24:48.0 [BarCodeZAxis] Current IP communications rate is 10 mb.
+07/27/2019 15:24:48.1 [BarCodeZAxis] IP communications speed is currently set to 10 Mbps.
+07/27/2019 15:24:48.2 [BarCodeZAxis] Phase correction: disabled, prescale: 0, phase counts: 2000
+07/27/2019 15:24:48.2 [BarCodeZAxis] SetCurrentFoldbackAmps(2, 5) will set 4360 , 54
+07/27/2019 15:24:48.2 [BarCodeZAxis] Configuration parameters loaded from 'P:\MethodManagerWorkspaces\LM703\Configuration\BarCode Z.xml'. HomeVelocity 20 mm/s, CountsPerMM 5538 cts/mm.
+07/27/2019 15:24:48.4 [BarCodeZAxis] Start Hall-based phase initialization.
+07/27/2019 15:24:48.4 [BarCodeZAxis] Phases initialized.
+07/27/2019 15:24:48.4 [Lynx] Component Component 'BarCodeZAxis' (Axis) at TCP/10.0.0.165 is now connected.
+07/27/2019 15:24:51.4 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+07/27/2019 15:24:51.4 [Lynx] Component Component 'VVP96' (PipetteTool) at TCP/10.0.0.178 is now connected.
+07/27/2019 15:24:51.4 [Lynx] Component 'LightTower' (LightTower) at None/ is disabled and will not be connected.
+07/27/2019 15:24:51.4 [Lynx] Component 'Gripper' (Gripper) at None/ is disabled and will not be connected.
+07/27/2019 15:28:45.2 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:28:45.9 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:28:46.1 [Lynx.Move Axis] Move axes: 'XL' to -11.92 mm, 'YL' to -3.64 mm
+07/27/2019 15:28:53.1 [Lynx.Move Axis] Time to complete: 7 s.
+07/27/2019 15:29:08.1 [Lynx.Move Axis] Move axes: 'ZL' to -63.03 mm
+07/27/2019 15:29:14.7 [Lynx.Move Axis] Time to complete: 6 s.
+07/27/2019 15:30:15.2 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:30:21.8 [Lynx.Move Axis] Time to complete: 6 s.
+07/27/2019 15:30:21.9 [Lynx.Move Axis] Move axes: 'XL' to -11.92 mm, 'YL' to -3.64 mm
+07/27/2019 15:30:22.0 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:30:27.7 [Lynx.Move Axis] Move axes: 'ZL' to -63.03 mm
+07/27/2019 15:30:34.3 [Lynx.Move Axis] Time to complete: 6 s.
+07/27/2019 15:30:38.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:38.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:40.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:40.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:40.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:40.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:41.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:41.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:41.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:41.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:30:55.2 [Lynx.Move Axis] Move axes: 'YL' to -3.48 mm
+07/27/2019 15:30:55.8 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:31:08.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:31:08.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:31:11.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:31:11.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:32:44.1 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:32:55.1 [Lynx.Move Axis] Time to complete: 10 s.
+07/27/2019 15:32:55.1 [Lynx.Move Axis] Move axes: 'XL' to -11.92 mm, 'YL' to -3.64 mm
+07/27/2019 15:32:55.9 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:33:36.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:36.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:38.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:38.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:38.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:38.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:39.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:39.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:39.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:39.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:48.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:48.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:49.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:49.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:50.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:50.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:51.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:33:51.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:01.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:01.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:07.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:07.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:18.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:18.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:18.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:18.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:20.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:20.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:42.6 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:42.7 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:43.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:44.0 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:44.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:44.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:57.5 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:57.5 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:58.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:34:58.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:08.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:08.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:09.7 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:09.7 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:23.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:35:23.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:37:08.0 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:37:20.1 [Lynx.Move Axis] Time to complete: 12 s.
+07/27/2019 15:37:20.2 [Lynx.Move Axis] Move axes: 'XL' to -160.58 mm, 'YL' to -107.43 mm
+07/27/2019 15:39:52.3 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:39:52.4 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:39:52.5 [Lynx.Move Axis] Move axes: 'XL' to -160.58 mm, 'YL' to -107.43 mm
+07/27/2019 15:40:19.9 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:40:20.0 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:40:20.1 [Lynx.Move Axis] Move axes: 'XL' to -160.58 mm, 'YL' to -107.43 mm
+07/27/2019 15:40:20.6 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:40:23.2 [Lynx.Move Axis] Move axes: 'ZL' to -62.91 mm
+07/27/2019 15:40:24.9 [Lynx.Move Axis] Time to complete: 1 s.
+07/27/2019 15:40:43.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:43.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:47.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:47.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:48.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:48.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:49.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:49.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:49.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:49.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:50.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:50.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:52.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:52.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:52.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:52.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:53.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:40:53.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:12.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:12.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:13.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:13.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:16.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:16.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:16.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:16.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:24.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:24.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:24.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:24.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:25.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:25.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:29.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:29.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:30.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:30.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:31.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:31.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:31.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:31.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:46.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:46.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:46.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:46.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:47.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:47.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:51.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:51.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:56.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:56.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:57.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:41:57.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:03.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:04.0 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:05.2 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:05.2 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:06.0 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:06.0 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:07.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:07.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:09.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:09.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:11.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:11.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:22.2 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:22.2 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:32.5 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:42:32.6 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:16.6 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:43:28.4 [Lynx.Move Axis] Time to complete: 11 s.
+07/27/2019 15:43:28.5 [Lynx.Move Axis] Move axes: 'XL' to -160.58 mm, 'YL' to -107.43 mm
+07/27/2019 15:43:29.5 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:43:32.5 [Lynx.Move Axis] Move axes: 'ZL' to -62.91 mm
+07/27/2019 15:43:39.1 [Lynx.Move Axis] Time to complete: 6 s.
+07/27/2019 15:43:46.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:46.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:56.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:56.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:57.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:57.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:57.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:57.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:58.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:58.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:58.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:58.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:59.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:59.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:59.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:43:59.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:00.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:00.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:00.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:00.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:01.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:01.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:01.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:01.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:04.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:04.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:05.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:05.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:07.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:07.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:08.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:08.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:12.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:12.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:15.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:15.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:27.3 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:27.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:28.2 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:28.2 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:28.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:28.9 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:30.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:30.5 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:35.0 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:35.1 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:41.3 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:41.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:50.0 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:50.1 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:51.0 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:51.0 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:51.9 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:51.9 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:58.7 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:44:58.8 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:45:34.7 [Lynx.Move Axis] Move axes: 'ZL' to -2.00 mm
+07/27/2019 15:45:46.6 [Lynx.Move Axis] Time to complete: 11 s.
+07/27/2019 15:45:46.7 [Lynx.Move Axis] Move axes: 'XL' to -160.58 mm, 'YL' to -107.43 mm
+07/27/2019 15:45:47.5 [Lynx.Move Axis] Time to complete: 0 s.
+07/27/2019 15:45:49.8 [Lynx.Move Axis] Move axes: 'ZL' to -62.91 mm
+07/27/2019 15:45:56.4 [Lynx.Move Axis] Time to complete: 6 s.
+07/27/2019 15:46:47.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:46:47.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:46:56.7 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:46:56.8 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:46:57.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:46:57.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:01.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:01.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:04.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:04.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:05.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:05.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:05.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:05.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:06.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:06.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:06.9 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:07.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:07.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:07.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:08.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:08.0 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:08.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:08.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:10.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:10.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:14.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:14.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:14.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:14.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:15.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:15.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:15.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:15.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:16.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:16.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:17.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:17.4 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:18.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:18.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:21.6 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:21.6 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:22.1 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:22.1 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:22.7 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:22.7 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:23.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:23.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:24.8 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:24.8 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:25.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:25.4 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:27.1 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:27.2 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:28.7 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:28.8 [YL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:38.5 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:38.6 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:39.5 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:39.5 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:40.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:40.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:47.8 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:47:47.8 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:01.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:01.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:02.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:02.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:03.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:03.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:07.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:07.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:08.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:08.5 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:09.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:09.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:10.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:10.3 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:11.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:11.2 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:15.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:15.1 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:28.0 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:28.1 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:34.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:34.3 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:35.4 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:48:35.4 [XL] StopMotion flag is active in WaitReady.
+07/27/2019 15:50:39.6 [ZL] StopMotion flag is active in WaitReady.
+07/27/2019 15:50:39.6 [ZL] StopMotion flag is active in WaitReady.
+[User] Step.
+07/27/2019 15:53:19.2 Process 'UNPtoFluidX.met' MethodStarted
+07/27/2019 15:53:19.2 Process 'UNPtoFluidX.met'[5] 'Eject Tips(VVP96)' CommandStarted
+07/27/2019 15:53:19.2 [Lynx.Eject Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: 10.00 mm.
+07/27/2019 15:53:19.2 [Lynx.Eject Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 15:53:19.2 [Lynx.Eject Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 15:53:19.2 [Lynx.Eject Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -102.07 mm, using motion profile 'Mid Speed'.
+07/27/2019 15:53:19.2 [Lynx.Eject Tips(VVP96).VVP96] Initial axis positions:'XL' -160.26 mm, 'YL' -107.88 mm, 'ZL' -15.32 mm
+07/27/2019 15:53:25.0 [VVP96] Tip ejection performed 2 times.
+07/27/2019 15:53:26.4 [Lynx.Eject Tips(VVP96).VVP96] No current tip.
+07/27/2019 15:53:26.4 [Lynx.Eject Tips(VVP96).VVP96] Time to complete: 7 s.
+07/27/2019 15:53:26.4 Process 'UNPtoFluidX.met'[5] 'Eject Tips(VVP96)' CommandCompleted
+07/27/2019 15:53:26.4 Process 'UNPtoFluidX.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 15:53:19.2 and finished at 07/27/2019 15:53:26.4
+
+[User] Step.
+07/27/2019 15:53:32.3 Process 'UNPtoFluidX.met' MethodStarted
+07/27/2019 15:53:32.3 Process 'UNPtoFluidX.met'[0] 'Load Tips(VVP96)' CommandStarted
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Plate 'LXB-96-300F_01', column/row offset (0, 0), X/Y offset (0.00 mm,0.00 mm), height: -2.50 mm.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] No current tip.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading depth for tip type 'LXB-96-300F' is 10.4 mm.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Plate is at location 'Loc_03' (2.64 mm, -223.74 mm, -173.57 mm) with a stack index of 1.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading height adjustment is -2.5 mm and Z axis force limit is 30% of full power.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Tip loading Z error limit will be 10.0 mm, XY error window will be 50.0 mm, and the XY axis holding force fraction will be 20%
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Initial robot X/Y/ZStart/ZEnd coordinates: -11.74 mm, -212.50 mm, -2.00 mm, -124.97 mm, using motion profile 'Tip Load'.
+07/27/2019 15:53:32.3 [Lynx.Load Tips(VVP96).VVP96] Initial axis positions:'XL' -11.79 mm, 'YL' -212.50 mm, 'ZL' -2.02 mm
+07/27/2019 15:53:33.9 [XL] Relative motor limit setting 20.0%, changing limit from 100.0% to 20.0%
+07/27/2019 15:53:33.9 [YL] Relative motor limit setting 20.0%, changing limit from 70.0% to 14.0%
+07/27/2019 15:53:36.5 [Lynx.Load Tips(VVP96).VVP96] Maximum recorded tip load values: Position error 3.8 mm, motor current 24.8 %
+07/27/2019 15:53:36.6 [Lynx.Load Tips(VVP96).VVP96] Tip load Z-axis motion complete.
+07/27/2019 15:53:36.6 [Lynx.Load Tips(VVP96).VVP96] Tip load position errors for X/Y/Z: 0.04 mm, 0.01 mm, -3.80 mm
+07/27/2019 15:53:36.8 [ZL] Absolute motor limit setting 24.0%, changing limit from 30.0% to 24.0%
+07/27/2019 15:53:36.9 [ZL] Absolute motor limit setting 18.0%, changing limit from 24.0% to 18.0%
+07/27/2019 15:53:37.0 [ZL] Absolute motor limit setting 12.0%, changing limit from 18.0% to 12.0%
+07/27/2019 15:53:37.2 [ZL] Absolute motor limit setting 6.0%, changing limit from 12.0% to 6.0%
+07/27/2019 15:53:37.3 [ZL] Relative motor limit setting 100.0%, changing limit from 6.0% to 30.0%
+07/27/2019 15:53:39.0 [XL] Relative motor limit setting 100.0%, changing limit from 20.0% to 100.0%
+07/27/2019 15:53:39.0 [YL] Relative motor limit setting 100.0%, changing limit from 14.0% to 70.0%
+07/27/2019 15:53:39.0 [Lynx.Load Tips(VVP96).VVP96] Final axis positions:'XL' -11.78 mm, 'YL' -212.50 mm, 'ZL' -2.02 mm
+07/27/2019 15:53:39.0 [Lynx.Load Tips(VVP96).VVP96] Current tip 'LXB-96-300F'.
+07/27/2019 15:53:39.0 [Lynx.Load Tips(VVP96).VVP96] Time to complete: 6 s.
+07/27/2019 15:53:39.0 Process 'UNPtoFluidX.met'[0] 'Load Tips(VVP96)' CommandCompleted
+07/27/2019 15:53:39.0 Process 'UNPtoFluidX.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 07/27/2019 15:53:32.3 and finished at 07/27/2019 15:53:39.0
+
+07/27/2019 15:53:46.9 [XL] Closing component connections for Warp 'XL'.
+07/27/2019 15:53:46.9 [YL] Closing component connections for Warp 'YL'.
+07/27/2019 15:53:46.9 [ZL] Closing component connections for Warp 'ZL'.
+07/27/2019 15:53:47.0 [BarCodeZAxis] Closing component connections for Warp 'BarCodeZAxis'.
+07/27/2019 15:53:47.5 [Lynx] 

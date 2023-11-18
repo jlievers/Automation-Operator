@@ -1,0 +1,57 @@
+Logfile Name: C:\MethodManager4\Workspaces\730i VVP96 Demo\Output\730i VVP96 Demo_2017-11-13_093125.log
+Workspace '730i VVP96 Demo' modules...
+  MethodManagerV4   1.3.6522.17140
+  MMCoreDevice   1.3.6522.17174
+  MMLiquidHandler   1.3.6522.9893
+  Warp3   2.0.6522.17120
+  MMVVP   1.3.6522.9892
+  MMIOLightTower   1.3.0.0
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-1000NF', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+11/13/2017 09:31:25.749 The remote server is not configured: 
+11/13/2017 09:31:28.026 [ZL] Instruction Error Status: None
+11/13/2017 09:31:28.043 [ZL] Warp3 core version: 99103v1.0 (will support I/O).
+11/13/2017 09:31:28.063 [ZL] Configured as an enhanced Warp3 with I/O.
+11/13/2017 09:31:28.096 [ZL]   Inputs: False False False False False 
+11/13/2017 09:31:28.125 [ZL] Current IP communications rate is 10 mb.
+11/13/2017 09:31:28.137 [ZL] IP communications speed is currently set to 10 Mbps.
+11/13/2017 09:31:28.237 [ZL] Phase correction: disabled, prescale: 0, phase counts: 2000
+11/13/2017 09:31:28.282 [ZL] SetCurrentFoldbackAmps(8, 20) will set 17440 , 216
+11/13/2017 09:31:28.300 [ZL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Z Axis.xml'. HomeVelocity 20 mm/s, CountsPerMM 2571 cts/mm.
+11/13/2017 09:31:28.459 [ZL] Start Hall-based phase initialization.
+11/13/2017 09:31:28.494 [ZL] Phases initialized.
+11/13/2017 09:31:28.552 [YL] Instruction Error Status: None
+11/13/2017 09:31:28.572 [YL] Warp3 core version: 99103v1.0 (will support I/O).
+11/13/2017 09:31:28.592 [YL] Configured as an enhanced Warp3 with I/O.
+11/13/2017 09:31:28.626 [YL]   Inputs: False False False False False 
+11/13/2017 09:31:28.654 [YL] Current IP communications rate is 10 mb.
+11/13/2017 09:31:28.667 [YL] IP communications speed is currently set to 10 Mbps.
+11/13/2017 09:31:28.766 [YL] Phase correction: disabled, prescale: 1, phase counts: 3901
+11/13/2017 09:31:28.811 [YL] SetCurrentFoldbackAmps(8, 100) will set 17440 , 1083
+11/13/2017 09:31:28.830 [YL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\Y Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 4096 cts/mm.
+11/13/2017 09:31:28.989 [YL] Start Hall-based phase initialization.
+11/13/2017 09:31:29.025 [YL] Phases initialized.
+11/13/2017 09:31:29.073 [XL] Instruction Error Status: None
+11/13/2017 09:31:29.087 [XL] Warp3 core version: 99103v1.0 (will support I/O).
+11/13/2017 09:31:29.107 [XL] Configured as an enhanced Warp3 with I/O.
+11/13/2017 09:31:29.141 [XL]   Inputs: False False False False False 
+11/13/2017 09:31:29.169 [XL] Current IP communications rate is 10 mb.
+11/13/2017 09:31:29.183 [XL] IP communications speed is currently set to 10 Mbps.
+11/13/2017 09:31:29.281 [XL] Phase correction: disabled, prescale: 1, phase counts: 1905
+11/13/2017 09:31:29.324 [XL] SetCurrentFoldbackAmps(8, 150) will set 17440 , 1625
+11/13/2017 09:31:29.344 [XL] Configuration parameters loaded from 'C:\MethodManager4\Workspaces\730i VVP96 Demo\Configuration\X Axis.xml'. HomeVelocity 30 mm/s, CountsPerMM 2000 cts/mm.
+11/13/2017 09:31:29.504 [XL] Start Hall-based phase initialization.
+11/13/2017 09:31:29.533 [XL] Phases initialized.
+11/13/2017 09:31:30.783 [VVP96] Get VVP: command 'Aspirate Diagnostics' from 96 channels.
+11/13/2017 09:31:40.745 [XL] StopMotion flag is active in WaitReady.
+11/13/2017 09:31:40.769 [XL] StopMotion flag is active in WaitReady.
+11/13/2017 09:32:44.323 [XL] Closing component connections for Warp 'XL'.
+11/13/2017 09:32:44.349 [YL] Closing component connections for Warp 'YL'.
+11/13/2017 09:32:44.363 [ZL] Closing component connections for Warp 'ZL'.
+11/13/2017 09:32:44.898 [Lynx] 

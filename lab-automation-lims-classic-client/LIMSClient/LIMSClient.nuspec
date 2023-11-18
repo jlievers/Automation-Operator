@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Com.Invitae.LabAutomation.LIMSClient</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Lab Automation</authors>
+    <description>Lab Automation shared library for LIMS Classic interactions</description>
+	<dependencies>
+	  <group targetFramework=".NETFramework4.8" />
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Release\LIMSClient.dll" target="lib\net48\" />
+  </files>
+</package>

@@ -1,0 +1,22 @@
+VI;12;8,1,2,3,4,5,6,7,8,9,10,11,12,
+A,0,0,0,0,0,0,0,0,0,0,0,0,
+B,0,0,0,0,0,0,0,0,0,0,0,0,
+C,0,0,0,0,0,0,0,0,0,0,0,0,
+D,0,0,0,0,0,0,0,0,0,0,0,0,
+E,0,0,0,0,0,0,0,0,0,0,0,0,
+F,0,0,0,0,0,0,0,0,0,0,0,0,
+G,60,0,40,0,20,0,10,0,0,0,0,0,
+H,0,0,0,0,0,0,0,0,0,0,0,0,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Cell A1 always must contain the dimensions of the pipette tool. This is validated against the tool.
+,,,,,,,,,,,,,Row 1 starting at column B is reserved for the plate column labels but is not required. Just there for readability.
+,,,,,,,,,,,,,Column A starting at row 2 is reserved for the plate row labels but is not required. Just there for readability.
+,,,,,,,,,,,,,Individual well command format: <Destination well>;<Volume>;<lead air gap>;<trailing air gap>;<VVP residual volume>
+,,,,,,,,,,,,,Separator hierarchy is comma between channel instructions and a semi-colon (;) between dispense parameters.
+,,,,,,,,,,,,,An empty entry or a volume that is less than or equal to 0 means no channel operation will occur.
+,,,,,,,,,,,,,All destination well names will be validated against the destination plate.

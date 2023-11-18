@@ -1,0 +1,16 @@
+Workspace '730i VVP96 Demo' modules...
+  MethodManagerV4   1.2.6004.18137
+  MMCoreDevice   1.1.6004.18137
+  MMLiquidHandler   1.1.6004.18211
+  Warp3   1.7.6004.18160
+  MMVVP   1.1.6004.18211
+  MMIOLightTower   1.0.0.0
+The pipette tool 'VVP96' can load the following tip types:
+   Tip type 'LXB-96-200NF', loading depth 6.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6, defined in 'Default-MLV'.
+   Tip type 'LXB-96-300F', loading depth 8.5 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40, defined in 'Default-MLV'.
+   Tip type 'LXB-96-300NF', loading depth 8.5 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9, defined in 'Default-MLV'.
+   Tip type 'LXB-96-1000NF', loading depth 28.3 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d, defined in 'Default-MLV'.
+   Tip type 'LXB-96-1250NF', loading depth 28.0 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6, defined in 'Default-MLV'.
+07/11/2018 09:26:59.610 The remote server is not configured.
+07/11/2018 09:27:26.115 The remote server is not configured.
+07/11/2018 09:27:27.672 [Lynx] 

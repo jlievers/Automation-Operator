@@ -1,0 +1,2 @@
+P:\lab-automation-lims-classic-client\LIMSClient\obj\Debug\LIMSClient.csprojAssemblyReference.cache
+P:\lab-automation-lims-classic-client\LIMSClient\obj\Debug\LIMSClient.csproj.CoreCompileInputs.cache

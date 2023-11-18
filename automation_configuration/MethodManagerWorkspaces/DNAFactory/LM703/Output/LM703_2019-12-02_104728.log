@@ -1,0 +1,114 @@
+Workspace 'LM703' modules...
+  MethodManagerV4   1.4.6666.27655
+  MMCoreDevice   1.4.6666.27650
+  MMLiquidHandler   1.4.6666.26302
+  Warp3   2.0.6591.13866
+  MMVVP   1.4.6666.26303
+  MMIOLightTower   1.4.6666.26303
+  MMHeadGripper   1.3.6591.14013
+The pipette tool 'VVP96' has mandrel type 'MLV' and can load the following tip types:
+   Tip type 'LXB-96-150F', loading depth 9.4 mm, Id: baf0d489-a29c-4899-844e-44fbdc6c2c49.
+   Tip type 'LXB-96-200NF', loading depth 9.4 mm, Id: 095daefc-e866-4d91-906f-cc7e17eaf3f6.
+   Tip type 'LXB-96-300F', loading depth 10.4 mm, Id: d2f37554-e0d6-41ea-8f3d-101c68af7e40.
+   Tip type 'LXB-96-300NF', loading depth 10.4 mm, Id: 423ec1e5-0ccf-4946-a441-905f3c9e1fd9.
+   Tip type 'LXB-96-950F', loading depth 28.6 mm, Id: 497625a6-73fc-4433-95df-636ceecdc818.
+   Tip type 'LXB-96-950F-WB', loading depth 28.6 mm, Id: ca3988bc-a34d-4ad7-ba77-93a37e8cba6d.
+   Tip type 'LXB-96-1250NF', loading depth 28.6 mm, Id: 13ba07a3-d5cb-4a96-9ab8-1d418fc383d6.
+12/02/2019 10:49:55.8 Tcp notification encountered an error: SocketException: System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 172.18.3.52:0
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at MethodManager.DX.Interop.MMTcpServer.<>c__DisplayClass5.<SendNotification>b__4()
+12/02/2019 10:51:46.5 Process 'InitializeLynx.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 10:51:44.2 and finished at 12/02/2019 10:51:46.5
+
+12/02/2019 10:57:55.2 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 10:56:40.5 and finished at 12/02/2019 10:57:55.2
+
+12/02/2019 13:04:42.4 Tcp notification encountered an error: SocketException: System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 172.18.3.52:0
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at MethodManager.DX.Interop.MMTcpServer.<>c__DisplayClass5.<SendNotification>b__4()
+12/02/2019 13:04:46.2 Process 'InitializeLynx.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 13:04:44.1 and finished at 12/02/2019 13:04:46.2
+
+12/02/2019 15:03:07.4 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:02:06.1 and finished at 12/02/2019 15:03:07.4
+
+12/02/2019 15:12:52.4 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:09:51.6 and finished at 12/02/2019 15:12:52.4
+
+12/02/2019 15:13:48.4 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:12:55.8 and finished at 12/02/2019 15:13:48.4
+
+12/02/2019 15:21:32.4 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:20:30.6 and finished at 12/02/2019 15:21:32.4
+
+12/02/2019 15:31:19.6 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:28:14.7 and finished at 12/02/2019 15:31:19.6
+
+12/02/2019 15:32:15.7 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 15:31:22.6 and finished at 12/02/2019 15:32:15.7
+
+12/02/2019 16:01:55.8 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:00:54.7 and finished at 12/02/2019 16:01:55.8
+
+12/02/2019 16:11:40.5 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:08:37.8 and finished at 12/02/2019 16:11:40.5
+
+12/02/2019 16:12:36.9 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:11:43.8 and finished at 12/02/2019 16:12:36.9
+
+12/02/2019 16:20:32.2 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:19:30.7 and finished at 12/02/2019 16:20:32.2
+
+12/02/2019 16:30:19.9 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:27:14.3 and finished at 12/02/2019 16:30:19.9
+
+12/02/2019 16:31:15.4 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:30:22.6 and finished at 12/02/2019 16:31:15.4
+
+12/02/2019 16:39:05.5 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:38:04.1 and finished at 12/02/2019 16:39:05.5
+
+12/02/2019 16:48:51.1 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:45:47.1 and finished at 12/02/2019 16:48:51.1
+
+12/02/2019 16:49:46.9 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:48:53.8 and finished at 12/02/2019 16:49:46.9
+
+12/02/2019 16:57:40.4 Process 'ChipLoad_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 16:56:37.7 and finished at 12/02/2019 16:57:40.4
+
+12/02/2019 17:07:26.5 Process 'Norm.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 17:04:22.0 and finished at 12/02/2019 17:07:26.5
+
+12/02/2019 17:08:23.3 Process 'AndStamp.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 17:07:29.5 and finished at 12/02/2019 17:08:23.3
+
+12/02/2019 17:33:59.0 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 17:32:44.9 and finished at 12/02/2019 17:33:59.0
+
+12/02/2019 17:54:45.0 Process 'Stamp_150ul.met' MethodCompleted
+1 of 1 method(s) completed successfully.
+  Concurrent method 'Main' (Main) started at 12/02/2019 17:53:29.8 and finished at 12/02/2019 17:54:45.0
+

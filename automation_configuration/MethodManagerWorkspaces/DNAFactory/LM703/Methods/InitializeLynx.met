@@ -1,0 +1,342 @@
+﻿<Complex name="Root" type="MethodManager.Data.Dto.MethodDto, MethodManager.Data">
+  <Properties>
+    <Simple name="Name" value="" />
+    <Collection name="Steps">
+      <Properties>
+        <Simple name="Capacity" value="4" />
+      </Properties>
+      <Items>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="28f39bff-8c34-b804-191b-eda555b1d376" />
+            <Simple name="CommandName" value="Move To Location(VVP96)" />
+            <Simple name="Enabled" value="True" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="plate" />
+                  <Simple type="System.String, mscorlib" value="Loc_10" />
+                </Item>
+                <Item>
+                  <Simple value="height" />
+                  <Simple type="System.Double, mscorlib" value="2" />
+                </Item>
+                <Item>
+                  <Simple value="motionProfileName" />
+                  <Simple type="System.String, mscorlib" value="Mid Speed" />
+                </Item>
+                <Item>
+                  <Simple value="commandFlags" />
+                  <Simple type="System.UInt32, mscorlib" value="15" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Collection name="WorktableResourceMaps">
+      <Properties>
+        <Simple name="Capacity" value="1" />
+      </Properties>
+      <Items>
+        <Complex type="MethodManager.Core.Domain.MMWorktableResourceMap, MethodManager.Core">
+          <Properties>
+            <Collection name="ResourceStacks" type="System.Collections.Generic.List`1[[MethodManager.Core.Domain.MMLabwareStack, MethodManager.Core]], mscorlib">
+              <Properties>
+                <Simple name="Capacity" value="32" />
+              </Properties>
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96 FlatBottom_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 FlatBottom" />
+                            <Simple name="LabwareId" value="35ac7edd-23a8-4259-a489-1b835b4c0f71" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_01" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-150F_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-150F" />
+                            <Simple name="LabwareId" value="60b01dfe-4274-42a1-a694-bebd95ac3450" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_02" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_03" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_04" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_05" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-300F_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-300F" />
+                            <Simple name="LabwareId" value="905a8798-a9b9-4048-8901-42236ec01ff9" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_06" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96 DeepWell_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 DeepWell" />
+                            <Simple name="LabwareId" value="a3589fb8-8348-4748-b635-d1e90c8532c2" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_07" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96 DeepWell_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 DeepWell" />
+                            <Simple name="LabwareId" value="a3589fb8-8348-4748-b635-d1e90c8532c2" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_08" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_09" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_10" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_11" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_12" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96 FlatBottom_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 FlatBottom" />
+                            <Simple name="LabwareId" value="35ac7edd-23a8-4259-a489-1b835b4c0f71" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_13" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96 FlatBottom_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 FlatBottom" />
+                            <Simple name="LabwareId" value="35ac7edd-23a8-4259-a489-1b835b4c0f71" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_14" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="LXB-96-300F_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="LXB-96-300F" />
+                            <Simple name="LabwareId" value="905a8798-a9b9-4048-8901-42236ec01ff9" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_15" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_16" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_17" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_18" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </Collection>
+            <Simple name="WorktableName" value="Left" />
+            <Simple name="DeviceName" value="Lynx" />
+            <Simple name="IsRuntime" value="False" />
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Simple name="UserPermission" value="True" />
+    <Simple name="SubMethodOnly" value="False" />
+    <Simple name="Description" value="" />
+  </Properties>
+</Complex>

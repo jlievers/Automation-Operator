@@ -1,0 +1,3 @@
+[Export results]
+column_names = "Sample name;A260 Concentration (ng/ul);A260/A230;A260/A280;DropPlate ID;Instrument ID;Date;Time;DropPlate Position;Median A260 Concentration (ng/ul)"
+separator=,
