@@ -1,0 +1,212 @@
+{
+	"protocols": [{
+			"protocol_name": "Sanger",
+			"tasks": [{
+					"task_num": 1,
+					"task": "Scan Input Buffer",
+					"device_name": "Input Buffer",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 2,
+					"task": "Store Plates",
+					"device_name": "Liconic",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 3,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				},{
+					"task_num": 4,
+					"task": "Sequencing Reaction Setup",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Epp_sk_PCR"]
+				},{
+					"task_num": 5,
+					"task": "PCR",
+					"device_name": "ODTC",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 6,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				}
+			]
+		},{
+			"protocol_name": "PacBio",
+			"tasks": [{
+					"task_num": 1,
+					"task": "Scan Input Buffer",
+					"device_name": "Input Buffer",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 2,
+					"task": "Store Plates",
+					"device_name": "Liconic",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 3,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				},{
+					"task_num": 4,
+					"task": "Labchip Load",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Dropquant_Labchip"]
+				},{
+					"task_num": 5,
+					"task": "Quant",
+					"device_name": "Dropquant",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 6,
+					"task": "Norm",
+					"device_name": "Starlet",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Nimbus_Tips_50uL", "Nimbus_Tips_300uL"]
+				}
+			]
+		},{
+			"protocol_name": "SegDup / LR PacBio",
+			"tasks": [{
+					"task_num": 1,
+					"task": "Scan Input Buffer",
+					"device_name": "Input Buffer",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 2,
+					"task": "Store Plates",
+					"device_name": "Liconic",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 3,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				},{
+					"task_num": 4,
+					"task": "Labchip Load",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Dropquant_Labchip"]
+				},{
+					"task_num": 5,
+					"task": "Quant",
+					"device_name": "Dropquant",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 6,
+					"task": "Norm",
+					"device_name": "Starlet",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Nimbus_Tips_50uL", "Nimbus_Tips_300uL"]
+				},{
+					"task_num": 7,
+					"task": "Sample Stamp",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Epp_sk_PCR"]
+				},{
+					"task_num": 8,
+					"task": "PCR Setup",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Epp_sk_PCR"]
+				},{
+					"task_num": 9,
+					"task": "PCR",
+					"device_name": "ODTC",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 10,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				},{
+					"task_num": 11,
+					"task": "Labchip Load",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Dropquant_Labchip"]
+				},{
+					"task_num": 12,
+					"task": "Quant",
+					"device_name": "Dropquant",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 13,
+					"task": "Norm",
+					"device_name": "Starlet",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Nimbus_Tips_50uL", "Nimbus_Tips_300uL"]
+				}
+			]
+		},{
+			"protocol_name": "MLPA-seq",
+			"tasks": [{
+					"task_num": 1,
+					"task": "Scan Input Buffer",
+					"device_name": "Input Buffer",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 2,
+					"task": "Store Plates",
+					"device_name": "Liconic",
+					"reagent_list": []
+					"labware": []
+				},{
+					"task_num": 3,
+					"task": "AMPure",
+					"device_name": "Bravo",
+					"reagent_list": ["EB", "AMPure Beads", "EtOH", "Assay Plate"]
+					"labware": ["Bravo_Tips_180uL", "Epp_sk_PCR"]
+				},{
+					"task_num": 4,
+					"task": "Sample Stamp",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Epp_sk_PCR"]
+				},{
+					"task_num": 5,
+					"task": "Labchip Load",
+					"device_name": "Bravo",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Dropquant_Labchip"]
+				},{
+					"task_num": 6,
+					"task": "Quant",
+					"device_name": "Dropquant",
+					"reagent_list": ["Assay Plate"]
+					"labware": []
+				},{
+					"task_num": 7,
+					"task": "Norm",
+					"device_name": "Starlet",
+					"reagent_list": ["Assay Plate"]
+					"labware": ["Nimbus_Tips_50uL", "Nimbus_Tips_300uL"]
+				}
+			]
+		}
+	]
+}

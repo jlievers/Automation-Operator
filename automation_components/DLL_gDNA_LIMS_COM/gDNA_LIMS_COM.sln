@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gDNA_LIMS_COM", "gDNA_LIMS_COM\gDNA_LIMS_COM.csproj", "{133FC992-E362-407E-ABE4-BB2D294B8748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Console", "Test Console\Test Console.csproj", "{3B5D4899-587C-42E1-874C-B9694E178DD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{133FC992-E362-407E-ABE4-BB2D294B8748} = {133FC992-E362-407E-ABE4-BB2D294B8748}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133FC992-E362-407E-ABE4-BB2D294B8748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133FC992-E362-407E-ABE4-BB2D294B8748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133FC992-E362-407E-ABE4-BB2D294B8748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133FC992-E362-407E-ABE4-BB2D294B8748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5D4899-587C-42E1-874C-B9694E178DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5D4899-587C-42E1-874C-B9694E178DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5D4899-587C-42E1-874C-B9694E178DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5D4899-587C-42E1-874C-B9694E178DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {750D4D61-CC56-4F61-9C37-A9EE981E8C60}
+	EndGlobalSection
+EndGlobal

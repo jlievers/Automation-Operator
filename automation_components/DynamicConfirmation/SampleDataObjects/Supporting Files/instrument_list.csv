@@ -1,0 +1,6 @@
+Type,Robot,Liquid Handler,Liquid Handler,Thermocycler,Thermocycler,Liquid Handler,Quant,Random Access,Storage,Random Access,Random Access,Random Access
+Instrument,ProNEDx,Bravo,Bravo,ODTC,ODTC,Starlet,Dropquant,Liconic,Microserve,Static Stacker,Static Stacker,Input Buffer
+LM Number,LM1000,LM1001,LM1002,LM1003,LM1004,LM1005,LM1006,LM1007,LM1008,LM1009,LM1010,LM1011
+Rack Number,0,0,0,0,0,0,0,2,0,1,1,1
+Shelf Number,0,0,0,0,0,0,0,24,0,12,12,12
+Nest Number,1,9,9,1,1,4,1,0,0,0,0,0

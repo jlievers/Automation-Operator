@@ -1,0 +1,13 @@
+Sanger,SegDup,PacBio,PMS2,MLPAseq
+Scan Input Buffer,Scan Input Buffer,Scan Input Buffer,Scan Input Buffer,Scan Input Buffer
+Store Plates,Store Plates,Store Plates,Store Plates,Store Plates
+Ampure,Ampure,Ampure,Ampure,Ampure
+Sequencing Reaction Setup,Labchip Load,Labchip Load,Labchip Load,Sample Stamp
+Ampure,Quant,Quant,Quant,Labchip Load
+,Norm,Norm,Norm,Quant
+,Sample Stamp,Ampure,Sample Stamp,Norm
+,PCR Setup,,PCR Setup,
+,PCR,,PCR,
+,Ampure,,Ampure,
+,Labchip Load,,Labchip Load,
+,Quant,,Quant,

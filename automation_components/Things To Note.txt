@@ -1,0 +1,124 @@
+Removed From Workflows, Added to Instruments/Rosalind  
+    public class RosalindWorklistResponse
+    {
+        public List<LIMSResponse_Errors> errors { get; set; }
+        public Device_XL20 data { get; set; }
+    }
+
+z
+Therefore,
+This exists in both LIMS_Workflow AND Instruments/Rosalind  
+public class LIMSResponse_Errors//REDUNDANT WITH LIMS_WORKFLOW
+    {
+        public string field { get; set; }
+        public object error_class { get; set; }
+        public string message { get; set; }
+    }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+These are redundant with LIMS_Workflow AND Run_Ouput
+  public class HybSetup_RunInfo
+    {
+        public string automation_system { get; set; }
+        public string module { get; set; }
+        public string bait_tube_scanfile_name { get; set; }//For Me only!!
+        public int hyb_plate_column_qty { get; set; }//Only on Init
+        public List<string> pooled_ipcr_plates { get; set; }//For Me only!!
+        public List<HybSetup_Plates> hyb_plates { get; set; }
+    }
+
+    public class HybSetup_Plates
+    {
+        public string workflow { get; set; }
+        public string hyb_plate { get; set; }//From BC Read
+        public string formamide { get; set; }
+        public string buffer_5 { get; set; }
+        public List<HybSetup_ColumnData> column_data { get; set; }
+    }
+
+    public class HybSetup_ColumnData
+    {
+        public string pooled_ipcr_plate { get; set; }
+        public int source_plate_column_qty { get; set; }
+        public int source_column_number { get; set; }
+        public int target_column_number { get; set; }
+        public string bait_tube { get; set; }
+    }
+
+    /// 
+    public class Hyb_RunInfo
+    {
+        public string automation_system { get; set; }
+        public string module { get; set; }
+        public List<Hyb_Plate> hyb_plates { get; set; }
+    }
+
+    public class Hyb_Plate
+    {
+        public string robot_positional_index { get; set; }
+        public string workflow { get; set; }//comes back with init response
+        public string hyb_plate { get; set; }//Barcode Read? Manual Entry?
+        public string bead_wash_buffer { get; set; }
+        public string heated_wb_1 { get; set; }
+        public string wash_buffer_1 { get; set; }
+        public string wash_buffer_2 { get; set; }
+        public string wash_buffer_3 { get; set; }
+        public string wash_buffer_4_1 { get; set; }
+        public string wash_buffer_4_2 { get; set; }
+        public string post_cap_eb { get; set; }
+        public string formamide { get; set; }
+        public string buffer_5 { get; set; }
+        public string streptavidin_beads { get; set; }
+        public string post_cap_primer_mix { get; set; }
+        public string pcr_master_mix { get; set; }
+        public string post_cap_axy_beads { get; set; }
+        public string post_cap_etoh { get; set; }
+        public string post_cap_lib_plate { get; set; }
+        public string post_cap_norm_plate { get; set; }
+        public string post_cap_norm_worklist_filename { get; set; } //written by trinaen
+        public string post_cap_norm_dq1_plate_id { get; set; } //written by this from [Barcode], read by trinean
+        public string post_cap_norm_dq2_plate_id { get; set; } //written by this from [Barcode], read by trinean
+    }
+
+    /// 
+    public class Library_RunInfo
+    {
+        public string automation_system { get; set; }
+        public string module { get; set; }
+        public List<Library_WorkFlowPlateGroup> plate_data { get; set; }
+    }
+
+    public class Library_WorkFlowPlateGroup
+    {
+        public string workflow { get; set; }
+        public string assay { get; set; }
+        public int plate_transition_group { get; set; }
+        public int rgt_set_index { get; set; }
+        public string sheared_dna_plate { get; set; }
+        public string er_at_plate { get; set; }
+        public string ligase_mix_plate { get; set; }
+        public string y_adapter_plate { get; set; }
+        public string sequence_index_plate { get; set; }
+        public string kapa_pcr_mm_plate { get; set; }
+        public string ipcr_libs_plate { get; set; }
+        public string pre_cap_pool_plate { get; set; }
+        public string pre_cap_normpool_combined_filename { get; set; }
+        public string pre_cap_normpool_worklist_filename { get; set; }
+        public string pre_cap_norm_dq1_plate_id { get; set; }
+        public string pre_cap_norm_dq2_plate_id { get; set; }
+        public string ethanol { get; set; }
+        public string eb_buffer { get; set; }
+        public string axygen_plate { get; set; }
+        public string status { get; set; } //active or complete
+        public string timestamp_enter { get; set; }
+        public string timestamp_exit { get; set; }
+
+    }
+
+
+To Do: 
+--Update HTTp .dll in OL 
+--Update Instruments.dll in OL 
+--Update Workflows.dll in OL 

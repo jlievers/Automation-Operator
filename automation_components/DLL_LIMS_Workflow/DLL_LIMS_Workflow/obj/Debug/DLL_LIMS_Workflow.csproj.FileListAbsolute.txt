@@ -1,0 +1,11 @@
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\bin\Debug\DLL_LIMS_Workflow.dll
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\bin\Debug\DLL_LIMS_Workflow.pdb
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.csprojAssemblyReference.cache
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.csproj.CoreCompileInputs.cache
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.dll
+C:\Users\jlievers\Source\Repos\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.pdb
+P:\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\bin\Debug\DLL_LIMS_Workflow.dll
+P:\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\bin\Debug\DLL_LIMS_Workflow.pdb
+P:\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.csproj.CoreCompileInputs.cache
+P:\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.dll
+P:\automation_components\DLL_LIMS_Workflow\DLL_LIMS_Workflow\obj\Debug\DLL_LIMS_Workflow.pdb
